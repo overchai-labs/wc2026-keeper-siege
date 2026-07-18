@@ -8,7 +8,8 @@ from pathlib import Path
 
 # --- Paths -----------------------------------------------------------------
 # Everything is anchored to the repo root so the code runs from anywhere.
-ROOT = Path(__file__).resolve().parents[2]
+# wc_siege/config.py -> parents[0]=wc_siege, parents[1]=repo root
+ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"           # committed FBref pulls (one CSV per edition)
 PROCESSED_DIR = ROOT / "data" / "processed"  # tidy, analysis-ready CSVs
 FIGURES_DIR = ROOT / "figures"

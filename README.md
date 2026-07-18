@@ -26,7 +26,7 @@ This repo answers it honestly:
 
 ## The flow (five small steps)
 
-Each step is one small, commented module in `src/wc_siege/`. Read them in order.
+Each step is one small, commented module in `wc_siege/`. Read them in order.
 
 | Step | File | What it does |
 |------|------|--------------|

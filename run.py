@@ -16,8 +16,8 @@ and charts run end-to-end today. Every synthetic output is clearly labelled.
 import argparse
 import sys
 
-# Make `src/` importable when running as a plain script.
-sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent / "src"))
+# The package lives next to this script, so the repo root is already importable.
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 
 from wc_siege import analyze, viz  # noqa: E402
 
