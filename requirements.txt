@@ -1,5 +1,7 @@
 # Data collection
-soccerdata>=1.8.0      # polite, rate-limited wrapper around FBref (StatsBomb data)
+# >=1.9.0 is REQUIRED: it drives an undetected Chrome via Selenium to get past
+# FBref's Cloudflare block. Earlier versions use tls-requests and get 403'd.
+soccerdata>=1.9.0
 
 # Analysis
 pandas>=2.0

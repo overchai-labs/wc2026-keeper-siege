@@ -23,6 +23,7 @@ Run it with:
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 
 import pandas as pd
@@ -42,7 +43,15 @@ def _fetch_one_season(season: str) -> pd.DataFrame:
     import soccerdata as sd
 
     print(f"[collect] World Cup {season}: contacting FBref via soccerdata ...")
-    fbref = sd.FBref(leagues=config.FBREF_LEAGUE, seasons=season)
+    # soccerdata >=1.9.0 launches an undetected Chrome (Selenium) here to clear
+    # Cloudflare. The FIRST call may pause ~30-60s while it starts the browser and
+    # fetches a chromedriver -- that is expected, let it run. If you still get a
+    # 403 loop, try setting the env var KEEPER_HEADFUL=1 (opens a visible window,
+    # which Cloudflare trusts more), which we honour below.
+    kwargs = {}
+    if os.environ.get("KEEPER_HEADFUL") == "1":
+        kwargs["headless"] = False
+    fbref = sd.FBref(leagues=config.FBREF_LEAGUE, seasons=season, **kwargs)
 
     # `read_team_match_stats(stat_type="keeper")` returns ONE ROW PER TEAM PER
     # GAME with the goalkeeping columns (Saves, SoTA, PSxG, GA, ...). That is
