@@ -12,6 +12,12 @@ venv/
 .soccerdata/
 soccerdata_cache/
 
+# seleniumbase drops these in the working dir when the collector runs
+downloaded_files/
+latest_logs/
+assets/
+*.lock
+
 # Synthetic demo artifacts -- regenerable, and must never enter history as "data"
 *_SAMPLE.csv
 *_SAMPLE.png
