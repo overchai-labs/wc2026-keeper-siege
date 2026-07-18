@@ -1,0 +1,10 @@
+# Data collection
+soccerdata>=1.8.0      # polite, rate-limited wrapper around FBref (StatsBomb data)
+
+# Analysis
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10            # statistical tests (KS / Mann-Whitney) for the comparison
+
+# Visualisation
+matplotlib>=3.7

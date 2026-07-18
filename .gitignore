@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# soccerdata caches its raw HTML/JSON scrapes here by default.
+# We DON'T ignore data/raw — that is committed on purpose for reproducibility.
+# But the low-level scraper cache is machine-specific, so ignore it:
+.soccerdata/
+soccerdata_cache/
+
+# Synthetic demo artifacts -- regenerable, and must never enter history as "data"
+*_SAMPLE.csv
+*_SAMPLE.png
+
+# Processed data is derived from data/raw (which IS committed); regenerate via clean.py
+data/processed/team_games.csv
+
+# OS
+.DS_Store
+Thumbs.db

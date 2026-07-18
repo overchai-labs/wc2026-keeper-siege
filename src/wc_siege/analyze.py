@@ -1,0 +1,173 @@
+"""
+Step 3 -- ANALYZE
+=================
+
+The question: are 2026 (48-team) group games more likely to bury a goalkeeper than
+2018/2022 (32-team) group games?
+
+We answer it the way the Reddit thread demanded:
+  * FULL distribution, not a single cherry-picked threshold;
+  * a real statistical test that 2026 differs from the 32-team baseline;
+  * thresholds (6/8/10) shown only as a sensitivity strip, never as THE result;
+  * saves AND shots-on-target-against, so a battering that produced few saves
+    (the Spain-Cape Verde objection) still shows up.
+
+Key idea -- the "siege load" of a game
+---------------------------------------
+A siege is ONE keeper pinned back. So for each game we take the MORE-besieged side:
+the higher of the two keepers' saves (and separately, shots-on-target-against).
+That single number per game is what we build distributions from.
+"""
+from __future__ import annotations
+
+import numpy as np
+import pandas as pd
+from scipy import stats
+
+from . import config
+
+
+# --------------------------------------------------------------------------
+# Load
+# --------------------------------------------------------------------------
+def load_team_games() -> tuple[pd.DataFrame, bool]:
+    """Load the tidy table. Prefer REAL data; fall back to SAMPLE with a warning.
+
+    Returns (dataframe, is_synthetic).
+    """
+    real = config.PROCESSED_DIR / "team_games.csv"
+    sample = config.PROCESSED_DIR / "team_games_SAMPLE.csv"
+    if real.exists():
+        return pd.read_csv(real), False
+    if sample.exists():
+        print("\n" + "!" * 70)
+        print("!! USING SYNTHETIC SAMPLE DATA -- results are FAKE, pipeline demo only.")
+        print("!! Run the collector on your home machine, then `clean`, for real data.")
+        print("!" * 70 + "\n")
+        return pd.read_csv(sample), True
+    raise SystemExit("No processed data. Run `sample_data` (demo) or `collect`+`clean` (real).")
+
+
+# --------------------------------------------------------------------------
+# Reduce each game to its besieged keeper
+# --------------------------------------------------------------------------
+def per_game_siege_load(team_games: pd.DataFrame) -> pd.DataFrame:
+    """One row per GAME: the max saves and max SoTA faced by either keeper."""
+    g = team_games.groupby(["season", "teams", "game_id"], as_index=False).agg(
+        max_saves=("saves", "max"),
+        max_sota=("sota", "max"),
+    )
+    return g
+
+
+# --------------------------------------------------------------------------
+# The headline numbers
+# --------------------------------------------------------------------------
+def siege_rates(per_game: pd.DataFrame, metric: str = "max_saves") -> pd.DataFrame:
+    """Per-season siege statistics at each threshold, as RATES (not raw counts).
+
+    Rates matter because 2026 has 72 group games vs 48 -- comparing raw counts
+    would just rediscover 'more games'. The interesting question is per-GAME
+    probability, which strips the 'more matches' half out.
+    """
+    rows = []
+    for season, sub in per_game.groupby("season"):
+        n_games = len(sub)
+        row = {"season": season, "group_games": n_games}
+        for t in config.SIEGE_THRESHOLDS:
+            share = (sub[metric] >= t).mean()          # per-game probability
+            row[f"P(>={t})"] = round(share, 3)
+            row[f"exp_per_tourn(>={t})"] = round(share * n_games, 1)  # expected count
+        rows.append(row)
+    return pd.DataFrame(rows).sort_values("season").reset_index(drop=True)
+
+
+def decompose_expansion(per_game: pd.DataFrame, metric: str = "max_saves", threshold: int = 8) -> dict:
+    """Split the jump in siege COUNT into 'more games' vs 'more lopsided games'.
+
+    This is the exact claim the original post made ("half is more matches, half is
+    each game being more likely"). Here we measure it from real data instead of
+    asserting it. Baseline = pooled 32-team editions; target = 2026.
+    """
+    base = per_game[per_game["teams"] == 32]
+    new = per_game[per_game["teams"] == 48]
+    if base.empty or new.empty:
+        return {}
+
+    p_base = (base[metric] >= threshold).mean()
+    p_new = (new[metric] >= threshold).mean()
+    # Average group games per 32-team edition vs the 2026 edition.
+    n_base = base.groupby("season").size().mean()
+    n_new = len(new)
+
+    exp_base = p_base * n_base
+    exp_new = p_new * n_new
+    # Counterfactual: 2026's game count but the OLD per-game siege probability.
+    exp_moregames_only = p_base * n_new
+
+    return {
+        "threshold": threshold,
+        "metric": metric,
+        "p_per_game_32team": round(p_base, 3),
+        "p_per_game_2026": round(p_new, 3),
+        "per_game_risk_ratio": round(p_new / p_base, 2) if p_base else float("nan"),
+        "expected_sieges_32team_edition": round(exp_base, 1),
+        "expected_sieges_2026": round(exp_new, 1),
+        "attributable_to_more_games": round(exp_moregames_only - exp_base, 1),
+        "attributable_to_lopsidedness": round(exp_new - exp_moregames_only, 1),
+    }
+
+
+def distribution_test(per_game: pd.DataFrame, metric: str = "max_saves") -> dict:
+    """Does the 2026 per-game distribution differ from the pooled 32-team one?
+
+    Two non-parametric tests, because save counts are skewed integer data:
+      * Mann-Whitney U -- is 2026 shifted higher (more saves per game)?
+      * Kolmogorov-Smirnov -- do the whole distributions differ in shape?
+    """
+    base = per_game.loc[per_game["teams"] == 32, metric].to_numpy()
+    new = per_game.loc[per_game["teams"] == 48, metric].to_numpy()
+    if len(base) == 0 or len(new) == 0:
+        return {}
+
+    u_stat, u_p = stats.mannwhitneyu(new, base, alternative="greater")
+    ks_stat, ks_p = stats.ks_2samp(new, base)
+    return {
+        "metric": metric,
+        "n_32team_games": int(len(base)),
+        "n_2026_games": int(len(new)),
+        "median_32team": float(np.median(base)),
+        "median_2026": float(np.median(new)),
+        "mannwhitney_p_2026_higher": round(float(u_p), 5),
+        "ks_stat": round(float(ks_stat), 3),
+        "ks_p": round(float(ks_p), 5),
+    }
+
+
+# --------------------------------------------------------------------------
+# CLI: print a full, honest report
+# --------------------------------------------------------------------------
+def main() -> None:
+    team_games, synthetic = load_team_games()
+    per_game = per_game_siege_load(team_games)
+
+    print("\n=== Per-game siege RATES (metric = saves) ===")
+    print(siege_rates(per_game, "max_saves").to_string(index=False))
+
+    print("\n=== Same, using shots-on-target-against (answers Spain-Cape Verde) ===")
+    print(siege_rates(per_game, "max_sota").to_string(index=False))
+
+    print("\n=== Expansion decomposition (saves, threshold=8) ===")
+    for k, v in decompose_expansion(per_game, "max_saves", 8).items():
+        print(f"  {k:35s} {v}")
+
+    print("\n=== Distribution test: is 2026 shifted higher? (saves) ===")
+    for k, v in distribution_test(per_game, "max_saves").items():
+        print(f"  {k:30s} {v}")
+
+    if synthetic:
+        print("\n(Reminder: the above ran on SYNTHETIC data. Real pull replaces it.)")
+
+
+if __name__ == "__main__":
+    main()
