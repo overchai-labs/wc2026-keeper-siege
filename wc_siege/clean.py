@@ -4,17 +4,17 @@ Step 2 -- CLEAN
 
 Turn the raw FBref pulls (data/raw/<season>.csv) into ONE tidy table:
 
-    one row = one team, in one group-stage game
-    columns = season, teams, game_id, team, opponent, saves, sota, psxg, ga
+    one row = one team, in one FINALS group-stage game
+    columns = season, teams, game_id, team, opponent, saves, sota, ga
 
-Why a separate step: FBref returns wide, multi-header tables that differ slightly
-year to year. Isolating the messy reshape here means analyze.py / model.py never
-have to know what FBref's HTML looked like.
+Two jobs happen here, and only here:
+  1. FILTER to the finals group stage. The raw pull is the whole 2026 campaign
+     (qualifiers + friendlies + finals); we keep only round == "Group stage".
+  2. SELECT + rename the goalkeeping columns collect.py flattened
+     (Performance_Saves -> saves, etc.).
 
-NOTE: the exact FBref column names can drift between editions. This step looks up
-columns by fuzzy name (config.KEEPER_METRICS) and will tell you loudly if one is
-missing, rather than silently producing garbage. After your first real pull, if a
-column isn't found, print the raw CSV header and adjust config.KEEPER_METRICS.
+Keeping this messy reshape isolated means analyze.py never has to know what FBref's
+HTML looked like.
 """
 from __future__ import annotations
 
@@ -23,20 +23,7 @@ import pandas as pd
 from . import config
 
 # The canonical schema every downstream step relies on.
-TIDY_COLUMNS = ["season", "teams", "game_id", "team", "opponent", "saves", "sota", "psxg", "ga"]
-
-
-def _find_col(df: pd.DataFrame, wanted: str) -> str | None:
-    """Find a column whose name contains `wanted` (case-insensitive).
-
-    FBref sometimes flattens multi-headers to e.g. 'Performance_Saves' -- matching
-    on a substring keeps us robust to that without hard-coding every variant.
-    """
-    wanted_low = wanted.lower()
-    for col in df.columns:
-        if wanted_low in str(col).lower():
-            return col
-    return None
+TIDY_COLUMNS = ["season", "teams", "game_id", "team", "opponent", "saves", "sota", "ga"]
 
 
 def _tidy_one_season(season: str) -> pd.DataFrame:
@@ -49,44 +36,47 @@ def _tidy_one_season(season: str) -> pd.DataFrame:
 
     df = pd.read_csv(raw_path)
 
-    # Locate the goalkeeping metric columns by fuzzy name.
-    resolved = {}
-    for key, fbref_name in config.KEEPER_METRICS.items():
-        col = _find_col(df, fbref_name)
-        if col is None:
-            raise KeyError(
-                f"[clean] {season}: couldn't find a column for '{fbref_name}'. "
-                f"Available columns: {list(df.columns)}"
-            )
-        resolved[key] = col
+    # 1) Finals group stage only.
+    if "round" not in df.columns:
+        raise KeyError(f"[clean] {season}: no 'round' column. Columns: {list(df.columns)}")
+    df = df[df["round"] == config.GROUP_STAGE_ROUND].copy()
+    if df.empty:
+        rounds = sorted(pd.read_csv(raw_path)["round"].dropna().unique())
+        raise SystemExit(
+            f"[clean] {season}: zero rows with round == {config.GROUP_STAGE_ROUND!r}. "
+            f"Round values present: {rounds}"
+        )
 
-    # Identity columns: team, opponent, and a per-game id. soccerdata usually
-    # exposes 'team', 'opponent', and a 'game' string like '2026-06-13 Spain-Cape Verde'.
-    team_col = _find_col(df, "team") or "team"
-    opp_col = _find_col(df, "opponent") or "opponent"
-    game_col = _find_col(df, "game") or _find_col(df, "date")
+    # 2) Select the goalkeeping columns (fail loudly if a name drifted).
+    missing = [c for c in config.KEEPER_METRICS.values() if c not in df.columns]
+    if missing:
+        raise KeyError(
+            f"[clean] {season}: missing columns {missing}. Available: {list(df.columns)}"
+        )
+
+    # A canonical game_id that is IDENTICAL for both teams in a match. FBref writes
+    # the game from each team's perspective ("Algeria-Argentina" vs "Argentina-Algeria"),
+    # so we can't use its 'game' string -- the two keepers would never pair up. Instead:
+    # date + the alphabetically-sorted pair of teams. Both rows of a match collapse to
+    # one key, which is what lets us take the besieged (max-saves) keeper per game.
+    pair = [
+        "-".join(sorted([str(t), str(o)]))
+        for t, o in zip(df["team"], df["opponent"])
+    ]
+    game_id = df["date"].astype(str) + " " + pd.Series(pair, index=df.index)
 
     tidy = pd.DataFrame(
         {
             "season": season,
             "teams": config.SEASONS[season]["teams"],
-            "game_id": df[game_col] if game_col else range(len(df)),
-            "team": df[team_col],
-            "opponent": df[opp_col],
-            "saves": pd.to_numeric(df[resolved["saves"]], errors="coerce"),
-            "sota": pd.to_numeric(df[resolved["sota"]], errors="coerce"),
-            "psxg": pd.to_numeric(df[resolved["psxg"]], errors="coerce"),
-            "ga": pd.to_numeric(df[resolved["ga"]], errors="coerce"),
+            "game_id": game_id,
+            "team": df["team"],
+            "opponent": df["opponent"],
+            "saves": pd.to_numeric(df[config.KEEPER_METRICS["saves"]], errors="coerce"),
+            "sota": pd.to_numeric(df[config.KEEPER_METRICS["sota"]], errors="coerce"),
+            "ga": pd.to_numeric(df[config.KEEPER_METRICS["ga"]], errors="coerce"),
         }
     )
-
-    # Group stage only: knockout games confound the comparison (see README).
-    # soccerdata tags round/stage; if present, filter to the group phase.
-    round_col = _find_col(df, "round") or _find_col(df, "stage")
-    if round_col is not None:
-        mask = df[round_col].astype(str).str.contains("group", case=False, na=False)
-        tidy = tidy[mask.values]
-
     return tidy.dropna(subset=["saves"]).reset_index(drop=True)
 
 
@@ -98,8 +88,10 @@ def clean(seasons: list[str] | None = None) -> pd.DataFrame:
     frames = []
     for season in seasons:
         try:
-            frames.append(_tidy_one_season(season))
-            print(f"[clean] {season}: ok")
+            tidy = _tidy_one_season(season)
+            frames.append(tidy)
+            n_games = tidy["game_id"].nunique()
+            print(f"[clean] {season}: ok -- {len(tidy)} team-games across {n_games} games")
         except FileNotFoundError as exc:
             print(f"[clean] skipping {season}: {exc}")
 

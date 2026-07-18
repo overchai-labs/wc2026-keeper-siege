@@ -47,7 +47,6 @@ def _simulate_group_stage(season: str) -> pd.DataFrame:
             sota = RNG.poisson(base)
             ga = min(sota, RNG.binomial(sota, 0.28))    # ~28% of SoT become goals
             saves = sota - ga
-            psxg = round(sota * RNG.uniform(0.28, 0.42), 2)
             rows.append(
                 {
                     "season": season,
@@ -57,7 +56,6 @@ def _simulate_group_stage(season: str) -> pd.DataFrame:
                     "opponent": f"T{opp:02d}",
                     "saves": int(saves),
                     "sota": int(sota),
-                    "psxg": psxg,
                     "ga": int(ga),
                 }
             )

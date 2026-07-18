@@ -54,10 +54,36 @@ def _fetch_one_season(season: str) -> pd.DataFrame:
     fbref = sd.FBref(leagues=config.FBREF_LEAGUE, seasons=season, **kwargs)
 
     # `read_team_match_stats(stat_type="keeper")` returns ONE ROW PER TEAM PER
-    # GAME with the goalkeeping columns (Saves, SoTA, PSxG, GA, ...). That is
-    # exactly the granularity we want -- no per-player joining needed.
+    # GAME with the goalkeeping columns (Saves, SoTA, GA, ...). That is exactly the
+    # granularity we want -- no per-player joining needed. NOTE: this includes the
+    # whole 2026 campaign (qualifiers + friendlies + finals); we save it all and let
+    # clean.py filter to the finals group stage. Keeping raw faithful is the point.
     gk = fbref.read_team_match_stats(stat_type="keeper")
+    gk = _flatten(gk)
     print(f"[collect] World Cup {season}: got {len(gk)} team-game rows.")
+    return gk
+
+
+def _flatten(gk: pd.DataFrame) -> pd.DataFrame:
+    """Flatten FBref's MultiIndex index+columns into a plain, readable table.
+
+    FBref groups goalkeeping stats under headers like ('Performance', 'Saves').
+    We move the index (league/season/team/game) into columns and join each column's
+    non-empty header levels with '_', so ('Performance','Saves') -> 'Performance_Saves'
+    while ('date','') -> 'date'. This is what makes the saved CSV usable downstream.
+    """
+    gk = gk.reset_index()
+    flat = []
+    for col in gk.columns:
+        if isinstance(col, tuple):
+            parts = [
+                str(p) for p in col
+                if p not in ("", None) and str(p) != "nan" and not str(p).startswith("Unnamed")
+            ]
+            flat.append("_".join(parts) if parts else "index")
+        else:
+            flat.append(str(col))
+    gk.columns = flat
     return gk
 
 
@@ -79,8 +105,7 @@ def collect(seasons: list[str] | None = None) -> None:
             continue
 
         out = config.RAW_DIR / f"{season}.csv"
-        # Flatten FBref's multi-level column headers so the CSV is readable.
-        gk.to_csv(out)
+        gk.to_csv(out, index=False)  # already flattened + index reset in _flatten
         print(f"[collect] wrote {out.relative_to(config.ROOT)}")
 
 

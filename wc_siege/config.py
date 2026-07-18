@@ -31,13 +31,20 @@ SEASONS = {
 # thresholds as a sensitivity strip so the reader sees the result isn't tuned.
 SIEGE_THRESHOLDS = [6, 8, 10]
 
+# FBref's "INT-World Cup" bundles qualifiers + friendlies + the finals. The finals
+# group stage is tagged with this exact round label. Filtering on it is what turns
+# 880 raw rows into the 144 (72 games x 2 keepers) we actually want.
+GROUP_STAGE_ROUND = "Group stage"
+
 # --- The better "siege" signal (answers the Spain-Cape Verde objection) -----
 # Saves alone miss blocked/off-target shots, so a 74%-possession battering can
-# look quiet. We carry shots-on-target-against and post-shot xG alongside saves
-# and let the reader compare. These are the FBref goalkeeping columns we keep.
+# look quiet. We carry shots-on-target-against alongside saves so the reader can
+# compare. Column names are FBref's basic goalkeeping table, flattened by
+# collect.py as "<group>_<stat>" (e.g. the Performance block -> Performance_Saves).
+# NOTE: post-shot xG (PSxG) lives in FBref's *advanced* keeper table (keeper_adv),
+# not this basic one -- a future enhancement, not needed for the headline result.
 KEEPER_METRICS = {
-    "saves": "Saves",            # shots saved
-    "sota": "SoTA",              # shots on target against (the real "pressure" proxy)
-    "psxg": "PSxG",              # post-shot expected goals faced (shot quality faced)
-    "ga": "GA",                  # goals against
+    "saves": "Performance_Saves",  # shots saved
+    "sota": "Performance_SoTA",    # shots on target against (the real "pressure" proxy)
+    "ga": "Performance_GA",        # goals conceded by the keeper
 }
