@@ -17,7 +17,7 @@ from __future__ import annotations
 import numpy as np
 
 from . import config
-from .analyze import load_team_games, per_game_siege_load, siege_rates
+from .analyze import group_stage, load_team_games, per_game_siege_load, siege_rates
 
 # Colour-blind-safe: blue = old 32-team era, orange = new 48-team 2026.
 C_OLD = "#4C72B0"
@@ -34,7 +34,7 @@ def make_figure(metric: str = "max_saves", save: bool = True):
     import matplotlib.pyplot as plt
 
     team_games, synthetic = load_team_games()
-    per_game = per_game_siege_load(team_games)
+    per_game = per_game_siege_load(group_stage(team_games))  # group-stage comparison
 
     old = per_game.loc[per_game["teams"] == 32, metric].to_numpy()
     new = per_game.loc[per_game["teams"] == 48, metric].to_numpy()

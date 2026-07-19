@@ -36,6 +36,17 @@ SIEGE_THRESHOLDS = [6, 8, 10]
 # 880 raw rows into the 144 (72 games x 2 keepers) we actually want.
 GROUP_STAGE_ROUND = "Group stage"
 
+# Knockout rounds of the FINALS (exact FBref strings). These are unambiguous -- the
+# qualifying play-offs use compound labels like "Second round - Semi-finals", so an
+# exact match never picks up qualifier games. Crucially, "Round of 32" exists ONLY in
+# the 48-team (2026) format: the 32-team format went group -> Round of 16. That extra
+# round is the knockout half of the expansion effect (see Danph85's point on Reddit).
+KNOCKOUT_ROUNDS = [
+    "Round of 32", "Round of 16", "Quarter-finals", "Semi-finals",
+    "Third-place match", "Final",
+]
+FINALS_ROUNDS = [GROUP_STAGE_ROUND] + KNOCKOUT_ROUNDS
+
 # --- The better "siege" signal (answers the Spain-Cape Verde objection) -----
 # Saves alone miss blocked/off-target shots, so a 74%-possession battering can
 # look quiet. We carry shots-on-target-against alongside saves so the reader can

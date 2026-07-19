@@ -35,7 +35,7 @@ from scipy.optimize import minimize
 from scipy.stats import ks_2samp
 
 from . import config
-from .analyze import load_team_games
+from .analyze import group_stage, load_team_games
 
 RNG = np.random.default_rng(2026)
 SIEGE = 8  # shots-on-target threshold used only to report a headline count
@@ -182,6 +182,7 @@ def counterfactual(strengths: pd.DataFrame, law, n_sims: int = 4000) -> dict:
 # --------------------------------------------------------------------------
 def main() -> None:
     tidy, synthetic = load_team_games()
+    tidy = group_stage(tidy)   # strengths + law from the symmetric group stage only
     if synthetic:
         print("\n(!!) Running on SYNTHETIC data -- model output is illustrative only.\n")
 

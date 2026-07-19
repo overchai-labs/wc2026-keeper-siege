@@ -8,8 +8,9 @@ Turn the raw FBref pulls (data/raw/<season>.csv) into ONE tidy table:
     columns = season, teams, game_id, team, opponent, saves, sota, ga
 
 Two jobs happen here, and only here:
-  1. FILTER to the finals group stage. The raw pull is the whole 2026 campaign
-     (qualifiers + friendlies + finals); we keep only round == "Group stage".
+  1. FILTER to the finals (group stage + knockouts). The raw pull is the whole 2026
+     campaign (qualifiers + friendlies + finals); we keep only the finals rounds and
+     tag each row 'group' or 'knockout' in a `stage` column.
   2. SELECT + rename the goalkeeping columns collect.py flattened
      (Performance_Saves -> saves, etc.).
 
@@ -23,7 +24,8 @@ import pandas as pd
 from . import config
 
 # The canonical schema every downstream step relies on.
-TIDY_COLUMNS = ["season", "teams", "game_id", "team", "opponent", "saves", "sota", "ga"]
+TIDY_COLUMNS = ["season", "teams", "game_id", "stage", "round",
+                "team", "opponent", "saves", "sota", "ga"]
 
 
 def _tidy_one_season(season: str) -> pd.DataFrame:
@@ -36,16 +38,17 @@ def _tidy_one_season(season: str) -> pd.DataFrame:
 
     df = pd.read_csv(raw_path)
 
-    # 1) Finals group stage only.
+    # 1) Finals only (group stage + knockouts); tag the stage.
     if "round" not in df.columns:
         raise KeyError(f"[clean] {season}: no 'round' column. Columns: {list(df.columns)}")
-    df = df[df["round"] == config.GROUP_STAGE_ROUND].copy()
+    df = df[df["round"].isin(config.FINALS_ROUNDS)].copy()
     if df.empty:
         rounds = sorted(pd.read_csv(raw_path)["round"].dropna().unique())
         raise SystemExit(
-            f"[clean] {season}: zero rows with round == {config.GROUP_STAGE_ROUND!r}. "
-            f"Round values present: {rounds}"
+            f"[clean] {season}: no finals rounds found. Round values present: {rounds}"
         )
+    df["stage"] = df["round"].where(df["round"] != config.GROUP_STAGE_ROUND, "group")
+    df["stage"] = df["stage"].where(df["stage"] == "group", "knockout")
 
     # 2) Select the goalkeeping columns (fail loudly if a name drifted).
     missing = [c for c in config.KEEPER_METRICS.values() if c not in df.columns]
@@ -70,6 +73,8 @@ def _tidy_one_season(season: str) -> pd.DataFrame:
             "season": season,
             "teams": config.SEASONS[season]["teams"],
             "game_id": game_id,
+            "stage": df["stage"].values,
+            "round": df["round"].values,
             "team": df["team"],
             "opponent": df["opponent"],
             "saves": pd.to_numeric(df[config.KEEPER_METRICS["saves"]], errors="coerce"),

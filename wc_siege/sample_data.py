@@ -52,6 +52,8 @@ def _simulate_group_stage(season: str) -> pd.DataFrame:
                     "season": season,
                     "teams": n_teams,
                     "game_id": f"{season}-G{g:02d}",
+                    "stage": "group",
+                    "round": "Group stage",
                     "team": f"T{team:02d}",
                     "opponent": f"T{opp:02d}",
                     "saves": int(saves),

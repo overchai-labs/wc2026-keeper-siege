@@ -148,15 +148,38 @@ the analysis without touching FBref again. That is what makes this reproducible.
 
 ---
 
+## Knockouts — expansion's second siege mechanism
+
+The original post *asserted* "knockouts pit similar teams, so they add almost no sieges."
+That was refuted on Reddit (Cape Verde–Argentina, Paraguay–Germany, England–DR Congo) and
+OP conceded it. So we measure it instead of assuming it — and it matters, because the
+48-team format adds a **Round of 32 that the 32-team format never had** (it went
+group → Round of 16).
+
+| 2026 knockout round | games | P(besieged keeper faces ≥8 shots on target) |
+|---|---|---|
+| **Round of 32** *(new in 48-team format)* | 16 | **0.25** — same as the group stage |
+| Round of 16 | 8 | 0.00 |
+| Quarter-finals | 4 | 0.50 |
+
+The Round of 32 is **not** evenly matched — it keeps weaker teams alive one round longer
+(Vozinha's Cape Verde faced 11 shots on target vs Argentina here). At P≈0.25 over 16 games
+it adds **~4 siege games** that couldn't exist under the old format. So excluding knockouts
+*understated* expansion's effect. (Caveat: some knockout games go to extra time, which
+inflates shot counts a little; even so, the Round of 32 clearly out-sieges the Round of 16.)
+
 ## Honesty notes
 
-- **Group stage only.** Knockouts pit more evenly-matched sides and confound the
-  comparison. (2026's Round of 32 *did* keep minnows alive longer — that's a
-  separate, interesting effect, noted but not mixed in.)
-- **2018 + 2022 as the 32-team baseline.** Comparing real tournaments means
-  tactics/era are a confounder; we state that plainly rather than pretend a
-  simulation removes it. Step 4's model is what isolates the pure expansion effect.
-- **Saves ≠ siege, exactly.** That's why SoTA and PSxG ride along.
+- **Group stage vs knockouts, kept separate.** The headline comparison is group-stage only
+  (everyone plays 3 games — a clean, symmetric comparison). Knockouts are analysed on their
+  own above, because sample sizes are tiny and extra time distorts counts.
+- **2018 + 2022 as the 32-team baseline.** Comparing real tournaments means tactics/era are a
+  confounder; we say so rather than pretend a simulation removes it. Part 2's model isolates
+  the pure expansion effect.
+- **Saves ≠ siege, exactly.** Shots-on-target-against is the better pressure proxy, so it
+  rides alongside saves. Even it only counts *on-target* shots — total shots / possession /
+  xG would capture a battering like Spain 0–0 Cape Verde even better (a future `keeper_adv`
+  pull adds post-shot xG).
 
 Data: FBref (StatsBomb). Tools: Python, pandas, NumPy, SciPy, Matplotlib.
 

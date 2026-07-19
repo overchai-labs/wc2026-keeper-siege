@@ -48,6 +48,17 @@ def load_team_games() -> tuple[pd.DataFrame, bool]:
     raise SystemExit("No processed data. Run `sample_data` (demo) or `collect`+`clean` (real).")
 
 
+def group_stage(team_games: pd.DataFrame) -> pd.DataFrame:
+    """The group-stage rows -- the clean, symmetric comparison (everyone plays 3).
+
+    Backwards-compatible: if a `stage` column isn't present (old data), assume all
+    rows are group-stage.
+    """
+    if "stage" in team_games.columns:
+        return team_games[team_games["stage"] == "group"]
+    return team_games
+
+
 # --------------------------------------------------------------------------
 # Reduce each game to its besieged keeper
 # --------------------------------------------------------------------------
@@ -145,13 +156,57 @@ def distribution_test(per_game: pd.DataFrame, metric: str = "max_saves") -> dict
 
 
 # --------------------------------------------------------------------------
+# Knockouts -- answering Danph85 & FrenchyFungus with data, not an assumption
+# --------------------------------------------------------------------------
+def knockout_siege_by_round(team_games: pd.DataFrame, metric: str = "max_sota") -> pd.DataFrame:
+    """Per-round siege intensity in the knockouts of each edition.
+
+    The original post *asserted* knockouts pit even teams and add no sieges. That was
+    refuted (Cape Verde-Argentina, Paraguay-Germany, England-DR Congo). Here we measure
+    it. The key row is 2026's "Round of 32" -- a round the 32-team format never had.
+    """
+    if "stage" not in team_games.columns:
+        return pd.DataFrame()
+    ko = team_games[team_games["stage"] == "knockout"]
+    pg = ko.groupby(["season", "round", "game_id"], as_index=False).agg(
+        max_saves=("saves", "max"), max_sota=("sota", "max")
+    )
+    order = {r: i for i, r in enumerate(config.KNOCKOUT_ROUNDS)}
+    out = pg.groupby(["season", "round"], as_index=False).agg(
+        games=("game_id", "nunique"),
+        mean_max_sota=("max_sota", "mean"),
+        p_sota_ge8=("max_sota", lambda s: (s >= 8).mean()),
+    )
+    out["_o"] = out["round"].map(order)
+    return out.sort_values(["season", "_o"]).drop(columns="_o").reset_index(drop=True)
+
+
+def round_of_32_effect(team_games: pd.DataFrame) -> dict:
+    """Sieges the 48-team Round of 32 adds -- games the 32-team format couldn't have."""
+    if "stage" not in team_games.columns:
+        return {}
+    ko = team_games[(team_games["round"] == "Round of 32")]
+    if ko.empty:
+        return {}
+    pg = ko.groupby("game_id", as_index=False).agg(max_sota=("sota", "max"))
+    p = (pg["max_sota"] >= 8).mean()
+    return {
+        "round_of_32_games": int(len(pg)),
+        "P(SoTA>=8)": round(float(p), 3),
+        "extra_sieges_added": round(float(p) * len(pg), 1),
+        "note": "This round does not exist in the 32-team format (it goes group -> R16).",
+    }
+
+
+# --------------------------------------------------------------------------
 # CLI: print a full, honest report
 # --------------------------------------------------------------------------
 def main() -> None:
     team_games, synthetic = load_team_games()
-    per_game = per_game_siege_load(team_games)
+    group = group_stage(team_games)           # the clean symmetric comparison
+    per_game = per_game_siege_load(group)
 
-    print("\n=== Per-game siege RATES (metric = saves) ===")
+    print("\n=== GROUP STAGE: per-game siege RATES (metric = saves) ===")
     print(siege_rates(per_game, "max_saves").to_string(index=False))
 
     print("\n=== Same, using shots-on-target-against (answers Spain-Cape Verde) ===")
@@ -161,9 +216,18 @@ def main() -> None:
     for k, v in decompose_expansion(per_game, "max_saves", 8).items():
         print(f"  {k:35s} {v}")
 
-    print("\n=== Distribution test: is 2026 shifted higher? (saves) ===")
-    for k, v in distribution_test(per_game, "max_saves").items():
+    print("\n=== Distribution test: is 2026 shifted higher? (shots on target) ===")
+    for k, v in distribution_test(per_game, "max_sota").items():
         print(f"  {k:30s} {v}")
+
+    # --- Knockouts: the point OP got wrong and conceded -----------------------
+    ko_summary = knockout_siege_by_round(team_games)
+    if not ko_summary.empty:
+        print("\n=== KNOCKOUTS: siege intensity by round (answers Danph85) ===")
+        print(ko_summary.to_string(index=False))
+        print("\n=== The Round of 32 (exists ONLY in the 48-team format) ===")
+        for k, v in round_of_32_effect(team_games).items():
+            print(f"  {k:22s} {v}")
 
     if synthetic:
         print("\n(Reminder: the above ran on SYNTHETIC data. Real pull replaces it.)")
