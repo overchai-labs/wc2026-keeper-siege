@@ -59,15 +59,14 @@ def make_figure(metric: str = "max_saves", save: bool = True):
     thresholds = config.SIEGE_THRESHOLDS
     x = np.arange(len(thresholds))
     width = 0.38
-    old_row = rates[rates["group_games"] == rates["group_games"].min()]  # placeholder guard
-    # Pull per-season probabilities cleanly:
     p_old = [per_game.loc[per_game["teams"] == 32, metric].ge(t).mean() for t in thresholds]
     p_new = [per_game.loc[per_game["teams"] == 48, metric].ge(t).mean() for t in thresholds]
     ax2.bar(x - width / 2, p_old, width, color=C_OLD, label="32-team")
     ax2.bar(x + width / 2, p_new, width, color=C_NEW, label="2026")
     ax2.set_xticks(x)
     ax2.set_xticklabels([f">={t}" for t in thresholds])
-    ax2.set_xlabel("saves threshold")
+    metric_label = "saves" if metric == "max_saves" else "shots on target"
+    ax2.set_xlabel(f"{metric_label} threshold")
     ax2.set_ylabel("per-game probability")
     ax2.set_title("Not tuned to one cutoff")
     ax2.legend(frameon=False)
