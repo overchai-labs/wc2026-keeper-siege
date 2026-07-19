@@ -31,18 +31,19 @@ import pandas as pd
 from . import config
 
 
-def _fetch_one_season(season: str) -> pd.DataFrame:
-    """Pull team-level goalkeeper match logs for a single World Cup edition.
+def _fetch_one(season: str, stat_type: str) -> pd.DataFrame:
+    """Pull one FBref team-match table (e.g. 'keeper' or 'shooting') for a season.
 
-    Returns a raw (wide, multi-indexed) DataFrame straight from FBref. We do NOT
-    clean it here -- collection and cleaning are separate steps on purpose, so a
-    change to one never silently breaks the other.
+    Returns a raw (wide, multi-indexed) DataFrame straight from FBref, flattened. We
+    do NOT clean it here -- collection and cleaning are separate steps on purpose, so a
+    change to one never silently breaks the other. The pull includes the whole campaign
+    (qualifiers + friendlies + finals); clean.py filters to the finals.
     """
     # Imported lazily so that `--help` and the sample-data path don't require
     # soccerdata to be installed.
     import soccerdata as sd
 
-    print(f"[collect] World Cup {season}: contacting FBref via soccerdata ...")
+    print(f"[collect] World Cup {season} / {stat_type}: contacting FBref via soccerdata ...")
     # soccerdata >=1.9.0 launches an undetected Chrome (Selenium) here to clear
     # Cloudflare. The FIRST call may pause ~30-60s while it starts the browser and
     # fetches a chromedriver -- that is expected, let it run. If you still get a
@@ -53,15 +54,9 @@ def _fetch_one_season(season: str) -> pd.DataFrame:
         kwargs["headless"] = False
     fbref = sd.FBref(leagues=config.FBREF_LEAGUE, seasons=season, **kwargs)
 
-    # `read_team_match_stats(stat_type="keeper")` returns ONE ROW PER TEAM PER
-    # GAME with the goalkeeping columns (Saves, SoTA, GA, ...). That is exactly the
-    # granularity we want -- no per-player joining needed. NOTE: this includes the
-    # whole 2026 campaign (qualifiers + friendlies + finals); we save it all and let
-    # clean.py filter to the finals group stage. Keeping raw faithful is the point.
-    gk = fbref.read_team_match_stats(stat_type="keeper")
-    gk = _flatten(gk)
-    print(f"[collect] World Cup {season}: got {len(gk)} team-game rows.")
-    return gk
+    df = _flatten(fbref.read_team_match_stats(stat_type=stat_type))
+    print(f"[collect] World Cup {season} / {stat_type}: got {len(df)} team-game rows.")
+    return df
 
 
 def _flatten(gk: pd.DataFrame) -> pd.DataFrame:
@@ -87,38 +82,49 @@ def _flatten(gk: pd.DataFrame) -> pd.DataFrame:
     return gk
 
 
-def collect(seasons: list[str] | None = None) -> None:
-    """Fetch each requested season and save it verbatim to data/raw/<season>.csv."""
+def collect(seasons: list[str] | None = None, stats: list[str] | None = None) -> None:
+    """Fetch each (season, stat_type) and save to data/raw/<season>_<stat>.csv."""
     seasons = seasons or list(config.SEASONS)
+    stats = stats or list(config.STAT_TYPES)
     config.RAW_DIR.mkdir(parents=True, exist_ok=True)
 
     for season in seasons:
-        try:
-            gk = _fetch_one_season(season)
-        except Exception as exc:  # noqa: BLE001 -- we want a friendly message
-            print(
-                f"[collect] FAILED for {season}: {exc}\n"
-                "          If this is a 403, you are almost certainly on a blocked\n"
-                "          (cloud/datacenter) IP -- run this from your home machine.",
-                file=sys.stderr,
-            )
-            continue
-
-        out = config.RAW_DIR / f"{season}.csv"
-        gk.to_csv(out, index=False)  # already flattened + index reset in _flatten
-        print(f"[collect] wrote {out.relative_to(config.ROOT)}")
+        for stat in stats:
+            out = config.RAW_DIR / f"{season}_{stat}.csv"
+            if out.exists() and os.environ.get("KEEPER_FORCE") != "1":
+                print(f"[collect] {out.relative_to(config.ROOT)} exists -- skipping "
+                      "(set KEEPER_FORCE=1 to refetch).")
+                continue
+            try:
+                df = _fetch_one(season, stat)
+            except Exception as exc:  # noqa: BLE001 -- we want a friendly message
+                print(
+                    f"[collect] FAILED for {season}/{stat}: {exc}\n"
+                    "          If this is a 403, you are almost certainly on a blocked\n"
+                    "          (cloud/datacenter) IP -- run this from your home machine.",
+                    file=sys.stderr,
+                )
+                continue
+            df.to_csv(out, index=False)  # already flattened + index reset in _flatten
+            print(f"[collect] wrote {out.relative_to(config.ROOT)}")
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Pull World Cup GK match logs from FBref.")
+    parser = argparse.ArgumentParser(description="Pull World Cup team-match tables from FBref.")
     parser.add_argument(
         "--season",
         action="append",
         choices=list(config.SEASONS),
         help="Limit to one season (repeatable). Default: all three.",
     )
+    parser.add_argument(
+        "--stat",
+        action="append",
+        choices=list(config.STAT_TYPES),
+        help="Limit to one stat table (repeatable). Default: keeper + shooting.",
+    )
     args = parser.parse_args()
-    collect(args.season)
+    collect(args.season, args.stat)
 
 
 if __name__ == "__main__":

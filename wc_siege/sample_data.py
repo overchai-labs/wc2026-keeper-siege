@@ -47,6 +47,10 @@ def _simulate_group_stage(season: str) -> pd.DataFrame:
             sota = RNG.poisson(base)
             ga = min(sota, RNG.binomial(sota, 0.28))    # ~28% of SoT become goals
             saves = sota - ga
+            # A besieged side faces more total shots and higher xG than its SoT alone;
+            # fake but internally consistent (roughly 2-3 total shots per on-target one).
+            shots_faced = sota + RNG.poisson(max(0.5, 1.8 * sota))
+            xg_faced = round(shots_faced * RNG.uniform(0.09, 0.13), 2)
             rows.append(
                 {
                     "season": season,
@@ -59,6 +63,8 @@ def _simulate_group_stage(season: str) -> pd.DataFrame:
                     "saves": int(saves),
                     "sota": int(sota),
                     "ga": int(ga),
+                    "shots_faced": int(shots_faced),
+                    "xg_faced": xg_faced,
                 }
             )
     return pd.DataFrame(rows)

@@ -19,17 +19,65 @@ HTML looked like.
 """
 from __future__ import annotations
 
+import re
+
+import numpy as np
 import pandas as pd
 
 from . import config
 
-# The canonical schema every downstream step relies on.
+# The canonical schema every downstream step relies on. shots_faced / xg_faced come
+# from the shooting table (the opponent's attacking output); they are NaN if the
+# shooting pull hasn't been run yet, so downstream code treats them as optional.
 TIDY_COLUMNS = ["season", "teams", "game_id", "stage", "round",
-                "team", "opponent", "saves", "sota", "ga"]
+                "team", "opponent", "saves", "sota", "ga", "shots_faced", "xg_faced"]
+
+
+def _canonical_game_id(df: pd.DataFrame) -> pd.Series:
+    """date + alphabetically-sorted team pair -> IDENTICAL for both teams in a match.
+
+    FBref writes each game from one team's perspective ("Algeria-Argentina" vs
+    "Argentina-Algeria"), so its 'game' string differs between the two rows. This key
+    collapses both rows of a match to one id, which is what lets us (a) take the
+    besieged keeper per game and (b) join a team to its opponent's shooting.
+    """
+    pair = ["-".join(sorted([str(t), str(o)])) for t, o in zip(df["team"], df["opponent"])]
+    return df["date"].astype(str) + " " + pd.Series(pair, index=df.index)
+
+
+def _find_regex(df: pd.DataFrame, pattern: str) -> str | None:
+    """First column matching `pattern`, ignoring per-90 / 'Per' variants."""
+    rx = re.compile(pattern)
+    hits = [c for c in df.columns
+            if rx.search(str(c)) and "90" not in str(c) and "Per" not in str(c)]
+    return hits[0] if hits else None
+
+
+def _finals_shooting(season: str) -> pd.DataFrame | None:
+    """Per (game_id, team) total shots + xG from the shooting table, finals only.
+
+    Returns None if the shooting pull hasn't been run yet (pipeline still works with
+    just the keeper data, with shots_faced/xg_faced left as NaN).
+    """
+    p = config.RAW_DIR / f"{season}_shooting.csv"
+    if not p.exists():
+        return None
+    df = pd.read_csv(p)
+    df = df[df["round"].isin(config.FINALS_ROUNDS)].copy()
+    shots_col = _find_regex(df, config.SHOOTING_SHOTS_RE)
+    xg_col = _find_regex(df, config.SHOOTING_XG_RE)
+    return pd.DataFrame(
+        {
+            "game_id": _canonical_game_id(df),
+            "team": df["team"],
+            "shots": pd.to_numeric(df[shots_col], errors="coerce") if shots_col else np.nan,
+            "xg": pd.to_numeric(df[xg_col], errors="coerce") if xg_col else np.nan,
+        }
+    )
 
 
 def _tidy_one_season(season: str) -> pd.DataFrame:
-    raw_path = config.RAW_DIR / f"{season}.csv"
+    raw_path = config.RAW_DIR / f"{season}_keeper.csv"
     if not raw_path.exists():
         raise FileNotFoundError(
             f"{raw_path} not found. Run `python -m wc_siege.collect --season {season}` "
@@ -57,22 +105,11 @@ def _tidy_one_season(season: str) -> pd.DataFrame:
             f"[clean] {season}: missing columns {missing}. Available: {list(df.columns)}"
         )
 
-    # A canonical game_id that is IDENTICAL for both teams in a match. FBref writes
-    # the game from each team's perspective ("Algeria-Argentina" vs "Argentina-Algeria"),
-    # so we can't use its 'game' string -- the two keepers would never pair up. Instead:
-    # date + the alphabetically-sorted pair of teams. Both rows of a match collapse to
-    # one key, which is what lets us take the besieged (max-saves) keeper per game.
-    pair = [
-        "-".join(sorted([str(t), str(o)]))
-        for t, o in zip(df["team"], df["opponent"])
-    ]
-    game_id = df["date"].astype(str) + " " + pd.Series(pair, index=df.index)
-
     tidy = pd.DataFrame(
         {
             "season": season,
             "teams": config.SEASONS[season]["teams"],
-            "game_id": game_id,
+            "game_id": _canonical_game_id(df),
             "stage": df["stage"].values,
             "round": df["round"].values,
             "team": df["team"],
@@ -82,6 +119,17 @@ def _tidy_one_season(season: str) -> pd.DataFrame:
             "ga": pd.to_numeric(df[config.KEEPER_METRICS["ga"]], errors="coerce"),
         }
     )
+
+    # Pressure a keeper's side ABSORBED = the OPPONENT's attacking output. Join each
+    # team to its opponent's shooting row (same game_id) to get shots-faced / xG-faced.
+    shoot = _finals_shooting(season)
+    if shoot is not None:
+        opp = shoot.rename(columns={"team": "opponent", "shots": "shots_faced", "xg": "xg_faced"})
+        tidy = tidy.merge(opp, on=["game_id", "opponent"], how="left")
+    else:
+        tidy["shots_faced"] = np.nan
+        tidy["xg_faced"] = np.nan
+
     return tidy.dropna(subset=["saves"]).reset_index(drop=True)
 
 

@@ -63,12 +63,18 @@ def group_stage(team_games: pd.DataFrame) -> pd.DataFrame:
 # Reduce each game to its besieged keeper
 # --------------------------------------------------------------------------
 def per_game_siege_load(team_games: pd.DataFrame) -> pd.DataFrame:
-    """One row per GAME: the max saves and max SoTA faced by either keeper."""
-    g = team_games.groupby(["season", "teams", "game_id"], as_index=False).agg(
-        max_saves=("saves", "max"),
-        max_sota=("sota", "max"),
-    )
-    return g
+    """One row per GAME: the besieged keeper's workload (max over the two keepers).
+
+    max_saves / max_sota always present; max_shots_faced / max_xg_faced come from the
+    shooting table (NaN until that pull is run). xG-faced is the most credible "siege"
+    signal -- it counts the full battering, not just on-target shots.
+    """
+    aggs = {"max_saves": ("saves", "max"), "max_sota": ("sota", "max")}
+    if "shots_faced" in team_games.columns:
+        aggs["max_shots_faced"] = ("shots_faced", "max")
+    if "xg_faced" in team_games.columns:
+        aggs["max_xg_faced"] = ("xg_faced", "max")
+    return team_games.groupby(["season", "teams", "game_id"], as_index=False).agg(**aggs)
 
 
 # --------------------------------------------------------------------------

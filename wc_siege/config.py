@@ -59,3 +59,17 @@ KEEPER_METRICS = {
     "sota": "Performance_SoTA",    # shots on target against (the real "pressure" proxy)
     "ga": "Performance_GA",        # goals conceded by the keeper
 }
+
+# --- FBref stat tables we pull -------------------------------------------------
+# "keeper"   -> saves / shots-on-target-against (the besieged keeper's workload)
+# "shooting" -> a team's OWN total shots and xG. Paired across a game, the opponent's
+#               shooting IS the pressure the keeper's side absorbed -> shots-faced and
+#               xG-faced. xG-faced is the credible "siege" signal that answers the
+#               Spain 0-0 Cape Verde objection (27 shots, 2.1 xG, but only 7 on target).
+STAT_TYPES = ["keeper", "shooting"]
+
+# Total-shots and xG columns in FBref's shooting table are matched fuzzily in clean.py
+# (their exact flattened names, e.g. "Standard_Sh" / "Expected_xG", are confirmed after
+# the first real pull). These regexes identify them regardless of the header grouping.
+SHOOTING_SHOTS_RE = r"(^|_)Sh$"    # total shots (NOT SoT / Sh/90 / etc.)
+SHOOTING_XG_RE = r"(^|_)xG$"       # expected goals (NOT npxG / xGA)
