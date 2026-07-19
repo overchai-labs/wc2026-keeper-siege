@@ -24,6 +24,38 @@ This repo answers it honestly:
 
 ---
 
+## Results
+
+Group stage only: **2018 + 2022 (32-team, 96 games)** vs **2026 (48-team, 72 games)**.
+For each game we take the more-besieged keeper (the higher of the two keepers' values).
+
+| Per-game "siege load" | 32-team era | 2026 | Shifted higher? |
+|---|---|---|---|
+| **Saves** (median / mean) | 3 / 3.62 | 3 / 3.89 | **No** — Mann-Whitney p = 0.42, KS p = 0.92 |
+| **Shots on target faced** (median / mean) | 5 / 5.18 | 6 / 5.97 | **Yes** — Mann-Whitney p = 0.035 |
+
+![siege distribution — shots on target](figures/siege_distribution_max_sota.png)
+
+**The honest takeaway — which contradicts the viral "sieges tripled" framing:**
+
+- Count **saves**, and 2026 is *statistically indistinguishable* from past World Cups
+  (identical median, p = 0.42). The dramatic "goalkeepers are being buried" claim is
+  not supported by save counts.
+- Count **shots on target faced** — the actual pressure a keeper is under — and 2026
+  *is* significantly more lopsided (p = 0.035, ~2.2× as likely to reach 8+). Expansion
+  really did add mismatches.
+- Reconciling the two: 2026 keepers **face more, but don't save more**, because more of
+  those extra shots go *in* against weaker sides rather than being stopped. "Goalkeeper
+  sieges" is real as *pressure*, an artifact as *saves*.
+
+**Caveat, stated up front:** small samples (72 vs 96 games), so the significant result
+is real but *modest*, not a landslide. The saves result is a genuine null. Comparing real
+tournaments also confounds expansion with era/tactics — Part 2 (`model.py`) is what will
+isolate the pure expansion effect. Sanity check: the pipeline recovers Vozinha's 7 saves
+vs Spain and Al-Owais' 9 vs Uruguay from the raw data.
+
+---
+
 ## The flow (five small steps)
 
 Each step is one small, commented module in `wc_siege/`. Read them in order.
