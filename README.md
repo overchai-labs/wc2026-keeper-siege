@@ -50,9 +50,47 @@ For each game we take the more-besieged keeper (the higher of the two keepers' v
 
 **Caveat, stated up front:** small samples (72 vs 96 games), so the significant result
 is real but *modest*, not a landslide. The saves result is a genuine null. Comparing real
-tournaments also confounds expansion with era/tactics — Part 2 (`model.py`) is what will
-isolate the pure expansion effect. Sanity check: the pipeline recovers Vozinha's 7 saves
-vs Spain and Al-Owais' 9 vs Uruguay from the raw data.
+tournaments also confounds expansion with era/tactics — which is exactly what Part 2 below
+disentangles. Sanity check: the pipeline recovers Vozinha's 7 saves vs Spain and Al-Owais'
+9 vs Uruguay from the raw data.
+
+---
+
+## Part 2 — Isolating expansion (`model.py`)
+
+The comparison above mixes two things: the field grew (32→48) **and** it's a later era.
+To separate them we (1) rate each team from real goals, (2) fit one "pressure law" —
+*bigger strength gap ⇒ more shots on the weaker keeper* — (3) **validate** it against the
+real 2026 distribution, then (4) run a 32-team and a 48-team field through the **same** law,
+changing only how spread-out the teams are.
+
+**The law holds:** `E[besieged shots-on-target] = exp(1.56 + 0.11·|gap|)` — the positive
+slope is the mechanism, confirmed in real data.
+
+**It's validated, not assumed:** fed 2026's real matchups it predicts P(≥8 SoT) = 0.22
+(95% CI 0.14–0.32) vs 0.25 actual; distributions agree (KS p ≈ 1.0). Unlike the original
+toy sim, this model is checked against the tournament that happened.
+
+**Expansion, with football held constant:**
+
+| | 32-team field | 48-team field |
+|---|---|---|
+| Spread of team strengths (std) | 0.84 | 1.17 |
+| Sieges per tournament | ~8.1 | ~14.5 |
+| Per-game siege probability | 17.0% | 20.1% |
+
+- **Per tournament: ~1.8×** more sieges — but **1.5× of that is just more games** (72 vs 48).
+- **Per game: ~1.18×.** Holding football constant, a wider field makes each game only ~18%
+  more likely to become a siege.
+
+**Why this matters:** the original viral post claimed sieges "roughly tripled" (~3×) and
+each game was "more than twice as likely" (>2×). The validated model says **1.8× total and
+1.18× per game.** And since the *uncontrolled* real per-game jump was ~2×, expansion explains
+only a modest slice of it — **most of the rest is era/tactics**, the confounder the first
+version ignored. Expansion buries more keepers mainly by adding games, not by making each
+game dramatically more one-sided.
+
+Run it: `python -m wc_siege.model`
 
 ---
 
