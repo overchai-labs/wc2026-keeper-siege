@@ -52,6 +52,12 @@ def _fetch_one(season: str, stat_type: str) -> pd.DataFrame:
     kwargs = {}
     if os.environ.get("KEEPER_HEADFUL") == "1":
         kwargs["headless"] = False
+    # KEEPER_FORCE=1 must ALSO bypass soccerdata's own page cache -- otherwise a refetch
+    # silently replays the stale HTML from the first pull. This matters when a tournament
+    # is still running: our first 2026 pull predated the final, so the cached pages simply
+    # do not contain it.
+    if os.environ.get("KEEPER_FORCE") == "1":
+        kwargs["no_cache"] = True
     fbref = sd.FBref(leagues=config.FBREF_LEAGUE, seasons=season, **kwargs)
 
     df = _flatten(fbref.read_team_match_stats(stat_type=stat_type))
