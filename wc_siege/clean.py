@@ -30,8 +30,7 @@ from . import config
 # from the shooting table (the opponent's attacking output); they are NaN if the
 # shooting pull hasn't been run yet, so downstream code treats them as optional.
 TIDY_COLUMNS = ["season", "teams", "game_id", "stage", "round",
-                "team", "opponent", "saves", "sota", "ga",
-                "shots_faced", "xg_faced", "poss_conceded", "box_touches_conceded"]
+                "team", "opponent", "saves", "sota", "ga", "shots_faced", "xg_faced"]
 
 
 def _canonical_game_id(df: pd.DataFrame) -> pd.Series:
@@ -77,26 +76,46 @@ def _finals_shooting(season: str) -> pd.DataFrame | None:
     )
 
 
-def _finals_possession(season: str) -> pd.DataFrame | None:
-    """Per (game_id, team) possession % + touches in the attacking penalty area.
+def _finals_schedule_xg(season: str) -> pd.DataFrame | None:
+    """Per (game_id, team) expected goals, from FBref's fixtures table.
 
-    Returns None if the possession pull hasn't been run yet.
+    The schedule is one row per GAME (home/away columns), so we melt it into two rows
+    per game -- one per team -- to match the rest of the pipeline. Returns None if the
+    schedule pull hasn't been run yet, or if this edition has no xG (older tournaments).
     """
-    p = config.RAW_DIR / f"{season}_possession.csv"
+    p = config.RAW_DIR / f"{season}_schedule.csv"
     if not p.exists():
         return None
     df = pd.read_csv(p)
-    df = df[df["round"].isin(config.FINALS_ROUNDS)].copy()
-    poss_col = _find_regex(df, config.POSSESSION_POSS_RE)
-    box_col = _find_regex(df, config.POSSESSION_BOX_RE)
-    return pd.DataFrame(
-        {
-            "game_id": _canonical_game_id(df),
-            "team": df["team"],
-            "poss": pd.to_numeric(df[poss_col], errors="coerce") if poss_col else np.nan,
-            "box_touches": pd.to_numeric(df[box_col], errors="coerce") if box_col else np.nan,
-        }
+    if "round" in df.columns:
+        df = df[df["round"].isin(config.FINALS_ROUNDS)].copy()
+
+    def col(*names: str) -> str | None:
+        for n in names:
+            for c in df.columns:
+                if str(c).lower().replace(" ", "_") == n:
+                    return c
+        return None
+
+    home, away = col("home_team", "home"), col("away_team", "away")
+    hxg, axg = col("home_xg"), col("away_xg")
+    if not (home and away and hxg and axg):
+        print(f"[clean] {season}: schedule lacks home/away xG columns "
+              f"({list(df.columns)}) -- xg_faced left empty.")
+        return None
+
+    # Two rows per game so each team carries its OWN xG; the opponent join happens later.
+    long = pd.concat(
+        [
+            pd.DataFrame({"team": df[home], "opponent": df[away], "date": df["date"],
+                          "xg": pd.to_numeric(df[hxg], errors="coerce")}),
+            pd.DataFrame({"team": df[away], "opponent": df[home], "date": df["date"],
+                          "xg": pd.to_numeric(df[axg], errors="coerce")}),
+        ],
+        ignore_index=True,
     )
+    long["game_id"] = _canonical_game_id(long)
+    return long[["game_id", "team", "xg"]]
 
 
 def _tidy_one_season(season: str) -> pd.DataFrame:
@@ -147,23 +166,19 @@ def _tidy_one_season(season: str) -> pd.DataFrame:
     # team to its opponent's shooting row (same game_id) to get shots-faced / xG-faced.
     shoot = _finals_shooting(season)
     if shoot is not None:
-        opp = shoot.rename(columns={"team": "opponent", "shots": "shots_faced", "xg": "xg_faced"})
-        tidy = tidy.merge(opp, on=["game_id", "opponent"], how="left")
+        opp = shoot.rename(columns={"team": "opponent", "shots": "shots_faced"})
+        tidy = tidy.merge(opp[["game_id", "opponent", "shots_faced"]],
+                          on=["game_id", "opponent"], how="left")
     else:
         tidy["shots_faced"] = np.nan
-        tidy["xg_faced"] = np.nan
 
-    # Territorial pressure conceded = the OPPONENT's possession and box touches. This is
-    # the "pinned in its own box" dimension the Reddit critics said saves entirely miss.
-    poss = _finals_possession(season)
-    if poss is not None:
-        opp_p = poss.rename(columns={
-            "team": "opponent", "poss": "poss_conceded", "box_touches": "box_touches_conceded",
-        })
-        tidy = tidy.merge(opp_p, on=["game_id", "opponent"], how="left")
+    # Shot QUALITY absorbed = the OPPONENT's xG (from the fixtures table).
+    sched = _finals_schedule_xg(season)
+    if sched is not None:
+        opp_x = sched.rename(columns={"team": "opponent", "xg": "xg_faced"})
+        tidy = tidy.merge(opp_x, on=["game_id", "opponent"], how="left")
     else:
-        tidy["poss_conceded"] = np.nan
-        tidy["box_touches_conceded"] = np.nan
+        tidy["xg_faced"] = np.nan
 
     return tidy.dropna(subset=["saves"]).reset_index(drop=True)
 

@@ -51,9 +51,6 @@ def _simulate_group_stage(season: str) -> pd.DataFrame:
             # fake but internally consistent (roughly 2-3 total shots per on-target one).
             shots_faced = sota + RNG.poisson(max(0.5, 1.8 * sota))
             xg_faced = round(shots_faced * RNG.uniform(0.09, 0.13), 2)
-            # Territorial pressure: a besieged side concedes possession and box touches.
-            poss_conceded = round(float(np.clip(50 + 2.2 * max(0.0, -adv) * 3, 30, 80)), 1)
-            box_touches_conceded = int(RNG.poisson(max(2.0, 0.9 * shots_faced)))
             rows.append(
                 {
                     "season": season,
@@ -68,8 +65,6 @@ def _simulate_group_stage(season: str) -> pd.DataFrame:
                     "ga": int(ga),
                     "shots_faced": int(shots_faced),
                     "xg_faced": xg_faced,
-                    "poss_conceded": poss_conceded,
-                    "box_touches_conceded": box_touches_conceded,
                 }
             )
     return pd.DataFrame(rows)
