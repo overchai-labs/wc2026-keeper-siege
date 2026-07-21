@@ -88,10 +88,11 @@ def siege_rates(per_game: pd.DataFrame, metric: str = "max_saves") -> pd.DataFra
     probability, which strips the 'more matches' half out.
     """
     rows = []
+    thresholds = config.METRIC_THRESHOLDS.get(metric, config.SIEGE_THRESHOLDS)
     for season, sub in per_game.groupby("season"):
         n_games = len(sub)
         row = {"season": season, "group_games": n_games}
-        for t in config.SIEGE_THRESHOLDS:
+        for t in thresholds:
             share = (sub[metric] >= t).mean()          # per-game probability
             row[f"P(>={t})"] = round(share, 3)
             row[f"exp_per_tourn(>={t})"] = round(share * n_games, 1)  # expected count
@@ -161,6 +162,37 @@ def distribution_test(per_game: pd.DataFrame, metric: str = "max_saves") -> dict
     }
 
 
+def all_metric_tests(per_game: pd.DataFrame) -> pd.DataFrame:
+    """Test EVERY siege measure and report them side by side.
+
+    This is the anti-cherry-picking guard. If you test three related measures and
+    report only the one that cleared p<0.05, you are metric-shopping -- the same
+    mistake as choosing the save threshold that flatters the story. So we always
+    show all three, plus a Bonferroni-corrected bar (0.05/3 = 0.017) to make clear
+    how a nominally "significant" result should be read.
+    """
+    rows = []
+    bonferroni = 0.05 / len(config.SIEGE_METRICS)
+    for metric in config.SIEGE_METRICS:
+        if metric not in per_game.columns or per_game[metric].isna().all():
+            continue
+        sub = per_game.dropna(subset=[metric])
+        base = sub.loc[sub["teams"] == 32, metric].to_numpy()
+        new = sub.loc[sub["teams"] == 48, metric].to_numpy()
+        if len(base) == 0 or len(new) == 0:
+            continue
+        p = float(stats.mannwhitneyu(new, base, alternative="greater").pvalue)
+        rows.append({
+            "metric": metric.replace("max_", ""),
+            "mean_32team": round(float(np.mean(base)), 2),
+            "mean_2026": round(float(np.mean(new)), 2),
+            "p_2026_higher": round(p, 4),
+            "p<0.05": "yes" if p < 0.05 else "no",
+            f"p<{bonferroni:.3f} (Bonferroni)": "yes" if p < bonferroni else "no",
+        })
+    return pd.DataFrame(rows)
+
+
 # --------------------------------------------------------------------------
 # Knockouts -- answering Danph85 & FrenchyFungus with data, not an assumption
 # --------------------------------------------------------------------------
@@ -215,16 +247,21 @@ def main() -> None:
     print("\n=== GROUP STAGE: per-game siege RATES (metric = saves) ===")
     print(siege_rates(per_game, "max_saves").to_string(index=False))
 
-    print("\n=== Same, using shots-on-target-against (answers Spain-Cape Verde) ===")
+    print("\n=== Same, using shots-on-target-against ===")
     print(siege_rates(per_game, "max_sota").to_string(index=False))
+
+    if "max_shots_faced" in per_game.columns and per_game["max_shots_faced"].notna().any():
+        print("\n=== TOTAL shots faced (counts off-target + blocked: Spain-Cape Verde) ===")
+        print(siege_rates(per_game, "max_shots_faced").to_string(index=False))
 
     print("\n=== Expansion decomposition (saves, threshold=8) ===")
     for k, v in decompose_expansion(per_game, "max_saves", 8).items():
         print(f"  {k:35s} {v}")
 
-    print("\n=== Distribution test: is 2026 shifted higher? (shots on target) ===")
-    for k, v in distribution_test(per_game, "max_sota").items():
-        print(f"  {k:30s} {v}")
+    print("\n=== ALL siege measures tested (no cherry-picking) ===")
+    print(all_metric_tests(per_game).to_string(index=False))
+    print("  Read this honestly: all three point the same way, but only one clears")
+    print("  p<0.05 and it does NOT survive the Bonferroni bar. Suggestive, not proven.")
 
     # --- Knockouts: the point OP got wrong and conceded -----------------------
     ko_summary = knockout_siege_by_round(team_games)

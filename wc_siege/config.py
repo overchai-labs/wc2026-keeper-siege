@@ -31,6 +31,19 @@ SEASONS = {
 # thresholds as a sensitivity strip so the reader sees the result isn't tuned.
 SIEGE_THRESHOLDS = [6, 8, 10]
 
+# Total shots faced live on a different scale (medians ~14-15, not ~3-5), so they need
+# their own thresholds. Keyed by metric so nothing silently reuses the wrong scale.
+METRIC_THRESHOLDS = {
+    "max_saves": [6, 8, 10],
+    "max_sota": [6, 8, 10],
+    "max_shots_faced": [15, 20, 25],
+}
+
+# The three siege measures we test. We report ALL of them, always -- reporting only the
+# one that reached p<0.05 would be metric-shopping, the same sin as picking the cutoff
+# that flatters the result. See analyze.all_metric_tests().
+SIEGE_METRICS = ["max_saves", "max_sota", "max_shots_faced"]
+
 # FBref's "INT-World Cup" bundles qualifiers + friendlies + the finals. The finals
 # group stage is tagged with this exact round label. Filtering on it is what turns
 # 880 raw rows into the 144 (72 games x 2 keepers) we actually want.

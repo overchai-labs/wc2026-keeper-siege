@@ -29,29 +29,45 @@ This repo answers it honestly:
 Group stage only: **2018 + 2022 (32-team, 96 games)** vs **2026 (48-team, 72 games)**.
 For each game we take the more-besieged keeper (the higher of the two keepers' values).
 
-| Per-game "siege load" | 32-team era | 2026 | Shifted higher? |
-|---|---|---|---|
-| **Saves** (median / mean) | 3 / 3.62 | 3 / 3.89 | **No** — Mann-Whitney p = 0.42, KS p = 0.92 |
-| **Shots on target faced** (median / mean) | 5 / 5.18 | 6 / 5.97 | **Yes** — Mann-Whitney p = 0.035 |
+We test **three** ways of measuring a siege — and report all three, always. Showing only
+the one that reached p<0.05 would be metric-shopping, the same mistake as picking the save
+cutoff that flatters the story.
+
+| Per-game siege load (besieged keeper) | 32-team era | 2026 | p (2026 higher) | p<0.05 | survives Bonferroni (0.017)? |
+|---|---|---|---|---|---|
+| **Saves** | 3.62 | 3.89 | 0.42 | no | no |
+| **Shots on target faced** | 5.18 | 5.97 | **0.035** | **yes** | **no** |
+| **Total shots faced** | 15.23 | 16.60 | 0.14 | no | no |
 
 ![siege distribution — shots on target](figures/siege_distribution_max_sota.png)
 
 **The honest takeaway — which contradicts the viral "sieges tripled" framing:**
 
-- Count **saves**, and 2026 is *statistically indistinguishable* from past World Cups
-  (identical median, p = 0.42). The dramatic "goalkeepers are being buried" claim is
-  not supported by save counts.
-- Count **shots on target faced** — the actual pressure a keeper is under — and 2026
-  *is* significantly more lopsided (p = 0.035, ~2.2× as likely to reach 8+). Expansion
-  really did add mismatches.
-- Reconciling the two: 2026 keepers **face more, but don't save more**, because more of
-  those extra shots go *in* against weaker sides rather than being stopped. "Goalkeeper
-  sieges" is real as *pressure*, an artifact as *saves*.
+- **All three measures point the same way**: 2026 keepers face more. The direction is
+  consistent, and that consistency is the real signal.
+- **But only one clears p<0.05, and it does not survive multiple-comparison correction.**
+  With three correlated tests the Bonferroni bar is 0.05/3 = 0.017, and SoTA's 0.035 misses
+  it. So this is **suggestive, not established**. Anyone claiming a proven effect at these
+  sample sizes (72 vs 96 games) is overreading.
+- **Saves are the wrong instrument.** 2026 keepers face more but don't *save* more, because
+  extra shots against weaker sides go *in* rather than being stopped. The viral "record
+  saves" story is built on a few heroic tail games, not a shift in the distribution.
 
-**Caveat, stated up front:** small samples (72 vs 96 games), so the significant result
-is real but *modest*, not a landslide. The saves result is a genuine null. Comparing real
-tournaments also confounds expansion with era/tactics — which is exactly what Part 2 below
-disentangles. Sanity check: the pipeline recovers Vozinha's 7 saves vs Spain and Al-Owais'
+**Why "total shots faced" had to be added** — this answers the sharpest Reddit objection.
+Spain 0–0 Cape Verde was a textbook siege (74% possession, 27 shots, 2.1 xG), yet Vozinha
+made only **7 saves off 7 shots on target**, because most of Spain's shots missed or were
+blocked. Saves and even SoTA rate that game as ordinary. Total shots faced sees it for what
+it was:
+
+| Cape Verde vs | saves | shots on target faced | **total shots faced** |
+|---|---|---|---|
+| Spain | 7 | 7 | **27** |
+| Uruguay | 0 | 2 | **17** |
+| Argentina (R32) | 8 | 11 | **22** |
+
+**Caveat, stated up front:** small samples, an effect that is directional but not firmly
+significant, and comparing real tournaments confounds expansion with era/tactics — which is
+exactly what Part 2 below disentangles. Sanity check: the pipeline recovers Vozinha's 7 saves vs Spain and Al-Owais'
 9 vs Uruguay from the raw data.
 
 ---
@@ -176,10 +192,15 @@ inflates shot counts a little; even so, the Round of 32 clearly out-sieges the R
 - **2018 + 2022 as the 32-team baseline.** Comparing real tournaments means tactics/era are a
   confounder; we say so rather than pretend a simulation removes it. Part 2's model isolates
   the pure expansion effect.
-- **Saves ≠ siege, exactly.** Shots-on-target-against is the better pressure proxy, so it
-  rides alongside saves. Even it only counts *on-target* shots — total shots / possession /
-  xG would capture a battering like Spain 0–0 Cape Verde even better (a future `keeper_adv`
-  pull adds post-shot xG).
+- **Saves ≠ siege.** We carry three measures — saves, shots-on-target-against, and total
+  shots faced — and report all three rather than the flattering one. Total shots is what
+  catches an off-target/blocked battering like Spain 0–0 Cape Verde.
+- **No xG.** FBref's team match-log shooting table exposes only the "Standard" block
+  (Gls/Sh/SoT/PK), with no `xG` column, so expected-goals-against isn't available by this
+  route. Total shots faced is the closest available proxy; xG would need a different
+  source or the per-match report pages.
+- **Multiple comparisons.** Three correlated measures are tested, so a nominal p<0.05 is
+  reported against a Bonferroni bar (0.017) rather than declared a win.
 
 Data: FBref (StatsBomb). Tools: Python, pandas, NumPy, SciPy, Matplotlib.
 

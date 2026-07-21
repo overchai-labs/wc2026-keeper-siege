@@ -1,0 +1,636 @@
+league,season,team,game,date,round,day,venue,result,GF,GA,opponent,Standard_Gls,Standard_Sh,Standard_SoT,Standard_SoT%,Standard_G/Sh,Standard_G/SoT,Standard_PK,Standard_PKatt,time,match_report
+,2022,Argentina,2020-10-08 Argentina-Ecuador,2020-10-08,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Ecuador,1,8,2,25.0,0.0,0.0,1,1,21:30:00,/en/matches/7522e278/Argentina-Ecuador-October-8-2020-WCQ----CONMEBOL-M
+,2022,Argentina,2020-10-13 Bolivia-Argentina,2020-10-13,WCQ — CONMEBOL (M),Tue,Away,W,2,1,Bolivia,2,17,3,17.6,0.12,0.67,0,0,16:00:00,/en/matches/01c1a72a/Bolivia-Argentina-October-13-2020-WCQ----CONMEBOL-M
+,2022,Argentina,2020-11-12 Argentina-Paraguay,2020-11-12,WCQ — CONMEBOL (M),Thu,Home,D,1,1,Paraguay,1,15,5,33.3,0.07,0.2,0,0,21:00:00,/en/matches/56fb3a7a/Argentina-Paraguay-November-12-2020-WCQ----CONMEBOL-M
+,2022,Argentina,2020-11-17 Peru-Argentina,2020-11-17,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Peru,2,13,3,23.1,0.15,0.67,0,0,19:30:00,/en/matches/56afac20/Peru-Argentina-November-17-2020-WCQ----CONMEBOL-M
+,2022,Argentina,2021-06-03 Argentina-Chile,2021-06-03,WCQ — CONMEBOL (M),Thu,Home,D,1,1,Chile,1,16,7,43.8,0.0,0.0,1,1,21:00:00,/en/matches/abb99f80/Argentina-Chile-June-3-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-06-08 Colombia-Argentina,2021-06-08,WCQ — CONMEBOL (M),Tue,Away,D,2,2,Colombia,2,15,8,53.3,0.13,0.25,0,0,18:00:00,/en/matches/1dba7872/Colombia-Argentina-June-8-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-09-02 Venezuela-Argentina,2021-09-02,WCQ — CONMEBOL (M),Thu,Away,W,3,1,Venezuela,3,17,10,58.8,0.18,0.3,0,0,20:00:00,/en/matches/28fd5b50/Venezuela-Argentina-September-2-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-09-09 Argentina-Bolivia,2021-09-09,WCQ — CONMEBOL (M),Thu,Home,W,3,0,Bolivia,3,24,7,29.2,0.13,0.43,0,0,20:30:00,/en/matches/6bb2c7a9/Argentina-Bolivia-September-9-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-10-07 Paraguay-Argentina,2021-10-07,WCQ — CONMEBOL (M),Thu,Away,D,0,0,Paraguay,0,14,8,57.1,0.0,0.0,0,0,20:00:00,/en/matches/8b02e7bd/Paraguay-Argentina-October-7-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-10-10 Argentina-Uruguay,2021-10-10,WCQ — CONMEBOL (M),Sun,Home,W,3,0,Uruguay,3,23,10,43.5,0.13,0.3,0,0,20:30:00,/en/matches/60d07fdd/Argentina-Uruguay-October-10-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-10-14 Argentina-Peru,2021-10-14,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Peru,1,7,2,28.6,0.14,0.5,0,0,20:30:00,/en/matches/20eb96e2/Argentina-Peru-October-14-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-11-12 Uruguay-Argentina,2021-11-12,WCQ — CONMEBOL (M),Fri,Away,W,1,0,Uruguay,1,7,3,42.9,0.14,0.33,0,0,20:00:00,/en/matches/3118bc39/Uruguay-Argentina-November-12-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2021-11-16 Argentina-Brazil,2021-11-16,WCQ — CONMEBOL (M),Tue,Home,D,0,0,Brazil,0,9,3,33.3,0.0,0.0,0,0,20:30:00,/en/matches/56b8bba4/Argentina-Brazil-November-16-2021-WCQ----CONMEBOL-M
+,2022,Argentina,2022-01-27 Chile-Argentina,2022-01-27,WCQ — CONMEBOL (M),Thu,Away,W,2,1,Chile,2,7,5,71.4,0.29,0.4,0,0,21:15:00,/en/matches/8cc5366b/Chile-Argentina-January-27-2022-WCQ----CONMEBOL-M
+,2022,Argentina,2022-02-01 Argentina-Colombia,2022-02-01,WCQ — CONMEBOL (M),Tue,Home,W,1,0,Colombia,1,16,5,31.3,0.06,0.2,0,0,20:30:00,/en/matches/493cc195/Argentina-Colombia-February-1-2022-WCQ----CONMEBOL-M
+,2022,Argentina,2022-03-25 Argentina-Venezuela,2022-03-25,WCQ — CONMEBOL (M),Fri,Home,W,3,0,Venezuela,3,16,6,37.5,0.19,0.5,0,0,20:30:00,/en/matches/36f5d8e2/Argentina-Venezuela-March-25-2022-WCQ----CONMEBOL-M
+,2022,Argentina,2022-03-29 Ecuador-Argentina,2022-03-29,WCQ — CONMEBOL (M),Tue,Away,D,1,1,Ecuador,1,6,2,33.3,0.17,0.5,0,0,18:30:00,/en/matches/5d9d75cd/Ecuador-Argentina-March-29-2022-WCQ----CONMEBOL-M
+,2022,Argentina,2022-06-05 Estonia-Estonia,2022-06-05,Friendlies (M),Sun,Neutral,W,5,0,Estonia,5,,,,,,1,1,20:00:00,/en/matches/9d35b76e/Argentina-Estonia-June-5-2022-Friendlies-M
+,2022,Argentina,2022-09-23 Honduras-Honduras,2022-09-23,Friendlies (M),Fri,Neutral,W,3,0,Honduras,3,,,,,,1,1,20:00:00,/en/matches/23561d05/Argentina-Honduras-September-23-2022-Friendlies-M
+,2022,Argentina,2022-09-27 Jamaica-Jamaica,2022-09-27,Friendlies (M),Tue,Neutral,W,3,0,Jamaica,3,,,,,,0,0,20:00:00,/en/matches/d73b7ead/Jamaica-Argentina-September-27-2022-Friendlies-M
+,2022,Argentina,2022-11-16 UAE-UAE,2022-11-16,Friendlies (M),Wed,Neutral,W,5,0,UAE,5,,,,,,0,0,19:30:00,/en/matches/a4bfcd04/United-Arab-Emirates-Argentina-November-16-2022-Friendlies-M
+,2022,Argentina,2022-11-22 Saudi Arabia-Saudi Arabia,2022-11-22,Group stage,Tue,Neutral,L,1,2,Saudi Arabia,1,15,6,40.0,0.0,0.0,1,1,13:00:00,/en/matches/109ad6ba/Argentina-Saudi-Arabia-November-22-2022-World-Cup
+,2022,Argentina,2022-11-26 Mexico-Mexico,2022-11-26,Group stage,Sat,Neutral,W,2,0,Mexico,2,5,2,40.0,0.4,1.0,0,0,22:00:00,/en/matches/d28d6c80/Argentina-Mexico-November-26-2022-World-Cup
+,2022,Argentina,2022-11-30 Poland-Poland,2022-11-30,Group stage,Wed,Neutral,W,2,0,Poland,2,23,12,52.2,0.09,0.17,0,1,22:00:00,/en/matches/aaa7a69d/Poland-Argentina-November-30-2022-World-Cup
+,2022,Argentina,2022-12-03 Australia-Australia,2022-12-03,Round of 16,Sat,Neutral,W,2,1,Australia,2,14,5,35.7,0.14,0.4,0,0,22:00:00,/en/matches/4319c4bd/Argentina-Australia-December-3-2022-World-Cup
+,2022,Argentina,2022-12-09 Netherlands-Netherlands,2022-12-09,Quarter-finals,Fri,Neutral,D,2 (4),2 (3),Netherlands,2,14,5,35.7,0.07,0.2,1,1,22:00:00,/en/matches/9fd14983/Netherlands-Argentina-December-9-2022-World-Cup
+,2022,Argentina,2022-12-13 Croatia-Croatia,2022-12-13,Semi-finals,Tue,Neutral,W,3,0,Croatia,3,9,7,77.8,0.22,0.29,1,1,22:00:00,/en/matches/0b527037/Argentina-Croatia-December-13-2022-World-Cup
+,2022,Argentina,2022-12-18 France-France,2022-12-18,Final,Sun,Neutral,D,3 (4),3 (2),France,3,20,10,50.0,0.1,0.2,1,1,18:00:00,/en/matches/7140acae/Argentina-France-December-18-2022-World-Cup
+,2022,Australia,2019-09-10 Kuwait-Australia,2019-09-10,Second round,Tue,Away,W,3,0,Kuwait,3,,,,,,0,0,18:30:00,/en/matches/8a94d769/Kuwait-Australia-September-10-2019-WCQ----AFC-M
+,2022,Australia,2019-10-10 Australia-Nepal,2019-10-10,Second round,Thu,Home,W,5,0,Nepal,5,,,,,,0,0,20:00:00,/en/matches/634cfc66/Australia-Nepal-October-10-2019-WCQ----AFC-M
+,2022,Australia,2019-10-15 Chinese Taipei-Australia,2019-10-15,Second round,Tue,Away,W,7,1,Chinese Taipei,7,,,,,,0,0,19:40:00,/en/matches/b2224483/Chinese-Taipei-Australia-October-15-2019-WCQ----AFC-M
+,2022,Australia,2019-11-14 Jordan-Australia,2019-11-14,Second round,Thu,Away,W,1,0,Jordan,1,,,,,,0,0,18:00:00,/en/matches/e1149553/Jordan-Australia-November-14-2019-WCQ----AFC-M
+,2022,Australia,2021-06-03 Australia-Kuwait,2021-06-03,Second round,Thu,Home,W,3,0,Kuwait,3,,,,,,0,1,22:00:00,/en/matches/92739367/Australia-Kuwait-June-3-2021-WCQ----AFC-M
+,2022,Australia,2021-06-07 Australia-Chinese Taipei,2021-06-07,Second round,Mon,Home,W,5,1,Chinese Taipei,5,,,,,,1,1,22:00:00,/en/matches/f4e3376a/Australia-Chinese-Taipei-June-7-2021-WCQ----AFC-M
+,2022,Australia,2021-06-11 Nepal-Australia,2021-06-11,Second round,Fri,Away,W,3,0,Nepal,3,,,,,,0,0,19:00:00,/en/matches/c3081ebf/Nepal-Australia-June-11-2021-WCQ----AFC-M
+,2022,Australia,2021-06-15 Australia-Jordan,2021-06-15,Second round,Tue,Home,W,1,0,Jordan,1,,,,,,0,0,19:00:00,/en/matches/a9d1f322/Australia-Jordan-June-15-2021-WCQ----AFC-M
+,2022,Australia,2021-09-02 Australia-China PR,2021-09-02,Third round,Thu,Home,W,3,0,China PR,3,,,,,,0,0,21:00:00,/en/matches/3f5f5797/Australia-China-PR-September-2-2021-WCQ----AFC-M
+,2022,Australia,2021-09-07 Vietnam-Australia,2021-09-07,Third round,Tue,Away,W,1,0,Vietnam,1,,,,,,0,0,19:00:00,/en/matches/5d075177/Vietnam-Australia-September-7-2021-WCQ----AFC-M
+,2022,Australia,2021-10-07 Australia-Oman,2021-10-07,Third round,Thu,Home,W,3,1,Oman,3,,,,,,0,0,21:30:00,/en/matches/17cb7d85/Australia-Oman-October-7-2021-WCQ----AFC-M
+,2022,Australia,2021-10-12 Japan-Australia,2021-10-12,Third round,Tue,Away,L,1,2,Japan,1,,,,,,0,0,19:14:00,/en/matches/b76f4f34/Japan-Australia-October-12-2021-WCQ----AFC-M
+,2022,Australia,2021-11-11 Australia-Saudi Arabia,2021-11-11,Third round,Thu,Home,D,0,0,Saudi Arabia,0,,,,,,0,0,20:10:00,/en/matches/aca77bdb/Australia-Saudi-Arabia-November-11-2021-WCQ----AFC-M
+,2022,Australia,2021-11-16 China PR-Australia,2021-11-16,Third round,Tue,Away,D,1,1,China PR,1,,,,,,0,0,19:00:00,/en/matches/7e6f4f3f/China-PR-Australia-November-16-2021-WCQ----AFC-M
+,2022,Australia,2022-01-27 Australia-Vietnam,2022-01-27,Third round,Thu,Home,W,4,0,Vietnam,4,,,,,,0,0,20:10:00,/en/matches/87b8d869/Australia-Vietnam-January-27-2022-WCQ----AFC-M
+,2022,Australia,2022-02-01 Oman-Australia,2022-02-01,Third round,Tue,Away,D,2,2,Oman,2,,,,,,1,1,20:00:00,/en/matches/6a7c0b31/Oman-Australia-February-1-2022-WCQ----AFC-M
+,2022,Australia,2022-03-24 Australia-Japan,2022-03-24,Third round,Thu,Home,L,0,2,Japan,0,,,,,,0,0,20:10:00,/en/matches/5e90edde/Australia-Japan-March-24-2022-WCQ----AFC-M
+,2022,Australia,2022-03-29 Saudi Arabia-Australia,2022-03-29,Third round,Tue,Away,L,0,1,Saudi Arabia,0,,,,,,0,0,21:00:00,/en/matches/7a9f89cc/Saudi-Arabia-Australia-March-29-2022-WCQ----AFC-M
+,2022,Australia,2022-06-01 Jordan-Jordan,2022-06-01,Friendlies (M),Wed,Neutral,W,2,1,Jordan,2,,,,,,0,0,21:00:00,/en/matches/ff5d964a/Jordan-Australia-June-1-2022-Friendlies-M
+,2022,Australia,2022-06-07 UAE-UAE,2022-06-07,Fourth round,Tue,Neutral,W,2,1,UAE,2,,,,,,0,0,21:00:00,/en/matches/4801a3cb/United-Arab-Emirates-Australia-June-7-2022-WCQ----AFC-M
+,2022,Australia,2022-06-13 Peru-Peru,2022-06-13,WCQ — Inter-confederation play-offs (M),Mon,Neutral,D,0 (5),0 (4),Peru,0,,,,,,0,0,21:00:00,/en/matches/2a60e6f5/Australia-Peru-June-13-2022-FIFA-World-Cup-qualification----Inter-confederation-play-offs
+,2022,Australia,2022-09-22 New Zealand-New Zealand,2022-09-22,Friendlies (M),Thu,Neutral,W,1,0,New Zealand,1,,,,,,0,0,20:00:00,/en/matches/0421bf5a/Australia-New-Zealand-September-22-2022-Friendlies-M
+,2022,Australia,2022-09-25 New Zealand-New Zealand,2022-09-25,Friendlies (M),Sun,Neutral,W,2,0,New Zealand,2,,,,,,1,1,16:00:00,/en/matches/6735a30a/New-Zealand-Australia-September-25-2022-Friendlies-M
+,2022,Australia,2022-11-22 France-France,2022-11-22,Group stage,Tue,Neutral,L,1,4,France,1,4,1,25.0,0.25,1.0,0,0,22:00:00,/en/matches/539719fd/France-Australia-November-22-2022-World-Cup
+,2022,Australia,2022-11-26 Tunisia-Tunisia,2022-11-26,Group stage,Sat,Neutral,W,1,0,Tunisia,1,9,2,22.2,0.11,0.5,0,0,13:00:00,/en/matches/b105bb5f/Tunisia-Australia-November-26-2022-World-Cup
+,2022,Australia,2022-11-30 Denmark-Denmark,2022-11-30,Group stage,Wed,Neutral,W,1,0,Denmark,1,8,4,50.0,0.13,0.25,0,0,18:00:00,/en/matches/773b0721/Australia-Denmark-November-30-2022-World-Cup
+,2022,Australia,2022-12-03 Argentina-Argentina,2022-12-03,Round of 16,Sat,Neutral,L,1,2,Argentina,0,5,1,20.0,0.0,0.0,0,0,22:00:00,/en/matches/4319c4bd/Argentina-Australia-December-3-2022-World-Cup
+,2022,Belgium,2021-03-24 Belgium-Wales,2021-03-24,First round,Wed,Home,W,3,1,Wales,3,12,4,33.3,0.17,0.5,1,1,20:45:00,/en/matches/9eafdb50/Belgium-Wales-March-24-2021-WCQ----UEFA-M
+,2022,Belgium,2021-03-27 Czechia-Belgium,2021-03-27,First round,Sat,Away,D,1,1,Czechia,1,9,4,44.4,0.11,0.25,0,0,20:45:00,/en/matches/fa122c1f/Czechia-Belgium-March-27-2021-WCQ----UEFA-M
+,2022,Belgium,2021-03-30 Belgium-Belarus,2021-03-30,First round,Tue,Home,W,8,0,Belarus,8,21,15,71.4,0.38,0.53,0,0,20:45:00,/en/matches/e76ba7a3/Belgium-Belarus-March-30-2021-WCQ----UEFA-M
+,2022,Belgium,2021-09-02 Estonia-Belgium,2021-09-02,First round,Thu,Away,W,5,2,Estonia,5,25,9,36.0,0.2,0.56,0,0,21:45:00,/en/matches/c2ec79e2/Estonia-Belgium-September-2-2021-WCQ----UEFA-M
+,2022,Belgium,2021-09-05 Belgium-Czechia,2021-09-05,First round,Sun,Home,W,3,0,Czechia,3,16,6,37.5,0.19,0.5,0,0,20:45:00,/en/matches/7d0e1c6f/Belgium-Czechia-September-5-2021-WCQ----UEFA-M
+,2022,Belgium,2021-09-08 Belarus-Belgium,2021-09-08,First round,Wed,Away,W,1,0,Belarus,1,12,5,41.7,0.08,0.2,0,0,21:45:00,/en/matches/304d1c90/Belarus-Belgium-September-8-2021-WCQ----UEFA-M
+,2022,Belgium,2021-11-13 Belgium-Estonia,2021-11-13,First round,Sat,Home,W,3,1,Estonia,3,20,10,50.0,0.15,0.3,0,0,20:45:00,/en/matches/e0619ab6/Belgium-Estonia-November-13-2021-WCQ----UEFA-M
+,2022,Belgium,2021-11-16 Wales-Belgium,2021-11-16,First round,Tue,Away,D,1,1,Wales,1,16,4,25.0,0.06,0.25,0,0,19:45:00,/en/matches/c2aa4863/Wales-Belgium-November-16-2021-WCQ----UEFA-M
+,2022,Belgium,2022-03-26 Rep. of Ireland-Rep. of Ireland,2022-03-26,Friendlies (M),Sat,Neutral,D,2,2,Rep. of Ireland,2,,,,,,0,0,17:00:00,/en/matches/d0e916ef/Republic-of-Ireland-Belgium-March-26-2022-Friendlies-M
+,2022,Belgium,2022-03-29 Burkina Faso-Burkina Faso,2022-03-29,Friendlies (M),Tue,Neutral,W,3,0,Burkina Faso,3,,,,,,0,0,20:45:00,/en/matches/b668568a/Belgium-Burkina-Faso-March-29-2022-Friendlies-M
+,2022,Belgium,2022-11-18 Egypt-Egypt,2022-11-18,Friendlies (M),Fri,Neutral,L,1,2,Egypt,1,,,,,,0,0,18:00:00,/en/matches/0e00c872/Egypt-Belgium-November-18-2022-Friendlies-M
+,2022,Belgium,2022-11-23 Canada-Canada,2022-11-23,Group stage,Wed,Neutral,W,1,0,Canada,1,9,3,33.3,0.11,0.33,0,0,22:00:00,/en/matches/89c39a0a/Belgium-Canada-November-23-2022-World-Cup
+,2022,Belgium,2022-11-27 Morocco-Morocco,2022-11-27,Group stage,Sun,Neutral,L,0,2,Morocco,0,10,3,30.0,0.0,0.0,0,0,16:00:00,/en/matches/18d1b45b/Belgium-Morocco-November-27-2022-World-Cup
+,2022,Belgium,2022-12-01 Croatia-Croatia,2022-12-01,Group stage,Thu,Neutral,D,0,0,Croatia,0,16,3,18.8,0.0,0.0,0,0,18:00:00,/en/matches/ea7139a8/Croatia-Belgium-December-1-2022-World-Cup
+,2022,Brazil,2020-10-09 Brazil-Bolivia,2020-10-09,WCQ — CONMEBOL (M),Fri,Home,W,5,0,Bolivia,4,20,9,45.0,0.2,0.44,0,0,21:30:00,/en/matches/4928c81b/Brazil-Bolivia-October-9-2020-WCQ----CONMEBOL-M
+,2022,Brazil,2020-10-13 Peru-Brazil,2020-10-13,WCQ — CONMEBOL (M),Tue,Away,W,4,2,Peru,4,13,9,69.2,0.15,0.22,2,2,19:00:00,/en/matches/5dcbc304/Peru-Brazil-October-13-2020-WCQ----CONMEBOL-M
+,2022,Brazil,2020-11-13 Brazil-Venezuela,2020-11-13,WCQ — CONMEBOL (M),Fri,Home,W,1,0,Venezuela,1,11,3,27.3,0.09,0.33,0,0,21:30:00,/en/matches/240cd6ea/Brazil-Venezuela-November-13-2020-WCQ----CONMEBOL-M
+,2022,Brazil,2020-11-17 Uruguay-Brazil,2020-11-17,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Uruguay,2,6,4,66.7,0.33,0.5,0,0,20:00:00,/en/matches/200f1977/Uruguay-Brazil-November-17-2020-WCQ----CONMEBOL-M
+,2022,Brazil,2021-06-04 Brazil-Ecuador,2021-06-04,WCQ — CONMEBOL (M),Fri,Home,W,2,0,Ecuador,2,16,7,43.8,0.06,0.14,1,1,21:30:00,/en/matches/426bc821/Brazil-Ecuador-June-4-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-06-08 Paraguay-Brazil,2021-06-08,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Paraguay,2,13,4,30.8,0.15,0.5,0,0,20:30:00,/en/matches/9476d029/Paraguay-Brazil-June-8-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-09-02 Chile-Brazil,2021-09-02,WCQ — CONMEBOL (M),Thu,Away,W,1,0,Chile,1,10,4,40.0,0.1,0.25,0,0,21:00:00,/en/matches/86e9755d/Chile-Brazil-September-2-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-09-09 Brazil-Peru,2021-09-09,WCQ — CONMEBOL (M),Thu,Home,W,2,0,Peru,2,10,4,40.0,0.2,0.5,0,0,21:30:00,/en/matches/412055d2/Brazil-Peru-September-9-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-10-07 Venezuela-Brazil,2021-10-07,WCQ — CONMEBOL (M),Thu,Away,W,3,1,Venezuela,3,12,5,41.7,0.17,0.4,1,1,19:30:00,/en/matches/9a5d9c01/Venezuela-Brazil-October-7-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-10-10 Colombia-Brazil,2021-10-10,WCQ — CONMEBOL (M),Sun,Away,D,0,0,Colombia,0,9,4,44.4,0.0,0.0,0,0,16:00:00,/en/matches/397cba16/Colombia-Brazil-October-10-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-10-14 Brazil-Uruguay,2021-10-14,WCQ — CONMEBOL (M),Thu,Home,W,4,1,Uruguay,4,22,13,59.1,0.18,0.31,0,0,20:30:00,/en/matches/48f7c36a/Brazil-Uruguay-October-14-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-11-11 Brazil-Colombia,2021-11-11,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Colombia,1,16,6,37.5,0.06,0.17,0,0,21:30:00,/en/matches/4f932221/Brazil-Colombia-November-11-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2021-11-16 Argentina-Brazil,2021-11-16,WCQ — CONMEBOL (M),Tue,Away,D,0,0,Argentina,0,9,2,22.2,0.0,0.0,0,0,20:30:00,/en/matches/56b8bba4/Argentina-Brazil-November-16-2021-WCQ----CONMEBOL-M
+,2022,Brazil,2022-01-27 Ecuador-Brazil,2022-01-27,WCQ — CONMEBOL (M),Thu,Away,D,1,1,Ecuador,1,12,6,50.0,0.08,0.17,0,0,16:00:00,/en/matches/2115c0c8/Ecuador-Brazil-January-27-2022-WCQ----CONMEBOL-M
+,2022,Brazil,2022-02-01 Brazil-Paraguay,2022-02-01,WCQ — CONMEBOL (M),Tue,Home,W,4,0,Paraguay,4,22,8,36.4,0.18,0.5,0,0,21:30:00,/en/matches/8ce68c2d/Brazil-Paraguay-February-1-2022-WCQ----CONMEBOL-M
+,2022,Brazil,2022-03-24 Brazil-Chile,2022-03-24,WCQ — CONMEBOL (M),Thu,Home,W,4,0,Chile,4,18,9,50.0,0.11,0.22,2,2,20:30:00,/en/matches/d41effec/Brazil-Chile-March-24-2022-WCQ----CONMEBOL-M
+,2022,Brazil,2022-03-29 Bolivia-Brazil,2022-03-29,WCQ — CONMEBOL (M),Tue,Away,W,4,0,Bolivia,4,20,9,45.0,0.2,0.44,0,0,19:30:00,/en/matches/af491e1e/Bolivia-Brazil-March-29-2022-WCQ----CONMEBOL-M
+,2022,Brazil,2022-06-02 Korea Republic-Korea Republic,2022-06-02,Friendlies (M),Thu,Neutral,W,5,1,Korea Republic,5,,,,,,2,2,20:00:00,/en/matches/1ddc6610/Korea-Republic-Brazil-June-2-2022-Friendlies-M
+,2022,Brazil,2022-06-06 Japan-Japan,2022-06-06,Friendlies (M),Mon,Neutral,W,1,0,Japan,1,,,,,,1,1,19:20:00,/en/matches/f3f835c8/Japan-Brazil-June-6-2022-Friendlies-M
+,2022,Brazil,2022-09-23 Ghana-Ghana,2022-09-23,Friendlies (M),Fri,Neutral,W,3,0,Ghana,3,,,,,,0,0,20:30:00,/en/matches/756dc6e1/Brazil-Ghana-September-23-2022-Friendlies-M
+,2022,Brazil,2022-09-27 Tunisia-Tunisia,2022-09-27,Friendlies (M),Tue,Neutral,W,5,1,Tunisia,5,,,,,,1,1,15:30:00,/en/matches/963b2d1a/Brazil-Tunisia-September-27-2022-Friendlies-M
+,2022,Brazil,2022-11-24 Serbia-Serbia,2022-11-24,Group stage,Thu,Neutral,W,2,0,Serbia,2,22,8,36.4,0.09,0.25,0,0,22:00:00,/en/matches/457c3fcf/Brazil-Serbia-November-24-2022-World-Cup
+,2022,Brazil,2022-11-28 Switzerland-Switzerland,2022-11-28,Group stage,Mon,Neutral,W,1,0,Switzerland,1,13,5,38.5,0.08,0.2,0,0,19:00:00,/en/matches/459240ee/Brazil-Switzerland-November-28-2022-World-Cup
+,2022,Brazil,2022-12-02 Cameroon-Cameroon,2022-12-02,Group stage,Fri,Neutral,L,0,1,Cameroon,0,21,7,33.3,0.0,0.0,0,0,22:00:00,/en/matches/5a2cc3c5/Cameroon-Brazil-December-2-2022-World-Cup
+,2022,Brazil,2022-12-05 Korea Republic-Korea Republic,2022-12-05,Round of 16,Mon,Neutral,W,4,1,Korea Republic,4,18,9,50.0,0.17,0.33,1,1,22:00:00,/en/matches/bc6994e8/Brazil-Korea-Republic-December-5-2022-World-Cup
+,2022,Brazil,2022-12-09 Croatia-Croatia,2022-12-09,Quarter-finals,Fri,Neutral,D,1 (2),1 (4),Croatia,1,21,11,52.4,0.05,0.09,0,0,18:00:00,/en/matches/bb30147d/Croatia-Brazil-December-9-2022-World-Cup
+,2022,Cameroon,2021-09-03 Cameroon-Malawi,2021-09-03,Second round,Fri,Home,W,2,0,Malawi,2,,,,,,0,0,20:00:00,/en/matches/0e9293fa/Cameroon-Malawi-September-3-2021-WCQ----CAF-M
+,2022,Cameroon,2021-09-06 Côte d'Ivoire-Cameroon,2021-09-06,Second round,Mon,Away,L,1,2,Côte d'Ivoire,1,,,,,,1,1,19:00:00,/en/matches/97e0084e/Cote-dIvoire-Cameroon-September-6-2021-WCQ----CAF-M
+,2022,Cameroon,2021-10-08 Cameroon-Mozambique,2021-10-08,Second round,Fri,Home,W,3,1,Mozambique,3,,,,,,0,0,17:00:00,/en/matches/7543a916/Cameroon-Mozambique-October-8-2021-WCQ----CAF-M
+,2022,Cameroon,2021-10-11 Mozambique-Cameroon,2021-10-11,Second round,Mon,Away,W,1,0,Mozambique,1,,,,,,0,0,15:00:00,/en/matches/7b0195ee/Mozambique-Cameroon-October-11-2021-WCQ----CAF-M
+,2022,Cameroon,2021-11-13 Malawi-Cameroon,2021-11-13,Second round,Sat,Away,W,4,0,Malawi,4,,,,,,1,1,15:00:00,/en/matches/c0ad4f0d/Malawi-Cameroon-November-13-2021-WCQ----CAF-M
+,2022,Cameroon,2021-11-16 Cameroon-Côte d'Ivoire,2021-11-16,Second round,Tue,Home,W,1,0,Côte d'Ivoire,1,,,,,,0,0,20:00:00,/en/matches/8dae68fb/Cameroon-Cote-dIvoire-November-16-2021-WCQ----CAF-M
+,2022,Cameroon,2022-03-25 Cameroon-Algeria,2022-03-25,Third round,Fri,Home,L,0,1,Algeria,0,,,,,,0,0,18:00:00,/en/matches/5770efee/Cameroon-Algeria-March-25-2022-WCQ----CAF-M
+,2022,Cameroon,2022-03-29 Algeria-Cameroon,2022-03-29,Third round,Tue,Away,W,2,1,Algeria,2,,,,,,0,0,20:30:00,/en/matches/60c8b33c/Algeria-Cameroon-March-29-2022-WCQ----CAF-M
+,2022,Cameroon,2022-09-23 Uzbekistan-Uzbekistan,2022-09-23,Friendlies (M),Fri,Neutral,L,0,2,Uzbekistan,0,,,,,,0,0,15:00:00,/en/matches/4642e7d0/Uzbekistan-Cameroon-September-23-2022-Friendlies-M
+,2022,Cameroon,2022-09-27 Korea Republic-Korea Republic,2022-09-27,Friendlies (M),Tue,Neutral,L,0,1,Korea Republic,0,,,,,,0,0,20:00:00,/en/matches/f18f7fed/Korea-Republic-Cameroon-September-27-2022-Friendlies-M
+,2022,Cameroon,2022-11-09 Jamaica-Jamaica,2022-11-09,Friendlies (M),Wed,Neutral,D,1,1,Jamaica,1,,,,,,0,0,18:00:00,/en/matches/e14d6e85/Cameroon-Jamaica-November-9-2022-Friendlies-M
+,2022,Cameroon,2022-11-18 Panama-Panama,2022-11-18,Friendlies (M),Fri,Neutral,D,1,1,Panama,1,,,,,,0,0,14:00:00,/en/matches/f7403328/Cameroon-Panama-November-18-2022-Friendlies-M
+,2022,Cameroon,2022-11-24 Switzerland-Switzerland,2022-11-24,Group stage,Thu,Neutral,L,0,1,Switzerland,0,8,5,62.5,0.0,0.0,0,0,13:00:00,/en/matches/2bfd41ff/Switzerland-Cameroon-November-24-2022-World-Cup
+,2022,Cameroon,2022-11-28 Serbia-Serbia,2022-11-28,Group stage,Mon,Neutral,D,3,3,Serbia,3,13,8,61.5,0.23,0.38,0,0,13:00:00,/en/matches/fbe95cd2/Cameroon-Serbia-November-28-2022-World-Cup
+,2022,Cameroon,2022-12-02 Brazil-Brazil,2022-12-02,Group stage,Fri,Neutral,W,1,0,Brazil,1,7,3,42.9,0.14,0.33,0,0,22:00:00,/en/matches/5a2cc3c5/Cameroon-Brazil-December-2-2022-World-Cup
+,2022,Canada,2021-03-25 Canada-Bermuda,2021-03-25,First round,Thu,Home,W,5,1,Bermuda,5,,,,,,0,0,20:00:00,/en/matches/fe06d053/Canada-Bermuda-March-25-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-03-29 Cayman Islands-Canada,2021-03-29,First round,Mon,Away,W,11,0,Cayman Islands,11,,,,,,1,2,18:00:00,/en/matches/0880124d/Cayman-Islands-Canada-March-29-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-06-05 Aruba-Canada,2021-06-05,First round,Sat,Away,W,7,0,Aruba,6,,,,,,1,1,20:00:00,/en/matches/96977b99/Aruba-Canada-June-5-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-06-08 Canada-Suriname,2021-06-08,First round,Tue,Home,W,4,0,Suriname,4,,,,,,1,1,20:05:00,/en/matches/0d9dc87d/Canada-Suriname-June-8-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-06-12 Haiti-Canada,2021-06-12,Second round,Sat,Away,W,1,0,Haiti,1,,,,,,0,0,17:00:00,/en/matches/7f2b0d0c/Haiti-Canada-June-12-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-06-15 Canada-Haiti,2021-06-15,Second round,Tue,Home,W,3,0,Haiti,2,,,,,,0,0,20:05:00,/en/matches/f5a4982d/Canada-Haiti-June-15-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-09-02 Canada-Honduras,2021-09-02,Third round,Thu,Home,D,1,1,Honduras,1,,,,,,1,1,20:05:00,/en/matches/7d0363bc/Canada-Honduras-September-2-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-09-05 United States-Canada,2021-09-05,Third round,Sun,Away,D,1,1,United States,1,,,,,,0,0,19:12:00,/en/matches/4eadc8b5/United-States-Canada-September-5-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-09-08 Canada-El Salvador,2021-09-08,Third round,Wed,Home,W,3,0,El Salvador,3,,,,,,0,0,19:30:00,/en/matches/b50f9e31/Canada-El-Salvador-September-8-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-10-07 Mexico-Canada,2021-10-07,Third round,Thu,Away,D,1,1,Mexico,1,,,,,,0,0,20:40:00,/en/matches/837db4cf/Mexico-Canada-October-7-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-10-10 Jamaica-Canada,2021-10-10,Third round,Sun,Away,D,0,0,Jamaica,0,,,,,,0,0,17:00:00,/en/matches/1913ac6e/Jamaica-Canada-October-10-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-10-13 Canada-Panama,2021-10-13,Third round,Wed,Home,W,4,1,Panama,3,,,,,,0,0,19:30:00,/en/matches/b1253686/Canada-Panama-October-13-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-11-12 Canada-Costa Rica,2021-11-12,Third round,Fri,Home,W,1,0,Costa Rica,1,,,,,,0,0,19:05:00,/en/matches/05b34a0a/Canada-Costa-Rica-November-12-2021-WCQ----CONCACAF-M
+,2022,Canada,2021-11-16 Canada-Mexico,2021-11-16,Third round,Tue,Home,W,2,1,Mexico,2,,,,,,0,0,19:05:00,/en/matches/24853275/Canada-Mexico-November-16-2021-WCQ----CONCACAF-M
+,2022,Canada,2022-01-27 Honduras-Canada,2022-01-27,Third round,Thu,Away,W,2,0,Honduras,1,,,,,,0,0,19:05:00,/en/matches/f55deea5/Honduras-Canada-January-27-2022-WCQ----CONCACAF-M
+,2022,Canada,2022-01-30 Canada-United States,2022-01-30,Third round,Sun,Home,W,2,0,United States,2,,,,,,0,0,15:05:00,/en/matches/6c21289c/Canada-United-States-January-30-2022-WCQ----CONCACAF-M
+,2022,Canada,2022-02-02 El Salvador-Canada,2022-02-02,Third round,Wed,Away,W,2,0,El Salvador,2,,,,,,0,0,20:00:00,/en/matches/3c0e0640/El-Salvador-Canada-February-2-2022-WCQ----CONCACAF-M
+,2022,Canada,2022-03-24 Costa Rica-Canada,2022-03-24,Third round,Thu,Away,L,0,1,Costa Rica,0,,,,,,0,0,20:05:00,/en/matches/a251d489/Costa-Rica-Canada-March-24-2022-WCQ----CONCACAF-M
+,2022,Canada,2022-03-27 Canada-Jamaica,2022-03-27,Third round,Sun,Home,W,4,0,Jamaica,3,,,,,,0,0,16:05:00,/en/matches/afceef1d/Canada-Jamaica-March-27-2022-WCQ----CONCACAF-M
+,2022,Canada,2022-03-30 Panama-Canada,2022-03-30,Third round,Wed,Away,L,0,1,Panama,0,,,,,,0,0,20:05:00,/en/matches/78c127ae/Panama-Canada-March-30-2022-WCQ----CONCACAF-M
+,2022,Canada,2022-09-23 Qatar-Qatar,2022-09-23,Friendlies (M),Fri,Neutral,W,2,0,Qatar,2,,,,,,0,0,19:00:00,/en/matches/3f1c3c83/Qatar-Canada-September-23-2022-Friendlies-M
+,2022,Canada,2022-09-27 Uruguay-Uruguay,2022-09-27,Friendlies (M),Tue,Neutral,L,0,2,Uruguay,0,,,,,,0,0,18:00:00,/en/matches/b90aca49/Canada-Uruguay-September-27-2022-Friendlies-M
+,2022,Canada,2022-11-11 Bahrain-Bahrain,2022-11-11,Friendlies (M),Fri,Neutral,D,2,2,Bahrain,1,,,,,,0,0,18:30:00,/en/matches/30aa323b/Bahrain-Canada-November-11-2022-Friendlies-M
+,2022,Canada,2022-11-17 Japan-Japan,2022-11-17,Friendlies (M),Thu,Neutral,W,2,1,Japan,2,,,,,,1,1,22:40:00,/en/matches/392beca6/Japan-Canada-November-17-2022-Friendlies-M
+,2022,Canada,2022-11-23 Belgium-Belgium,2022-11-23,Group stage,Wed,Neutral,L,0,1,Belgium,0,22,3,13.6,0.0,0.0,0,1,22:00:00,/en/matches/89c39a0a/Belgium-Canada-November-23-2022-World-Cup
+,2022,Canada,2022-11-27 Croatia-Croatia,2022-11-27,Group stage,Sun,Neutral,L,1,4,Croatia,1,8,2,25.0,0.13,0.5,0,0,19:00:00,/en/matches/6bac97fe/Croatia-Canada-November-27-2022-World-Cup
+,2022,Canada,2022-12-01 Morocco-Morocco,2022-12-01,Group stage,Thu,Neutral,L,1,2,Morocco,0,5,0,0.0,0.0,,0,0,18:00:00,/en/matches/46776714/Canada-Morocco-December-1-2022-World-Cup
+,2022,Costa Rica,2021-09-02 Panama-Costa Rica,2021-09-02,Third round,Thu,Away,D,0,0,Panama,0,,,,,,0,0,20:05:00,/en/matches/bfa56b2b/Panama-Costa-Rica-September-2-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2021-09-05 Costa Rica-Mexico,2021-09-05,Third round,Sun,Home,L,0,1,Mexico,0,,,,,,0,0,17:05:00,/en/matches/b3ff1804/Costa-Rica-Mexico-September-5-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2021-09-08 Costa Rica-Jamaica,2021-09-08,Third round,Wed,Home,D,1,1,Jamaica,1,,,,,,0,0,19:05:00,/en/matches/eb95b9a6/Costa-Rica-Jamaica-September-8-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2021-10-07 Honduras-Costa Rica,2021-10-07,Third round,Thu,Away,D,0,0,Honduras,0,,,,,,0,0,18:05:00,/en/matches/3e5b48f8/Honduras-Costa-Rica-October-7-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2021-10-10 Costa Rica-El Salvador,2021-10-10,Third round,Sun,Home,W,2,1,El Salvador,2,,,,,,1,1,16:05:00,/en/matches/e712189a/Costa-Rica-El-Salvador-October-10-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2021-10-13 United States-Costa Rica,2021-10-13,Third round,Wed,Away,L,1,2,United States,1,,,,,,0,0,19:00:00,/en/matches/57d0c2c6/United-States-Costa-Rica-October-13-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2021-11-12 Canada-Costa Rica,2021-11-12,Third round,Fri,Away,L,0,1,Canada,0,,,,,,0,0,19:05:00,/en/matches/05b34a0a/Canada-Costa-Rica-November-12-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2021-11-16 Costa Rica-Honduras,2021-11-16,Third round,Tue,Home,W,2,1,Honduras,2,,,,,,0,0,19:05:00,/en/matches/8411e636/Costa-Rica-Honduras-November-16-2021-WCQ----CONCACAF-M
+,2022,Costa Rica,2022-01-27 Costa Rica-Panama,2022-01-27,Third round,Thu,Home,W,1,0,Panama,1,,,,,,0,0,20:05:00,/en/matches/1ae0509d/Costa-Rica-Panama-January-27-2022-WCQ----CONCACAF-M
+,2022,Costa Rica,2022-01-30 Mexico-Costa Rica,2022-01-30,Third round,Sun,Away,D,0,0,Mexico,0,,,,,,0,0,17:00:00,/en/matches/1e29286c/Mexico-Costa-Rica-January-30-2022-WCQ----CONCACAF-M
+,2022,Costa Rica,2022-02-02 Jamaica-Costa Rica,2022-02-02,Third round,Wed,Away,W,1,0,Jamaica,1,,,,,,0,1,19:00:00,/en/matches/a423157f/Jamaica-Costa-Rica-February-2-2022-WCQ----CONCACAF-M
+,2022,Costa Rica,2022-03-24 Costa Rica-Canada,2022-03-24,Third round,Thu,Home,W,1,0,Canada,1,,,,,,0,0,20:05:00,/en/matches/a251d489/Costa-Rica-Canada-March-24-2022-WCQ----CONCACAF-M
+,2022,Costa Rica,2022-03-27 El Salvador-Costa Rica,2022-03-27,Third round,Sun,Away,W,2,1,El Salvador,2,,,,,,0,0,15:05:00,/en/matches/d7623d35/El-Salvador-Costa-Rica-March-27-2022-WCQ----CONCACAF-M
+,2022,Costa Rica,2022-03-30 Costa Rica-United States,2022-03-30,Third round,Wed,Home,W,2,0,United States,2,,,,,,0,0,19:05:00,/en/matches/5931a7e7/Costa-Rica-United-States-March-30-2022-WCQ----CONCACAF-M
+,2022,Costa Rica,2022-06-14 New Zealand-New Zealand,2022-06-14,WCQ — Inter-confederation play-offs (M),Tue,Neutral,W,1,0,New Zealand,1,,,,,,0,0,21:00:00,/en/matches/1e79b33e/Costa-Rica-New-Zealand-June-14-2022-FIFA-World-Cup-qualification----Inter-confederation-play-offs
+,2022,Costa Rica,2022-09-23 Korea Republic-Korea Republic,2022-09-23,Friendlies (M),Fri,Neutral,D,2,2,Korea Republic,2,,,,,,0,0,20:00:00,/en/matches/ce791cfe/Korea-Republic-Costa-Rica-September-23-2022-Friendlies-M
+,2022,Costa Rica,2022-09-27 Uzbekistan-Uzbekistan,2022-09-27,Friendlies (M),Tue,Neutral,W,2,1,Uzbekistan,2,,,,,,0,0,15:00:00,/en/matches/68ec3dfa/Uzbekistan-Costa-Rica-September-27-2022-Friendlies-M
+,2022,Costa Rica,2022-11-09 Nigeria-Nigeria,2022-11-09,Friendlies (M),Wed,Neutral,W,2,0,Nigeria,2,,,,,,0,0,20:00:00,/en/matches/7700449a/Costa-Rica-Nigeria-November-9-2022-Friendlies-M
+,2022,Costa Rica,2022-11-23 Spain-Spain,2022-11-23,Group stage,Wed,Neutral,L,0,7,Spain,0,0,0,,,,0,0,19:00:00,/en/matches/dadb1883/Spain-Costa-Rica-November-23-2022-World-Cup
+,2022,Costa Rica,2022-11-27 Japan-Japan,2022-11-27,Group stage,Sun,Neutral,W,1,0,Japan,1,4,1,25.0,0.25,1.0,0,0,13:00:00,/en/matches/d56309f4/Japan-Costa-Rica-November-27-2022-World-Cup
+,2022,Costa Rica,2022-12-01 Germany-Germany,2022-12-01,Group stage,Thu,Neutral,L,2,4,Germany,1,7,5,71.4,0.14,0.2,0,0,22:00:00,/en/matches/6a2a024f/Costa-Rica-Germany-December-1-2022-World-Cup
+,2022,Croatia,2021-03-24 Slovenia-Croatia,2021-03-24,First round,Wed,Away,L,0,1,Slovenia,0,11,3,27.3,0.0,0.0,0,0,20:45:00,/en/matches/af849b86/Slovenia-Croatia-March-24-2021-WCQ----UEFA-M
+,2022,Croatia,2021-03-27 Croatia-Cyprus,2021-03-27,First round,Sat,Home,W,1,0,Cyprus,1,17,3,17.6,0.06,0.33,0,0,18:00:00,/en/matches/466f9e2d/Croatia-Cyprus-March-27-2021-WCQ----UEFA-M
+,2022,Croatia,2021-03-30 Croatia-Malta,2021-03-30,First round,Tue,Home,W,3,0,Malta,3,15,6,40.0,0.13,0.33,1,1,20:45:00,/en/matches/74c5967f/Croatia-Malta-March-30-2021-WCQ----UEFA-M
+,2022,Croatia,2021-09-01 Russia-Croatia,2021-09-01,First round,Wed,Away,D,0,0,Russia,0,15,2,13.3,0.0,0.0,0,0,21:45:00,/en/matches/8188ce4b/Russia-Croatia-September-1-2021-WCQ----UEFA-M
+,2022,Croatia,2021-09-04 Slovakia-Croatia,2021-09-04,First round,Sat,Away,W,1,0,Slovakia,1,13,3,23.1,0.08,0.33,0,0,20:45:00,/en/matches/f98b38d7/Slovakia-Croatia-September-4-2021-WCQ----UEFA-M
+,2022,Croatia,2021-09-07 Croatia-Slovenia,2021-09-07,First round,Tue,Home,W,3,0,Slovenia,3,22,10,45.5,0.14,0.3,0,0,20:45:00,/en/matches/eaa3b446/Croatia-Slovenia-September-7-2021-WCQ----UEFA-M
+,2022,Croatia,2021-10-08 Cyprus-Croatia,2021-10-08,First round,Fri,Away,W,3,0,Cyprus,3,27,11,40.7,0.11,0.27,0,1,21:45:00,/en/matches/ccb8dca6/Cyprus-Croatia-October-8-2021-WCQ----UEFA-M
+,2022,Croatia,2021-10-11 Croatia-Slovakia,2021-10-11,First round,Mon,Home,D,2,2,Slovakia,2,21,10,47.6,0.1,0.2,0,0,20:45:00,/en/matches/dc3493d3/Croatia-Slovakia-October-11-2021-WCQ----UEFA-M
+,2022,Croatia,2021-11-11 Malta-Croatia,2021-11-11,First round,Thu,Away,W,7,1,Malta,7,20,12,60.0,0.35,0.58,0,0,20:45:00,/en/matches/a8ec4ca7/Malta-Croatia-November-11-2021-WCQ----UEFA-M
+,2022,Croatia,2021-11-14 Croatia-Russia,2021-11-14,First round,Sun,Home,W,1,0,Russia,0,19,5,26.3,0.0,0.0,0,0,15:00:00,/en/matches/0b829dc1/Croatia-Russia-November-14-2021-WCQ----UEFA-M
+,2022,Croatia,2022-03-26 Slovenia-Slovenia,2022-03-26,Friendlies (M),Sat,Neutral,D,1,1,Slovenia,1,,,,,,0,0,17:00:00,/en/matches/cde56311/Croatia-Slovenia-March-26-2022-Friendlies-M
+,2022,Croatia,2022-03-29 Bulgaria-Bulgaria,2022-03-29,Friendlies (M),Tue,Neutral,W,2,1,Bulgaria,2,,,,,,1,1,17:00:00,/en/matches/70605959/Croatia-Bulgaria-March-29-2022-Friendlies-M
+,2022,Croatia,2022-11-16 Saudi Arabia-Saudi Arabia,2022-11-16,Friendlies (M),Wed,Neutral,W,1,0,Saudi Arabia,1,,,,,,0,0,15:00:00,/en/matches/8e701a35/Saudi-Arabia-Croatia-November-16-2022-Friendlies-M
+,2022,Croatia,2022-11-23 Morocco-Morocco,2022-11-23,Group stage,Wed,Neutral,D,0,0,Morocco,0,5,2,40.0,0.0,0.0,0,0,13:00:00,/en/matches/197b3688/Morocco-Croatia-November-23-2022-World-Cup
+,2022,Croatia,2022-11-27 Canada-Canada,2022-11-27,Group stage,Sun,Neutral,W,4,1,Canada,4,13,10,76.9,0.31,0.4,0,0,19:00:00,/en/matches/6bac97fe/Croatia-Canada-November-27-2022-World-Cup
+,2022,Croatia,2022-12-01 Belgium-Belgium,2022-12-01,Group stage,Thu,Neutral,D,0,0,Belgium,0,11,4,36.4,0.0,0.0,0,0,18:00:00,/en/matches/ea7139a8/Croatia-Belgium-December-1-2022-World-Cup
+,2022,Croatia,2022-12-05 Japan-Japan,2022-12-05,Round of 16,Mon,Neutral,D,1 (3),1 (1),Japan,1,17,4,23.5,0.06,0.25,0,0,18:00:00,/en/matches/4e74d7ed/Japan-Croatia-December-5-2022-World-Cup
+,2022,Croatia,2022-12-09 Brazil-Brazil,2022-12-09,Quarter-finals,Fri,Neutral,D,1 (4),1 (2),Brazil,1,9,1,11.1,0.11,1.0,0,0,18:00:00,/en/matches/bb30147d/Croatia-Brazil-December-9-2022-World-Cup
+,2022,Croatia,2022-12-13 Argentina-Argentina,2022-12-13,Semi-finals,Tue,Neutral,L,0,3,Argentina,0,12,2,16.7,0.0,0.0,0,0,22:00:00,/en/matches/0b527037/Argentina-Croatia-December-13-2022-World-Cup
+,2022,Croatia,2022-12-17 Morocco-Morocco,2022-12-17,Third-place match,Sat,Neutral,W,2,1,Morocco,2,12,4,33.3,0.17,0.5,0,0,18:00:00,/en/matches/9d73d381/Croatia-Morocco-December-17-2022-World-Cup
+,2022,Denmark,2021-03-25 Israel-Denmark,2021-03-25,First round,Thu,Away,W,2,0,Israel,2,14,7,50.0,0.14,0.29,0,0,19:00:00,/en/matches/baedbd16/Israel-Denmark-March-25-2021-WCQ----UEFA-M
+,2022,Denmark,2021-03-28 Denmark-Moldova,2021-03-28,First round,Sun,Home,W,8,0,Moldova,8,18,11,61.1,0.39,0.64,1,1,18:00:00,/en/matches/11d3c63d/Denmark-Moldova-March-28-2021-WCQ----UEFA-M
+,2022,Denmark,2021-03-31 Austria-Denmark,2021-03-31,First round,Wed,Away,W,4,0,Austria,4,11,6,54.5,0.36,0.67,0,0,20:45:00,/en/matches/7b1b2a8c/Austria-Denmark-March-31-2021-WCQ----UEFA-M
+,2022,Denmark,2021-09-01 Denmark-Scotland,2021-09-01,First round,Wed,Home,W,2,0,Scotland,2,11,5,45.5,0.18,0.4,0,0,20:45:00,/en/matches/42e7a972/Denmark-Scotland-September-1-2021-WCQ----UEFA-M
+,2022,Denmark,2021-09-04 Faroe Islands-Denmark,2021-09-04,First round,Sat,Away,W,1,0,Faroe Islands,1,19,8,42.1,0.05,0.13,0,0,19:45:00,/en/matches/96adeef3/Faroe-Islands-Denmark-September-4-2021-WCQ----UEFA-M
+,2022,Denmark,2021-09-07 Denmark-Israel,2021-09-07,First round,Tue,Home,W,5,0,Israel,5,15,10,66.7,0.33,0.5,0,0,20:45:00,/en/matches/f45699f9/Denmark-Israel-September-7-2021-WCQ----UEFA-M
+,2022,Denmark,2021-10-09 Moldova-Denmark,2021-10-09,First round,Sat,Away,W,4,0,Moldova,4,21,10,47.6,0.14,0.3,1,1,21:45:00,/en/matches/e738b2f6/Moldova-Denmark-October-9-2021-WCQ----UEFA-M
+,2022,Denmark,2021-10-12 Denmark-Austria,2021-10-12,First round,Tue,Home,W,1,0,Austria,1,9,4,44.4,0.11,0.25,0,0,20:45:00,/en/matches/a2012f02/Denmark-Austria-October-12-2021-WCQ----UEFA-M
+,2022,Denmark,2021-11-12 Denmark-Faroe Islands,2021-11-12,First round,Fri,Home,W,3,1,Faroe Islands,3,19,4,21.1,0.16,0.75,0,0,20:45:00,/en/matches/f6b29b73/Denmark-Faroe-Islands-November-12-2021-WCQ----UEFA-M
+,2022,Denmark,2021-11-15 Scotland-Denmark,2021-11-15,First round,Mon,Away,L,0,2,Scotland,0,10,2,20.0,0.0,0.0,0,0,19:45:00,/en/matches/d0699dda/Scotland-Denmark-November-15-2021-WCQ----UEFA-M
+,2022,Denmark,2022-03-26 Netherlands-Netherlands,2022-03-26,Friendlies (M),Sat,Neutral,L,2,4,Netherlands,2,,,,,,0,0,20:45:00,/en/matches/4073d8ce/Netherlands-Denmark-March-26-2022-Friendlies-M
+,2022,Denmark,2022-03-29 Serbia-Serbia,2022-03-29,Friendlies (M),Tue,Neutral,W,3,0,Serbia,3,,,,,,0,0,18:00:00,/en/matches/cfd42a80/Denmark-Serbia-March-29-2022-Friendlies-M
+,2022,Denmark,2022-11-22 Tunisia-Tunisia,2022-11-22,Group stage,Tue,Neutral,D,0,0,Tunisia,0,11,5,45.5,0.0,0.0,0,0,16:00:00,/en/matches/ea069a7f/Denmark-Tunisia-November-22-2022-World-Cup
+,2022,Denmark,2022-11-26 France-France,2022-11-26,Group stage,Sat,Neutral,L,1,2,France,1,10,2,20.0,0.1,0.5,0,0,19:00:00,/en/matches/6ff09149/France-Denmark-November-26-2022-World-Cup
+,2022,Denmark,2022-11-30 Australia-Australia,2022-11-30,Group stage,Wed,Neutral,L,0,1,Australia,0,13,3,23.1,0.0,0.0,0,0,18:00:00,/en/matches/773b0721/Australia-Denmark-November-30-2022-World-Cup
+,2022,Ecuador,2020-10-08 Argentina-Ecuador,2020-10-08,WCQ — CONMEBOL (M),Thu,Away,L,0,1,Argentina,0,4,0,0.0,0.0,,0,0,21:30:00,/en/matches/7522e278/Argentina-Ecuador-October-8-2020-WCQ----CONMEBOL-M
+,2022,Ecuador,2020-10-13 Ecuador-Uruguay,2020-10-13,WCQ — CONMEBOL (M),Tue,Home,W,4,2,Uruguay,4,17,7,41.2,0.24,0.57,0,0,16:00:00,/en/matches/f7e0f805/Ecuador-Uruguay-October-13-2020-WCQ----CONMEBOL-M
+,2022,Ecuador,2020-11-12 Bolivia-Ecuador,2020-11-12,WCQ — CONMEBOL (M),Thu,Away,W,3,2,Bolivia,3,12,6,50.0,0.17,0.33,1,1,16:00:00,/en/matches/53098295/Bolivia-Ecuador-November-12-2020-WCQ----CONMEBOL-M
+,2022,Ecuador,2020-11-17 Ecuador-Colombia,2020-11-17,WCQ — CONMEBOL (M),Tue,Home,W,6,1,Colombia,6,15,10,66.7,0.4,0.6,0,0,16:00:00,/en/matches/d27d19d9/Ecuador-Colombia-November-17-2020-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-06-04 Brazil-Ecuador,2021-06-04,WCQ — CONMEBOL (M),Fri,Away,L,0,2,Brazil,0,3,0,0.0,0.0,,0,0,21:30:00,/en/matches/426bc821/Brazil-Ecuador-June-4-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-06-08 Ecuador-Peru,2021-06-08,WCQ — CONMEBOL (M),Tue,Home,L,1,2,Peru,1,15,5,33.3,0.07,0.2,0,0,16:00:00,/en/matches/f1eaa468/Ecuador-Peru-June-8-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-09-02 Ecuador-Paraguay,2021-09-02,WCQ — CONMEBOL (M),Thu,Home,W,2,0,Paraguay,2,12,2,16.7,0.17,1.0,0,0,16:00:00,/en/matches/14914c47/Ecuador-Paraguay-September-2-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-09-05 Ecuador-Chile,2021-09-05,WCQ — CONMEBOL (M),Sun,Home,D,0,0,Chile,0,11,4,36.4,0.0,0.0,0,0,16:00:00,/en/matches/de7730bd/Ecuador-Chile-September-5-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-09-09 Uruguay-Ecuador,2021-09-09,WCQ — CONMEBOL (M),Thu,Away,L,0,1,Uruguay,0,7,2,28.6,0.0,0.0,0,0,19:30:00,/en/matches/2f1f8b9b/Uruguay-Ecuador-September-9-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-10-07 Ecuador-Bolivia,2021-10-07,WCQ — CONMEBOL (M),Thu,Home,W,3,0,Bolivia,3,17,6,35.3,0.18,0.5,0,0,19:30:00,/en/matches/5f11e3c2/Ecuador-Bolivia-October-7-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-10-10 Venezuela-Ecuador,2021-10-10,WCQ — CONMEBOL (M),Sun,Away,L,1,2,Venezuela,1,12,3,25.0,0.0,0.0,1,1,16:30:00,/en/matches/f57c9216/Venezuela-Ecuador-October-10-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-10-14 Colombia-Ecuador,2021-10-14,WCQ — CONMEBOL (M),Thu,Away,D,0,0,Colombia,0,7,5,71.4,0.0,0.0,0,0,16:00:00,/en/matches/6e01b176/Colombia-Ecuador-October-14-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-11-11 Ecuador-Venezuela,2021-11-11,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Venezuela,1,14,4,28.6,0.07,0.25,0,0,16:00:00,/en/matches/0ba82c1e/Ecuador-Venezuela-November-11-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2021-11-16 Chile-Ecuador,2021-11-16,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Chile,2,15,6,40.0,0.13,0.33,0,0,21:15:00,/en/matches/c9f9e69d/Chile-Ecuador-November-16-2021-WCQ----CONMEBOL-M
+,2022,Ecuador,2022-01-27 Ecuador-Brazil,2022-01-27,WCQ — CONMEBOL (M),Thu,Home,D,1,1,Brazil,1,10,1,10.0,0.1,1.0,0,0,16:00:00,/en/matches/2115c0c8/Ecuador-Brazil-January-27-2022-WCQ----CONMEBOL-M
+,2022,Ecuador,2022-02-01 Peru-Ecuador,2022-02-01,WCQ — CONMEBOL (M),Tue,Away,D,1,1,Peru,1,10,3,30.0,0.1,0.33,0,0,21:00:00,/en/matches/31474a6b/Peru-Ecuador-February-1-2022-WCQ----CONMEBOL-M
+,2022,Ecuador,2022-03-24 Paraguay-Ecuador,2022-03-24,WCQ — CONMEBOL (M),Thu,Away,L,1,3,Paraguay,1,13,4,30.8,0.0,0.0,1,1,20:30:00,/en/matches/a8f4fdcc/Paraguay-Ecuador-March-24-2022-WCQ----CONMEBOL-M
+,2022,Ecuador,2022-03-29 Ecuador-Argentina,2022-03-29,WCQ — CONMEBOL (M),Tue,Home,D,1,1,Argentina,1,10,3,30.0,0.1,0.33,0,1,18:30:00,/en/matches/5d9d75cd/Ecuador-Argentina-March-29-2022-WCQ----CONMEBOL-M
+,2022,Ecuador,2022-06-02 Nigeria-Nigeria,2022-06-02,Friendlies (M),Thu,Neutral,W,1,0,Nigeria,1,,,,,,0,0,20:30:00,/en/matches/7a60aa51/Ecuador-Nigeria-June-2-2022-Friendlies-M
+,2022,Ecuador,2022-06-05 Mexico-Mexico,2022-06-05,Friendlies (M),Sun,Neutral,D,0,0,Mexico,0,,,,,,0,0,18:30:00,/en/matches/8dd4f5d5/Mexico-Ecuador-June-5-2022-Friendlies-M
+,2022,Ecuador,2022-06-11 Cabo Verde-Cabo Verde,2022-06-11,Friendlies (M),Sat,Neutral,W,1,0,Cabo Verde,1,,,,,,1,1,20:00:00,/en/matches/3b6f39de/Ecuador-Cabo-Verde-June-11-2022-Friendlies-M
+,2022,Ecuador,2022-09-23 Saudi Arabia-Saudi Arabia,2022-09-23,Friendlies (M),Fri,Neutral,D,0,0,Saudi Arabia,0,,,,,,0,0,20:00:00,/en/matches/6f61851c/Saudi-Arabia-Ecuador-September-23-2022-Friendlies-M
+,2022,Ecuador,2022-09-27 Japan-Japan,2022-09-27,Friendlies (M),Tue,Neutral,D,0,0,Japan,0,,,,,,0,1,13:55:00,/en/matches/f4513452/Japan-Ecuador-September-27-2022-Friendlies-M
+,2022,Ecuador,2022-11-12 Iraq-Iraq,2022-11-12,Friendlies (M),Sat,Neutral,D,0,0,Iraq,0,,,,,,0,1,18:30:00,/en/matches/bb8b2529/Ecuador-Iraq-November-12-2022-Friendlies-M
+,2022,Ecuador,2022-11-20 Qatar-Qatar,2022-11-20,Group stage,Sun,Neutral,W,2,0,Qatar,2,6,3,50.0,0.17,0.33,1,1,19:00:00,/en/matches/1b2886ce/Qatar-Ecuador-November-20-2022-World-Cup
+,2022,Ecuador,2022-11-25 Netherlands-Netherlands,2022-11-25,Group stage,Fri,Neutral,D,1,1,Netherlands,1,15,4,26.7,0.07,0.25,0,0,19:00:00,/en/matches/dd581756/Netherlands-Ecuador-November-25-2022-World-Cup
+,2022,Ecuador,2022-11-29 Senegal-Senegal,2022-11-29,Group stage,Tue,Neutral,L,1,2,Senegal,1,9,4,44.4,0.11,0.25,0,0,18:00:00,/en/matches/d33eadf0/Ecuador-Senegal-November-29-2022-World-Cup
+,2022,England,2021-03-25 England-San Marino,2021-03-25,First round,Thu,Home,W,5,0,San Marino,5,32,15,46.9,0.16,0.33,0,0,19:45:00,/en/matches/cbc6958a/England-San-Marino-March-25-2021-WCQ----UEFA-M
+,2022,England,2021-03-28 Albania-England,2021-03-28,First round,Sun,Away,W,2,0,Albania,2,9,4,44.4,0.22,0.5,0,0,18:00:00,/en/matches/c85000c6/Albania-England-March-28-2021-WCQ----UEFA-M
+,2022,England,2021-03-31 England-Poland,2021-03-31,First round,Wed,Home,W,2,1,Poland,2,10,4,40.0,0.1,0.25,1,1,19:45:00,/en/matches/3b0947fb/England-Poland-March-31-2021-WCQ----UEFA-M
+,2022,England,2021-09-02 Hungary-England,2021-09-02,First round,Thu,Away,W,4,0,Hungary,4,12,8,66.7,0.33,0.5,0,0,20:45:00,/en/matches/7612db0b/Hungary-England-September-2-2021-WCQ----UEFA-M
+,2022,England,2021-09-05 England-Andorra,2021-09-05,First round,Sun,Home,W,4,0,Andorra,4,20,6,30.0,0.15,0.5,1,1,17:00:00,/en/matches/cebf498c/England-Andorra-September-5-2021-WCQ----UEFA-M
+,2022,England,2021-09-08 Poland-England,2021-09-08,First round,Wed,Away,D,1,1,Poland,1,13,2,15.4,0.08,0.5,0,0,20:45:00,/en/matches/d13f36b8/Poland-England-September-8-2021-WCQ----UEFA-M
+,2022,England,2021-10-09 Andorra-England,2021-10-09,First round,Sat,Away,W,5,0,Andorra,5,17,8,47.1,0.29,0.63,0,1,20:45:00,/en/matches/aaa2a351/Andorra-England-October-9-2021-WCQ----UEFA-M
+,2022,England,2021-10-12 England-Hungary,2021-10-12,First round,Tue,Home,D,1,1,Hungary,1,11,5,45.5,0.09,0.2,0,0,19:45:00,/en/matches/ff6936ad/England-Hungary-October-12-2021-WCQ----UEFA-M
+,2022,England,2021-11-12 England-Albania,2021-11-12,First round,Fri,Home,W,5,0,Albania,5,15,6,40.0,0.33,0.83,0,0,19:45:00,/en/matches/a7100028/England-Albania-November-12-2021-WCQ----UEFA-M
+,2022,England,2021-11-15 San Marino-England,2021-11-15,First round,Mon,Away,W,10,0,San Marino,9,22,13,59.1,0.32,0.54,2,2,20:45:00,/en/matches/4a3eae2f/San-Marino-England-November-15-2021-WCQ----UEFA-M
+,2022,England,2022-03-26 Switzerland-Switzerland,2022-03-26,Friendlies (M),Sat,Neutral,W,2,1,Switzerland,2,,,,,,1,1,17:30:00,/en/matches/3a98668d/England-Switzerland-March-26-2022-Friendlies-M
+,2022,England,2022-03-29 Côte d'Ivoire-Côte d'Ivoire,2022-03-29,Friendlies (M),Tue,Neutral,W,3,0,Côte d'Ivoire,3,,,,,,0,0,19:45:00,/en/matches/ed214e41/England-Cote-dIvoire-March-29-2022-Friendlies-M
+,2022,England,2022-11-21 IR Iran-IR Iran,2022-11-21,Group stage,Mon,Neutral,W,6,2,IR Iran,6,13,7,53.8,0.46,0.86,0,0,16:00:00,/en/matches/d8a472c1/England-IR-Iran-November-21-2022-World-Cup
+,2022,England,2022-11-25 United States-United States,2022-11-25,Group stage,Fri,Neutral,D,0,0,United States,0,8,3,37.5,0.0,0.0,0,0,22:00:00,/en/matches/cde0c30b/England-United-States-November-25-2022-World-Cup
+,2022,England,2022-11-29 Wales-Wales,2022-11-29,Group stage,Tue,Neutral,W,3,0,Wales,3,18,7,38.9,0.17,0.43,0,0,22:00:00,/en/matches/e51b7436/Wales-England-November-29-2022-World-Cup
+,2022,England,2022-12-04 Senegal-Senegal,2022-12-04,Round of 16,Sun,Neutral,W,3,0,Senegal,3,8,4,50.0,0.38,0.75,0,0,22:00:00,/en/matches/a323f701/England-Senegal-December-4-2022-World-Cup
+,2022,England,2022-12-10 France-France,2022-12-10,Quarter-finals,Sat,Neutral,L,1,2,France,1,16,8,50.0,0.0,0.0,1,2,22:00:00,/en/matches/6d4b58f5/England-France-December-10-2022-World-Cup
+,2022,France,2021-03-24 France-Ukraine,2021-03-24,First round,Wed,Home,D,1,1,Ukraine,1,18,3,16.7,0.06,0.33,0,0,20:45:00,/en/matches/45b11792/France-Ukraine-March-24-2021-WCQ----UEFA-M
+,2022,France,2021-03-28 Kazakhstan-France,2021-03-28,First round,Sun,Away,W,2,0,Kazakhstan,1,15,9,60.0,0.07,0.11,0,1,19:00:00,/en/matches/5888356d/Kazakhstan-France-March-28-2021-WCQ----UEFA-M
+,2022,France,2021-03-31 Bosnia–Herz-France,2021-03-31,First round,Wed,Away,W,1,0,Bosnia–Herz,1,13,2,15.4,0.08,0.5,0,0,20:45:00,/en/matches/be7aea79/Bosnia-and-Herzegovina-France-March-31-2021-WCQ----UEFA-M
+,2022,France,2021-09-01 France-Bosnia–Herz,2021-09-01,First round,Wed,Home,D,1,1,Bosnia–Herz,1,9,2,22.2,0.11,0.5,0,0,20:45:00,/en/matches/f017fdc5/France-Bosnia-and-Herzegovina-September-1-2021-WCQ----UEFA-M
+,2022,France,2021-09-04 Ukraine-France,2021-09-04,First round,Sat,Away,D,1,1,Ukraine,1,16,5,31.3,0.06,0.2,0,0,21:45:00,/en/matches/3ecb55c6/Ukraine-France-September-4-2021-WCQ----UEFA-M
+,2022,France,2021-09-07 France-Finland,2021-09-07,First round,Tue,Home,W,2,0,Finland,2,20,6,30.0,0.1,0.33,0,0,20:45:00,/en/matches/aadd70d9/France-Finland-September-7-2021-WCQ----UEFA-M
+,2022,France,2021-11-13 France-Kazakhstan,2021-11-13,First round,Sat,Home,W,8,0,Kazakhstan,8,20,14,70.0,0.35,0.5,1,1,20:45:00,/en/matches/77a13c3b/France-Kazakhstan-November-13-2021-WCQ----UEFA-M
+,2022,France,2021-11-16 Finland-France,2021-11-16,First round,Tue,Away,W,2,0,Finland,2,8,5,62.5,0.25,0.4,0,0,21:45:00,/en/matches/0072e300/Finland-France-November-16-2021-WCQ----UEFA-M
+,2022,France,2022-03-25 Côte d'Ivoire-Côte d'Ivoire,2022-03-25,Friendlies (M),Fri,Neutral,W,2,1,Côte d'Ivoire,2,,,,,,0,0,21:15:00,/en/matches/85ebb18f/France-Cote-dIvoire-March-25-2022-Friendlies-M
+,2022,France,2022-03-29 South Africa-South Africa,2022-03-29,Friendlies (M),Tue,Neutral,W,5,0,South Africa,5,,,,,,1,1,21:15:00,/en/matches/4c80e834/France-South-Africa-March-29-2022-Friendlies-M
+,2022,France,2022-11-22 Australia-Australia,2022-11-22,Group stage,Tue,Neutral,W,4,1,Australia,4,23,7,30.4,0.17,0.57,0,0,22:00:00,/en/matches/539719fd/France-Australia-November-22-2022-World-Cup
+,2022,France,2022-11-26 Denmark-Denmark,2022-11-26,Group stage,Sat,Neutral,W,2,1,Denmark,2,21,7,33.3,0.1,0.29,0,0,19:00:00,/en/matches/6ff09149/France-Denmark-November-26-2022-World-Cup
+,2022,France,2022-11-30 Tunisia-Tunisia,2022-11-30,Group stage,Wed,Neutral,L,0,1,Tunisia,0,10,3,30.0,0.0,0.0,0,0,18:00:00,/en/matches/acb6de0f/Tunisia-France-November-30-2022-World-Cup
+,2022,France,2022-12-04 Poland-Poland,2022-12-04,Round of 16,Sun,Neutral,W,3,1,Poland,3,16,8,50.0,0.19,0.38,0,0,18:00:00,/en/matches/430fc603/France-Poland-December-4-2022-World-Cup
+,2022,France,2022-12-10 England-England,2022-12-10,Quarter-finals,Sat,Neutral,W,2,1,England,2,8,5,62.5,0.25,0.4,0,0,22:00:00,/en/matches/6d4b58f5/England-France-December-10-2022-World-Cup
+,2022,France,2022-12-14 Morocco-Morocco,2022-12-14,Semi-finals,Wed,Neutral,W,2,0,Morocco,2,14,3,21.4,0.14,0.67,0,0,22:00:00,/en/matches/85c72a0a/France-Morocco-December-14-2022-World-Cup
+,2022,France,2022-12-18 Argentina-Argentina,2022-12-18,Final,Sun,Neutral,D,3 (2),3 (4),Argentina,3,10,5,50.0,0.1,0.2,2,2,18:00:00,/en/matches/7140acae/Argentina-France-December-18-2022-World-Cup
+,2022,Germany,2021-03-25 Germany-Iceland,2021-03-25,First round,Thu,Home,W,3,0,Iceland,3,15,5,33.3,0.2,0.6,0,0,20:45:00,/en/matches/bef2b031/Germany-Iceland-March-25-2021-WCQ----UEFA-M
+,2022,Germany,2021-03-28 Romania-Germany,2021-03-28,First round,Sun,Away,W,1,0,Romania,1,18,9,50.0,0.06,0.11,0,0,21:45:00,/en/matches/0d91756f/Romania-Germany-March-28-2021-WCQ----UEFA-M
+,2022,Germany,2021-03-31 Germany-N. Macedonia,2021-03-31,First round,Wed,Home,L,1,2,N. Macedonia,1,11,2,18.2,0.0,0.0,1,1,20:45:00,/en/matches/7c9a1cba/Germany-North-Macedonia-March-31-2021-WCQ----UEFA-M
+,2022,Germany,2021-09-02 Liechtenstein-Germany,2021-09-02,First round,Thu,Away,W,2,0,Liechtenstein,2,30,7,23.3,0.07,0.29,0,0,20:45:00,/en/matches/a7092d3d/Liechtenstein-Germany-September-2-2021-WCQ----UEFA-M
+,2022,Germany,2021-09-05 Germany-Armenia,2021-09-05,First round,Sun,Home,W,6,0,Armenia,6,23,12,52.2,0.26,0.5,0,0,20:45:00,/en/matches/6bdb93f0/Germany-Armenia-September-5-2021-WCQ----UEFA-M
+,2022,Germany,2021-09-08 Iceland-Germany,2021-09-08,First round,Wed,Away,W,4,0,Iceland,4,19,8,42.1,0.21,0.5,0,0,18:45:00,/en/matches/678edcf9/Iceland-Germany-September-8-2021-WCQ----UEFA-M
+,2022,Germany,2021-10-08 Germany-Romania,2021-10-08,First round,Fri,Home,W,2,1,Romania,2,22,6,27.3,0.09,0.33,0,0,20:45:00,/en/matches/09518686/Germany-Romania-October-8-2021-WCQ----UEFA-M
+,2022,Germany,2021-10-11 N. Macedonia-Germany,2021-10-11,First round,Mon,Away,W,4,0,N. Macedonia,4,24,10,41.7,0.17,0.4,0,0,20:45:00,/en/matches/cbb06adc/North-Macedonia-Germany-October-11-2021-WCQ----UEFA-M
+,2022,Germany,2021-11-11 Germany-Liechtenstein,2021-11-11,First round,Thu,Home,W,9,0,Liechtenstein,7,42,23,54.8,0.14,0.26,1,1,20:45:00,/en/matches/73c17a74/Germany-Liechtenstein-November-11-2021-WCQ----UEFA-M
+,2022,Germany,2021-11-14 Armenia-Germany,2021-11-14,First round,Sun,Away,W,4,1,Armenia,4,20,9,45.0,0.15,0.33,1,1,21:00:00,/en/matches/24984ad4/Armenia-Germany-November-14-2021-WCQ----UEFA-M
+,2022,Germany,2022-03-26 Israel-Israel,2022-03-26,Friendlies (M),Sat,Neutral,W,2,0,Israel,2,,,,,,0,1,20:45:00,/en/matches/89c7397f/Germany-Israel-March-26-2022-Friendlies-M
+,2022,Germany,2022-03-29 Netherlands-Netherlands,2022-03-29,Friendlies (M),Tue,Neutral,D,1,1,Netherlands,1,,,,,,0,0,20:45:00,/en/matches/897dd6ae/Netherlands-Germany-March-29-2022-Friendlies-M
+,2022,Germany,2022-11-16 Oman-Oman,2022-11-16,Friendlies (M),Wed,Neutral,W,1,0,Oman,1,,,,,,0,0,21:00:00,/en/matches/dbeee65e/Oman-Germany-November-16-2022-Friendlies-M
+,2022,Germany,2022-11-23 Japan-Japan,2022-11-23,Group stage,Wed,Neutral,L,1,2,Japan,1,26,9,34.6,0.0,0.0,1,1,16:00:00,/en/matches/a3556b5a/Germany-Japan-November-23-2022-World-Cup
+,2022,Germany,2022-11-27 Spain-Spain,2022-11-27,Group stage,Sun,Neutral,D,1,1,Spain,1,11,4,36.4,0.09,0.25,0,0,22:00:00,/en/matches/9397f79c/Spain-Germany-November-27-2022-World-Cup
+,2022,Germany,2022-12-01 Costa Rica-Costa Rica,2022-12-01,Group stage,Thu,Neutral,W,4,2,Costa Rica,4,32,11,34.4,0.13,0.36,0,0,22:00:00,/en/matches/6a2a024f/Costa-Rica-Germany-December-1-2022-World-Cup
+,2022,Ghana,2021-09-03 Ghana-Ethiopia,2021-09-03,Second round,Fri,Home,W,1,0,Ethiopia,1,,,,,,0,0,19:00:00,/en/matches/db1404eb/Ghana-Ethiopia-September-3-2021-WCQ----CAF-M
+,2022,Ghana,2021-09-06 South Africa-Ghana,2021-09-06,Second round,Mon,Away,L,0,1,South Africa,0,,,,,,0,0,18:00:00,/en/matches/c17547b6/South-Africa-Ghana-September-6-2021-WCQ----CAF-M
+,2022,Ghana,2021-10-09 Ghana-Zimbabwe,2021-10-09,Second round,Sat,Home,W,3,1,Zimbabwe,3,,,,,,0,0,16:00:00,/en/matches/ee0bbe11/Ghana-Zimbabwe-October-9-2021-WCQ----CAF-M
+,2022,Ghana,2021-10-12 Zimbabwe-Ghana,2021-10-12,Second round,Tue,Away,W,1,0,Zimbabwe,1,,,,,,0,0,15:00:00,/en/matches/d21bfd16/Zimbabwe-Ghana-October-12-2021-WCQ----CAF-M
+,2022,Ghana,2021-11-11 Ethiopia-Ghana,2021-11-11,Second round,Thu,Away,D,1,1,Ethiopia,1,,,,,,0,0,16:00:00,/en/matches/c9b760a1/Ethiopia-Ghana-November-11-2021-WCQ----CAF-M
+,2022,Ghana,2021-11-14 Ghana-South Africa,2021-11-14,Second round,Sun,Home,W,1,0,South Africa,1,,,,,,1,1,19:00:00,/en/matches/2313b3c9/Ghana-South-Africa-November-14-2021-WCQ----CAF-M
+,2022,Ghana,2022-01-05 Algeria-Algeria,2022-01-05,Friendlies (M),Wed,Neutral,L,0,3,Algeria,0,,,,,,0,0,19:00:00,/en/matches/6b6d0857/Algeria-Ghana-January-5-2022-Friendlies-M
+,2022,Ghana,2022-03-25 Ghana-Nigeria,2022-03-25,Third round,Fri,Home,D,0,0,Nigeria,0,,,,,,0,0,19:30:00,/en/matches/ff756ec4/Ghana-Nigeria-March-25-2022-WCQ----CAF-M
+,2022,Ghana,2022-03-29 Nigeria-Ghana,2022-03-29,Third round,Tue,Away,D,1,1,Nigeria,1,,,,,,0,0,18:00:00,/en/matches/f0a11d0e/Nigeria-Ghana-March-29-2022-WCQ----CAF-M
+,2022,Ghana,2022-09-23 Brazil-Brazil,2022-09-23,Friendlies (M),Fri,Neutral,L,0,3,Brazil,0,,,,,,0,0,20:30:00,/en/matches/756dc6e1/Brazil-Ghana-September-23-2022-Friendlies-M
+,2022,Ghana,2022-09-27 Nicaragua-Nicaragua,2022-09-27,Friendlies (M),Tue,Neutral,W,1,0,Nicaragua,1,,,,,,0,0,20:00:00,/en/matches/dc0fc875/Nicaragua-Ghana-September-27-2022-Friendlies-M
+,2022,Ghana,2022-11-17 Switzerland-Switzerland,2022-11-17,Friendlies (M),Thu,Neutral,W,2,0,Switzerland,2,,,,,,0,0,14:00:00,/en/matches/122522a1/Ghana-Switzerland-November-17-2022-Friendlies-M
+,2022,Ghana,2022-11-24 Portugal-Portugal,2022-11-24,Group stage,Thu,Neutral,L,2,3,Portugal,2,9,3,33.3,0.22,0.67,0,0,19:00:00,/en/matches/6a84c686/Portugal-Ghana-November-24-2022-World-Cup
+,2022,Ghana,2022-11-28 Korea Republic-Korea Republic,2022-11-28,Group stage,Mon,Neutral,W,3,2,Korea Republic,3,7,3,42.9,0.43,1.0,0,0,16:00:00,/en/matches/38069bed/Korea-Republic-Ghana-November-28-2022-World-Cup
+,2022,Ghana,2022-12-02 Uruguay-Uruguay,2022-12-02,Group stage,Fri,Neutral,L,0,2,Uruguay,0,10,4,40.0,0.0,0.0,0,1,18:00:00,/en/matches/0b62abf2/Ghana-Uruguay-December-2-2022-World-Cup
+,2022,IR Iran,2019-09-10 Hong Kong-IR Iran,2019-09-10,Second round,Tue,Away,W,2,0,Hong Kong,2,,,,,,0,0,20:00:00,/en/matches/cb42157a/Hong-Kong-IR-Iran-September-10-2019-WCQ----AFC-M
+,2022,IR Iran,2019-10-10 IR Iran-Cambodia,2019-10-10,Second round,Thu,Home,W,14,0,Cambodia,13,,,,,,0,0,17:00:00,/en/matches/42d1c9b3/IR-Iran-Cambodia-October-10-2019-WCQ----AFC-M
+,2022,IR Iran,2019-10-15 Bahrain-IR Iran,2019-10-15,Second round,Tue,Away,L,0,1,Bahrain,0,,,,,,0,0,19:30:00,/en/matches/8fdd0cd0/Bahrain-IR-Iran-October-15-2019-WCQ----AFC-M
+,2022,IR Iran,2019-11-14 Iraq-IR Iran,2019-11-14,Second round,Thu,Away,L,1,2,Iraq,1,,,,,,0,0,16:00:00,/en/matches/3a83ace9/Iraq-IR-Iran-November-14-2019-WCQ----AFC-M
+,2022,IR Iran,2021-06-03 IR Iran-Hong Kong,2021-06-03,Second round,Thu,Home,W,3,1,Hong Kong,3,,,,,,0,0,19:00:00,/en/matches/8c830d6d/IR-Iran-Hong-Kong-June-3-2021-WCQ----AFC-M
+,2022,IR Iran,2021-06-07 IR Iran-Bahrain,2021-06-07,Second round,Mon,Home,W,3,0,Bahrain,3,,,,,,0,0,21:00:00,/en/matches/26dc1d62/IR-Iran-Bahrain-June-7-2021-WCQ----AFC-M
+,2022,IR Iran,2021-06-11 Cambodia-IR Iran,2021-06-11,Second round,Fri,Away,W,10,0,Cambodia,9,,,,,,2,3,17:30:00,/en/matches/f35af29c/Cambodia-IR-Iran-June-11-2021-WCQ----AFC-M
+,2022,IR Iran,2021-06-15 IR Iran-Iraq,2021-06-15,Second round,Tue,Home,W,1,0,Iraq,1,,,,,,0,0,21:00:00,/en/matches/243e137d/IR-Iran-Iraq-June-15-2021-WCQ----AFC-M
+,2022,IR Iran,2021-09-02 IR Iran-Syria,2021-09-02,Third round,Thu,Home,W,1,0,Syria,1,,,,,,0,0,20:30:00,/en/matches/1166ca67/IR-Iran-Syria-September-2-2021-WCQ----AFC-M
+,2022,IR Iran,2021-09-07 Iraq-IR Iran,2021-09-07,Third round,Tue,Away,W,3,0,Iraq,3,,,,,,0,0,21:00:00,/en/matches/53fb06ad/Iraq-IR-Iran-September-7-2021-WCQ----AFC-M
+,2022,IR Iran,2021-10-07 UAE-IR Iran,2021-10-07,Third round,Thu,Away,W,1,0,UAE,1,,,,,,0,1,20:45:00,/en/matches/d6e9b4da/United-Arab-Emirates-IR-Iran-October-7-2021-WCQ----AFC-M
+,2022,IR Iran,2021-10-12 IR Iran-Korea Republic,2021-10-12,Third round,Tue,Home,D,1,1,Korea Republic,1,,,,,,0,0,17:00:00,/en/matches/15f914e4/IR-Iran-Korea-Republic-October-12-2021-WCQ----AFC-M
+,2022,IR Iran,2021-11-11 Lebanon-IR Iran,2021-11-11,Third round,Thu,Away,W,2,1,Lebanon,2,,,,,,0,0,14:00:00,/en/matches/5baf19be/Lebanon-IR-Iran-November-11-2021-WCQ----AFC-M
+,2022,IR Iran,2021-11-16 Syria-IR Iran,2021-11-16,Third round,Tue,Away,W,3,0,Syria,3,,,,,,1,1,18:00:00,/en/matches/23a6d470/Syria-IR-Iran-November-16-2021-WCQ----AFC-M
+,2022,IR Iran,2022-01-27 IR Iran-Iraq,2022-01-27,Third round,Thu,Home,W,1,0,Iraq,1,,,,,,0,0,18:00:00,/en/matches/c3cb9b2b/IR-Iran-Iraq-January-27-2022-WCQ----AFC-M
+,2022,IR Iran,2022-02-01 IR Iran-UAE,2022-02-01,Third round,Tue,Home,W,1,0,UAE,1,,,,,,0,0,18:00:00,/en/matches/18e92ceb/IR-Iran-United-Arab-Emirates-February-1-2022-WCQ----AFC-M
+,2022,IR Iran,2022-03-24 Korea Republic-IR Iran,2022-03-24,Third round,Thu,Away,L,0,2,Korea Republic,0,,,,,,0,0,20:00:00,/en/matches/7fc1ba19/Korea-Republic-IR-Iran-March-24-2022-WCQ----AFC-M
+,2022,IR Iran,2022-03-29 IR Iran-Lebanon,2022-03-29,Third round,Tue,Home,W,2,0,Lebanon,2,,,,,,0,0,16:00:00,/en/matches/f7b568d9/IR-Iran-Lebanon-March-29-2022-WCQ----AFC-M
+,2022,IR Iran,2022-06-12 Algeria-Algeria,2022-06-12,Friendlies (M),Sun,Neutral,L,1,2,Algeria,1,,,,,,0,0,21:20:00,/en/matches/4759e0ec/IR-Iran-Algeria-June-12-2022-Friendlies-M
+,2022,IR Iran,2022-09-23 Uruguay-Uruguay,2022-09-23,Friendlies (M),Fri,Neutral,W,1,0,Uruguay,1,,,,,,0,0,19:30:00,/en/matches/0542214a/IR-Iran-Uruguay-September-23-2022-Friendlies-M
+,2022,IR Iran,2022-09-27 Senegal-Senegal,2022-09-27,Friendlies (M),Tue,Neutral,D,1,1,Senegal,1,,,,,,0,0,16:30:00,/en/matches/67e4474e/IR-Iran-Senegal-September-27-2022-Friendlies-M
+,2022,IR Iran,2022-11-10 Nicaragua-Nicaragua,2022-11-10,Friendlies (M),Thu,Neutral,W,1,0,Nicaragua,1,,,,,,0,0,19:30:00,/en/matches/98504a53/IR-Iran-Nicaragua-November-10-2022-Friendlies-M
+,2022,IR Iran,2022-11-21 England-England,2022-11-21,Group stage,Mon,Neutral,L,2,6,England,2,8,3,37.5,0.13,0.33,1,1,16:00:00,/en/matches/d8a472c1/England-IR-Iran-November-21-2022-World-Cup
+,2022,IR Iran,2022-11-25 Wales-Wales,2022-11-25,Group stage,Fri,Neutral,W,2,0,Wales,2,21,6,28.6,0.1,0.33,0,0,13:00:00,/en/matches/ff2407b2/Wales-IR-Iran-November-25-2022-World-Cup
+,2022,IR Iran,2022-11-29 United States-United States,2022-11-29,Group stage,Tue,Neutral,L,0,1,United States,0,4,1,25.0,0.0,0.0,0,0,22:00:00,/en/matches/dcd3b239/IR-Iran-United-States-November-29-2022-World-Cup
+,2022,Japan,2019-09-10 Myanmar-Japan,2019-09-10,Second round,Tue,Away,W,2,0,Myanmar,2,,,,,,0,0,18:50:00,/en/matches/8c3a2e96/Myanmar-Japan-September-10-2019-WCQ----AFC-M
+,2022,Japan,2019-10-10 Japan-Mongolia,2019-10-10,Second round,Thu,Home,W,6,0,Mongolia,6,,,,,,0,0,19:35:00,/en/matches/13a54b3a/Japan-Mongolia-October-10-2019-WCQ----AFC-M
+,2022,Japan,2019-10-15 Tajikistan-Japan,2019-10-15,Second round,Tue,Away,W,3,0,Tajikistan,3,,,,,,0,0,17:15:00,/en/matches/cfe8cdf6/Tajikistan-Japan-October-15-2019-WCQ----AFC-M
+,2022,Japan,2019-11-14 Kyrgyz Republic-Japan,2019-11-14,Second round,Thu,Away,W,2,0,Kyrgyz Republic,2,,,,,,1,1,17:20:00,/en/matches/9b2d823a/Kyrgyz-Republic-Japan-November-14-2019-WCQ----AFC-M
+,2022,Japan,2021-03-30 Mongolia-Japan,2021-03-30,Second round,Tue,Away,W,14,0,Mongolia,13,,,,,,0,0,19:30:00,/en/matches/de2d78da/Mongolia-Japan-March-30-2021-WCQ----AFC-M
+,2022,Japan,2021-05-28 Japan-Myanmar,2021-05-28,Second round,Fri,Home,W,10,0,Myanmar,10,,,,,,1,1,19:20:00,/en/matches/35faea27/Japan-Myanmar-May-28-2021-WCQ----AFC-M
+,2022,Japan,2021-06-07 Japan-Tajikistan,2021-06-07,Second round,Mon,Home,W,4,1,Tajikistan,4,,,,,,0,0,19:30:00,/en/matches/2ea996bc/Japan-Tajikistan-June-7-2021-WCQ----AFC-M
+,2022,Japan,2021-06-15 Japan-Kyrgyz Republic,2021-06-15,Second round,Tue,Home,W,5,1,Kyrgyz Republic,5,,,,,,1,1,19:25:00,/en/matches/8e62935f/Japan-Kyrgyz-Republic-June-15-2021-WCQ----AFC-M
+,2022,Japan,2021-09-02 Japan-Oman,2021-09-02,Third round,Thu,Home,L,0,1,Oman,0,,,,,,0,0,19:14:00,/en/matches/3b7a6426/Japan-Oman-September-2-2021-WCQ----AFC-M
+,2022,Japan,2021-09-07 China PR-Japan,2021-09-07,Third round,Tue,Away,W,1,0,China PR,1,,,,,,0,0,18:00:00,/en/matches/c9b8bcad/China-PR-Japan-September-7-2021-WCQ----AFC-M
+,2022,Japan,2021-10-07 Saudi Arabia-Japan,2021-10-07,Third round,Thu,Away,L,0,1,Saudi Arabia,0,,,,,,0,0,20:00:00,/en/matches/8158c5a6/Saudi-Arabia-Japan-October-7-2021-WCQ----AFC-M
+,2022,Japan,2021-10-12 Japan-Australia,2021-10-12,Third round,Tue,Home,W,2,1,Australia,1,,,,,,0,0,19:14:00,/en/matches/b76f4f34/Japan-Australia-October-12-2021-WCQ----AFC-M
+,2022,Japan,2021-11-11 Vietnam-Japan,2021-11-11,Third round,Thu,Away,W,1,0,Vietnam,1,,,,,,0,0,19:00:00,/en/matches/8a18c5f1/Vietnam-Japan-November-11-2021-WCQ----AFC-M
+,2022,Japan,2021-11-16 Oman-Japan,2021-11-16,Third round,Tue,Away,W,1,0,Oman,1,,,,,,0,0,20:00:00,/en/matches/2fc01859/Oman-Japan-November-16-2021-WCQ----AFC-M
+,2022,Japan,2022-01-27 Japan-China PR,2022-01-27,Third round,Thu,Home,W,2,0,China PR,2,,,,,,1,1,19:00:00,/en/matches/377b7af0/Japan-China-PR-January-27-2022-WCQ----AFC-M
+,2022,Japan,2022-02-01 Japan-Saudi Arabia,2022-02-01,Third round,Tue,Home,W,2,0,Saudi Arabia,2,,,,,,0,0,19:14:00,/en/matches/54201ca9/Japan-Saudi-Arabia-February-1-2022-WCQ----AFC-M
+,2022,Japan,2022-03-24 Australia-Japan,2022-03-24,Third round,Thu,Away,W,2,0,Australia,2,,,,,,0,0,20:10:00,/en/matches/5e90edde/Australia-Japan-March-24-2022-WCQ----AFC-M
+,2022,Japan,2022-03-29 Japan-Vietnam,2022-03-29,Third round,Tue,Home,D,1,1,Vietnam,1,,,,,,0,0,19:35:00,/en/matches/424f8b1d/Japan-Vietnam-March-29-2022-WCQ----AFC-M
+,2022,Japan,2022-06-02 Paraguay-Paraguay,2022-06-02,Friendlies (M),Thu,Neutral,W,4,1,Paraguay,4,,,,,,0,1,19:00:00,/en/matches/3dbdcb9f/Japan-Paraguay-June-2-2022-Friendlies-M
+,2022,Japan,2022-06-06 Brazil-Brazil,2022-06-06,Friendlies (M),Mon,Neutral,L,0,1,Brazil,0,,,,,,0,0,19:20:00,/en/matches/f3f835c8/Japan-Brazil-June-6-2022-Friendlies-M
+,2022,Japan,2022-09-23 United States-United States,2022-09-23,Friendlies (M),Fri,Neutral,W,2,0,United States,2,,,,,,0,0,14:25:00,/en/matches/676aab42/Japan-United-States-September-23-2022-Friendlies-M
+,2022,Japan,2022-09-27 Ecuador-Ecuador,2022-09-27,Friendlies (M),Tue,Neutral,D,0,0,Ecuador,0,,,,,,0,0,13:55:00,/en/matches/f4513452/Japan-Ecuador-September-27-2022-Friendlies-M
+,2022,Japan,2022-11-17 Canada-Canada,2022-11-17,Friendlies (M),Thu,Neutral,L,1,2,Canada,1,,,,,,0,0,22:40:00,/en/matches/392beca6/Japan-Canada-November-17-2022-Friendlies-M
+,2022,Japan,2022-11-23 Germany-Germany,2022-11-23,Group stage,Wed,Neutral,W,2,1,Germany,2,12,4,33.3,0.17,0.5,0,0,16:00:00,/en/matches/a3556b5a/Germany-Japan-November-23-2022-World-Cup
+,2022,Japan,2022-11-27 Costa Rica-Costa Rica,2022-11-27,Group stage,Sun,Neutral,L,0,1,Costa Rica,0,13,3,23.1,0.0,0.0,0,0,13:00:00,/en/matches/d56309f4/Japan-Costa-Rica-November-27-2022-World-Cup
+,2022,Japan,2022-12-01 Spain-Spain,2022-12-01,Group stage,Thu,Neutral,W,2,1,Spain,2,6,3,50.0,0.33,0.67,0,0,22:00:00,/en/matches/f04828fe/Japan-Spain-December-1-2022-World-Cup
+,2022,Japan,2022-12-05 Croatia-Croatia,2022-12-05,Round of 16,Mon,Neutral,D,1 (1),1 (3),Croatia,1,13,4,30.8,0.08,0.25,0,0,18:00:00,/en/matches/4e74d7ed/Japan-Croatia-December-5-2022-World-Cup
+,2022,Korea Republic,2019-09-10 Turkmenistan-Korea Republic,2019-09-10,Second round,Tue,Away,W,2,0,Turkmenistan,2,,,,,,0,0,19:00:00,/en/matches/fc0b25d4/Turkmenistan-Korea-Republic-September-10-2019-WCQ----AFC-M
+,2022,Korea Republic,2019-10-10 Korea Republic-Sri Lanka,2019-10-10,Second round,Thu,Home,W,8,0,Sri Lanka,8,,,,,,1,1,20:00:00,/en/matches/bc33066e/Korea-Republic-Sri-Lanka-October-10-2019-WCQ----AFC-M
+,2022,Korea Republic,2019-11-14 Lebanon-Korea Republic,2019-11-14,Second round,Thu,Away,D,0,0,Lebanon,0,,,,,,0,0,15:00:00,/en/matches/b4f971c0/Lebanon-Korea-Republic-November-14-2019-WCQ----AFC-M
+,2022,Korea Republic,2021-06-05 Korea Republic-Turkmenistan,2021-06-05,Second round,Sat,Home,W,5,0,Turkmenistan,5,,,,,,0,0,20:00:00,/en/matches/684fd6f3/Korea-Republic-Turkmenistan-June-5-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-06-09 Sri Lanka-Korea Republic,2021-06-09,Second round,Wed,Away,W,5,0,Sri Lanka,5,,,,,,1,1,20:00:00,/en/matches/21aea9f9/Sri-Lanka-Korea-Republic-June-9-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-06-13 Korea Republic-Lebanon,2021-06-13,Second round,Sun,Home,W,2,1,Lebanon,1,,,,,,1,1,15:00:00,/en/matches/e80defca/Korea-Republic-Lebanon-June-13-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-09-02 Korea Republic-Iraq,2021-09-02,Third round,Thu,Home,D,0,0,Iraq,0,,,,,,0,0,20:00:00,/en/matches/8d515753/Korea-Republic-Iraq-September-2-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-09-07 Korea Republic-Lebanon,2021-09-07,Third round,Tue,Home,W,1,0,Lebanon,1,,,,,,0,0,20:00:00,/en/matches/a49a57ff/Korea-Republic-Lebanon-September-7-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-10-07 Korea Republic-Syria,2021-10-07,Third round,Thu,Home,W,2,1,Syria,2,,,,,,0,0,20:00:00,/en/matches/cbff573f/Korea-Republic-Syria-October-7-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-10-12 IR Iran-Korea Republic,2021-10-12,Third round,Tue,Away,D,1,1,IR Iran,1,,,,,,0,0,17:00:00,/en/matches/15f914e4/IR-Iran-Korea-Republic-October-12-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-11-11 Korea Republic-UAE,2021-11-11,Third round,Thu,Home,W,1,0,UAE,1,,,,,,1,1,20:00:00,/en/matches/0907c381/Korea-Republic-United-Arab-Emirates-November-11-2021-WCQ----AFC-M
+,2022,Korea Republic,2021-11-16 Iraq-Korea Republic,2021-11-16,Third round,Tue,Away,W,3,0,Iraq,3,,,,,,1,1,18:00:00,/en/matches/7d1bb48f/Iraq-Korea-Republic-November-16-2021-WCQ----AFC-M
+,2022,Korea Republic,2022-01-15 Iceland-Iceland,2022-01-15,Friendlies (M),Sat,Neutral,W,5,1,Iceland,5,,,,,,0,1,14:00:00,/en/matches/0cd9759e/Korea-Republic-Iceland-January-15-2022-Friendlies-M
+,2022,Korea Republic,2022-01-21 Moldova-Moldova,2022-01-21,Friendlies (M),Fri,Neutral,W,4,0,Moldova,4,,,,,,1,1,14:00:00,/en/matches/35e9008d/Korea-Republic-Moldova-January-21-2022-Friendlies-M
+,2022,Korea Republic,2022-01-27 Lebanon-Korea Republic,2022-01-27,Third round,Thu,Away,W,1,0,Lebanon,1,,,,,,0,0,14:00:00,/en/matches/f6877f72/Lebanon-Korea-Republic-January-27-2022-WCQ----AFC-M
+,2022,Korea Republic,2022-02-01 Syria-Syria,2022-02-01,Third round,Tue,Neutral,W,2,0,Syria,2,,,,,,0,0,18:00:00,/en/matches/8293c44f/Syria-Korea-Republic-February-1-2022-WCQ----AFC-M
+,2022,Korea Republic,2022-03-24 Korea Republic-IR Iran,2022-03-24,Third round,Thu,Home,W,2,0,IR Iran,2,,,,,,0,0,20:00:00,/en/matches/7fc1ba19/Korea-Republic-IR-Iran-March-24-2022-WCQ----AFC-M
+,2022,Korea Republic,2022-03-29 UAE-Korea Republic,2022-03-29,Third round,Tue,Away,L,0,1,UAE,0,,,,,,0,0,17:45:00,/en/matches/1e271938/United-Arab-Emirates-Korea-Republic-March-29-2022-WCQ----AFC-M
+,2022,Korea Republic,2022-06-02 Brazil-Brazil,2022-06-02,Friendlies (M),Thu,Neutral,L,1,5,Brazil,1,,,,,,0,0,20:00:00,/en/matches/1ddc6610/Korea-Republic-Brazil-June-2-2022-Friendlies-M
+,2022,Korea Republic,2022-06-06 Chile-Chile,2022-06-06,Friendlies (M),Mon,Neutral,W,2,0,Chile,2,,,,,,0,0,20:00:00,/en/matches/765d2fc8/Korea-Republic-Chile-June-6-2022-Friendlies-M
+,2022,Korea Republic,2022-06-10 Paraguay-Paraguay,2022-06-10,Friendlies (M),Fri,Neutral,D,2,2,Paraguay,2,,,,,,0,0,20:00:00,/en/matches/cc7e9a10/Korea-Republic-Paraguay-June-10-2022-Friendlies-M
+,2022,Korea Republic,2022-06-14 Egypt-Egypt,2022-06-14,Friendlies (M),Tue,Neutral,W,4,1,Egypt,4,,,,,,0,0,20:00:00,/en/matches/893f4714/Korea-Republic-Egypt-June-14-2022-Friendlies-M
+,2022,Korea Republic,2022-09-23 Costa Rica-Costa Rica,2022-09-23,Friendlies (M),Fri,Neutral,D,2,2,Costa Rica,2,,,,,,0,0,20:00:00,/en/matches/ce791cfe/Korea-Republic-Costa-Rica-September-23-2022-Friendlies-M
+,2022,Korea Republic,2022-09-27 Cameroon-Cameroon,2022-09-27,Friendlies (M),Tue,Neutral,W,1,0,Cameroon,1,,,,,,0,0,20:00:00,/en/matches/f18f7fed/Korea-Republic-Cameroon-September-27-2022-Friendlies-M
+,2022,Korea Republic,2022-11-11 Iceland-Iceland,2022-11-11,Friendlies (M),Fri,Neutral,W,1,0,Iceland,1,,,,,,0,0,20:00:00,/en/matches/786899bb/Korea-Republic-Iceland-November-11-2022-Friendlies-M
+,2022,Korea Republic,2022-11-24 Uruguay-Uruguay,2022-11-24,Group stage,Thu,Neutral,D,0,0,Uruguay,0,7,0,0.0,0.0,,0,0,16:00:00,/en/matches/878d5504/Uruguay-Korea-Republic-November-24-2022-World-Cup
+,2022,Korea Republic,2022-11-28 Ghana-Ghana,2022-11-28,Group stage,Mon,Neutral,L,2,3,Ghana,2,22,7,31.8,0.09,0.29,0,0,16:00:00,/en/matches/38069bed/Korea-Republic-Ghana-November-28-2022-World-Cup
+,2022,Korea Republic,2022-12-02 Portugal-Portugal,2022-12-02,Group stage,Fri,Neutral,W,2,1,Portugal,2,13,6,46.2,0.15,0.33,0,0,18:00:00,/en/matches/341e520f/Korea-Republic-Portugal-December-2-2022-World-Cup
+,2022,Korea Republic,2022-12-05 Brazil-Brazil,2022-12-05,Round of 16,Mon,Neutral,L,1,4,Brazil,1,8,6,75.0,0.13,0.17,0,0,22:00:00,/en/matches/bc6994e8/Brazil-Korea-Republic-December-5-2022-World-Cup
+,2022,Mexico,2021-09-02 Mexico-Jamaica,2021-09-02,Third round,Thu,Home,W,2,1,Jamaica,2,,,,,,0,0,21:00:00,/en/matches/27518b38/Mexico-Jamaica-September-2-2021-WCQ----CONCACAF-M
+,2022,Mexico,2021-09-05 Costa Rica-Mexico,2021-09-05,Third round,Sun,Away,W,1,0,Costa Rica,1,,,,,,1,1,17:05:00,/en/matches/b3ff1804/Costa-Rica-Mexico-September-5-2021-WCQ----CONCACAF-M
+,2022,Mexico,2021-09-08 Panama-Mexico,2021-09-08,Third round,Wed,Away,D,1,1,Panama,1,,,,,,0,0,19:05:00,/en/matches/b2b92dfc/Panama-Mexico-September-8-2021-WCQ----CONCACAF-M
+,2022,Mexico,2021-10-07 Mexico-Canada,2021-10-07,Third round,Thu,Home,D,1,1,Canada,1,,,,,,0,0,20:40:00,/en/matches/837db4cf/Mexico-Canada-October-7-2021-WCQ----CONCACAF-M
+,2022,Mexico,2021-10-10 Mexico-Honduras,2021-10-10,Third round,Sun,Home,W,3,0,Honduras,3,,,,,,0,0,18:00:00,/en/matches/47f3ab07/Mexico-Honduras-October-10-2021-WCQ----CONCACAF-M
+,2022,Mexico,2021-10-13 El Salvador-Mexico,2021-10-13,Third round,Wed,Away,W,2,0,El Salvador,2,,,,,,1,1,20:05:00,/en/matches/56f5c2d5/El-Salvador-Mexico-October-13-2021-WCQ----CONCACAF-M
+,2022,Mexico,2021-11-12 United States-Mexico,2021-11-12,Third round,Fri,Away,L,0,2,United States,0,,,,,,0,0,21:10:00,/en/matches/79a3bf11/United-States-Mexico-November-12-2021-WCQ----CONCACAF-M
+,2022,Mexico,2021-11-16 Canada-Mexico,2021-11-16,Third round,Tue,Away,L,1,2,Canada,1,,,,,,0,0,19:05:00,/en/matches/24853275/Canada-Mexico-November-16-2021-WCQ----CONCACAF-M
+,2022,Mexico,2022-01-27 Jamaica-Mexico,2022-01-27,Third round,Thu,Away,W,2,1,Jamaica,2,,,,,,0,0,19:00:00,/en/matches/4b84070f/Jamaica-Mexico-January-27-2022-WCQ----CONCACAF-M
+,2022,Mexico,2022-01-30 Mexico-Costa Rica,2022-01-30,Third round,Sun,Home,D,0,0,Costa Rica,0,,,,,,0,0,17:00:00,/en/matches/1e29286c/Mexico-Costa-Rica-January-30-2022-WCQ----CONCACAF-M
+,2022,Mexico,2022-02-02 Mexico-Panama,2022-02-02,Third round,Wed,Home,W,1,0,Panama,1,,,,,,1,1,21:00:00,/en/matches/70cf7955/Mexico-Panama-February-2-2022-WCQ----CONCACAF-M
+,2022,Mexico,2022-03-24 Mexico-United States,2022-03-24,Third round,Thu,Home,D,0,0,United States,0,,,,,,0,0,20:00:00,/en/matches/07494c1b/Mexico-United-States-March-24-2022-WCQ----CONCACAF-M
+,2022,Mexico,2022-03-27 Honduras-Mexico,2022-03-27,Third round,Sun,Away,W,1,0,Honduras,0,,,,,,0,0,17:05:00,/en/matches/cad049bf/Honduras-Mexico-March-27-2022-WCQ----CONCACAF-M
+,2022,Mexico,2022-03-30 Mexico-El Salvador,2022-03-30,Third round,Wed,Home,W,2,0,El Salvador,2,,,,,,1,1,19:05:00,/en/matches/43162214/Mexico-El-Salvador-March-30-2022-WCQ----CONCACAF-M
+,2022,Mexico,2022-04-27 Guatemala-Guatemala,2022-04-27,Friendlies (M),Wed,Neutral,D,0,0,Guatemala,0,,,,,,0,0,20:30:00,/en/matches/db93baf0/Mexico-Guatemala-April-27-2022-Friendlies-M
+,2022,Mexico,2022-05-28 Nigeria-Nigeria,2022-05-28,Friendlies (M),Sat,Neutral,W,2,1,Nigeria,1,,,,,,0,0,19:08:00,/en/matches/307abd97/Mexico-Nigeria-May-28-2022-Friendlies-M
+,2022,Mexico,2022-06-02 Uruguay-Uruguay,2022-06-02,Friendlies (M),Thu,Neutral,L,0,3,Uruguay,0,,,,,,0,0,19:00:00,/en/matches/471f58e1/Mexico-Uruguay-June-2-2022-Friendlies-M
+,2022,Mexico,2022-06-05 Ecuador-Ecuador,2022-06-05,Friendlies (M),Sun,Neutral,D,0,0,Ecuador,0,,,,,,0,0,18:30:00,/en/matches/8dd4f5d5/Mexico-Ecuador-June-5-2022-Friendlies-M
+,2022,Mexico,2022-08-31 Paraguay-Paraguay,2022-08-31,Friendlies (M),Wed,Neutral,L,0,1,Paraguay,0,,,,,,0,0,21:00:00,/en/matches/30db455b/Mexico-Paraguay-August-31-2022-Friendlies-M
+,2022,Mexico,2022-09-24 Peru-Peru,2022-09-24,Friendlies (M),Sat,Neutral,W,1,0,Peru,1,,,,,,0,0,18:00:00,/en/matches/1a2a6866/Mexico-Peru-September-24-2022-Friendlies-M
+,2022,Mexico,2022-09-27 Colombia-Colombia,2022-09-27,Friendlies (M),Tue,Neutral,L,2,3,Colombia,2,,,,,,1,1,19:00:00,/en/matches/d5bcb154/Mexico-Colombia-September-27-2022-Friendlies-M
+,2022,Mexico,2022-11-09 Iraq-Iraq,2022-11-09,Friendlies (M),Wed,Neutral,W,4,0,Iraq,4,,,,,,1,1,21:00:00,/en/matches/265007e8/Mexico-Iraq-November-9-2022-Friendlies-M
+,2022,Mexico,2022-11-16 Sweden-Sweden,2022-11-16,Friendlies (M),Wed,Neutral,L,1,2,Sweden,1,,,,,,0,0,20:30:00,/en/matches/48370637/Mexico-Sweden-November-16-2022-Friendlies-M
+,2022,Mexico,2022-11-22 Poland-Poland,2022-11-22,Group stage,Tue,Neutral,D,0,0,Poland,0,11,4,36.4,0.0,0.0,0,0,19:00:00,/en/matches/0f944fec/Mexico-Poland-November-22-2022-World-Cup
+,2022,Mexico,2022-11-26 Argentina-Argentina,2022-11-26,Group stage,Sat,Neutral,L,0,2,Argentina,0,4,1,25.0,0.0,0.0,0,0,22:00:00,/en/matches/d28d6c80/Argentina-Mexico-November-26-2022-World-Cup
+,2022,Mexico,2022-11-30 Saudi Arabia-Saudi Arabia,2022-11-30,Group stage,Wed,Neutral,W,2,1,Saudi Arabia,2,26,11,42.3,0.08,0.18,0,0,22:00:00,/en/matches/6d3741e9/Saudi-Arabia-Mexico-November-30-2022-World-Cup
+,2022,Morocco,2021-09-02 Morocco-Sudan,2021-09-02,Second round,Thu,Home,W,2,0,Sudan,1,,,,,,0,0,20:00:00,/en/matches/7855cb30/Morocco-Sudan-September-2-2021-WCQ----CAF-M
+,2022,Morocco,2021-10-06 Morocco-Guinea-Bissau,2021-10-06,Second round,Wed,Home,W,5,0,Guinea-Bissau,5,,,,,,1,1,20:00:00,/en/matches/4b95e49f/Morocco-Guinea-Bissau-October-6-2021-WCQ----CAF-M
+,2022,Morocco,2021-10-09 Guinea-Bissau-Morocco,2021-10-09,Second round,Sat,Away,W,3,0,Guinea-Bissau,3,,,,,,0,0,19:00:00,/en/matches/65061ce6/Guinea-Bissau-Morocco-October-9-2021-WCQ----CAF-M
+,2022,Morocco,2021-10-12 Guinea-Morocco,2021-10-12,Second round,Tue,Away,W,4,1,Guinea,4,,,,,,0,0,20:00:00,/en/matches/2b9d5baf/Guinea-Morocco-October-12-2021-WCQ----CAF-M
+,2022,Morocco,2021-11-12 Sudan-Morocco,2021-11-12,Second round,Fri,Away,W,3,0,Sudan,3,,,,,,0,0,21:00:00,/en/matches/2efa2a4f/Sudan-Morocco-November-12-2021-WCQ----CAF-M
+,2022,Morocco,2021-11-16 Morocco-Guinea,2021-11-16,Second round,Tue,Home,W,3,0,Guinea,3,,,,,,1,1,20:00:00,/en/matches/81daa561/Morocco-Guinea-November-16-2021-WCQ----CAF-M
+,2022,Morocco,2022-03-25 Congo DR-Morocco,2022-03-25,Third round,Fri,Away,D,1,1,Congo DR,1,,,,,,0,1,16:00:00,/en/matches/448d605d/Congo-DR-Morocco-March-25-2022-WCQ----CAF-M
+,2022,Morocco,2022-03-29 Morocco-Congo DR,2022-03-29,Third round,Tue,Home,W,4,1,Congo DR,4,,,,,,0,0,19:30:00,/en/matches/6b649b55/Morocco-Congo-DR-March-29-2022-WCQ----CAF-M
+,2022,Morocco,2022-06-01 United States-United States,2022-06-01,Friendlies (M),Wed,Neutral,L,0,3,United States,0,,,,,,0,1,19:30:00,/en/matches/1f428d10/United-States-Morocco-June-1-2022-Friendlies-M
+,2022,Morocco,2022-09-23 Chile-Chile,2022-09-23,Friendlies (M),Fri,Neutral,W,2,0,Chile,2,,,,,,1,1,20:00:00,/en/matches/f9474a8e/Morocco-Chile-September-23-2022-Friendlies-M
+,2022,Morocco,2022-09-27 Paraguay-Paraguay,2022-09-27,Friendlies (M),Tue,Neutral,D,0,0,Paraguay,0,,,,,,0,0,21:00:00,/en/matches/0c38ebe9/Morocco-Paraguay-September-27-2022-Friendlies-M
+,2022,Morocco,2022-11-17 Georgia-Georgia,2022-11-17,Friendlies (M),Thu,Neutral,W,3,0,Georgia,3,,,,,,1,1,20:00:00,/en/matches/a6a74e89/Morocco-Georgia-November-17-2022-Friendlies-M
+,2022,Morocco,2022-11-23 Croatia-Croatia,2022-11-23,Group stage,Wed,Neutral,D,0,0,Croatia,0,8,2,25.0,0.0,0.0,0,0,13:00:00,/en/matches/197b3688/Morocco-Croatia-November-23-2022-World-Cup
+,2022,Morocco,2022-11-27 Belgium-Belgium,2022-11-27,Group stage,Sun,Neutral,W,2,0,Belgium,2,10,4,40.0,0.2,0.5,0,0,16:00:00,/en/matches/18d1b45b/Belgium-Morocco-November-27-2022-World-Cup
+,2022,Morocco,2022-12-01 Canada-Canada,2022-12-01,Group stage,Thu,Neutral,W,2,1,Canada,2,6,2,33.3,0.33,1.0,0,0,18:00:00,/en/matches/46776714/Canada-Morocco-December-1-2022-World-Cup
+,2022,Morocco,2022-12-06 Spain-Spain,2022-12-06,Round of 16,Tue,Neutral,D,0 (3),0 (0),Spain,0,6,2,33.3,0.0,0.0,0,0,18:00:00,/en/matches/4c0aa6b0/Morocco-Spain-December-6-2022-World-Cup
+,2022,Morocco,2022-12-10 Portugal-Portugal,2022-12-10,Quarter-finals,Sat,Neutral,W,1,0,Portugal,1,9,3,33.3,0.11,0.33,0,0,18:00:00,/en/matches/170c8725/Morocco-Portugal-December-10-2022-World-Cup
+,2022,Morocco,2022-12-14 France-France,2022-12-14,Semi-finals,Wed,Neutral,L,0,2,France,0,13,3,23.1,0.0,0.0,0,0,22:00:00,/en/matches/85c72a0a/France-Morocco-December-14-2022-World-Cup
+,2022,Morocco,2022-12-17 Croatia-Croatia,2022-12-17,Third-place match,Sat,Neutral,L,1,2,Croatia,1,9,2,22.2,0.11,0.5,0,0,18:00:00,/en/matches/9d73d381/Croatia-Morocco-December-17-2022-World-Cup
+,2022,Netherlands,2021-03-24 Türkiye-Netherlands,2021-03-24,First round,Wed,Away,L,2,4,Türkiye,2,20,9,45.0,0.1,0.22,0,1,20:00:00,/en/matches/610e3a27/Turkiye-Netherlands-March-24-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-03-27 Netherlands-Latvia,2021-03-27,First round,Sat,Home,W,2,0,Latvia,2,36,11,30.6,0.06,0.18,0,0,18:00:00,/en/matches/ea980e30/Netherlands-Latvia-March-27-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-03-30 Gibraltar-Netherlands,2021-03-30,First round,Tue,Away,W,7,0,Gibraltar,7,35,16,45.7,0.2,0.44,0,0,20:45:00,/en/matches/b588eaa3/Gibraltar-Netherlands-March-30-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-09-01 Norway-Netherlands,2021-09-01,First round,Wed,Away,D,1,1,Norway,1,17,6,35.3,0.06,0.17,0,0,20:45:00,/en/matches/4a8d10d3/Norway-Netherlands-September-1-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-09-04 Netherlands-Montenegro,2021-09-04,First round,Sat,Home,W,4,0,Montenegro,4,28,12,42.9,0.11,0.25,1,1,20:45:00,/en/matches/7876abc1/Netherlands-Montenegro-September-4-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-09-07 Netherlands-Türkiye,2021-09-07,First round,Tue,Home,W,6,1,Türkiye,6,29,12,41.4,0.17,0.42,1,1,20:45:00,/en/matches/3b32eef9/Netherlands-Turkiye-September-7-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-10-08 Latvia-Netherlands,2021-10-08,First round,Fri,Away,W,1,0,Latvia,1,19,4,21.1,0.05,0.25,0,0,21:45:00,/en/matches/563d13d8/Latvia-Netherlands-October-8-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-10-11 Netherlands-Gibraltar,2021-10-11,First round,Mon,Home,W,6,0,Gibraltar,6,31,12,38.7,0.16,0.42,1,2,20:45:00,/en/matches/61bafcdd/Netherlands-Gibraltar-October-11-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-11-13 Montenegro-Netherlands,2021-11-13,First round,Sat,Away,D,2,2,Montenegro,2,9,3,33.3,0.11,0.33,1,1,20:45:00,/en/matches/e0eda4f1/Montenegro-Netherlands-November-13-2021-WCQ----UEFA-M
+,2022,Netherlands,2021-11-16 Netherlands-Norway,2021-11-16,First round,Tue,Home,W,2,0,Norway,2,10,5,50.0,0.2,0.4,0,0,20:45:00,/en/matches/bf5b686d/Netherlands-Norway-November-16-2021-WCQ----UEFA-M
+,2022,Netherlands,2022-03-26 Denmark-Denmark,2022-03-26,Friendlies (M),Sat,Neutral,W,4,2,Denmark,4,,,,,,1,1,20:45:00,/en/matches/4073d8ce/Netherlands-Denmark-March-26-2022-Friendlies-M
+,2022,Netherlands,2022-03-29 Germany-Germany,2022-03-29,Friendlies (M),Tue,Neutral,D,1,1,Germany,1,,,,,,0,0,20:45:00,/en/matches/897dd6ae/Netherlands-Germany-March-29-2022-Friendlies-M
+,2022,Netherlands,2022-11-21 Senegal-Senegal,2022-11-21,Group stage,Mon,Neutral,W,2,0,Senegal,2,10,3,30.0,0.2,0.67,0,0,19:00:00,/en/matches/21eb041c/Senegal-Netherlands-November-21-2022-World-Cup
+,2022,Netherlands,2022-11-25 Ecuador-Ecuador,2022-11-25,Group stage,Fri,Neutral,D,1,1,Ecuador,1,2,1,50.0,0.5,1.0,0,0,19:00:00,/en/matches/dd581756/Netherlands-Ecuador-November-25-2022-World-Cup
+,2022,Netherlands,2022-11-29 Qatar-Qatar,2022-11-29,Group stage,Tue,Neutral,W,2,0,Qatar,2,13,4,30.8,0.15,0.5,0,0,18:00:00,/en/matches/af95872a/Netherlands-Qatar-November-29-2022-World-Cup
+,2022,Netherlands,2022-12-03 United States-United States,2022-12-03,Round of 16,Sat,Neutral,W,3,1,United States,3,11,6,54.5,0.27,0.5,0,0,18:00:00,/en/matches/249ccad4/Netherlands-United-States-December-3-2022-World-Cup
+,2022,Netherlands,2022-12-09 Argentina-Argentina,2022-12-09,Quarter-finals,Fri,Neutral,D,2 (3),2 (4),Argentina,2,6,2,33.3,0.33,1.0,0,0,22:00:00,/en/matches/9fd14983/Netherlands-Argentina-December-9-2022-World-Cup
+,2022,Poland,2021-03-25 Hungary-Poland,2021-03-25,First round,Thu,Away,D,3,3,Hungary,3,10,3,30.0,0.3,1.0,0,0,20:45:00,/en/matches/5927d4f9/Hungary-Poland-March-25-2021-WCQ----UEFA-M
+,2022,Poland,2021-03-28 Poland-Andorra,2021-03-28,First round,Sun,Home,W,3,0,Andorra,3,26,6,23.1,0.12,0.5,0,0,20:45:00,/en/matches/8bc6ae60/Poland-Andorra-March-28-2021-WCQ----UEFA-M
+,2022,Poland,2021-03-31 England-Poland,2021-03-31,First round,Wed,Away,L,1,2,England,1,4,1,25.0,0.25,1.0,0,0,19:45:00,/en/matches/3b0947fb/England-Poland-March-31-2021-WCQ----UEFA-M
+,2022,Poland,2021-09-02 Poland-Albania,2021-09-02,First round,Thu,Home,W,4,1,Albania,4,6,4,66.7,0.67,1.0,0,0,20:45:00,/en/matches/3a5ec6de/Poland-Albania-September-2-2021-WCQ----UEFA-M
+,2022,Poland,2021-09-05 San Marino-Poland,2021-09-05,First round,Sun,Away,W,7,1,San Marino,7,24,11,45.8,0.29,0.64,0,0,20:45:00,/en/matches/7cb23e4f/San-Marino-Poland-September-5-2021-WCQ----UEFA-M
+,2022,Poland,2021-09-08 Poland-England,2021-09-08,First round,Wed,Home,D,1,1,England,1,11,4,36.4,0.09,0.25,0,0,20:45:00,/en/matches/d13f36b8/Poland-England-September-8-2021-WCQ----UEFA-M
+,2022,Poland,2021-10-09 Poland-San Marino,2021-10-09,First round,Sat,Home,W,5,0,San Marino,4,31,12,38.7,0.13,0.33,0,0,20:45:00,/en/matches/840c3c6f/Poland-San-Marino-October-9-2021-WCQ----UEFA-M
+,2022,Poland,2021-10-12 Albania-Poland,2021-10-12,First round,Tue,Away,W,1,0,Albania,1,5,2,40.0,0.2,0.5,0,0,20:45:00,/en/matches/7a07b04e/Albania-Poland-October-12-2021-WCQ----UEFA-M
+,2022,Poland,2021-11-12 Andorra-Poland,2021-11-12,First round,Fri,Away,W,4,1,Andorra,4,18,8,44.4,0.22,0.5,0,0,20:45:00,/en/matches/21540c97/Andorra-Poland-November-12-2021-WCQ----UEFA-M
+,2022,Poland,2021-11-15 Poland-Hungary,2021-11-15,First round,Mon,Home,L,1,2,Hungary,1,15,6,40.0,0.07,0.17,0,0,20:45:00,/en/matches/5780bfc1/Poland-Hungary-November-15-2021-WCQ----UEFA-M
+,2022,Poland,2022-03-24 Scotland-Scotland,2022-03-24,Friendlies (M),Thu,Neutral,D,1,1,Scotland,1,,,,,,1,1,19:45:00,/en/matches/527784ab/Scotland-Poland-March-24-2022-Friendlies-M
+,2022,Poland,2022-03-29 Poland-Sweden,2022-03-29,Second round — Finals,Tue,Home,W,2,0,Sweden,2,10,8,80.0,0.1,0.13,1,1,20:45:00,/en/matches/09414c04/Poland-Sweden-March-29-2022-WCQ----UEFA-M
+,2022,Poland,2022-11-16 Chile-Chile,2022-11-16,Friendlies (M),Wed,Neutral,W,1,0,Chile,1,,,,,,0,0,18:00:00,/en/matches/ddeacad5/Poland-Chile-November-16-2022-Friendlies-M
+,2022,Poland,2022-11-22 Mexico-Mexico,2022-11-22,Group stage,Tue,Neutral,D,0,0,Mexico,0,6,2,33.3,0.0,0.0,0,1,19:00:00,/en/matches/0f944fec/Mexico-Poland-November-22-2022-World-Cup
+,2022,Poland,2022-11-26 Saudi Arabia-Saudi Arabia,2022-11-26,Group stage,Sat,Neutral,W,2,0,Saudi Arabia,2,9,3,33.3,0.22,0.67,0,0,16:00:00,/en/matches/8c7e37e6/Poland-Saudi-Arabia-November-26-2022-World-Cup
+,2022,Poland,2022-11-30 Argentina-Argentina,2022-11-30,Group stage,Wed,Neutral,L,0,2,Argentina,0,4,0,0.0,0.0,,0,0,22:00:00,/en/matches/aaa7a69d/Poland-Argentina-November-30-2022-World-Cup
+,2022,Poland,2022-12-04 France-France,2022-12-04,Round of 16,Sun,Neutral,L,1,3,France,1,12,3,25.0,0.0,0.0,1,1,18:00:00,/en/matches/430fc603/France-Poland-December-4-2022-World-Cup
+,2022,Portugal,2021-03-24 Portugal-Azerbaijan,2021-03-24,First round,Wed,Home,W,1,0,Azerbaijan,0,29,14,48.3,0.0,0.0,0,0,19:45:00,/en/matches/e8c1d1e7/Portugal-Azerbaijan-March-24-2021-WCQ----UEFA-M
+,2022,Portugal,2021-03-27 Serbia-Portugal,2021-03-27,First round,Sat,Away,D,2,2,Serbia,2,12,5,41.7,0.17,0.4,0,0,20:45:00,/en/matches/b6d12ef3/Serbia-Portugal-March-27-2021-WCQ----UEFA-M
+,2022,Portugal,2021-03-30 Luxembourg-Portugal,2021-03-30,First round,Tue,Away,W,3,1,Luxembourg,3,20,11,55.0,0.15,0.27,0,0,20:45:00,/en/matches/7c78fddd/Luxembourg-Portugal-March-30-2021-WCQ----UEFA-M
+,2022,Portugal,2021-09-01 Portugal-Rep. of Ireland,2021-09-01,First round,Wed,Home,W,2,1,Rep. of Ireland,2,29,7,24.1,0.07,0.29,0,1,19:45:00,/en/matches/0cbf3fca/Portugal-Republic-of-Ireland-September-1-2021-WCQ----UEFA-M
+,2022,Portugal,2021-09-07 Azerbaijan-Portugal,2021-09-07,First round,Tue,Away,W,3,0,Azerbaijan,3,21,7,33.3,0.14,0.43,0,0,20:00:00,/en/matches/bdb152de/Azerbaijan-Portugal-September-7-2021-WCQ----UEFA-M
+,2022,Portugal,2021-10-12 Portugal-Luxembourg,2021-10-12,First round,Tue,Home,W,5,0,Luxembourg,5,21,11,52.4,0.14,0.27,2,2,19:45:00,/en/matches/b2bf17f2/Portugal-Luxembourg-October-12-2021-WCQ----UEFA-M
+,2022,Portugal,2021-11-11 Rep. of Ireland-Portugal,2021-11-11,First round,Thu,Away,D,0,0,Rep. of Ireland,0,12,3,25.0,0.0,0.0,0,0,19:45:00,/en/matches/8b321574/Republic-of-Ireland-Portugal-November-11-2021-WCQ----UEFA-M
+,2022,Portugal,2021-11-14 Portugal-Serbia,2021-11-14,First round,Sun,Home,L,1,2,Serbia,1,9,3,33.3,0.11,0.33,0,0,19:45:00,/en/matches/0cc44e9b/Portugal-Serbia-November-14-2021-WCQ----UEFA-M
+,2022,Portugal,2022-03-24 Portugal-Türkiye,2022-03-24,Second round — Semi-finals,Thu,Home,W,3,1,Türkiye,3,16,8,50.0,0.19,0.38,0,0,19:45:00,/en/matches/9a1557c0/Portugal-Turkiye-March-24-2022-WCQ----UEFA-M
+,2022,Portugal,2022-03-29 Portugal-N. Macedonia,2022-03-29,Second round — Finals,Tue,Home,W,2,0,N. Macedonia,2,11,3,27.3,0.18,0.67,0,0,19:45:00,/en/matches/2dee3a00/Portugal-North-Macedonia-March-29-2022-WCQ----UEFA-M
+,2022,Portugal,2022-11-17 Nigeria-Nigeria,2022-11-17,Friendlies (M),Thu,Neutral,W,4,0,Nigeria,4,,,,,,1,1,18:45:00,/en/matches/3ed2fbd3/Portugal-Nigeria-November-17-2022-Friendlies-M
+,2022,Portugal,2022-11-24 Ghana-Ghana,2022-11-24,Group stage,Thu,Neutral,W,3,2,Ghana,3,11,5,45.5,0.18,0.4,1,1,19:00:00,/en/matches/6a84c686/Portugal-Ghana-November-24-2022-World-Cup
+,2022,Portugal,2022-11-28 Uruguay-Uruguay,2022-11-28,Group stage,Mon,Neutral,W,2,0,Uruguay,2,15,3,20.0,0.07,0.33,1,1,22:00:00,/en/matches/90fded8a/Portugal-Uruguay-November-28-2022-World-Cup
+,2022,Portugal,2022-12-02 Korea Republic-Korea Republic,2022-12-02,Group stage,Fri,Neutral,L,1,2,Korea Republic,1,13,6,46.2,0.08,0.17,0,0,18:00:00,/en/matches/341e520f/Korea-Republic-Portugal-December-2-2022-World-Cup
+,2022,Portugal,2022-12-06 Switzerland-Switzerland,2022-12-06,Round of 16,Tue,Neutral,W,6,1,Switzerland,6,15,9,60.0,0.4,0.67,0,0,22:00:00,/en/matches/799eb586/Portugal-Switzerland-December-6-2022-World-Cup
+,2022,Portugal,2022-12-10 Morocco-Morocco,2022-12-10,Quarter-finals,Sat,Neutral,L,0,1,Morocco,0,12,3,25.0,0.0,0.0,0,0,18:00:00,/en/matches/170c8725/Morocco-Portugal-December-10-2022-World-Cup
+,2022,Qatar,2019-09-05 Qatar-Afghanistan,2019-09-05,Second round,Thu,Home,W,6,0,Afghanistan,6,,,,,,0,0,19:30:00,/en/matches/e41c7ae0/Qatar-Afghanistan-September-5-2019-WCQ----AFC-M
+,2022,Qatar,2019-09-10 Qatar-India,2019-09-10,Second round,Tue,Home,D,0,0,India,0,,,,,,0,0,19:30:00,/en/matches/55b7b8ea/Qatar-India-September-10-2019-WCQ----AFC-M
+,2022,Qatar,2019-10-10 Bangladesh-Qatar,2019-10-10,Second round,Thu,Away,W,2,0,Bangladesh,2,,,,,,0,0,19:00:00,/en/matches/187bd63a/Bangladesh-Qatar-October-10-2019-WCQ----AFC-M
+,2022,Qatar,2019-10-15 Qatar-Oman,2019-10-15,Second round,Tue,Home,W,2,1,Oman,2,,,,,,0,1,19:30:00,/en/matches/a59ca6de/Qatar-Oman-October-15-2019-WCQ----AFC-M
+,2022,Qatar,2019-11-19 Afghanistan-Afghanistan,2019-11-19,Second round,Tue,Neutral,W,1,0,Afghanistan,1,,,,,,1,1,19:00:00,/en/matches/4c856cdc/Afghanistan-Qatar-November-19-2019-WCQ----AFC-M
+,2022,Qatar,2020-12-04 Qatar-Bangladesh,2020-12-04,Second round,Fri,Home,W,5,0,Bangladesh,5,,,,,,1,1,19:00:00,/en/matches/9c6c602c/Qatar-Bangladesh-December-4-2020-WCQ----AFC-M
+,2022,Qatar,2021-06-03 India-Qatar,2021-06-03,Second round,Thu,Away,W,1,0,India,1,,,,,,0,0,20:00:00,/en/matches/e4cdbd85/India-Qatar-June-3-2021-WCQ----AFC-M
+,2022,Qatar,2021-06-07 Oman-Qatar,2021-06-07,Second round,Mon,Away,W,1,0,Oman,1,,,,,,1,1,20:10:00,/en/matches/5d0fd958/Oman-Qatar-June-7-2021-WCQ----AFC-M
+,2022,Qatar,2022-03-26 Bulgaria-Bulgaria,2022-03-26,Friendlies (M),Sat,Neutral,W,2,1,Bulgaria,2,,,,,,1,1,20:30:00,/en/matches/287e3d04/Qatar-Bulgaria-March-26-2022-Friendlies-M
+,2022,Qatar,2022-03-29 Slovenia-Slovenia,2022-03-29,Friendlies (M),Tue,Neutral,D,0,0,Slovenia,0,,,,,,0,0,20:30:00,/en/matches/955577f5/Qatar-Slovenia-March-29-2022-Friendlies-M
+,2022,Qatar,2022-08-26 Jamaica-Jamaica,2022-08-26,Friendlies (M),Fri,Neutral,D,1,1,Jamaica,1,,,,,,0,0,18:30:00,/en/matches/aee2e2a4/Qatar-Jamaica-August-26-2022-Friendlies-M
+,2022,Qatar,2022-09-23 Canada-Canada,2022-09-23,Friendlies (M),Fri,Neutral,L,0,2,Canada,0,,,,,,0,0,19:00:00,/en/matches/3f1c3c83/Qatar-Canada-September-23-2022-Friendlies-M
+,2022,Qatar,2022-09-27 Chile-Chile,2022-09-27,Friendlies (M),Tue,Neutral,D,2,2,Chile,2,,,,,,0,0,20:00:00,/en/matches/baeebd9e/Qatar-Chile-September-27-2022-Friendlies-M
+,2022,Qatar,2022-11-09 Albania-Albania,2022-11-09,Friendlies (M),Wed,Neutral,W,1,0,Albania,1,,,,,,1,1,18:30:00,/en/matches/1133595b/Qatar-Albania-November-9-2022-Friendlies-M
+,2022,Qatar,2022-11-20 Ecuador-Ecuador,2022-11-20,Group stage,Sun,Neutral,L,0,2,Ecuador,0,5,0,0.0,0.0,,0,0,19:00:00,/en/matches/1b2886ce/Qatar-Ecuador-November-20-2022-World-Cup
+,2022,Qatar,2022-11-25 Senegal-Senegal,2022-11-25,Group stage,Fri,Neutral,L,1,3,Senegal,1,10,3,30.0,0.1,0.33,0,0,16:00:00,/en/matches/bfc75e3c/Qatar-Senegal-November-25-2022-World-Cup
+,2022,Qatar,2022-11-29 Netherlands-Netherlands,2022-11-29,Group stage,Tue,Neutral,L,0,2,Netherlands,0,5,3,60.0,0.0,0.0,0,0,18:00:00,/en/matches/af95872a/Netherlands-Qatar-November-29-2022-World-Cup
+,2022,Saudi Arabia,2019-09-10 Yemen-Saudi Arabia,2019-09-10,Second round,Tue,Away,D,2,2,Yemen,2,,,,,,0,0,19:00:00,/en/matches/3a5872d1/Yemen-Saudi-Arabia-September-10-2019-WCQ----AFC-M
+,2022,Saudi Arabia,2019-10-10 Saudi Arabia-Singapore,2019-10-10,Second round,Thu,Home,W,3,0,Singapore,3,,,,,,0,1,20:00:00,/en/matches/a6f13bfe/Saudi-Arabia-Singapore-October-10-2019-WCQ----AFC-M
+,2022,Saudi Arabia,2019-10-15 Palestine-Saudi Arabia,2019-10-15,Second round,Tue,Away,D,0,0,Palestine,0,,,,,,0,0,16:00:00,/en/matches/d482129b/Palestine-Saudi-Arabia-October-15-2019-WCQ----AFC-M
+,2022,Saudi Arabia,2019-11-14 Uzbekistan-Saudi Arabia,2019-11-14,Second round,Thu,Away,W,3,2,Uzbekistan,3,,,,,,1,1,17:00:00,/en/matches/b63569e7/Uzbekistan-Saudi-Arabia-November-14-2019-WCQ----AFC-M
+,2022,Saudi Arabia,2021-03-30 Saudi Arabia-Palestine,2021-03-30,Second round,Tue,Home,W,5,0,Palestine,5,,,,,,1,1,20:30:00,/en/matches/64ae101b/Saudi-Arabia-Palestine-March-30-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-06-05 Saudi Arabia-Yemen,2021-06-05,Second round,Sat,Home,W,3,0,Yemen,3,,,,,,0,0,21:00:00,/en/matches/cfbb28a7/Saudi-Arabia-Yemen-June-5-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-06-11 Singapore-Saudi Arabia,2021-06-11,Second round,Fri,Away,W,3,0,Singapore,3,,,,,,0,0,21:00:00,/en/matches/3075942a/Singapore-Saudi-Arabia-June-11-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-06-15 Saudi Arabia-Uzbekistan,2021-06-15,Second round,Tue,Home,W,3,0,Uzbekistan,3,,,,,,0,0,21:00:00,/en/matches/35a4380f/Saudi-Arabia-Uzbekistan-June-15-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-09-02 Saudi Arabia-Vietnam,2021-09-02,Third round,Thu,Home,W,3,1,Vietnam,3,,,,,,2,2,21:00:00,/en/matches/306fabd0/Saudi-Arabia-Vietnam-September-2-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-09-07 Oman-Saudi Arabia,2021-09-07,Third round,Tue,Away,W,1,0,Oman,1,,,,,,0,0,20:00:00,/en/matches/bedbeba7/Oman-Saudi-Arabia-September-7-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-10-07 Saudi Arabia-Japan,2021-10-07,Third round,Thu,Home,W,1,0,Japan,1,,,,,,0,0,20:00:00,/en/matches/8158c5a6/Saudi-Arabia-Japan-October-7-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-10-12 Saudi Arabia-China PR,2021-10-12,Third round,Tue,Home,W,3,2,China PR,3,,,,,,0,0,20:00:00,/en/matches/0ffb0aef/Saudi-Arabia-China-PR-October-12-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-11-11 Australia-Saudi Arabia,2021-11-11,Third round,Thu,Away,D,0,0,Australia,0,,,,,,0,0,20:10:00,/en/matches/aca77bdb/Australia-Saudi-Arabia-November-11-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2021-11-16 Vietnam-Saudi Arabia,2021-11-16,Third round,Tue,Away,W,1,0,Vietnam,1,,,,,,0,0,19:00:00,/en/matches/410d121d/Vietnam-Saudi-Arabia-November-16-2021-WCQ----AFC-M
+,2022,Saudi Arabia,2022-01-27 Saudi Arabia-Oman,2022-01-27,Third round,Thu,Home,W,1,0,Oman,1,,,,,,0,0,20:15:00,/en/matches/bbd5eef7/Saudi-Arabia-Oman-January-27-2022-WCQ----AFC-M
+,2022,Saudi Arabia,2022-02-01 Japan-Saudi Arabia,2022-02-01,Third round,Tue,Away,L,0,2,Japan,0,,,,,,0,0,19:14:00,/en/matches/54201ca9/Japan-Saudi-Arabia-February-1-2022-WCQ----AFC-M
+,2022,Saudi Arabia,2022-03-24 China PR-Saudi Arabia,2022-03-24,Third round,Thu,Away,D,1,1,China PR,1,,,,,,0,0,19:00:00,/en/matches/e2a8f464/China-PR-Saudi-Arabia-March-24-2022-WCQ----AFC-M
+,2022,Saudi Arabia,2022-03-29 Saudi Arabia-Australia,2022-03-29,Third round,Tue,Home,W,1,0,Australia,1,,,,,,1,1,21:00:00,/en/matches/7a9f89cc/Saudi-Arabia-Australia-March-29-2022-WCQ----AFC-M
+,2022,Saudi Arabia,2022-06-05 Colombia-Colombia,2022-06-05,Friendlies (M),Sun,Neutral,L,0,1,Colombia,0,,,,,,0,0,19:00:00,/en/matches/a2a508d6/Saudi-Arabia-Colombia-June-5-2022-Friendlies-M
+,2022,Saudi Arabia,2022-06-09 Venezuela-Venezuela,2022-06-09,Friendlies (M),Thu,Neutral,L,0,1,Venezuela,0,,,,,,0,0,20:00:00,/en/matches/70cc839d/Saudi-Arabia-Venezuela-June-9-2022-Friendlies-M
+,2022,Saudi Arabia,2022-09-23 Ecuador-Ecuador,2022-09-23,Friendlies (M),Fri,Neutral,D,0,0,Ecuador,0,,,,,,0,0,20:00:00,/en/matches/6f61851c/Saudi-Arabia-Ecuador-September-23-2022-Friendlies-M
+,2022,Saudi Arabia,2022-09-27 United States-United States,2022-09-27,Friendlies (M),Tue,Neutral,D,0,0,United States,0,,,,,,0,0,20:00:00,/en/matches/56bde19a/Saudi-Arabia-United-States-September-27-2022-Friendlies-M
+,2022,Saudi Arabia,2022-11-06 Iceland-Iceland,2022-11-06,Friendlies (M),Sun,Neutral,W,1,0,Iceland,1,,,,,,0,0,16:00:00,/en/matches/70fb36a0/Saudi-Arabia-Iceland-November-6-2022-Friendlies-M
+,2022,Saudi Arabia,2022-11-10 Panama-Panama,2022-11-10,Friendlies (M),Thu,Neutral,D,1,1,Panama,1,,,,,,0,0,16:00:00,/en/matches/f7b38ce5/Saudi-Arabia-Panama-November-10-2022-Friendlies-M
+,2022,Saudi Arabia,2022-11-16 Croatia-Croatia,2022-11-16,Friendlies (M),Wed,Neutral,L,0,1,Croatia,0,,,,,,0,0,15:00:00,/en/matches/8e701a35/Saudi-Arabia-Croatia-November-16-2022-Friendlies-M
+,2022,Saudi Arabia,2022-11-22 Argentina-Argentina,2022-11-22,Group stage,Tue,Neutral,W,2,1,Argentina,2,3,2,66.7,0.67,1.0,0,0,13:00:00,/en/matches/109ad6ba/Argentina-Saudi-Arabia-November-22-2022-World-Cup
+,2022,Saudi Arabia,2022-11-26 Poland-Poland,2022-11-26,Group stage,Sat,Neutral,L,0,2,Poland,0,16,5,31.3,0.0,0.0,0,1,16:00:00,/en/matches/8c7e37e6/Poland-Saudi-Arabia-November-26-2022-World-Cup
+,2022,Saudi Arabia,2022-11-30 Mexico-Mexico,2022-11-30,Group stage,Wed,Neutral,L,1,2,Mexico,1,10,2,20.0,0.1,0.5,0,0,22:00:00,/en/matches/6d3741e9/Saudi-Arabia-Mexico-November-30-2022-World-Cup
+,2022,Senegal,2021-09-01 Senegal-Togo,2021-09-01,Second round,Wed,Home,W,2,0,Togo,2,,,,,,0,0,16:00:00,/en/matches/cf33f3f8/Senegal-Togo-September-1-2021-WCQ----CAF-M
+,2022,Senegal,2021-09-07 Congo-Senegal,2021-09-07,Second round,Tue,Away,W,3,1,Congo,3,,,,,,1,1,17:00:00,/en/matches/3634ff51/Congo-Senegal-September-7-2021-WCQ----CAF-M
+,2022,Senegal,2021-10-09 Senegal-Namibia,2021-10-09,Second round,Sat,Home,W,4,1,Namibia,4,,,,,,0,0,19:00:00,/en/matches/a39997dd/Senegal-Namibia-October-9-2021-WCQ----CAF-M
+,2022,Senegal,2021-10-12 Namibia-Senegal,2021-10-12,Second round,Tue,Away,W,3,1,Namibia,3,,,,,,0,0,15:00:00,/en/matches/b332bf13/Namibia-Senegal-October-12-2021-WCQ----CAF-M
+,2022,Senegal,2021-11-11 Togo-Senegal,2021-11-11,Second round,Thu,Away,D,1,1,Togo,1,,,,,,0,0,19:00:00,/en/matches/5df18676/Togo-Senegal-November-11-2021-WCQ----CAF-M
+,2022,Senegal,2021-11-14 Senegal-Congo,2021-11-14,Second round,Sun,Home,W,2,0,Congo,2,,,,,,0,0,19:00:00,/en/matches/74b6a6de/Senegal-Congo-November-14-2021-WCQ----CAF-M
+,2022,Senegal,2022-03-25 Egypt-Senegal,2022-03-25,Third round,Fri,Away,L,0,1,Egypt,0,,,,,,0,0,21:30:00,/en/matches/d430cf43/Egypt-Senegal-March-25-2022-WCQ----CAF-M
+,2022,Senegal,2022-03-29 Senegal-Egypt,2022-03-29,Third round,Tue,Home,W,1 (3),0 (1),Egypt,1,,,,,,0,0,17:00:00,/en/matches/03a95112/Senegal-Egypt-March-29-2022-WCQ----CAF-M
+,2022,Senegal,2022-09-24 Bolivia-Bolivia,2022-09-24,Friendlies (M),Sat,Neutral,W,2,0,Bolivia,2,,,,,,1,1,19:15:00,/en/matches/30db6556/Senegal-Bolivia-September-24-2022-Friendlies-M
+,2022,Senegal,2022-09-27 IR Iran-IR Iran,2022-09-27,Friendlies (M),Tue,Neutral,D,1,1,IR Iran,0,,,,,,0,0,16:30:00,/en/matches/67e4474e/IR-Iran-Senegal-September-27-2022-Friendlies-M
+,2022,Senegal,2022-11-21 Netherlands-Netherlands,2022-11-21,Group stage,Mon,Neutral,L,0,2,Netherlands,0,15,4,26.7,0.0,0.0,0,0,19:00:00,/en/matches/21eb041c/Senegal-Netherlands-November-21-2022-World-Cup
+,2022,Senegal,2022-11-25 Qatar-Qatar,2022-11-25,Group stage,Fri,Neutral,W,3,1,Qatar,3,13,5,38.5,0.23,0.6,0,0,16:00:00,/en/matches/bfc75e3c/Qatar-Senegal-November-25-2022-World-Cup
+,2022,Senegal,2022-11-29 Ecuador-Ecuador,2022-11-29,Group stage,Tue,Neutral,W,2,1,Ecuador,2,14,3,21.4,0.07,0.33,1,1,18:00:00,/en/matches/d33eadf0/Ecuador-Senegal-November-29-2022-World-Cup
+,2022,Senegal,2022-12-04 England-England,2022-12-04,Round of 16,Sun,Neutral,L,0,3,England,0,10,1,10.0,0.0,0.0,0,0,22:00:00,/en/matches/a323f701/England-Senegal-December-4-2022-World-Cup
+,2022,Serbia,2021-03-24 Serbia-Rep. of Ireland,2021-03-24,First round,Wed,Home,W,3,2,Rep. of Ireland,3,14,4,28.6,0.21,0.75,0,0,20:45:00,/en/matches/073563b0/Serbia-Republic-of-Ireland-March-24-2021-WCQ----UEFA-M
+,2022,Serbia,2021-03-27 Serbia-Portugal,2021-03-27,First round,Sat,Home,D,2,2,Portugal,2,16,5,31.3,0.13,0.4,0,0,20:45:00,/en/matches/b6d12ef3/Serbia-Portugal-March-27-2021-WCQ----UEFA-M
+,2022,Serbia,2021-03-30 Azerbaijan-Serbia,2021-03-30,First round,Tue,Away,W,2,1,Azerbaijan,2,18,7,38.9,0.11,0.29,0,0,20:00:00,/en/matches/9a0998f8/Azerbaijan-Serbia-March-30-2021-WCQ----UEFA-M
+,2022,Serbia,2021-09-04 Serbia-Luxembourg,2021-09-04,First round,Sat,Home,W,4,1,Luxembourg,3,17,8,47.1,0.18,0.38,0,0,18:00:00,/en/matches/17236111/Serbia-Luxembourg-September-4-2021-WCQ----UEFA-M
+,2022,Serbia,2021-09-07 Rep. of Ireland-Serbia,2021-09-07,First round,Tue,Away,D,1,1,Rep. of Ireland,1,18,10,55.6,0.06,0.1,0,0,19:45:00,/en/matches/25ecd6dc/Republic-of-Ireland-Serbia-September-7-2021-WCQ----UEFA-M
+,2022,Serbia,2021-10-09 Luxembourg-Serbia,2021-10-09,First round,Sat,Away,W,1,0,Luxembourg,1,11,4,36.4,0.09,0.25,0,0,20:45:00,/en/matches/ab617d23/Luxembourg-Serbia-October-9-2021-WCQ----UEFA-M
+,2022,Serbia,2021-10-12 Serbia-Azerbaijan,2021-10-12,First round,Tue,Home,W,3,1,Azerbaijan,3,22,11,50.0,0.05,0.09,2,2,20:45:00,/en/matches/eb73e319/Serbia-Azerbaijan-October-12-2021-WCQ----UEFA-M
+,2022,Serbia,2021-11-14 Portugal-Serbia,2021-11-14,First round,Sun,Away,W,2,1,Portugal,2,11,3,27.3,0.18,0.67,0,0,19:45:00,/en/matches/0cc44e9b/Portugal-Serbia-November-14-2021-WCQ----UEFA-M
+,2022,Serbia,2022-03-24 Hungary-Hungary,2022-03-24,Friendlies (M),Thu,Neutral,W,1,0,Hungary,0,,,,,,0,0,19:30:00,/en/matches/d8e02c5c/Hungary-Serbia-March-24-2022-Friendlies-M
+,2022,Serbia,2022-03-29 Denmark-Denmark,2022-03-29,Friendlies (M),Tue,Neutral,L,0,3,Denmark,0,,,,,,0,0,18:00:00,/en/matches/cfd42a80/Denmark-Serbia-March-29-2022-Friendlies-M
+,2022,Serbia,2022-11-18 Bahrain-Bahrain,2022-11-18,Friendlies (M),Fri,Neutral,W,5,1,Bahrain,5,,,,,,0,0,18:30:00,/en/matches/871fc65d/Bahrain-Serbia-November-18-2022-Friendlies-M
+,2022,Serbia,2022-11-24 Brazil-Brazil,2022-11-24,Group stage,Thu,Neutral,L,0,2,Brazil,0,5,0,0.0,0.0,,0,0,22:00:00,/en/matches/457c3fcf/Brazil-Serbia-November-24-2022-World-Cup
+,2022,Serbia,2022-11-28 Cameroon-Cameroon,2022-11-28,Group stage,Mon,Neutral,D,3,3,Cameroon,3,15,5,33.3,0.2,0.6,0,0,13:00:00,/en/matches/fbe95cd2/Cameroon-Serbia-November-28-2022-World-Cup
+,2022,Serbia,2022-12-02 Switzerland-Switzerland,2022-12-02,Group stage,Fri,Neutral,L,2,3,Switzerland,2,12,4,33.3,0.17,0.5,0,0,22:00:00,/en/matches/cef4945f/Serbia-Switzerland-December-2-2022-World-Cup
+,2022,Spain,2021-03-25 Spain-Greece,2021-03-25,First round,Thu,Home,D,1,1,Greece,1,9,2,22.2,0.11,0.5,0,0,20:45:00,/en/matches/9b689536/Spain-Greece-March-25-2021-WCQ----UEFA-M
+,2022,Spain,2021-03-28 Georgia-Spain,2021-03-28,First round,Sun,Away,W,2,1,Georgia,2,9,3,33.3,0.22,0.67,0,0,20:00:00,/en/matches/4e0237d2/Georgia-Spain-March-28-2021-WCQ----UEFA-M
+,2022,Spain,2021-03-31 Spain-Kosovo,2021-03-31,First round,Wed,Home,W,3,1,Kosovo,3,24,11,45.8,0.13,0.27,0,0,20:45:00,/en/matches/e746a4d9/Spain-Kosovo-March-31-2021-WCQ----UEFA-M
+,2022,Spain,2021-09-02 Sweden-Spain,2021-09-02,First round,Thu,Away,L,1,2,Sweden,1,12,4,33.3,0.08,0.25,0,0,20:45:00,/en/matches/a2c7d162/Sweden-Spain-September-2-2021-WCQ----UEFA-M
+,2022,Spain,2021-09-05 Spain-Georgia,2021-09-05,First round,Sun,Home,W,4,0,Georgia,4,14,8,57.1,0.29,0.5,0,0,20:45:00,/en/matches/c964cf05/Spain-Georgia-September-5-2021-WCQ----UEFA-M
+,2022,Spain,2021-09-08 Kosovo-Spain,2021-09-08,First round,Wed,Away,W,2,0,Kosovo,2,19,4,21.1,0.11,0.5,0,0,20:45:00,/en/matches/d17ef599/Kosovo-Spain-September-8-2021-WCQ----UEFA-M
+,2022,Spain,2021-11-11 Greece-Spain,2021-11-11,First round,Thu,Away,W,1,0,Greece,1,12,3,25.0,0.0,0.0,1,1,21:45:00,/en/matches/f7183877/Greece-Spain-November-11-2021-WCQ----UEFA-M
+,2022,Spain,2021-11-14 Spain-Sweden,2021-11-14,First round,Sun,Home,W,1,0,Sweden,1,12,4,33.3,0.08,0.25,0,0,20:45:00,/en/matches/d774904e/Spain-Sweden-November-14-2021-WCQ----UEFA-M
+,2022,Spain,2022-03-26 Albania-Albania,2022-03-26,Friendlies (M),Sat,Neutral,W,2,1,Albania,2,,,,,,0,0,19:45:00,/en/matches/2e427819/Spain-Albania-March-26-2022-Friendlies-M
+,2022,Spain,2022-03-29 Iceland-Iceland,2022-03-29,Friendlies (M),Tue,Neutral,W,5,0,Iceland,5,,,,,,1,1,20:45:00,/en/matches/c2262bba/Spain-Iceland-March-29-2022-Friendlies-M
+,2022,Spain,2022-11-23 Costa Rica-Costa Rica,2022-11-23,Group stage,Wed,Neutral,W,7,0,Costa Rica,7,17,8,47.1,0.35,0.75,1,1,19:00:00,/en/matches/dadb1883/Spain-Costa-Rica-November-23-2022-World-Cup
+,2022,Spain,2022-11-27 Germany-Germany,2022-11-27,Group stage,Sun,Neutral,D,1,1,Germany,1,7,3,42.9,0.14,0.33,0,0,22:00:00,/en/matches/9397f79c/Spain-Germany-November-27-2022-World-Cup
+,2022,Spain,2022-12-01 Japan-Japan,2022-12-01,Group stage,Thu,Neutral,L,1,2,Japan,1,12,5,41.7,0.08,0.2,0,0,22:00:00,/en/matches/f04828fe/Japan-Spain-December-1-2022-World-Cup
+,2022,Spain,2022-12-06 Morocco-Morocco,2022-12-06,Round of 16,Tue,Neutral,D,0 (0),0 (3),Morocco,0,13,1,7.7,0.0,0.0,0,0,18:00:00,/en/matches/4c0aa6b0/Morocco-Spain-December-6-2022-World-Cup
+,2022,Switzerland,2021-03-25 Bulgaria-Switzerland,2021-03-25,First round,Thu,Away,W,3,1,Bulgaria,3,13,5,38.5,0.23,0.6,0,0,19:00:00,/en/matches/c31d7859/Bulgaria-Switzerland-March-25-2021-WCQ----UEFA-M
+,2022,Switzerland,2021-03-28 Switzerland-Lithuania,2021-03-28,First round,Sun,Home,W,1,0,Lithuania,1,21,9,42.9,0.05,0.11,0,0,20:45:00,/en/matches/01aebd93/Switzerland-Lithuania-March-28-2021-WCQ----UEFA-M
+,2022,Switzerland,2021-09-05 Switzerland-Italy,2021-09-05,First round,Sun,Home,D,0,0,Italy,0,6,2,33.3,0.0,0.0,0,0,20:45:00,/en/matches/fc1d5df1/Switzerland-Italy-September-5-2021-WCQ----UEFA-M
+,2022,Switzerland,2021-09-08 Northern Ireland-Switzerland,2021-09-08,First round,Wed,Away,D,0,0,Northern Ireland,0,8,3,37.5,0.0,0.0,0,1,19:45:00,/en/matches/2c1f6757/Northern-Ireland-Switzerland-September-8-2021-WCQ----UEFA-M
+,2022,Switzerland,2021-10-09 Switzerland-Northern Ireland,2021-10-09,First round,Sat,Home,W,2,0,Northern Ireland,2,27,8,29.6,0.07,0.25,0,0,20:45:00,/en/matches/6d3bdca9/Switzerland-Northern-Ireland-October-9-2021-WCQ----UEFA-M
+,2022,Switzerland,2021-10-12 Lithuania-Switzerland,2021-10-12,First round,Tue,Away,W,4,0,Lithuania,4,22,11,50.0,0.18,0.36,0,0,21:45:00,/en/matches/975040b2/Lithuania-Switzerland-October-12-2021-WCQ----UEFA-M
+,2022,Switzerland,2021-11-12 Italy-Switzerland,2021-11-12,First round,Fri,Away,D,1,1,Italy,1,10,2,20.0,0.1,0.5,0,0,20:45:00,/en/matches/c6d0850e/Italy-Switzerland-November-12-2021-WCQ----UEFA-M
+,2022,Switzerland,2021-11-15 Switzerland-Bulgaria,2021-11-15,First round,Mon,Home,W,4,0,Bulgaria,4,18,9,50.0,0.22,0.44,0,0,20:45:00,/en/matches/1e0f49ba/Switzerland-Bulgaria-November-15-2021-WCQ----UEFA-M
+,2022,Switzerland,2022-03-26 England-England,2022-03-26,Friendlies (M),Sat,Neutral,L,1,2,England,1,,,,,,0,0,17:30:00,/en/matches/3a98668d/England-Switzerland-March-26-2022-Friendlies-M
+,2022,Switzerland,2022-03-29 Kosovo-Kosovo,2022-03-29,Friendlies (M),Tue,Neutral,D,1,1,Kosovo,1,,,,,,0,0,18:00:00,/en/matches/4634b9ed/Switzerland-Kosovo-March-29-2022-Friendlies-M
+,2022,Switzerland,2022-11-17 Ghana-Ghana,2022-11-17,Friendlies (M),Thu,Neutral,L,0,2,Ghana,0,,,,,,0,0,14:00:00,/en/matches/122522a1/Ghana-Switzerland-November-17-2022-Friendlies-M
+,2022,Switzerland,2022-11-24 Cameroon-Cameroon,2022-11-24,Group stage,Thu,Neutral,W,1,0,Cameroon,1,7,3,42.9,0.14,0.33,0,0,13:00:00,/en/matches/2bfd41ff/Switzerland-Cameroon-November-24-2022-World-Cup
+,2022,Switzerland,2022-11-28 Brazil-Brazil,2022-11-28,Group stage,Mon,Neutral,L,0,1,Brazil,0,6,0,0.0,0.0,,0,0,19:00:00,/en/matches/459240ee/Brazil-Switzerland-November-28-2022-World-Cup
+,2022,Switzerland,2022-12-02 Serbia-Serbia,2022-12-02,Group stage,Fri,Neutral,W,3,2,Serbia,3,14,7,50.0,0.21,0.43,0,0,22:00:00,/en/matches/cef4945f/Serbia-Switzerland-December-2-2022-World-Cup
+,2022,Switzerland,2022-12-06 Portugal-Portugal,2022-12-06,Round of 16,Tue,Neutral,L,1,6,Portugal,1,10,3,30.0,0.1,0.33,0,0,22:00:00,/en/matches/799eb586/Portugal-Switzerland-December-6-2022-World-Cup
+,2022,Tunisia,2021-09-03 Tunisia-Equ. Guinea,2021-09-03,Second round,Fri,Home,W,3,0,Equ. Guinea,3,,,,,,1,1,20:00:00,/en/matches/0896d493/Tunisia-Equatorial-Guinea-September-3-2021-WCQ----CAF-M
+,2022,Tunisia,2021-09-07 Zambia-Tunisia,2021-09-07,Second round,Tue,Away,W,2,0,Zambia,2,,,,,,1,1,15:00:00,/en/matches/f8b4c8bb/Zambia-Tunisia-September-7-2021-WCQ----CAF-M
+,2022,Tunisia,2021-10-07 Tunisia-Mauritania,2021-10-07,Second round,Thu,Home,W,3,0,Mauritania,3,,,,,,0,0,20:00:00,/en/matches/949c3e83/Tunisia-Mauritania-October-7-2021-WCQ----CAF-M
+,2022,Tunisia,2021-10-10 Mauritania-Tunisia,2021-10-10,Second round,Sun,Away,D,0,0,Mauritania,0,,,,,,0,0,19:00:00,/en/matches/50035774/Mauritania-Tunisia-October-10-2021-WCQ----CAF-M
+,2022,Tunisia,2021-11-13 Equ. Guinea-Tunisia,2021-11-13,Second round,Sat,Away,L,0,1,Equ. Guinea,0,,,,,,0,0,17:00:00,/en/matches/114710d9/Equatorial-Guinea-Tunisia-November-13-2021-WCQ----CAF-M
+,2022,Tunisia,2021-11-16 Tunisia-Zambia,2021-11-16,Second round,Tue,Home,W,3,1,Zambia,3,,,,,,0,1,20:00:00,/en/matches/b2f49f92/Tunisia-Zambia-November-16-2021-WCQ----CAF-M
+,2022,Tunisia,2022-03-25 Mali-Tunisia,2022-03-25,Third round,Fri,Away,W,1,0,Mali,0,,,,,,0,0,17:00:00,/en/matches/a071aabd/Mali-Tunisia-March-25-2022-WCQ----CAF-M
+,2022,Tunisia,2022-03-29 Tunisia-Mali,2022-03-29,Third round,Tue,Home,D,0,0,Mali,0,,,,,,0,0,20:30:00,/en/matches/d8f8b61e/Tunisia-Mali-March-29-2022-WCQ----CAF-M
+,2022,Tunisia,2022-09-22 Comoros-Comoros,2022-09-22,Friendlies (M),Thu,Neutral,W,1,0,Comoros,1,,,,,,0,0,16:30:00,/en/matches/261907b5/Tunisia-Comoros-September-22-2022-Friendlies-M
+,2022,Tunisia,2022-09-27 Brazil-Brazil,2022-09-27,Friendlies (M),Tue,Neutral,L,1,5,Brazil,1,,,,,,0,0,15:30:00,/en/matches/963b2d1a/Brazil-Tunisia-September-27-2022-Friendlies-M
+,2022,Tunisia,2022-11-22 Denmark-Denmark,2022-11-22,Group stage,Tue,Neutral,D,0,0,Denmark,0,13,1,7.7,0.0,0.0,0,0,16:00:00,/en/matches/ea069a7f/Denmark-Tunisia-November-22-2022-World-Cup
+,2022,Tunisia,2022-11-26 Australia-Australia,2022-11-26,Group stage,Sat,Neutral,L,0,1,Australia,0,14,4,28.6,0.0,0.0,0,0,13:00:00,/en/matches/b105bb5f/Tunisia-Australia-November-26-2022-World-Cup
+,2022,Tunisia,2022-11-30 France-France,2022-11-30,Group stage,Wed,Neutral,W,1,0,France,1,5,3,60.0,0.2,0.33,0,0,18:00:00,/en/matches/acb6de0f/Tunisia-France-November-30-2022-World-Cup
+,2022,United States,2021-09-02 El Salvador-United States,2021-09-02,Third round,Thu,Away,D,0,0,El Salvador,0,,,,,,0,0,20:05:00,/en/matches/7734d999/El-Salvador-United-States-September-2-2021-WCQ----CONCACAF-M
+,2022,United States,2021-09-05 United States-Canada,2021-09-05,Third round,Sun,Home,D,1,1,Canada,1,,,,,,0,0,19:12:00,/en/matches/4eadc8b5/United-States-Canada-September-5-2021-WCQ----CONCACAF-M
+,2022,United States,2021-09-08 Honduras-United States,2021-09-08,Third round,Wed,Away,W,4,1,Honduras,4,,,,,,0,0,20:30:00,/en/matches/ea786b93/Honduras-United-States-September-8-2021-WCQ----CONCACAF-M
+,2022,United States,2021-10-07 United States-Jamaica,2021-10-07,Third round,Thu,Home,W,2,0,Jamaica,2,,,,,,0,0,18:45:00,/en/matches/b82ee796/United-States-Jamaica-October-7-2021-WCQ----CONCACAF-M
+,2022,United States,2021-10-10 Panama-United States,2021-10-10,Third round,Sun,Away,L,0,1,Panama,0,,,,,,0,0,17:05:00,/en/matches/3999b55b/Panama-United-States-October-10-2021-WCQ----CONCACAF-M
+,2022,United States,2021-10-13 United States-Costa Rica,2021-10-13,Third round,Wed,Home,W,2,1,Costa Rica,1,,,,,,0,0,19:00:00,/en/matches/57d0c2c6/United-States-Costa-Rica-October-13-2021-WCQ----CONCACAF-M
+,2022,United States,2021-11-12 United States-Mexico,2021-11-12,Third round,Fri,Home,W,2,0,Mexico,2,,,,,,0,0,21:10:00,/en/matches/79a3bf11/United-States-Mexico-November-12-2021-WCQ----CONCACAF-M
+,2022,United States,2021-11-16 Jamaica-United States,2021-11-16,Third round,Tue,Away,D,1,1,Jamaica,1,,,,,,0,0,17:00:00,/en/matches/b2289ca6/Jamaica-United-States-November-16-2021-WCQ----CONCACAF-M
+,2022,United States,2022-01-27 United States-El Salvador,2022-01-27,Third round,Thu,Home,W,1,0,El Salvador,1,,,,,,0,0,19:00:00,/en/matches/a1ba697e/United-States-El-Salvador-January-27-2022-WCQ----CONCACAF-M
+,2022,United States,2022-01-30 Canada-United States,2022-01-30,Third round,Sun,Away,L,0,2,Canada,0,,,,,,0,0,15:05:00,/en/matches/6c21289c/Canada-United-States-January-30-2022-WCQ----CONCACAF-M
+,2022,United States,2022-02-02 United States-Honduras,2022-02-02,Third round,Wed,Home,W,3,0,Honduras,3,,,,,,0,0,18:30:00,/en/matches/a790a017/United-States-Honduras-February-2-2022-WCQ----CONCACAF-M
+,2022,United States,2022-03-24 Mexico-United States,2022-03-24,Third round,Thu,Away,D,0,0,Mexico,0,,,,,,0,0,20:00:00,/en/matches/07494c1b/Mexico-United-States-March-24-2022-WCQ----CONCACAF-M
+,2022,United States,2022-03-27 United States-Panama,2022-03-27,Third round,Sun,Home,W,5,1,Panama,5,,,,,,2,2,19:00:00,/en/matches/13c77536/United-States-Panama-March-27-2022-WCQ----CONCACAF-M
+,2022,United States,2022-03-30 Costa Rica-United States,2022-03-30,Third round,Wed,Away,L,0,2,Costa Rica,0,,,,,,0,0,19:05:00,/en/matches/5931a7e7/Costa-Rica-United-States-March-30-2022-WCQ----CONCACAF-M
+,2022,United States,2022-06-01 Morocco-Morocco,2022-06-01,Friendlies (M),Wed,Neutral,W,3,0,Morocco,3,,,,,,1,1,19:30:00,/en/matches/1f428d10/United-States-Morocco-June-1-2022-Friendlies-M
+,2022,United States,2022-09-23 Japan-Japan,2022-09-23,Friendlies (M),Fri,Neutral,L,0,2,Japan,0,,,,,,0,0,14:25:00,/en/matches/676aab42/Japan-United-States-September-23-2022-Friendlies-M
+,2022,United States,2022-09-27 Saudi Arabia-Saudi Arabia,2022-09-27,Friendlies (M),Tue,Neutral,D,0,0,Saudi Arabia,0,,,,,,0,0,20:00:00,/en/matches/56bde19a/Saudi-Arabia-United-States-September-27-2022-Friendlies-M
+,2022,United States,2022-11-21 Wales-Wales,2022-11-21,Group stage,Mon,Neutral,D,1,1,Wales,1,6,1,16.7,0.17,1.0,0,0,22:00:00,/en/matches/9de4c4cc/United-States-Wales-November-21-2022-World-Cup
+,2022,United States,2022-11-25 England-England,2022-11-25,Group stage,Fri,Neutral,D,0,0,England,0,10,1,10.0,0.0,0.0,0,0,22:00:00,/en/matches/cde0c30b/England-United-States-November-25-2022-World-Cup
+,2022,United States,2022-11-29 IR Iran-IR Iran,2022-11-29,Group stage,Tue,Neutral,W,1,0,IR Iran,1,12,5,41.7,0.08,0.2,0,0,22:00:00,/en/matches/dcd3b239/IR-Iran-United-States-November-29-2022-World-Cup
+,2022,United States,2022-12-03 Netherlands-Netherlands,2022-12-03,Round of 16,Sat,Neutral,L,1,3,Netherlands,1,17,8,47.1,0.06,0.13,0,0,18:00:00,/en/matches/249ccad4/Netherlands-United-States-December-3-2022-World-Cup
+,2022,Uruguay,2020-10-08 Uruguay-Chile,2020-10-08,WCQ — CONMEBOL (M),Thu,Home,W,2,1,Chile,2,9,2,22.2,0.11,0.5,1,1,19:45:00,/en/matches/22e4118a/Uruguay-Chile-October-8-2020-WCQ----CONMEBOL-M
+,2022,Uruguay,2020-10-13 Ecuador-Uruguay,2020-10-13,WCQ — CONMEBOL (M),Tue,Away,L,2,4,Ecuador,2,7,4,57.1,0.0,0.0,2,2,16:00:00,/en/matches/f7e0f805/Ecuador-Uruguay-October-13-2020-WCQ----CONMEBOL-M
+,2022,Uruguay,2020-11-13 Colombia-Uruguay,2020-11-13,WCQ — CONMEBOL (M),Fri,Away,W,3,0,Colombia,3,6,4,66.7,0.33,0.5,1,1,15:30:00,/en/matches/7e293483/Colombia-Uruguay-November-13-2020-WCQ----CONMEBOL-M
+,2022,Uruguay,2020-11-17 Uruguay-Brazil,2020-11-17,WCQ — CONMEBOL (M),Tue,Home,L,0,2,Brazil,0,6,0,0.0,0.0,,0,0,20:00:00,/en/matches/200f1977/Uruguay-Brazil-November-17-2020-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-06-03 Uruguay-Paraguay,2021-06-03,WCQ — CONMEBOL (M),Thu,Home,D,0,0,Paraguay,0,12,2,16.7,0.0,0.0,0,0,19:00:00,/en/matches/7303b11e/Uruguay-Paraguay-June-3-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-06-08 Venezuela-Uruguay,2021-06-08,WCQ — CONMEBOL (M),Tue,Away,D,0,0,Venezuela,0,7,3,42.9,0.0,0.0,0,0,18:30:00,/en/matches/b131c409/Venezuela-Uruguay-June-8-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-09-02 Peru-Uruguay,2021-09-02,WCQ — CONMEBOL (M),Thu,Away,D,1,1,Peru,1,8,2,25.0,0.13,0.5,0,0,20:00:00,/en/matches/9c62d11d/Peru-Uruguay-September-2-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-09-05 Uruguay-Bolivia,2021-09-05,WCQ — CONMEBOL (M),Sun,Home,W,4,2,Bolivia,4,19,10,52.6,0.16,0.3,1,1,19:00:00,/en/matches/2b7eb917/Uruguay-Bolivia-September-5-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-09-09 Uruguay-Ecuador,2021-09-09,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Ecuador,1,9,1,11.1,0.11,1.0,0,0,19:30:00,/en/matches/2f1f8b9b/Uruguay-Ecuador-September-9-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-10-07 Uruguay-Colombia,2021-10-07,WCQ — CONMEBOL (M),Thu,Home,D,0,0,Colombia,0,15,3,20.0,0.0,0.0,0,0,20:00:00,/en/matches/b22cd290/Uruguay-Colombia-October-7-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-10-10 Argentina-Uruguay,2021-10-10,WCQ — CONMEBOL (M),Sun,Away,L,0,3,Argentina,0,10,6,60.0,0.0,0.0,0,0,20:30:00,/en/matches/60d07fdd/Argentina-Uruguay-October-10-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-10-14 Brazil-Uruguay,2021-10-14,WCQ — CONMEBOL (M),Thu,Away,L,1,4,Brazil,1,5,3,60.0,0.2,0.33,0,0,20:30:00,/en/matches/48f7c36a/Brazil-Uruguay-October-14-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-11-12 Uruguay-Argentina,2021-11-12,WCQ — CONMEBOL (M),Fri,Home,L,0,1,Argentina,0,19,4,21.1,0.0,0.0,0,0,20:00:00,/en/matches/3118bc39/Uruguay-Argentina-November-12-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2021-11-16 Bolivia-Uruguay,2021-11-16,WCQ — CONMEBOL (M),Tue,Away,L,0,3,Bolivia,0,17,4,23.5,0.0,0.0,0,0,16:00:00,/en/matches/dfdb28c6/Bolivia-Uruguay-November-16-2021-WCQ----CONMEBOL-M
+,2022,Uruguay,2022-01-27 Paraguay-Uruguay,2022-01-27,WCQ — CONMEBOL (M),Thu,Away,W,1,0,Paraguay,1,15,4,26.7,0.07,0.25,0,0,20:00:00,/en/matches/e2711cae/Paraguay-Uruguay-January-27-2022-WCQ----CONMEBOL-M
+,2022,Uruguay,2022-02-01 Uruguay-Venezuela,2022-02-01,WCQ — CONMEBOL (M),Tue,Home,W,4,1,Venezuela,4,22,11,50.0,0.14,0.27,1,1,20:00:00,/en/matches/7a366fd8/Uruguay-Venezuela-February-1-2022-WCQ----CONMEBOL-M
+,2022,Uruguay,2022-03-24 Uruguay-Peru,2022-03-24,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Peru,1,14,2,14.3,0.07,0.5,0,0,20:30:00,/en/matches/2c7cca3b/Uruguay-Peru-March-24-2022-WCQ----CONMEBOL-M
+,2022,Uruguay,2022-03-29 Chile-Uruguay,2022-03-29,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Chile,2,15,6,40.0,0.13,0.33,0,0,20:30:00,/en/matches/b0fdaa5b/Chile-Uruguay-March-29-2022-WCQ----CONMEBOL-M
+,2022,Uruguay,2022-06-02 Mexico-Mexico,2022-06-02,Friendlies (M),Thu,Neutral,W,3,0,Mexico,3,,,,,,0,0,19:00:00,/en/matches/471f58e1/Mexico-Uruguay-June-2-2022-Friendlies-M
+,2022,Uruguay,2022-09-23 IR Iran-IR Iran,2022-09-23,Friendlies (M),Fri,Neutral,L,0,1,IR Iran,0,,,,,,0,0,19:30:00,/en/matches/0542214a/IR-Iran-Uruguay-September-23-2022-Friendlies-M
+,2022,Uruguay,2022-09-27 Canada-Canada,2022-09-27,Friendlies (M),Tue,Neutral,W,2,0,Canada,2,,,,,,0,0,18:00:00,/en/matches/b90aca49/Canada-Uruguay-September-27-2022-Friendlies-M
+,2022,Uruguay,2022-11-24 Korea Republic-Korea Republic,2022-11-24,Group stage,Thu,Neutral,D,0,0,Korea Republic,0,10,1,10.0,0.0,0.0,0,0,16:00:00,/en/matches/878d5504/Uruguay-Korea-Republic-November-24-2022-World-Cup
+,2022,Uruguay,2022-11-28 Portugal-Portugal,2022-11-28,Group stage,Mon,Neutral,L,0,2,Portugal,0,11,3,27.3,0.0,0.0,0,0,22:00:00,/en/matches/90fded8a/Portugal-Uruguay-November-28-2022-World-Cup
+,2022,Uruguay,2022-12-02 Ghana-Ghana,2022-12-02,Group stage,Fri,Neutral,W,2,0,Ghana,2,12,7,58.3,0.17,0.29,0,0,18:00:00,/en/matches/0b62abf2/Ghana-Uruguay-December-2-2022-World-Cup
+,2022,Wales,2021-03-24 Belgium-Wales,2021-03-24,First round,Wed,Away,L,1,3,Belgium,1,4,1,25.0,0.25,1.0,0,0,20:45:00,/en/matches/9eafdb50/Belgium-Wales-March-24-2021-WCQ----UEFA-M
+,2022,Wales,2021-03-30 Wales-Czechia,2021-03-30,First round,Tue,Home,W,1,0,Czechia,1,8,3,37.5,0.13,0.33,0,0,19:45:00,/en/matches/19951036/Wales-Czechia-March-30-2021-WCQ----UEFA-M
+,2022,Wales,2021-09-05 Belarus-Wales,2021-09-05,First round,Sun,Away,W,3,2,Belarus,3,17,7,41.2,0.06,0.14,2,2,16:00:00,/en/matches/16d6f53a/Belarus-Wales-September-5-2021-WCQ----UEFA-M
+,2022,Wales,2021-09-08 Wales-Estonia,2021-09-08,First round,Wed,Home,D,0,0,Estonia,0,20,6,30.0,0.0,0.0,0,0,19:45:00,/en/matches/28b49512/Wales-Estonia-September-8-2021-WCQ----UEFA-M
+,2022,Wales,2021-10-08 Czechia-Wales,2021-10-08,First round,Fri,Away,D,2,2,Czechia,2,16,5,31.3,0.13,0.4,0,0,20:45:00,/en/matches/3f2e2218/Czechia-Wales-October-8-2021-WCQ----UEFA-M
+,2022,Wales,2021-10-11 Estonia-Wales,2021-10-11,First round,Mon,Away,W,1,0,Estonia,1,14,5,35.7,0.07,0.2,0,0,21:45:00,/en/matches/49a42498/Estonia-Wales-October-11-2021-WCQ----UEFA-M
+,2022,Wales,2021-11-13 Wales-Belarus,2021-11-13,First round,Sat,Home,W,5,1,Belarus,5,18,7,38.9,0.22,0.57,1,1,19:45:00,/en/matches/f1c0e8a2/Wales-Belarus-November-13-2021-WCQ----UEFA-M
+,2022,Wales,2021-11-16 Wales-Belgium,2021-11-16,First round,Tue,Home,D,1,1,Belgium,1,8,3,37.5,0.13,0.33,0,0,19:45:00,/en/matches/c2aa4863/Wales-Belgium-November-16-2021-WCQ----UEFA-M
+,2022,Wales,2022-03-24 Wales-Austria,2022-03-24,Second round — Semi-finals,Thu,Home,W,2,1,Austria,2,14,7,50.0,0.14,0.29,0,0,19:45:00,/en/matches/a5b025eb/Wales-Austria-March-24-2022-WCQ----UEFA-M
+,2022,Wales,2022-03-29 Czechia-Czechia,2022-03-29,Friendlies (M),Tue,Neutral,D,1,1,Czechia,1,,,,,,0,0,19:45:00,/en/matches/0ace8939/Wales-Czechia-March-29-2022-Friendlies-M
+,2022,Wales,2022-06-05 Wales-Ukraine,2022-06-05,Second round — Finals,Sun,Home,W,1,0,Ukraine,0,0,0,,,,0,0,17:00:00,/en/matches/bf22f694/Wales-Ukraine-June-5-2022-WCQ----UEFA-M
+,2022,Wales,2022-11-21 United States-United States,2022-11-21,Group stage,Mon,Neutral,D,1,1,United States,1,7,3,42.9,0.0,0.0,1,1,22:00:00,/en/matches/9de4c4cc/United-States-Wales-November-21-2022-World-Cup
+,2022,Wales,2022-11-25 IR Iran-IR Iran,2022-11-25,Group stage,Fri,Neutral,L,0,2,IR Iran,0,10,3,30.0,0.0,0.0,0,0,13:00:00,/en/matches/ff2407b2/Wales-IR-Iran-November-25-2022-World-Cup
+,2022,Wales,2022-11-29 England-England,2022-11-29,Group stage,Tue,Neutral,L,0,3,England,0,7,1,14.3,0.0,0.0,0,0,22:00:00,/en/matches/e51b7436/Wales-England-November-29-2022-World-Cup

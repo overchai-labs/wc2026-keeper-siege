@@ -1,0 +1,784 @@
+league,season,team,game,date,round,day,venue,result,GF,GA,opponent,Standard_Gls,Standard_Sh,Standard_SoT,Standard_SoT%,Standard_G/Sh,Standard_G/SoT,Standard_PK,Standard_PKatt,time,match_report
+,2018,Argentina,2015-10-08 Argentina-Ecuador,2015-10-08,WCQ — CONMEBOL (M),Thu,Home,L,0,2,Ecuador,0,,,,,,0,0,21:00:00,/en/matches/edca46a2/Argentina-Ecuador-October-8-2015-WCQ----CONMEBOL-M
+,2018,Argentina,2015-10-13 Paraguay-Argentina,2015-10-13,WCQ — CONMEBOL (M),Tue,Away,D,0,0,Paraguay,0,,,,,,0,0,21:00:00,/en/matches/1246547e/Paraguay-Argentina-October-13-2015-WCQ----CONMEBOL-M
+,2018,Argentina,2015-11-13 Argentina-Brazil,2015-11-13,WCQ — CONMEBOL (M),Fri,Home,D,1,1,Brazil,1,,,,,,0,0,21:00:00,/en/matches/64e9f118/Argentina-Brazil-November-13-2015-WCQ----CONMEBOL-M
+,2018,Argentina,2015-11-17 Colombia-Argentina,2015-11-17,WCQ — CONMEBOL (M),Tue,Away,W,1,0,Colombia,1,,,,,,0,0,15:30:00,/en/matches/b05ac6d9/Colombia-Argentina-November-17-2015-WCQ----CONMEBOL-M
+,2018,Argentina,2016-03-24 Chile-Argentina,2016-03-24,WCQ — CONMEBOL (M),Thu,Away,W,2,1,Chile,2,,,,,,0,0,20:30:00,/en/matches/0860f8d4/Chile-Argentina-March-24-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2016-03-29 Argentina-Bolivia,2016-03-29,WCQ — CONMEBOL (M),Tue,Home,W,2,0,Bolivia,2,,,,,,1,1,20:30:00,/en/matches/fa5df43d/Argentina-Bolivia-March-29-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2016-09-01 Argentina-Uruguay,2016-09-01,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Uruguay,1,,,,,,0,0,20:30:00,/en/matches/1d09fc05/Argentina-Uruguay-September-1-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2016-09-06 Venezuela-Argentina,2016-09-06,WCQ — CONMEBOL (M),Tue,Away,D,2,2,Venezuela,2,,,,,,0,0,19:30:00,/en/matches/98a6baff/Venezuela-Argentina-September-6-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2016-10-06 Peru-Argentina,2016-10-06,WCQ — CONMEBOL (M),Thu,Away,D,2,2,Peru,2,,,,,,0,0,21:15:00,/en/matches/adabc204/Peru-Argentina-October-6-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2016-10-11 Argentina-Paraguay,2016-10-11,WCQ — CONMEBOL (M),Tue,Home,L,0,1,Paraguay,0,,,,,,0,1,20:30:00,/en/matches/a3ea6615/Argentina-Paraguay-October-11-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2016-11-10 Brazil-Argentina,2016-11-10,WCQ — CONMEBOL (M),Thu,Away,L,0,3,Brazil,0,,,,,,0,0,21:45:00,/en/matches/20ff1a11/Brazil-Argentina-November-10-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2016-11-15 Argentina-Colombia,2016-11-15,WCQ — CONMEBOL (M),Tue,Home,W,3,0,Colombia,3,,,,,,0,0,20:30:00,/en/matches/6094a77a/Argentina-Colombia-November-15-2016-WCQ----CONMEBOL-M
+,2018,Argentina,2017-03-23 Argentina-Chile,2017-03-23,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Chile,1,,,,,,1,1,20:30:00,/en/matches/6810d685/Argentina-Chile-March-23-2017-WCQ----CONMEBOL-M
+,2018,Argentina,2017-03-28 Bolivia-Argentina,2017-03-28,WCQ — CONMEBOL (M),Tue,Away,L,0,2,Bolivia,0,,,,,,0,0,16:00:00,/en/matches/b1e0c7bd/Bolivia-Argentina-March-28-2017-WCQ----CONMEBOL-M
+,2018,Argentina,2017-08-31 Uruguay-Argentina,2017-08-31,WCQ — CONMEBOL (M),Thu,Away,D,0,0,Uruguay,0,,,,,,0,0,20:00:00,/en/matches/0e60f5fa/Uruguay-Argentina-August-31-2017-WCQ----CONMEBOL-M
+,2018,Argentina,2017-09-05 Argentina-Venezuela,2017-09-05,WCQ — CONMEBOL (M),Tue,Home,D,1,1,Venezuela,0,,,,,,0,0,20:30:00,/en/matches/5a477d80/Argentina-Venezuela-September-5-2017-WCQ----CONMEBOL-M
+,2018,Argentina,2017-10-05 Argentina-Peru,2017-10-05,WCQ — CONMEBOL (M),Thu,Home,D,0,0,Peru,0,,,,,,0,0,20:30:00,/en/matches/802fa6e6/Argentina-Peru-October-5-2017-WCQ----CONMEBOL-M
+,2018,Argentina,2017-10-10 Ecuador-Argentina,2017-10-10,WCQ — CONMEBOL (M),Tue,Away,W,3,1,Ecuador,3,,,,,,0,0,18:30:00,/en/matches/9fc3156a/Ecuador-Argentina-October-10-2017-WCQ----CONMEBOL-M
+,2018,Argentina,2018-03-23 Argentina-Italy,2018-03-23,Friendlies (M),Fri,Home,W,2,0,Italy,2,,,,,,0,0,19:45:00,/en/matches/62a13fba/Argentina-Italy-March-23-2018-Friendlies-M
+,2018,Argentina,2018-03-27 Spain-Argentina,2018-03-27,Friendlies (M),Tue,Away,L,1,6,Spain,1,,,,,,0,0,21:30:00,/en/matches/b28cf1a9/Spain-Argentina-March-27-2018-Friendlies-M
+,2018,Argentina,2018-05-29 Argentina-Haiti,2018-05-29,Friendlies (M),Tue,Home,W,4,0,Haiti,4,,,,,,1,1,20:00:00,/en/matches/8aac67e0/Argentina-Haiti-May-29-2018-Friendlies-M
+,2018,Argentina,2018-06-16 Iceland-Iceland,2018-06-16,Group stage,Sat,Neutral,D,1,1,Iceland,1,27,7,25.9,0.04,0.14,0,1,16:00:00,/en/matches/1b352279/Argentina-Iceland-June-16-2018-World-Cup
+,2018,Argentina,2018-06-21 Croatia-Croatia,2018-06-21,Group stage,Thu,Neutral,L,0,3,Croatia,0,10,3,30.0,0.0,0.0,0,0,21:00:00,/en/matches/c4ec1ec2/Argentina-Croatia-June-21-2018-World-Cup
+,2018,Argentina,2018-06-26 Nigeria-Nigeria,2018-06-26,Group stage,Tue,Neutral,W,2,1,Nigeria,2,8,4,50.0,0.25,0.5,0,0,21:00:00,/en/matches/1185d834/Nigeria-Argentina-June-26-2018-World-Cup
+,2018,Argentina,2018-06-30 France-France,2018-06-30,Round of 16,Sat,Neutral,L,3,4,France,3,10,4,40.0,0.3,0.75,0,0,17:00:00,/en/matches/1c9745ea/France-Argentina-June-30-2018-World-Cup
+,2018,Argentina,2018-09-07 Argentina-Guatemala,2018-09-07,Friendlies (M),Fri,Home,W,3,0,Guatemala,3,,,,,,1,1,19:45:00,/en/matches/8bd2984d/Argentina-Guatemala-September-7-2018-Friendlies-M
+,2018,Argentina,2018-09-11 Colombia-Argentina,2018-09-11,Friendlies (M),Tue,Away,D,0,0,Colombia,0,,,,,,0,0,20:00:00,/en/matches/19cfecf5/Colombia-Argentina-September-11-2018-Friendlies-M
+,2018,Argentina,2018-10-11 Iraq-Argentina,2018-10-11,Friendlies (M),Thu,Away,W,4,0,Iraq,4,,,,,,0,0,21:00:00,/en/matches/617adb0a/Iraq-Argentina-October-11-2018-Friendlies-M
+,2018,Argentina,2018-11-16 Argentina-Mexico,2018-11-16,Friendlies (M),Fri,Home,W,2,0,Mexico,1,,,,,,0,0,21:00:00,/en/matches/9b7cd617/Argentina-Mexico-November-16-2018-Friendlies-M
+,2018,Argentina,2018-11-20 Argentina-Mexico,2018-11-20,Friendlies (M),Tue,Home,W,2,0,Mexico,2,,,,,,0,0,21:00:00,/en/matches/7514ca60/Argentina-Mexico-November-20-2018-Friendlies-M
+,2018,Australia,2015-06-16 Kyrgyz Republic-Australia,2015-06-16,Second round,Tue,Away,W,2,1,Kyrgyz Republic,2,,,,,,0,0,20:00:00,/en/matches/b4c98195/Kyrgyz-Republic-Australia-June-16-2015-WCQ----AFC-M
+,2018,Australia,2015-09-03 Australia-Bangladesh,2015-09-03,Second round,Thu,Home,W,5,0,Bangladesh,5,,,,,,0,0,19:00:00,/en/matches/9c11574b/Australia-Bangladesh-September-3-2015-WCQ----AFC-M
+,2018,Australia,2015-09-08 Tajikistan-Australia,2015-09-08,Second round,Tue,Away,W,3,0,Tajikistan,3,,,,,,0,0,18:00:00,/en/matches/59a50bf0/Tajikistan-Australia-September-8-2015-WCQ----AFC-M
+,2018,Australia,2015-10-08 Jordan-Australia,2015-10-08,Second round,Thu,Away,L,0,2,Jordan,0,,,,,,0,0,17:00:00,/en/matches/930c4d21/Jordan-Australia-October-8-2015-WCQ----AFC-M
+,2018,Australia,2015-11-12 Australia-Kyrgyz Republic,2015-11-12,Second round,Thu,Home,W,3,0,Kyrgyz Republic,2,,,,,,1,1,20:00:00,/en/matches/575466ab/Australia-Kyrgyz-Republic-November-12-2015-WCQ----AFC-M
+,2018,Australia,2015-11-17 Bangladesh-Australia,2015-11-17,Second round,Tue,Away,W,4,0,Bangladesh,4,,,,,,0,0,17:30:00,/en/matches/f5255189/Bangladesh-Australia-November-17-2015-WCQ----AFC-M
+,2018,Australia,2016-03-24 Australia-Tajikistan,2016-03-24,Second round,Thu,Home,W,7,0,Tajikistan,7,,,,,,2,2,19:30:00,/en/matches/9aa0b5f2/Australia-Tajikistan-March-24-2016-WCQ----AFC-M
+,2018,Australia,2016-03-29 Australia-Jordan,2016-03-29,Second round,Tue,Home,W,5,1,Jordan,5,,,,,,0,0,20:00:00,/en/matches/4cbcdecd/Australia-Jordan-March-29-2016-WCQ----AFC-M
+,2018,Australia,2016-09-01 Australia-Iraq,2016-09-01,Third round,Thu,Home,W,2,0,Iraq,2,,,,,,0,0,18:30:00,/en/matches/70d34cfb/Australia-Iraq-September-1-2016-WCQ----AFC-M
+,2018,Australia,2016-09-06 UAE-Australia,2016-09-06,Third round,Tue,Away,W,1,0,UAE,1,,,,,,0,0,19:30:00,/en/matches/2f5e97d1/United-Arab-Emirates-Australia-September-6-2016-WCQ----AFC-M
+,2018,Australia,2016-10-06 Saudi Arabia-Australia,2016-10-06,Third round,Thu,Away,D,2,2,Saudi Arabia,2,,,,,,0,0,20:45:00,/en/matches/99392684/Saudi-Arabia-Australia-October-6-2016-WCQ----AFC-M
+,2018,Australia,2016-10-11 Australia-Japan,2016-10-11,Third round,Tue,Home,D,1,1,Japan,1,,,,,,1,1,20:00:00,/en/matches/90e39134/Australia-Japan-October-11-2016-WCQ----AFC-M
+,2018,Australia,2016-11-15 Thailand-Australia,2016-11-15,Third round,Tue,Away,D,2,2,Thailand,2,,,,,,2,2,19:00:00,/en/matches/6c0eaf44/Thailand-Australia-November-15-2016-WCQ----AFC-M
+,2018,Australia,2017-03-23 Iraq-Australia,2017-03-23,Third round,Thu,Away,D,1,1,Iraq,1,,,,,,0,0,16:30:00,/en/matches/b684b8d6/Iraq-Australia-March-23-2017-WCQ----AFC-M
+,2018,Australia,2017-03-28 Australia-UAE,2017-03-28,Third round,Tue,Home,W,2,0,UAE,2,,,,,,0,0,20:00:00,/en/matches/7513c72b/Australia-United-Arab-Emirates-March-28-2017-WCQ----AFC-M
+,2018,Australia,2017-06-08 Australia-Saudi Arabia,2017-06-08,Third round,Thu,Home,W,3,2,Saudi Arabia,3,,,,,,0,0,19:30:00,/en/matches/8ef789d0/Australia-Saudi-Arabia-June-8-2017-WCQ----AFC-M
+,2018,Australia,2017-08-31 Japan-Australia,2017-08-31,Third round,Thu,Away,L,0,2,Japan,0,,,,,,0,0,19:35:00,/en/matches/10488603/Japan-Australia-August-31-2017-WCQ----AFC-M
+,2018,Australia,2017-09-05 Australia-Thailand,2017-09-05,Third round,Tue,Home,W,2,1,Thailand,2,,,,,,0,0,20:00:00,/en/matches/6f88041c/Australia-Thailand-September-5-2017-WCQ----AFC-M
+,2018,Australia,2017-10-05 Syria-Australia,2017-10-05,Fourth round,Thu,Away,D,1,1,Syria,1,,,,,,0,0,20:30:00,/en/matches/e3fc3f5a/Syria-Australia-October-5-2017-WCQ----AFC-M
+,2018,Australia,2017-10-10 Australia-Syria,2017-10-10,Fourth round,Tue,Home,W,2,1,Syria,2,,,,,,0,0,20:00:00,/en/matches/12273a45/Australia-Syria-October-10-2017-WCQ----AFC-M
+,2018,Australia,2018-03-23 Norway-Australia,2018-03-23,Friendlies (M),Fri,Away,L,1,4,Norway,1,,,,,,0,0,18:00:00,/en/matches/50793a5a/Norway-Australia-March-23-2018-Friendlies-M
+,2018,Australia,2018-03-27 Colombia-Australia,2018-03-27,Friendlies (M),Tue,Away,D,0,0,Colombia,0,,,,,,0,0,20:00:00,/en/matches/b24e5c7c/Colombia-Australia-March-27-2018-Friendlies-M
+,2018,Australia,2018-06-01 Australia-Czechia,2018-06-01,Friendlies (M),Fri,Home,W,4,0,Czechia,3,,,,,,0,0,13:00:00,/en/matches/fee04f03/Australia-Czechia-June-1-2018-Friendlies-M
+,2018,Australia,2018-06-09 Hungary-Australia,2018-06-09,Friendlies (M),Sat,Away,W,2,1,Hungary,1,,,,,,0,0,17:30:00,/en/matches/a7ed09f9/Hungary-Australia-June-9-2018-Friendlies-M
+,2018,Australia,2018-06-16 France-France,2018-06-16,Group stage,Sat,Neutral,L,1,2,France,1,6,1,16.7,0.0,0.0,1,1,13:00:00,/en/matches/99aa0597/France-Australia-June-16-2018-World-Cup
+,2018,Australia,2018-06-21 Denmark-Denmark,2018-06-21,Group stage,Thu,Neutral,D,1,1,Denmark,1,12,4,33.3,0.0,0.0,1,1,16:00:00,/en/matches/85bb652d/Denmark-Australia-June-21-2018-World-Cup
+,2018,Australia,2018-06-26 Peru-Peru,2018-06-26,Group stage,Tue,Neutral,L,0,2,Peru,0,14,2,14.3,0.0,0.0,0,0,17:00:00,/en/matches/a3abd3b3/Australia-Peru-June-26-2018-World-Cup
+,2018,Australia,2018-10-15 Kuwait-Australia,2018-10-15,Friendlies (M),Mon,Away,W,4,0,Kuwait,3,,,,,,0,0,19:30:00,/en/matches/147c51ea/Kuwait-Australia-October-15-2018-Friendlies-M
+,2018,Australia,2018-11-17 Australia-Korea Republic,2018-11-17,Friendlies (M),Sat,Home,D,1,1,Korea Republic,1,,,,,,0,0,18:50:00,/en/matches/9d4687ec/Australia-Korea-Republic-November-17-2018-Friendlies-M
+,2018,Australia,2018-11-20 Australia-Lebanon,2018-11-20,Friendlies (M),Tue,Home,W,3,0,Lebanon,3,,,,,,0,0,19:50:00,/en/matches/e93873f7/Australia-Lebanon-November-20-2018-Friendlies-M
+,2018,Australia,2018-12-30 Oman-Oman,2018-12-30,Friendlies (M),Sun,Neutral,W,5,0,Oman,5,,,,,,0,0,16:00:00,/en/matches/1fe4b7c3/Australia-Oman-December-30-2018-Friendlies-M
+,2018,Belgium,2016-09-06 Cyprus-Belgium,2016-09-06,First round,Tue,Away,W,3,0,Cyprus,3,,,,,,0,1,21:45:00,/en/matches/6b593e31/Cyprus-Belgium-September-6-2016-WCQ----UEFA-M
+,2018,Belgium,2016-10-07 Belgium-Bosnia–Herz,2016-10-07,First round,Fri,Home,W,4,0,Bosnia–Herz,3,,,,,,0,0,20:45:00,/en/matches/e36db3e0/Belgium-Bosnia-and-Herzegovina-October-7-2016-WCQ----UEFA-M
+,2018,Belgium,2016-10-10 Gibraltar-Belgium,2016-10-10,First round,Mon,Away,W,6,0,Gibraltar,6,,,,,,0,0,19:45:00,/en/matches/ef77a12c/Gibraltar-Belgium-October-10-2016-WCQ----UEFA-M
+,2018,Belgium,2016-11-13 Belgium-Estonia,2016-11-13,First round,Sun,Home,W,8,1,Estonia,7,,,,,,0,0,20:45:00,/en/matches/01579c5e/Belgium-Estonia-November-13-2016-WCQ----UEFA-M
+,2018,Belgium,2017-03-25 Belgium-Greece,2017-03-25,First round,Sat,Home,D,1,1,Greece,1,,,,,,0,0,20:45:00,/en/matches/51f2755d/Belgium-Greece-March-25-2017-WCQ----UEFA-M
+,2018,Belgium,2017-06-09 Estonia-Belgium,2017-06-09,First round,Fri,Away,W,2,0,Estonia,2,,,,,,0,0,21:45:00,/en/matches/9bd1fcd2/Estonia-Belgium-June-9-2017-WCQ----UEFA-M
+,2018,Belgium,2017-08-31 Belgium-Gibraltar,2017-08-31,First round,Thu,Home,W,9,0,Gibraltar,9,,,,,,1,1,20:45:00,/en/matches/9753cf97/Belgium-Gibraltar-August-31-2017-WCQ----UEFA-M
+,2018,Belgium,2017-09-03 Greece-Belgium,2017-09-03,First round,Sun,Away,W,2,1,Greece,2,,,,,,0,0,21:45:00,/en/matches/f05db8db/Greece-Belgium-September-3-2017-WCQ----UEFA-M
+,2018,Belgium,2017-10-07 Bosnia–Herz-Belgium,2017-10-07,First round,Sat,Away,W,4,3,Bosnia–Herz,4,,,,,,0,0,18:00:00,/en/matches/8b00f131/Bosnia-and-Herzegovina-Belgium-October-7-2017-WCQ----UEFA-M
+,2018,Belgium,2017-10-10 Belgium-Cyprus,2017-10-10,First round,Tue,Home,W,4,0,Cyprus,4,,,,,,1,1,20:45:00,/en/matches/336da404/Belgium-Cyprus-October-10-2017-WCQ----UEFA-M
+,2018,Belgium,2018-03-27 Belgium-Saudi Arabia,2018-03-27,Friendlies (M),Tue,Home,W,4,0,Saudi Arabia,4,,,,,,0,0,20:45:00,/en/matches/7ec486aa/Belgium-Saudi-Arabia-March-27-2018-Friendlies-M
+,2018,Belgium,2018-06-02 Belgium-Portugal,2018-06-02,Friendlies (M),Sat,Home,D,0,0,Portugal,0,,,,,,0,0,20:45:00,/en/matches/afb90adc/Belgium-Portugal-June-2-2018-Friendlies-M
+,2018,Belgium,2018-06-06 Belgium-Egypt,2018-06-06,Friendlies (M),Wed,Home,W,3,0,Egypt,3,,,,,,0,0,20:45:00,/en/matches/bd53106c/Belgium-Egypt-June-6-2018-Friendlies-M
+,2018,Belgium,2018-06-11 Belgium-Costa Rica,2018-06-11,Friendlies (M),Mon,Home,W,4,1,Costa Rica,4,,,,,,0,0,20:45:00,/en/matches/31b00414/Belgium-Costa-Rica-June-11-2018-Friendlies-M
+,2018,Belgium,2018-06-18 Panama-Panama,2018-06-18,Group stage,Mon,Neutral,W,3,0,Panama,3,15,6,40.0,0.2,0.5,0,0,18:00:00,/en/matches/fe0f9213/Belgium-Panama-June-18-2018-World-Cup
+,2018,Belgium,2018-06-23 Tunisia-Tunisia,2018-06-23,Group stage,Sat,Neutral,W,5,2,Tunisia,5,23,12,52.2,0.17,0.33,1,1,15:00:00,/en/matches/f9b97a12/Belgium-Tunisia-June-23-2018-World-Cup
+,2018,Belgium,2018-06-28 England-England,2018-06-28,Group stage,Thu,Neutral,W,1,0,England,1,14,4,28.6,0.07,0.25,0,0,20:00:00,/en/matches/5c20eb91/England-Belgium-June-28-2018-World-Cup
+,2018,Belgium,2018-07-02 Japan-Japan,2018-07-02,Round of 16,Mon,Neutral,W,3,2,Japan,3,24,8,33.3,0.13,0.38,0,0,21:00:00,/en/matches/1fd23151/Belgium-Japan-July-2-2018-World-Cup
+,2018,Belgium,2018-07-06 Brazil-Brazil,2018-07-06,Quarter-finals,Fri,Neutral,W,2,1,Brazil,1,9,3,33.3,0.11,0.33,0,0,21:00:00,/en/matches/6fa6550c/Brazil-Belgium-July-6-2018-World-Cup
+,2018,Belgium,2018-07-10 France-France,2018-07-10,Semi-finals,Tue,Neutral,L,0,1,France,0,9,3,33.3,0.0,0.0,0,0,21:00:00,/en/matches/605079c0/France-Belgium-July-10-2018-World-Cup
+,2018,Belgium,2018-07-14 England-England,2018-07-14,Third-place match,Sat,Neutral,W,2,0,England,2,12,4,33.3,0.17,0.5,0,0,17:00:00,/en/matches/bc417615/Belgium-England-July-14-2018-World-Cup
+,2018,Belgium,2018-09-07 Scotland-Belgium,2018-09-07,Friendlies (M),Fri,Away,W,4,0,Scotland,4,,,,,,0,0,19:45:00,/en/matches/bf47e272/Scotland-Belgium-September-7-2018-Friendlies-M
+,2018,Belgium,2018-10-16 Belgium-Netherlands,2018-10-16,Friendlies (M),Tue,Home,D,1,1,Netherlands,1,,,,,,0,0,20:45:00,/en/matches/7c2e74dc/Belgium-Netherlands-October-16-2018-Friendlies-M
+,2018,Brazil,2015-10-08 Chile-Brazil,2015-10-08,WCQ — CONMEBOL (M),Thu,Away,L,0,2,Chile,0,,,,,,0,0,20:30:00,/en/matches/810105a8/Chile-Brazil-October-8-2015-WCQ----CONMEBOL-M
+,2018,Brazil,2015-10-13 Brazil-Venezuela,2015-10-13,WCQ — CONMEBOL (M),Tue,Home,W,3,1,Venezuela,3,,,,,,0,0,22:00:00,/en/matches/35831316/Brazil-Venezuela-October-13-2015-WCQ----CONMEBOL-M
+,2018,Brazil,2015-11-13 Argentina-Brazil,2015-11-13,WCQ — CONMEBOL (M),Fri,Away,D,1,1,Argentina,1,,,,,,0,0,21:00:00,/en/matches/64e9f118/Argentina-Brazil-November-13-2015-WCQ----CONMEBOL-M
+,2018,Brazil,2015-11-17 Brazil-Peru,2015-11-17,WCQ — CONMEBOL (M),Tue,Home,W,3,0,Peru,3,,,,,,0,0,21:00:00,/en/matches/4c50ddb1/Brazil-Peru-November-17-2015-WCQ----CONMEBOL-M
+,2018,Brazil,2016-03-25 Brazil-Uruguay,2016-03-25,WCQ — CONMEBOL (M),Fri,Home,D,2,2,Uruguay,2,,,,,,0,0,21:45:00,/en/matches/6d33daf1/Brazil-Uruguay-March-25-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2016-03-29 Paraguay-Brazil,2016-03-29,WCQ — CONMEBOL (M),Tue,Away,D,2,2,Paraguay,2,,,,,,0,0,20:45:00,/en/matches/5c5a30ab/Paraguay-Brazil-March-29-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2016-09-01 Ecuador-Brazil,2016-09-01,WCQ — CONMEBOL (M),Thu,Away,W,3,0,Ecuador,3,,,,,,1,1,16:00:00,/en/matches/ce66d3f3/Ecuador-Brazil-September-1-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2016-09-06 Brazil-Colombia,2016-09-06,WCQ — CONMEBOL (M),Tue,Home,W,2,1,Colombia,2,,,,,,0,0,20:45:00,/en/matches/0f17b553/Brazil-Colombia-September-6-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2016-10-06 Brazil-Bolivia,2016-10-06,WCQ — CONMEBOL (M),Thu,Home,W,5,0,Bolivia,5,,,,,,0,0,21:45:00,/en/matches/7b8fab6c/Brazil-Bolivia-October-6-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2016-10-11 Venezuela-Brazil,2016-10-11,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Venezuela,2,,,,,,0,0,20:30:00,/en/matches/5f23c147/Venezuela-Brazil-October-11-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2016-11-10 Brazil-Argentina,2016-11-10,WCQ — CONMEBOL (M),Thu,Home,W,3,0,Argentina,3,,,,,,0,0,21:45:00,/en/matches/20ff1a11/Brazil-Argentina-November-10-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2016-11-15 Peru-Brazil,2016-11-15,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Peru,2,,,,,,0,0,21:15:00,/en/matches/2ee90b8e/Peru-Brazil-November-15-2016-WCQ----CONMEBOL-M
+,2018,Brazil,2017-03-23 Uruguay-Brazil,2017-03-23,WCQ — CONMEBOL (M),Thu,Away,W,4,1,Uruguay,4,,,,,,0,0,20:00:00,/en/matches/11abe61a/Uruguay-Brazil-March-23-2017-WCQ----CONMEBOL-M
+,2018,Brazil,2017-03-28 Brazil-Paraguay,2017-03-28,WCQ — CONMEBOL (M),Tue,Home,W,3,0,Paraguay,3,,,,,,0,1,21:45:00,/en/matches/0dd7b05c/Brazil-Paraguay-March-28-2017-WCQ----CONMEBOL-M
+,2018,Brazil,2017-08-31 Brazil-Ecuador,2017-08-31,WCQ — CONMEBOL (M),Thu,Home,W,2,0,Ecuador,2,,,,,,0,0,21:45:00,/en/matches/cebe63ab/Brazil-Ecuador-August-31-2017-WCQ----CONMEBOL-M
+,2018,Brazil,2017-09-05 Colombia-Brazil,2017-09-05,WCQ — CONMEBOL (M),Tue,Away,D,1,1,Colombia,1,,,,,,0,0,15:30:00,/en/matches/cfd2377b/Colombia-Brazil-September-5-2017-WCQ----CONMEBOL-M
+,2018,Brazil,2017-10-05 Bolivia-Brazil,2017-10-05,WCQ — CONMEBOL (M),Thu,Away,D,0,0,Bolivia,0,,,,,,0,0,16:00:00,/en/matches/bef9b8dc/Bolivia-Brazil-October-5-2017-WCQ----CONMEBOL-M
+,2018,Brazil,2017-10-10 Brazil-Chile,2017-10-10,WCQ — CONMEBOL (M),Tue,Home,W,3,0,Chile,3,,,,,,0,0,20:30:00,/en/matches/0e1d8129/Brazil-Chile-October-10-2017-WCQ----CONMEBOL-M
+,2018,Brazil,2018-03-23 Russia-Brazil,2018-03-23,Friendlies (M),Fri,Away,W,3,0,Russia,3,,,,,,1,1,19:00:00,/en/matches/c96538e5/Russia-Brazil-March-23-2018-Friendlies-M
+,2018,Brazil,2018-03-27 Germany-Brazil,2018-03-27,Friendlies (M),Tue,Away,W,1,0,Germany,1,,,,,,0,0,20:45:00,/en/matches/4bee60c1/Germany-Brazil-March-27-2018-Friendlies-M
+,2018,Brazil,2018-06-03 Brazil-Croatia,2018-06-03,Friendlies (M),Sun,Home,W,2,0,Croatia,2,,,,,,0,0,15:00:00,/en/matches/cf1c457f/Brazil-Croatia-June-3-2018-Friendlies-M
+,2018,Brazil,2018-06-10 Austria-Brazil,2018-06-10,Friendlies (M),Sun,Away,W,3,0,Austria,3,,,,,,0,0,16:00:00,/en/matches/04513031/Austria-Brazil-June-10-2018-Friendlies-M
+,2018,Brazil,2018-06-17 Switzerland-Switzerland,2018-06-17,Group stage,Sun,Neutral,D,1,1,Switzerland,1,21,5,23.8,0.05,0.2,0,0,21:00:00,/en/matches/47906d9c/Brazil-Switzerland-June-17-2018-World-Cup
+,2018,Brazil,2018-06-22 Costa Rica-Costa Rica,2018-06-22,Group stage,Fri,Neutral,W,2,0,Costa Rica,2,22,10,45.5,0.09,0.2,0,0,15:00:00,/en/matches/be3e2453/Brazil-Costa-Rica-June-22-2018-World-Cup
+,2018,Brazil,2018-06-27 Serbia-Serbia,2018-06-27,Group stage,Wed,Neutral,W,2,0,Serbia,2,14,6,42.9,0.14,0.33,0,0,21:00:00,/en/matches/6addd2ab/Serbia-Brazil-June-27-2018-World-Cup
+,2018,Brazil,2018-07-02 Mexico-Mexico,2018-07-02,Round of 16,Mon,Neutral,W,2,0,Mexico,2,20,10,50.0,0.1,0.2,0,0,18:00:00,/en/matches/44c9a149/Brazil-Mexico-July-2-2018-World-Cup
+,2018,Brazil,2018-07-06 Belgium-Belgium,2018-07-06,Quarter-finals,Fri,Neutral,L,1,2,Belgium,1,27,9,33.3,0.04,0.11,0,0,21:00:00,/en/matches/6fa6550c/Brazil-Belgium-July-6-2018-World-Cup
+,2018,Brazil,2018-09-07 United States-Brazil,2018-09-07,Friendlies (M),Fri,Away,W,2,0,United States,2,,,,,,1,1,19:30:00,/en/matches/ef28942f/United-States-Brazil-September-7-2018-Friendlies-M
+,2018,Brazil,2018-09-11 Brazil-El Salvador,2018-09-11,Friendlies (M),Tue,Home,W,5,0,El Salvador,5,,,,,,1,1,20:30:00,/en/matches/e7155cfd/Brazil-El-Salvador-September-11-2018-Friendlies-M
+,2018,Brazil,2018-10-12 Saudi Arabia-Brazil,2018-10-12,Friendlies (M),Fri,Away,W,2,0,Saudi Arabia,2,,,,,,0,0,21:00:00,/en/matches/6de20f3d/Saudi-Arabia-Brazil-October-12-2018-Friendlies-M
+,2018,Brazil,2018-11-16 Brazil-Uruguay,2018-11-16,Friendlies (M),Fri,Home,W,1,0,Uruguay,1,,,,,,1,1,20:00:00,/en/matches/cb1f2aa7/Brazil-Uruguay-November-16-2018-Friendlies-M
+,2018,Brazil,2018-11-20 Brazil-Cameroon,2018-11-20,Friendlies (M),Tue,Home,W,1,0,Cameroon,1,,,,,,0,0,19:30:00,/en/matches/9736ee5d/Brazil-Cameroon-November-20-2018-Friendlies-M
+,2018,Colombia,2015-10-08 Colombia-Peru,2015-10-08,WCQ — CONMEBOL (M),Thu,Home,W,2,0,Peru,2,,,,,,0,0,15:30:00,/en/matches/13ff285c/Colombia-Peru-October-8-2015-WCQ----CONMEBOL-M
+,2018,Colombia,2015-10-13 Uruguay-Colombia,2015-10-13,WCQ — CONMEBOL (M),Tue,Away,L,0,3,Uruguay,0,,,,,,0,0,20:00:00,/en/matches/278cc098/Uruguay-Colombia-October-13-2015-WCQ----CONMEBOL-M
+,2018,Colombia,2015-11-12 Chile-Colombia,2015-11-12,WCQ — CONMEBOL (M),Thu,Away,D,1,1,Chile,1,,,,,,0,0,20:30:00,/en/matches/cfd65bde/Chile-Colombia-November-12-2015-WCQ----CONMEBOL-M
+,2018,Colombia,2015-11-17 Colombia-Argentina,2015-11-17,WCQ — CONMEBOL (M),Tue,Home,L,0,1,Argentina,0,,,,,,0,0,15:30:00,/en/matches/b05ac6d9/Colombia-Argentina-November-17-2015-WCQ----CONMEBOL-M
+,2018,Colombia,2016-03-24 Bolivia-Colombia,2016-03-24,WCQ — CONMEBOL (M),Thu,Away,W,3,2,Bolivia,3,,,,,,0,0,16:00:00,/en/matches/8da29081/Bolivia-Colombia-March-24-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2016-03-29 Colombia-Ecuador,2016-03-29,WCQ — CONMEBOL (M),Tue,Home,W,3,1,Ecuador,3,,,,,,0,0,15:30:00,/en/matches/ceae971c/Colombia-Ecuador-March-29-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2016-09-01 Colombia-Venezuela,2016-09-01,WCQ — CONMEBOL (M),Thu,Home,W,2,0,Venezuela,2,,,,,,0,2,15:30:00,/en/matches/6e760e6d/Colombia-Venezuela-September-1-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2016-09-06 Brazil-Colombia,2016-09-06,WCQ — CONMEBOL (M),Tue,Away,L,1,2,Brazil,0,,,,,,0,0,20:45:00,/en/matches/0f17b553/Brazil-Colombia-September-6-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2016-10-06 Paraguay-Colombia,2016-10-06,WCQ — CONMEBOL (M),Thu,Away,W,1,0,Paraguay,1,,,,,,0,0,20:30:00,/en/matches/7b44ef1c/Paraguay-Colombia-October-6-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2016-10-11 Colombia-Uruguay,2016-10-11,WCQ — CONMEBOL (M),Tue,Home,D,2,2,Uruguay,2,,,,,,0,0,15:30:00,/en/matches/a4bb33a1/Colombia-Uruguay-October-11-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2016-11-10 Colombia-Chile,2016-11-10,WCQ — CONMEBOL (M),Thu,Home,D,0,0,Chile,0,,,,,,0,0,15:30:00,/en/matches/6817766e/Colombia-Chile-November-10-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2016-11-15 Argentina-Colombia,2016-11-15,WCQ — CONMEBOL (M),Tue,Away,L,0,3,Argentina,0,,,,,,0,0,20:30:00,/en/matches/6094a77a/Argentina-Colombia-November-15-2016-WCQ----CONMEBOL-M
+,2018,Colombia,2017-03-23 Colombia-Bolivia,2017-03-23,WCQ — CONMEBOL (M),Thu,Home,W,1,0,Bolivia,1,,,,,,0,1,15:30:00,/en/matches/71c93a52/Colombia-Bolivia-March-23-2017-WCQ----CONMEBOL-M
+,2018,Colombia,2017-03-28 Ecuador-Colombia,2017-03-28,WCQ — CONMEBOL (M),Tue,Away,W,2,0,Ecuador,2,,,,,,0,0,16:00:00,/en/matches/2df205bc/Ecuador-Colombia-March-28-2017-WCQ----CONMEBOL-M
+,2018,Colombia,2017-08-31 Venezuela-Colombia,2017-08-31,WCQ — CONMEBOL (M),Thu,Away,D,0,0,Venezuela,0,,,,,,0,0,17:00:00,/en/matches/36857c05/Venezuela-Colombia-August-31-2017-WCQ----CONMEBOL-M
+,2018,Colombia,2017-09-05 Colombia-Brazil,2017-09-05,WCQ — CONMEBOL (M),Tue,Home,D,1,1,Brazil,1,,,,,,0,0,15:30:00,/en/matches/cfd2377b/Colombia-Brazil-September-5-2017-WCQ----CONMEBOL-M
+,2018,Colombia,2017-10-05 Colombia-Paraguay,2017-10-05,WCQ — CONMEBOL (M),Thu,Home,L,1,2,Paraguay,1,,,,,,0,0,18:30:00,/en/matches/28a7022f/Colombia-Paraguay-October-5-2017-WCQ----CONMEBOL-M
+,2018,Colombia,2017-10-10 Peru-Colombia,2017-10-10,WCQ — CONMEBOL (M),Tue,Away,D,1,1,Peru,1,,,,,,0,0,18:30:00,/en/matches/020e73df/Peru-Colombia-October-10-2017-WCQ----CONMEBOL-M
+,2018,Colombia,2018-03-23 France-Colombia,2018-03-23,Friendlies (M),Fri,Away,W,3,2,France,3,,,,,,1,1,21:00:00,/en/matches/8372e20f/France-Colombia-March-23-2018-Friendlies-M
+,2018,Colombia,2018-03-27 Colombia-Australia,2018-03-27,Friendlies (M),Tue,Home,D,0,0,Australia,0,,,,,,0,1,20:00:00,/en/matches/b24e5c7c/Colombia-Australia-March-27-2018-Friendlies-M
+,2018,Colombia,2018-06-01 Egypt-Colombia,2018-06-01,Friendlies (M),Fri,Away,D,0,0,Egypt,0,,,,,,0,0,21:15:00,/en/matches/d0ed4798/Egypt-Colombia-June-1-2018-Friendlies-M
+,2018,Colombia,2018-06-19 Japan-Japan,2018-06-19,Group stage,Tue,Neutral,L,1,2,Japan,1,8,3,37.5,0.13,0.33,0,0,15:00:00,/en/matches/6b881027/Colombia-Japan-June-19-2018-World-Cup
+,2018,Colombia,2018-06-24 Poland-Poland,2018-06-24,Group stage,Sun,Neutral,W,3,0,Poland,3,13,4,30.8,0.23,0.75,0,0,21:00:00,/en/matches/49433591/Poland-Colombia-June-24-2018-World-Cup
+,2018,Colombia,2018-06-28 Senegal-Senegal,2018-06-28,Group stage,Thu,Neutral,W,1,0,Senegal,1,4,2,50.0,0.25,0.5,0,0,18:00:00,/en/matches/97a6949a/Senegal-Colombia-June-28-2018-World-Cup
+,2018,Colombia,2018-07-03 England-England,2018-07-03,Round of 16,Tue,Neutral,D,1 (3),1 (4),England,1,14,4,28.6,0.07,0.25,0,0,21:00:00,/en/matches/878a02fd/Colombia-England-July-3-2018-World-Cup
+,2018,Colombia,2018-09-07 Venezuela-Colombia,2018-09-07,Friendlies (M),Fri,Away,W,2,1,Venezuela,2,,,,,,0,0,20:00:00,/en/matches/72f863c3/Venezuela-Colombia-September-7-2018-Friendlies-M
+,2018,Colombia,2018-09-11 Colombia-Argentina,2018-09-11,Friendlies (M),Tue,Home,D,0,0,Argentina,0,,,,,,0,0,20:00:00,/en/matches/19cfecf5/Colombia-Argentina-September-11-2018-Friendlies-M
+,2018,Colombia,2018-10-11 United States-Colombia,2018-10-11,Friendlies (M),Thu,Away,W,4,2,United States,4,,,,,,0,0,19:30:00,/en/matches/da5b2a30/United-States-Colombia-October-11-2018-Friendlies-M
+,2018,Colombia,2018-10-16 Colombia-Costa Rica,2018-10-16,Friendlies (M),Tue,Home,W,3,1,Costa Rica,3,,,,,,0,0,20:00:00,/en/matches/84a7a938/Colombia-Costa-Rica-October-16-2018-Friendlies-M
+,2018,Costa Rica,2015-11-13 Costa Rica-Haiti,2015-11-13,Fourth round,Fri,Home,W,1,0,Haiti,1,,,,,,0,0,20:00:00,/en/matches/edb0c13a/Costa-Rica-Haiti-November-13-2015-WCQ----CONCACAF-M
+,2018,Costa Rica,2015-11-17 Panama-Costa Rica,2015-11-17,Fourth round,Tue,Away,W,2,1,Panama,2,,,,,,0,0,20:30:00,/en/matches/cc01c48a/Panama-Costa-Rica-November-17-2015-WCQ----CONCACAF-M
+,2018,Costa Rica,2016-03-25 Jamaica-Costa Rica,2016-03-25,Fourth round,Fri,Away,D,1,1,Jamaica,1,,,,,,0,0,19:00:00,/en/matches/6617a80e/Jamaica-Costa-Rica-March-25-2016-WCQ----CONCACAF-M
+,2018,Costa Rica,2016-03-29 Costa Rica-Jamaica,2016-03-29,Fourth round,Tue,Home,W,3,0,Jamaica,3,,,,,,0,0,20:00:00,/en/matches/db823a6d/Costa-Rica-Jamaica-March-29-2016-WCQ----CONCACAF-M
+,2018,Costa Rica,2016-09-02 Haiti-Costa Rica,2016-09-02,Fourth round,Fri,Away,W,1,0,Haiti,1,,,,,,0,0,19:00:00,/en/matches/27012547/Haiti-Costa-Rica-September-2-2016-WCQ----CONCACAF-M
+,2018,Costa Rica,2016-09-06 Costa Rica-Panama,2016-09-06,Fourth round,Tue,Home,W,3,1,Panama,3,,,,,,0,0,19:30:00,/en/matches/bc6b3280/Costa-Rica-Panama-September-6-2016-WCQ----CONCACAF-M
+,2018,Costa Rica,2016-11-11 Trin & Tobago-Costa Rica,2016-11-11,Fifth round,Fri,Away,W,2,0,Trin & Tobago,2,,,,,,0,0,19:00:00,/en/matches/0c3966a8/Trinidad-and-Tobago-Costa-Rica-November-11-2016-WCQ----CONCACAF-M
+,2018,Costa Rica,2016-11-15 Costa Rica-United States,2016-11-15,Fifth round,Tue,Home,W,4,0,United States,4,,,,,,0,0,20:05:00,/en/matches/e1c5d505/Costa-Rica-United-States-November-15-2016-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-03-24 Mexico-Costa Rica,2017-03-24,Fifth round,Fri,Away,L,0,2,Mexico,0,,,,,,0,0,19:50:00,/en/matches/e19c793e/Mexico-Costa-Rica-March-24-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-03-28 Honduras-Costa Rica,2017-03-28,Fifth round,Tue,Away,D,1,1,Honduras,1,,,,,,0,0,15:00:00,/en/matches/ea450a81/Honduras-Costa-Rica-March-28-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-06-08 Costa Rica-Panama,2017-06-08,Fifth round,Thu,Home,D,0,0,Panama,0,,,,,,0,0,20:00:00,/en/matches/57e29a92/Costa-Rica-Panama-June-8-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-06-13 Costa Rica-Trin & Tobago,2017-06-13,Fifth round,Tue,Home,W,2,1,Trin & Tobago,2,,,,,,0,0,20:00:00,/en/matches/bbc1ad44/Costa-Rica-Trinidad-and-Tobago-June-13-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-09-01 United States-Costa Rica,2017-09-01,Fifth round,Fri,Away,W,2,0,United States,2,,,,,,0,0,18:55:00,/en/matches/e58e8d13/United-States-Costa-Rica-September-1-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-09-05 Costa Rica-Mexico,2017-09-05,Fifth round,Tue,Home,D,1,1,Mexico,1,,,,,,0,0,20:05:00,/en/matches/2f599ce4/Costa-Rica-Mexico-September-5-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-10-07 Costa Rica-Honduras,2017-10-07,Fifth round,Sat,Home,D,1,1,Honduras,1,,,,,,0,0,16:00:00,/en/matches/f525354d/Costa-Rica-Honduras-October-7-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2017-10-10 Panama-Costa Rica,2017-10-10,Fifth round,Tue,Away,L,1,2,Panama,1,,,,,,0,0,19:00:00,/en/matches/0f6bce71/Panama-Costa-Rica-October-10-2017-WCQ----CONCACAF-M
+,2018,Costa Rica,2018-03-23 Scotland-Costa Rica,2018-03-23,Friendlies (M),Fri,Away,W,1,0,Scotland,1,,,,,,0,0,19:45:00,/en/matches/8e8d25a9/Scotland-Costa-Rica-March-23-2018-Friendlies-M
+,2018,Costa Rica,2018-03-27 Tunisia-Costa Rica,2018-03-27,Friendlies (M),Tue,Away,L,0,1,Tunisia,0,,,,,,0,0,20:00:00,/en/matches/5995a0a2/Tunisia-Costa-Rica-March-27-2018-Friendlies-M
+,2018,Costa Rica,2018-06-03 Costa Rica-Northern Ireland,2018-06-03,Friendlies (M),Sun,Home,W,3,0,Northern Ireland,3,,,,,,0,0,11:00:00,/en/matches/888accab/Costa-Rica-Northern-Ireland-June-3-2018-Friendlies-M
+,2018,Costa Rica,2018-06-07 England-Costa Rica,2018-06-07,Friendlies (M),Thu,Away,L,0,2,England,0,,,,,,0,0,20:00:00,/en/matches/94ff5de8/England-Costa-Rica-June-7-2018-Friendlies-M
+,2018,Costa Rica,2018-06-11 Belgium-Costa Rica,2018-06-11,Friendlies (M),Mon,Away,L,1,4,Belgium,1,,,,,,0,0,20:45:00,/en/matches/31b00414/Belgium-Costa-Rica-June-11-2018-Friendlies-M
+,2018,Costa Rica,2018-06-17 Serbia-Serbia,2018-06-17,Group stage,Sun,Neutral,L,0,1,Serbia,0,10,3,30.0,0.0,0.0,0,0,16:00:00,/en/matches/73b53b07/Costa-Rica-Serbia-June-17-2018-World-Cup
+,2018,Costa Rica,2018-06-22 Brazil-Brazil,2018-06-22,Group stage,Fri,Neutral,L,0,2,Brazil,0,4,0,0.0,0.0,,0,0,15:00:00,/en/matches/be3e2453/Brazil-Costa-Rica-June-22-2018-World-Cup
+,2018,Costa Rica,2018-06-27 Switzerland-Switzerland,2018-06-27,Group stage,Wed,Neutral,D,2,2,Switzerland,1,14,6,42.9,0.07,0.17,0,1,21:00:00,/en/matches/83e51111/Switzerland-Costa-Rica-June-27-2018-World-Cup
+,2018,Costa Rica,2018-09-07 Korea Republic-Costa Rica,2018-09-07,Friendlies (M),Fri,Away,L,0,2,Korea Republic,0,,,,,,0,0,20:00:00,/en/matches/3624c7a2/Korea-Republic-Costa-Rica-September-7-2018-Friendlies-M
+,2018,Costa Rica,2018-09-11 Japan-Costa Rica,2018-09-11,Friendlies (M),Tue,Away,L,0,3,Japan,0,,,,,,0,0,19:20:00,/en/matches/5bfd6851/Japan-Costa-Rica-September-11-2018-Friendlies-M
+,2018,Costa Rica,2018-10-11 Mexico-Costa Rica,2018-10-11,Friendlies (M),Thu,Away,L,2,3,Mexico,2,,,,,,1,1,20:30:00,/en/matches/19bbdaca/Mexico-Costa-Rica-October-11-2018-Friendlies-M
+,2018,Costa Rica,2018-10-16 Colombia-Costa Rica,2018-10-16,Friendlies (M),Tue,Away,L,1,3,Colombia,1,,,,,,0,0,20:00:00,/en/matches/84a7a938/Colombia-Costa-Rica-October-16-2018-Friendlies-M
+,2018,Costa Rica,2018-11-16 Chile-Costa Rica,2018-11-16,Friendlies (M),Fri,Away,W,3,2,Chile,3,,,,,,0,0,21:15:00,/en/matches/e6b79903/Chile-Costa-Rica-November-16-2018-Friendlies-M
+,2018,Costa Rica,2018-11-20 Peru-Costa Rica,2018-11-20,Friendlies (M),Tue,Away,W,3,2,Peru,3,,,,,,1,1,19:30:00,/en/matches/553af087/Peru-Costa-Rica-November-20-2018-Friendlies-M
+,2018,Croatia,2016-09-05 Croatia-Türkiye,2016-09-05,First round,Mon,Home,D,1,1,Türkiye,1,,,,,,1,1,20:45:00,/en/matches/5e8645d0/Croatia-Turkiye-September-5-2016-WCQ----UEFA-M
+,2018,Croatia,2016-10-06 Kosovo-Croatia,2016-10-06,First round,Thu,Away,W,6,0,Kosovo,6,,,,,,0,0,20:45:00,/en/matches/ebaa7ccb/Kosovo-Croatia-October-6-2016-WCQ----UEFA-M
+,2018,Croatia,2016-10-09 Finland-Croatia,2016-10-09,First round,Sun,Away,W,1,0,Finland,1,,,,,,0,0,19:00:00,/en/matches/74603f1b/Finland-Croatia-October-9-2016-WCQ----UEFA-M
+,2018,Croatia,2016-11-12 Croatia-Iceland,2016-11-12,First round,Sat,Home,W,2,0,Iceland,2,,,,,,0,0,18:00:00,/en/matches/0e3fbbff/Croatia-Iceland-November-12-2016-WCQ----UEFA-M
+,2018,Croatia,2017-03-24 Croatia-Ukraine,2017-03-24,First round,Fri,Home,W,1,0,Ukraine,1,,,,,,0,0,20:45:00,/en/matches/5039781e/Croatia-Ukraine-March-24-2017-WCQ----UEFA-M
+,2018,Croatia,2017-06-11 Iceland-Croatia,2017-06-11,First round,Sun,Away,L,0,1,Iceland,0,,,,,,0,0,18:45:00,/en/matches/f6d82230/Iceland-Croatia-June-11-2017-WCQ----UEFA-M
+,2018,Croatia,2017-09-03 Croatia-Kosovo,2017-09-03,First round,Sun,Home,W,1,0,Kosovo,1,,,,,,0,0,14:30:00,/en/matches/acaa3f45/Croatia-Kosovo-September-3-2017-WCQ----UEFA-M
+,2018,Croatia,2017-09-05 Türkiye-Croatia,2017-09-05,First round,Tue,Away,L,0,1,Türkiye,0,,,,,,0,0,21:45:00,/en/matches/15843ac5/Turkiye-Croatia-September-5-2017-WCQ----UEFA-M
+,2018,Croatia,2017-10-06 Croatia-Finland,2017-10-06,First round,Fri,Home,D,1,1,Finland,1,,,,,,0,0,20:45:00,/en/matches/00918a09/Croatia-Finland-October-6-2017-WCQ----UEFA-M
+,2018,Croatia,2017-10-09 Ukraine-Croatia,2017-10-09,First round,Mon,Away,W,2,0,Ukraine,2,,,,,,0,0,21:45:00,/en/matches/b37c9cd4/Ukraine-Croatia-October-9-2017-WCQ----UEFA-M
+,2018,Croatia,2017-11-09 Croatia-Greece,2017-11-09,Second round,Thu,Home,W,4,1,Greece,4,,,,,,1,1,20:45:00,/en/matches/93f462da/Croatia-Greece-November-9-2017-WCQ----UEFA-M
+,2018,Croatia,2017-11-12 Greece-Croatia,2017-11-12,Second round,Sun,Away,D,0,0,Greece,0,,,,,,0,0,21:45:00,/en/matches/1dcb4da5/Greece-Croatia-November-12-2017-WCQ----UEFA-M
+,2018,Croatia,2018-03-23 Peru-Croatia,2018-03-23,Friendlies (M),Fri,Away,L,0,2,Peru,0,,,,,,0,0,20:30:00,/en/matches/e0559c51/Peru-Croatia-March-23-2018-Friendlies-M
+,2018,Croatia,2018-03-27 Mexico-Croatia,2018-03-27,Friendlies (M),Tue,Away,W,1,0,Mexico,1,,,,,,1,1,21:00:00,/en/matches/200d11ec/Mexico-Croatia-March-27-2018-Friendlies-M
+,2018,Croatia,2018-06-03 Brazil-Croatia,2018-06-03,Friendlies (M),Sun,Away,L,0,2,Brazil,0,,,,,,0,0,15:00:00,/en/matches/cf1c457f/Brazil-Croatia-June-3-2018-Friendlies-M
+,2018,Croatia,2018-06-08 Croatia-Senegal,2018-06-08,Friendlies (M),Fri,Home,W,2,1,Senegal,2,,,,,,0,0,18:00:00,/en/matches/3fd86646/Croatia-Senegal-June-8-2018-Friendlies-M
+,2018,Croatia,2018-06-16 Nigeria-Nigeria,2018-06-16,Group stage,Sat,Neutral,W,2,0,Nigeria,1,12,2,16.7,0.0,0.0,1,1,21:00:00,/en/matches/b85541a6/Croatia-Nigeria-June-16-2018-World-Cup
+,2018,Croatia,2018-06-21 Argentina-Argentina,2018-06-21,Group stage,Thu,Neutral,W,3,0,Argentina,3,14,5,35.7,0.21,0.6,0,0,21:00:00,/en/matches/c4ec1ec2/Argentina-Croatia-June-21-2018-World-Cup
+,2018,Croatia,2018-06-26 Iceland-Iceland,2018-06-26,Group stage,Tue,Neutral,W,2,1,Iceland,2,14,2,14.3,0.14,1.0,0,0,21:00:00,/en/matches/01e30e44/Iceland-Croatia-June-26-2018-World-Cup
+,2018,Croatia,2018-07-01 Denmark-Denmark,2018-07-01,Round of 16,Sun,Neutral,D,1 (3),1 (2),Denmark,1,20,6,30.0,0.05,0.17,0,1,21:00:00,/en/matches/f0fd68f3/Croatia-Denmark-July-1-2018-World-Cup
+,2018,Croatia,2018-07-07 Russia-Russia,2018-07-07,Quarter-finals,Sat,Neutral,D,2 (4),2 (3),Russia,2,18,3,16.7,0.11,0.67,0,0,21:00:00,/en/matches/bd1fbaf4/Russia-Croatia-July-7-2018-World-Cup
+,2018,Croatia,2018-07-11 England-England,2018-07-11,Semi-finals,Wed,Neutral,W,2,1,England,2,22,7,31.8,0.09,0.29,0,0,21:00:00,/en/matches/12d32bfa/Croatia-England-July-11-2018-World-Cup
+,2018,Croatia,2018-07-15 France-France,2018-07-15,Final,Sun,Neutral,L,2,4,France,2,14,4,28.6,0.14,0.5,0,0,18:00:00,/en/matches/a7957cf1/France-Croatia-July-15-2018-World-Cup
+,2018,Croatia,2018-09-06 Portugal-Croatia,2018-09-06,Friendlies (M),Thu,Away,D,1,1,Portugal,1,,,,,,0,0,19:45:00,/en/matches/d8970a9b/Portugal-Croatia-September-6-2018-Friendlies-M
+,2018,Croatia,2018-10-15 Croatia-Jordan,2018-10-15,Friendlies (M),Mon,Home,W,2,1,Jordan,2,,,,,,0,0,20:45:00,/en/matches/76796793/Croatia-Jordan-October-15-2018-Friendlies-M
+,2018,Denmark,2016-09-04 Denmark-Armenia,2016-09-04,First round,Sun,Home,W,1,0,Armenia,1,,,,,,0,1,18:00:00,/en/matches/6e2ea2e7/Denmark-Armenia-September-4-2016-WCQ----UEFA-M
+,2018,Denmark,2016-10-08 Poland-Denmark,2016-10-08,First round,Sat,Away,L,2,3,Poland,1,,,,,,0,0,20:45:00,/en/matches/98dd69a6/Poland-Denmark-October-8-2016-WCQ----UEFA-M
+,2018,Denmark,2016-10-11 Denmark-Montenegro,2016-10-11,First round,Tue,Home,L,0,1,Montenegro,0,,,,,,0,0,20:45:00,/en/matches/6c9c4421/Denmark-Montenegro-October-11-2016-WCQ----UEFA-M
+,2018,Denmark,2016-11-11 Denmark-Kazakhstan,2016-11-11,First round,Fri,Home,W,4,1,Kazakhstan,4,,,,,,1,1,20:45:00,/en/matches/681c1836/Denmark-Kazakhstan-November-11-2016-WCQ----UEFA-M
+,2018,Denmark,2017-03-26 Romania-Denmark,2017-03-26,First round,Sun,Away,D,0,0,Romania,0,,,,,,0,0,21:45:00,/en/matches/30da8fcc/Romania-Denmark-March-26-2017-WCQ----UEFA-M
+,2018,Denmark,2017-06-10 Kazakhstan-Denmark,2017-06-10,First round,Sat,Away,W,3,1,Kazakhstan,3,,,,,,1,1,22:00:00,/en/matches/5fd92b75/Kazakhstan-Denmark-June-10-2017-WCQ----UEFA-M
+,2018,Denmark,2017-09-01 Denmark-Poland,2017-09-01,First round,Fri,Home,W,4,0,Poland,4,,,,,,0,0,20:45:00,/en/matches/714472d2/Denmark-Poland-September-1-2017-WCQ----UEFA-M
+,2018,Denmark,2017-09-04 Armenia-Denmark,2017-09-04,First round,Mon,Away,W,4,1,Armenia,4,,,,,,0,0,20:00:00,/en/matches/3b1ee75c/Armenia-Denmark-September-4-2017-WCQ----UEFA-M
+,2018,Denmark,2017-10-05 Montenegro-Denmark,2017-10-05,First round,Thu,Away,W,1,0,Montenegro,1,,,,,,0,0,20:45:00,/en/matches/7f8060c5/Montenegro-Denmark-October-5-2017-WCQ----UEFA-M
+,2018,Denmark,2017-10-08 Denmark-Romania,2017-10-08,First round,Sun,Home,D,1,1,Romania,1,,,,,,1,1,18:00:00,/en/matches/908ba7bc/Denmark-Romania-October-8-2017-WCQ----UEFA-M
+,2018,Denmark,2017-11-11 Denmark-Rep. of Ireland,2017-11-11,Second round,Sat,Home,D,0,0,Rep. of Ireland,0,,,,,,0,0,20:45:00,/en/matches/05245cc8/Denmark-Republic-of-Ireland-November-11-2017-WCQ----UEFA-M
+,2018,Denmark,2017-11-14 Rep. of Ireland-Denmark,2017-11-14,Second round,Tue,Away,W,5,1,Rep. of Ireland,4,,,,,,1,1,19:45:00,/en/matches/382a7d37/Republic-of-Ireland-Denmark-November-14-2017-WCQ----UEFA-M
+,2018,Denmark,2018-03-22 Denmark-Panama,2018-03-22,Friendlies (M),Thu,Home,W,1,0,Panama,1,,,,,,0,0,20:00:00,/en/matches/edc08ee8/Denmark-Panama-March-22-2018-Friendlies-M
+,2018,Denmark,2018-03-27 Denmark-Chile,2018-03-27,Friendlies (M),Tue,Home,D,0,0,Chile,0,,,,,,0,0,20:00:00,/en/matches/07902e5a/Denmark-Chile-March-27-2018-Friendlies-M
+,2018,Denmark,2018-06-02 Sweden-Denmark,2018-06-02,Friendlies (M),Sat,Away,D,0,0,Sweden,0,,,,,,0,0,19:45:00,/en/matches/033ac0d5/Sweden-Denmark-June-2-2018-Friendlies-M
+,2018,Denmark,2018-06-09 Denmark-Mexico,2018-06-09,Friendlies (M),Sat,Home,W,2,0,Mexico,2,,,,,,0,0,20:00:00,/en/matches/6c3b049a/Denmark-Mexico-June-9-2018-Friendlies-M
+,2018,Denmark,2018-06-16 Peru-Peru,2018-06-16,Group stage,Sat,Neutral,W,1,0,Peru,1,10,3,30.0,0.1,0.33,0,0,19:00:00,/en/matches/25905c9c/Peru-Denmark-June-16-2018-World-Cup
+,2018,Denmark,2018-06-21 Australia-Australia,2018-06-21,Group stage,Thu,Neutral,D,1,1,Australia,1,9,4,44.4,0.11,0.25,0,0,16:00:00,/en/matches/85bb652d/Denmark-Australia-June-21-2018-World-Cup
+,2018,Denmark,2018-06-26 France-France,2018-06-26,Group stage,Tue,Neutral,D,0,0,France,0,5,1,20.0,0.0,0.0,0,0,17:00:00,/en/matches/6a60e1ab/Denmark-France-June-26-2018-World-Cup
+,2018,Denmark,2018-07-01 Croatia-Croatia,2018-07-01,Round of 16,Sun,Neutral,D,1 (2),1 (3),Croatia,1,14,3,21.4,0.07,0.33,0,0,21:00:00,/en/matches/f0fd68f3/Croatia-Denmark-July-1-2018-World-Cup
+,2018,Denmark,2018-09-05 Slovakia-Denmark,2018-09-05,Friendlies (M),Wed,Away,L,0,3,Slovakia,0,,,,,,0,0,20:45:00,/en/matches/1b39b9dd/Slovakia-Denmark-September-5-2018-Friendlies-M
+,2018,Denmark,2018-10-16 Denmark-Austria,2018-10-16,Friendlies (M),Tue,Home,W,2,0,Austria,2,,,,,,0,0,20:45:00,/en/matches/adee8ae8/Denmark-Austria-October-16-2018-Friendlies-M
+,2018,Egypt,2015-11-14 Chad-Egypt,2015-11-14,Second round,Sat,Away,L,0,1,Chad,0,,,,,,0,0,15:30:00,/en/matches/a4d47fc6/Chad-Egypt-November-14-2015-WCQ----CAF-M
+,2018,Egypt,2015-11-17 Egypt-Chad,2015-11-17,Second round,Tue,Home,W,4,0,Chad,4,,,,,,0,0,18:30:00,/en/matches/eba3b5e2/Egypt-Chad-November-17-2015-WCQ----CAF-M
+,2018,Egypt,2016-10-09 Congo-Egypt,2016-10-09,Third round,Sun,Away,W,2,1,Congo,2,,,,,,0,0,15:30:00,/en/matches/e7f08f9f/Congo-Egypt-October-9-2016-WCQ----CAF-M
+,2018,Egypt,2016-11-13 Egypt-Ghana,2016-11-13,Third round,Sun,Home,W,2,0,Ghana,2,,,,,,1,1,18:00:00,/en/matches/23f9dd4d/Egypt-Ghana-November-13-2016-WCQ----CAF-M
+,2018,Egypt,2017-08-31 Uganda-Egypt,2017-08-31,Third round,Thu,Away,L,0,1,Uganda,0,,,,,,0,0,16:00:00,/en/matches/99ed8c13/Uganda-Egypt-August-31-2017-WCQ----CAF-M
+,2018,Egypt,2017-09-05 Egypt-Uganda,2017-09-05,Third round,Tue,Home,W,1,0,Uganda,1,,,,,,0,0,20:00:00,/en/matches/78336a37/Egypt-Uganda-September-5-2017-WCQ----CAF-M
+,2018,Egypt,2017-10-08 Egypt-Congo,2017-10-08,Third round,Sun,Home,W,2,1,Congo,2,,,,,,1,1,19:00:00,/en/matches/28948e0c/Egypt-Congo-October-8-2017-WCQ----CAF-M
+,2018,Egypt,2017-11-12 Ghana-Egypt,2017-11-12,Third round,Sun,Away,D,1,1,Ghana,1,,,,,,0,0,15:30:00,/en/matches/4a6ee3ec/Ghana-Egypt-November-12-2017-WCQ----CAF-M
+,2018,Egypt,2018-03-23 Portugal-Egypt,2018-03-23,Friendlies (M),Fri,Away,L,1,2,Portugal,1,,,,,,0,0,20:45:00,/en/matches/820bdc6a/Portugal-Egypt-March-23-2018-Friendlies-M
+,2018,Egypt,2018-03-27 Egypt-Greece,2018-03-27,Friendlies (M),Tue,Home,L,0,1,Greece,0,,,,,,0,0,20:00:00,/en/matches/0d1d29cb/Egypt-Greece-March-27-2018-Friendlies-M
+,2018,Egypt,2018-05-25 Kuwait-Egypt,2018-05-25,Friendlies (M),Fri,Away,D,1,1,Kuwait,1,,,,,,0,0,22:00:00,/en/matches/95f6d1e7/Kuwait-Egypt-May-25-2018-Friendlies-M
+,2018,Egypt,2018-06-01 Egypt-Colombia,2018-06-01,Friendlies (M),Fri,Home,D,0,0,Colombia,0,,,,,,0,0,21:15:00,/en/matches/d0ed4798/Egypt-Colombia-June-1-2018-Friendlies-M
+,2018,Egypt,2018-06-06 Belgium-Egypt,2018-06-06,Friendlies (M),Wed,Away,L,0,3,Belgium,0,,,,,,0,0,20:45:00,/en/matches/bd53106c/Belgium-Egypt-June-6-2018-Friendlies-M
+,2018,Egypt,2018-06-15 Uruguay-Uruguay,2018-06-15,Group stage,Fri,Neutral,L,0,1,Uruguay,0,8,3,37.5,0.0,0.0,0,0,17:00:00,/en/matches/cea695e1/Egypt-Uruguay-June-15-2018-World-Cup
+,2018,Egypt,2018-06-19 Russia-Russia,2018-06-19,Group stage,Tue,Neutral,L,1,3,Russia,1,13,1,7.7,0.0,0.0,1,1,21:00:00,/en/matches/d054010d/Russia-Egypt-June-19-2018-World-Cup
+,2018,Egypt,2018-06-25 Saudi Arabia-Saudi Arabia,2018-06-25,Group stage,Mon,Neutral,L,1,2,Saudi Arabia,1,7,1,14.3,0.14,1.0,0,0,17:00:00,/en/matches/2fa10320/Saudi-Arabia-Egypt-June-25-2018-World-Cup
+,2018,England,2016-09-04 Slovakia-England,2016-09-04,First round,Sun,Away,W,1,0,Slovakia,1,,,,,,0,0,18:00:00,/en/matches/e5a3fa4d/Slovakia-England-September-4-2016-WCQ----UEFA-M
+,2018,England,2016-10-08 England-Malta,2016-10-08,First round,Sat,Home,W,2,0,Malta,2,,,,,,0,0,17:00:00,/en/matches/9db2742d/England-Malta-October-8-2016-WCQ----UEFA-M
+,2018,England,2016-10-11 Slovenia-England,2016-10-11,First round,Tue,Away,D,0,0,Slovenia,0,,,,,,0,0,20:45:00,/en/matches/3eb7a7d6/Slovenia-England-October-11-2016-WCQ----UEFA-M
+,2018,England,2016-11-11 England-Scotland,2016-11-11,First round,Fri,Home,W,3,0,Scotland,3,,,,,,0,0,19:45:00,/en/matches/5a915720/England-Scotland-November-11-2016-WCQ----UEFA-M
+,2018,England,2017-03-26 England-Lithuania,2017-03-26,First round,Sun,Home,W,2,0,Lithuania,2,,,,,,0,0,17:00:00,/en/matches/c1780ebd/England-Lithuania-March-26-2017-WCQ----UEFA-M
+,2018,England,2017-06-10 Scotland-England,2017-06-10,First round,Sat,Away,D,2,2,Scotland,2,,,,,,0,0,17:00:00,/en/matches/45827040/Scotland-England-June-10-2017-WCQ----UEFA-M
+,2018,England,2017-09-01 Malta-England,2017-09-01,First round,Fri,Away,W,4,0,Malta,4,,,,,,0,0,20:45:00,/en/matches/cf6b17da/Malta-England-September-1-2017-WCQ----UEFA-M
+,2018,England,2017-09-04 England-Slovakia,2017-09-04,First round,Mon,Home,W,2,1,Slovakia,2,,,,,,0,0,19:45:00,/en/matches/b2dc6047/England-Slovakia-September-4-2017-WCQ----UEFA-M
+,2018,England,2017-10-05 England-Slovenia,2017-10-05,First round,Thu,Home,W,1,0,Slovenia,1,,,,,,0,0,19:45:00,/en/matches/ae738b14/England-Slovenia-October-5-2017-WCQ----UEFA-M
+,2018,England,2017-10-08 Lithuania-England,2017-10-08,First round,Sun,Away,W,1,0,Lithuania,1,,,,,,1,1,19:00:00,/en/matches/ef58dc07/Lithuania-England-October-8-2017-WCQ----UEFA-M
+,2018,England,2018-03-23 Netherlands-England,2018-03-23,Friendlies (M),Fri,Away,W,1,0,Netherlands,1,,,,,,0,0,20:45:00,/en/matches/658f61ee/Netherlands-England-March-23-2018-Friendlies-M
+,2018,England,2018-03-27 England-Italy,2018-03-27,Friendlies (M),Tue,Home,D,1,1,Italy,1,,,,,,0,0,20:00:00,/en/matches/f6447695/England-Italy-March-27-2018-Friendlies-M
+,2018,England,2018-06-02 England-Nigeria,2018-06-02,Friendlies (M),Sat,Home,W,2,1,Nigeria,2,,,,,,0,0,17:15:00,/en/matches/89235aed/England-Nigeria-June-2-2018-Friendlies-M
+,2018,England,2018-06-07 England-Costa Rica,2018-06-07,Friendlies (M),Thu,Home,W,2,0,Costa Rica,2,,,,,,0,0,20:00:00,/en/matches/94ff5de8/England-Costa-Rica-June-7-2018-Friendlies-M
+,2018,England,2018-06-18 Tunisia-Tunisia,2018-06-18,Group stage,Mon,Neutral,W,2,1,Tunisia,2,18,8,44.4,0.11,0.25,0,0,21:00:00,/en/matches/3dbb130b/Tunisia-England-June-18-2018-World-Cup
+,2018,England,2018-06-24 Panama-Panama,2018-06-24,Group stage,Sun,Neutral,W,6,1,Panama,6,11,7,63.6,0.36,0.57,2,2,15:00:00,/en/matches/f68efc38/England-Panama-June-24-2018-World-Cup
+,2018,England,2018-06-28 Belgium-Belgium,2018-06-28,Group stage,Thu,Neutral,L,0,1,Belgium,0,11,2,18.2,0.0,0.0,0,0,20:00:00,/en/matches/5c20eb91/England-Belgium-June-28-2018-World-Cup
+,2018,England,2018-07-03 Colombia-Colombia,2018-07-03,Round of 16,Tue,Neutral,D,1 (4),1 (3),Colombia,1,16,2,12.5,0.0,0.0,1,1,21:00:00,/en/matches/878a02fd/Colombia-England-July-3-2018-World-Cup
+,2018,England,2018-07-07 Sweden-Sweden,2018-07-07,Quarter-finals,Sat,Neutral,W,2,0,Sweden,2,12,2,16.7,0.17,1.0,0,0,18:00:00,/en/matches/c7b2bf0a/Sweden-England-July-7-2018-World-Cup
+,2018,England,2018-07-11 Croatia-Croatia,2018-07-11,Semi-finals,Wed,Neutral,L,1,2,Croatia,1,11,2,18.2,0.09,0.5,0,0,21:00:00,/en/matches/12d32bfa/Croatia-England-July-11-2018-World-Cup
+,2018,England,2018-07-14 Belgium-Belgium,2018-07-14,Third-place match,Sat,Neutral,L,0,2,Belgium,0,15,6,40.0,0.0,0.0,0,0,17:00:00,/en/matches/bc417615/Belgium-England-July-14-2018-World-Cup
+,2018,England,2018-09-11 England-Switzerland,2018-09-11,Friendlies (M),Tue,Home,W,1,0,Switzerland,1,,,,,,0,0,20:00:00,/en/matches/65049ac4/England-Switzerland-September-11-2018-Friendlies-M
+,2018,England,2018-11-15 England-United States,2018-11-15,Friendlies (M),Thu,Home,W,3,0,United States,3,,,,,,0,0,20:00:00,/en/matches/4d5a8eb8/England-United-States-November-15-2018-Friendlies-M
+,2018,France,2016-09-06 Belarus-France,2016-09-06,First round,Tue,Away,D,0,0,Belarus,0,,,,,,0,0,21:45:00,/en/matches/16253d86/Belarus-France-September-6-2016-WCQ----UEFA-M
+,2018,France,2016-10-07 France-Bulgaria,2016-10-07,First round,Fri,Home,W,4,1,Bulgaria,4,,,,,,0,0,20:45:00,/en/matches/5fe0c7b2/France-Bulgaria-October-7-2016-WCQ----UEFA-M
+,2018,France,2016-10-10 Netherlands-France,2016-10-10,First round,Mon,Away,W,1,0,Netherlands,1,,,,,,0,0,20:45:00,/en/matches/a8c554f8/Netherlands-France-October-10-2016-WCQ----UEFA-M
+,2018,France,2016-11-11 France-Sweden,2016-11-11,First round,Fri,Home,W,2,1,Sweden,2,,,,,,0,0,20:45:00,/en/matches/340c4921/France-Sweden-November-11-2016-WCQ----UEFA-M
+,2018,France,2017-03-25 Luxembourg-France,2017-03-25,First round,Sat,Away,W,3,1,Luxembourg,3,,,,,,1,1,20:45:00,/en/matches/97071dbf/Luxembourg-France-March-25-2017-WCQ----UEFA-M
+,2018,France,2017-06-09 Sweden-France,2017-06-09,First round,Fri,Away,L,1,2,Sweden,1,,,,,,0,0,20:45:00,/en/matches/3d31b030/Sweden-France-June-9-2017-WCQ----UEFA-M
+,2018,France,2017-08-31 France-Netherlands,2017-08-31,First round,Thu,Home,W,4,0,Netherlands,4,,,,,,0,0,20:45:00,/en/matches/54833df2/France-Netherlands-August-31-2017-WCQ----UEFA-M
+,2018,France,2017-09-03 France-Luxembourg,2017-09-03,First round,Sun,Home,D,0,0,Luxembourg,0,,,,,,0,0,20:45:00,/en/matches/99a843bf/France-Luxembourg-September-3-2017-WCQ----UEFA-M
+,2018,France,2017-10-07 Bulgaria-France,2017-10-07,First round,Sat,Away,W,1,0,Bulgaria,1,,,,,,0,0,21:45:00,/en/matches/8e6b0a27/Bulgaria-France-October-7-2017-WCQ----UEFA-M
+,2018,France,2017-10-10 France-Belarus,2017-10-10,First round,Tue,Home,W,2,1,Belarus,2,,,,,,0,0,20:45:00,/en/matches/1e426392/France-Belarus-October-10-2017-WCQ----UEFA-M
+,2018,France,2018-03-23 France-Colombia,2018-03-23,Friendlies (M),Fri,Home,L,2,3,Colombia,2,,,,,,0,0,21:00:00,/en/matches/8372e20f/France-Colombia-March-23-2018-Friendlies-M
+,2018,France,2018-03-27 Russia-France,2018-03-27,Friendlies (M),Tue,Away,W,3,1,Russia,3,,,,,,0,0,18:50:00,/en/matches/e0f36eb3/Russia-France-March-27-2018-Friendlies-M
+,2018,France,2018-05-28 France-Rep. of Ireland,2018-05-28,Friendlies (M),Mon,Home,W,2,0,Rep. of Ireland,2,,,,,,0,0,21:00:00,/en/matches/389d0153/France-Republic-of-Ireland-May-28-2018-Friendlies-M
+,2018,France,2018-06-01 France-Italy,2018-06-01,Friendlies (M),Fri,Home,W,3,1,Italy,3,,,,,,1,1,21:05:00,/en/matches/43ee36aa/France-Italy-June-1-2018-Friendlies-M
+,2018,France,2018-06-09 France-United States,2018-06-09,Friendlies (M),Sat,Home,D,1,1,United States,1,,,,,,0,0,21:00:00,/en/matches/62abb990/France-United-States-June-9-2018-Friendlies-M
+,2018,France,2018-06-16 Australia-Australia,2018-06-16,Group stage,Sat,Neutral,W,2,1,Australia,1,13,6,46.2,0.0,0.0,1,1,13:00:00,/en/matches/99aa0597/France-Australia-June-16-2018-World-Cup
+,2018,France,2018-06-21 Peru-Peru,2018-06-21,Group stage,Thu,Neutral,W,1,0,Peru,1,12,4,33.3,0.08,0.25,0,0,20:00:00,/en/matches/a8de3334/France-Peru-June-21-2018-World-Cup
+,2018,France,2018-06-26 Denmark-Denmark,2018-06-26,Group stage,Tue,Neutral,D,0,0,Denmark,0,11,3,27.3,0.0,0.0,0,0,17:00:00,/en/matches/6a60e1ab/Denmark-France-June-26-2018-World-Cup
+,2018,France,2018-06-30 Argentina-Argentina,2018-06-30,Round of 16,Sat,Neutral,W,4,3,Argentina,4,9,4,44.4,0.33,0.75,1,1,17:00:00,/en/matches/1c9745ea/France-Argentina-June-30-2018-World-Cup
+,2018,France,2018-07-06 Uruguay-Uruguay,2018-07-06,Quarter-finals,Fri,Neutral,W,2,0,Uruguay,2,11,2,18.2,0.18,1.0,0,0,17:00:00,/en/matches/7d3f9961/Uruguay-France-July-6-2018-World-Cup
+,2018,France,2018-07-10 Belgium-Belgium,2018-07-10,Semi-finals,Tue,Neutral,W,1,0,Belgium,1,20,5,25.0,0.05,0.2,0,0,21:00:00,/en/matches/605079c0/France-Belgium-July-10-2018-World-Cup
+,2018,France,2018-07-15 Croatia-Croatia,2018-07-15,Final,Sun,Neutral,W,4,2,Croatia,3,9,6,66.7,0.22,0.33,1,1,18:00:00,/en/matches/a7957cf1/France-Croatia-July-15-2018-World-Cup
+,2018,France,2018-10-11 France-Iceland,2018-10-11,Friendlies (M),Thu,Home,D,2,2,Iceland,1,,,,,,1,1,21:00:00,/en/matches/83a99c8c/France-Iceland-October-11-2018-Friendlies-M
+,2018,France,2018-11-20 France-Uruguay,2018-11-20,Friendlies (M),Tue,Home,W,1,0,Uruguay,1,,,,,,1,1,21:00:00,/en/matches/d6f036bc/France-Uruguay-November-20-2018-Friendlies-M
+,2018,Germany,2016-09-04 Norway-Germany,2016-09-04,First round,Sun,Away,W,3,0,Norway,3,,,,,,0,0,20:45:00,/en/matches/20caf329/Norway-Germany-September-4-2016-WCQ----UEFA-M
+,2018,Germany,2016-10-08 Germany-Czechia,2016-10-08,First round,Sat,Home,W,3,0,Czechia,3,,,,,,0,0,20:45:00,/en/matches/12b9f769/Germany-Czechia-October-8-2016-WCQ----UEFA-M
+,2018,Germany,2016-10-11 Germany-Northern Ireland,2016-10-11,First round,Tue,Home,W,2,0,Northern Ireland,2,,,,,,0,0,20:45:00,/en/matches/9a111081/Germany-Northern-Ireland-October-11-2016-WCQ----UEFA-M
+,2018,Germany,2016-11-11 San Marino-Germany,2016-11-11,First round,Fri,Away,W,8,0,San Marino,7,,,,,,0,0,20:45:00,/en/matches/2e66bbe1/San-Marino-Germany-November-11-2016-WCQ----UEFA-M
+,2018,Germany,2017-03-26 Azerbaijan-Germany,2017-03-26,First round,Sun,Away,W,4,1,Azerbaijan,4,,,,,,0,0,20:00:00,/en/matches/972cdcc0/Azerbaijan-Germany-March-26-2017-WCQ----UEFA-M
+,2018,Germany,2017-06-10 Germany-San Marino,2017-06-10,First round,Sat,Home,W,7,0,San Marino,7,,,,,,0,0,20:45:00,/en/matches/14900727/Germany-San-Marino-June-10-2017-WCQ----UEFA-M
+,2018,Germany,2017-09-01 Czechia-Germany,2017-09-01,First round,Fri,Away,W,2,1,Czechia,2,,,,,,0,0,20:45:00,/en/matches/0c9cd0be/Czechia-Germany-September-1-2017-WCQ----UEFA-M
+,2018,Germany,2017-09-04 Germany-Norway,2017-09-04,First round,Mon,Home,W,6,0,Norway,6,,,,,,0,0,20:45:00,/en/matches/603bd616/Germany-Norway-September-4-2017-WCQ----UEFA-M
+,2018,Germany,2017-10-05 Northern Ireland-Germany,2017-10-05,First round,Thu,Away,W,3,1,Northern Ireland,3,,,,,,0,0,19:45:00,/en/matches/cd01744c/Northern-Ireland-Germany-October-5-2017-WCQ----UEFA-M
+,2018,Germany,2017-10-08 Germany-Azerbaijan,2017-10-08,First round,Sun,Home,W,5,1,Azerbaijan,5,,,,,,0,0,20:45:00,/en/matches/d9523c57/Germany-Azerbaijan-October-8-2017-WCQ----UEFA-M
+,2018,Germany,2018-03-23 Germany-Spain,2018-03-23,Friendlies (M),Fri,Home,D,1,1,Spain,1,,,,,,0,0,20:45:00,/en/matches/e8fe0c7b/Germany-Spain-March-23-2018-Friendlies-M
+,2018,Germany,2018-03-27 Germany-Brazil,2018-03-27,Friendlies (M),Tue,Home,L,0,1,Brazil,0,,,,,,0,0,20:45:00,/en/matches/4bee60c1/Germany-Brazil-March-27-2018-Friendlies-M
+,2018,Germany,2018-06-02 Austria-Germany,2018-06-02,Friendlies (M),Sat,Away,L,1,2,Austria,1,,,,,,0,0,19:40:00,/en/matches/e985c308/Austria-Germany-June-2-2018-Friendlies-M
+,2018,Germany,2018-06-08 Germany-Saudi Arabia,2018-06-08,Friendlies (M),Fri,Home,W,2,1,Saudi Arabia,1,,,,,,0,0,19:30:00,/en/matches/7b6cf888/Germany-Saudi-Arabia-June-8-2018-Friendlies-M
+,2018,Germany,2018-06-17 Mexico-Mexico,2018-06-17,Group stage,Sun,Neutral,L,0,1,Mexico,0,26,9,34.6,0.0,0.0,0,0,18:00:00,/en/matches/4100c1fb/Germany-Mexico-June-17-2018-World-Cup
+,2018,Germany,2018-06-23 Sweden-Sweden,2018-06-23,Group stage,Sat,Neutral,W,2,1,Sweden,2,18,6,33.3,0.11,0.33,0,0,21:00:00,/en/matches/e9fc9e82/Germany-Sweden-June-23-2018-World-Cup
+,2018,Germany,2018-06-27 Korea Republic-Korea Republic,2018-06-27,Group stage,Wed,Neutral,L,0,2,Korea Republic,0,28,6,21.4,0.0,0.0,0,0,17:00:00,/en/matches/4743cce5/Korea-Republic-Germany-June-27-2018-World-Cup
+,2018,Germany,2018-09-09 Germany-Peru,2018-09-09,Friendlies (M),Sun,Home,W,2,1,Peru,2,,,,,,0,0,20:45:00,/en/matches/10b4150b/Germany-Peru-September-9-2018-Friendlies-M
+,2018,Germany,2018-11-15 Germany-Russia,2018-11-15,Friendlies (M),Thu,Home,W,3,0,Russia,3,,,,,,0,0,20:45:00,/en/matches/528a2c11/Germany-Russia-November-15-2018-Friendlies-M
+,2018,IR Iran,2015-06-16 Turkmenistan-IR Iran,2015-06-16,Second round,Tue,Away,D,1,1,Turkmenistan,1,,,,,,0,0,18:00:00,/en/matches/c673753c/Turkmenistan-IR-Iran-June-16-2015-WCQ----AFC-M
+,2018,IR Iran,2015-09-03 IR Iran-Guam,2015-09-03,Second round,Thu,Home,W,6,0,Guam,6,,,,,,1,1,19:00:00,/en/matches/1b8adb68/IR-Iran-Guam-September-3-2015-WCQ----AFC-M
+,2018,IR Iran,2015-09-08 India-IR Iran,2015-09-08,Second round,Tue,Away,W,3,0,India,3,,,,,,0,0,19:00:00,/en/matches/eeaa0afe/India-IR-Iran-September-8-2015-WCQ----AFC-M
+,2018,IR Iran,2015-10-08 Oman-IR Iran,2015-10-08,Second round,Thu,Away,D,1,1,Oman,1,,,,,,0,0,18:30:00,/en/matches/d4da2672/Oman-IR-Iran-October-8-2015-WCQ----AFC-M
+,2018,IR Iran,2015-11-12 IR Iran-Turkmenistan,2015-11-12,Second round,Thu,Home,W,3,1,Turkmenistan,3,,,,,,1,1,15:00:00,/en/matches/187ca5dd/IR-Iran-Turkmenistan-November-12-2015-WCQ----AFC-M
+,2018,IR Iran,2015-11-17 Guam-IR Iran,2015-11-17,Second round,Tue,Away,W,6,0,Guam,6,,,,,,1,1,15:30:00,/en/matches/73a53675/Guam-IR-Iran-November-17-2015-WCQ----AFC-M
+,2018,IR Iran,2016-03-24 IR Iran-India,2016-03-24,Second round,Thu,Home,W,4,0,India,4,,,,,,2,2,19:00:00,/en/matches/1553ca30/IR-Iran-India-March-24-2016-WCQ----AFC-M
+,2018,IR Iran,2016-03-29 IR Iran-Oman,2016-03-29,Second round,Tue,Home,W,2,0,Oman,2,,,,,,0,0,19:00:00,/en/matches/34dd6b6a/IR-Iran-Oman-March-29-2016-WCQ----AFC-M
+,2018,IR Iran,2016-09-01 IR Iran-Qatar,2016-09-01,Third round,Thu,Home,W,2,0,Qatar,2,,,,,,0,0,21:00:00,/en/matches/8dcc0584/IR-Iran-Qatar-September-1-2016-WCQ----AFC-M
+,2018,IR Iran,2016-09-06 China PR-IR Iran,2016-09-06,Third round,Tue,Away,D,0,0,China PR,0,,,,,,0,0,19:35:00,/en/matches/c32bc359/China-PR-IR-Iran-September-6-2016-WCQ----AFC-M
+,2018,IR Iran,2016-10-06 Uzbekistan-IR Iran,2016-10-06,Third round,Thu,Away,W,1,0,Uzbekistan,1,,,,,,0,0,18:00:00,/en/matches/76d8c684/Uzbekistan-IR-Iran-October-6-2016-WCQ----AFC-M
+,2018,IR Iran,2016-10-11 IR Iran-Korea Republic,2016-10-11,Third round,Tue,Home,W,1,0,Korea Republic,1,,,,,,0,0,18:15:00,/en/matches/30fa9575/IR-Iran-Korea-Republic-October-11-2016-WCQ----AFC-M
+,2018,IR Iran,2016-11-15 Syria-IR Iran,2016-11-15,Third round,Tue,Away,D,0,0,Syria,0,,,,,,0,0,20:45:00,/en/matches/deb49ef7/Syria-IR-Iran-November-15-2016-WCQ----AFC-M
+,2018,IR Iran,2017-03-23 Qatar-IR Iran,2017-03-23,Third round,Thu,Away,W,1,0,Qatar,1,,,,,,0,0,19:00:00,/en/matches/f326ea29/Qatar-IR-Iran-March-23-2017-WCQ----AFC-M
+,2018,IR Iran,2017-03-28 IR Iran-China PR,2017-03-28,Third round,Tue,Home,W,1,0,China PR,1,,,,,,0,0,16:30:00,/en/matches/b4f589ac/IR-Iran-China-PR-March-28-2017-WCQ----AFC-M
+,2018,IR Iran,2017-06-12 IR Iran-Uzbekistan,2017-06-12,Third round,Mon,Home,W,2,0,Uzbekistan,2,,,,,,0,1,21:15:00,/en/matches/af6e08ee/IR-Iran-Uzbekistan-June-12-2017-WCQ----AFC-M
+,2018,IR Iran,2017-08-31 Korea Republic-IR Iran,2017-08-31,Third round,Thu,Away,D,0,0,Korea Republic,0,,,,,,0,0,21:00:00,/en/matches/9842f757/Korea-Republic-IR-Iran-August-31-2017-WCQ----AFC-M
+,2018,IR Iran,2017-09-05 IR Iran-Syria,2017-09-05,Third round,Tue,Home,D,2,2,Syria,2,,,,,,0,0,19:30:00,/en/matches/f8f1570d/IR-Iran-Syria-September-5-2017-WCQ----AFC-M
+,2018,IR Iran,2018-03-17 IR Iran-Sierra Leone,2018-03-17,Friendlies (M),Sat,Home,W,4,0,Sierra Leone,4,,,,,,0,0,15:30:00,/en/matches/edf8122e/IR-Iran-Sierra-Leone-March-17-2018-Friendlies-M
+,2018,IR Iran,2018-03-23 Tunisia-IR Iran,2018-03-23,Friendlies (M),Fri,Away,L,0,1,Tunisia,0,,,,,,0,0,19:15:00,/en/matches/4ee7e2b1/Tunisia-IR-Iran-March-23-2018-Friendlies-M
+,2018,IR Iran,2018-03-27 IR Iran-Algeria,2018-03-27,Friendlies (M),Tue,Home,W,2,1,Algeria,2,,,,,,0,0,18:00:00,/en/matches/786968b7/IR-Iran-Algeria-March-27-2018-Friendlies-M
+,2018,IR Iran,2018-05-19 IR Iran-Uzbekistan,2018-05-19,Friendlies (M),Sat,Home,W,1,0,Uzbekistan,1,,,,,,0,0,21:00:00,/en/matches/9e19c2ad/IR-Iran-Uzbekistan-May-19-2018-Friendlies-M
+,2018,IR Iran,2018-05-28 Türkiye-IR Iran,2018-05-28,Friendlies (M),Mon,Away,L,1,2,Türkiye,1,,,,,,1,1,21:15:00,/en/matches/e728c027/Turkiye-IR-Iran-May-28-2018-Friendlies-M
+,2018,IR Iran,2018-06-08 IR Iran-Lithuania,2018-06-08,Friendlies (M),Fri,Home,W,1,0,Lithuania,1,,,,,,0,0,18:00:00,/en/matches/35220b02/IR-Iran-Lithuania-June-8-2018-Friendlies-M
+,2018,IR Iran,2018-06-15 Morocco-Morocco,2018-06-15,Group stage,Fri,Neutral,W,1,0,Morocco,0,9,2,22.2,0.0,0.0,0,0,18:00:00,/en/matches/028c7b0f/Morocco-IR-Iran-June-15-2018-World-Cup
+,2018,IR Iran,2018-06-20 Spain-Spain,2018-06-20,Group stage,Wed,Neutral,L,0,1,Spain,0,7,0,0.0,0.0,,0,0,21:00:00,/en/matches/cd0c54ed/IR-Iran-Spain-June-20-2018-World-Cup
+,2018,IR Iran,2018-06-25 Portugal-Portugal,2018-06-25,Group stage,Mon,Neutral,D,1,1,Portugal,1,7,2,28.6,0.0,0.0,1,1,21:00:00,/en/matches/f572accd/IR-Iran-Portugal-June-25-2018-World-Cup
+,2018,IR Iran,2018-09-11 Uzbekistan-IR Iran,2018-09-11,Friendlies (M),Tue,Away,W,1,0,Uzbekistan,1,,,,,,0,0,20:00:00,/en/matches/a2d16af3/Uzbekistan-IR-Iran-September-11-2018-Friendlies-M
+,2018,IR Iran,2018-10-16 IR Iran-Bolivia,2018-10-16,Friendlies (M),Tue,Home,W,2,1,Bolivia,2,,,,,,0,0,19:30:00,/en/matches/9a95aeed/IR-Iran-Bolivia-October-16-2018-Friendlies-M
+,2018,IR Iran,2018-11-15 IR Iran-Trin & Tobago,2018-11-15,Friendlies (M),Thu,Home,W,1,0,Trin & Tobago,1,,,,,,0,1,18:00:00,/en/matches/ef69f4c5/IR-Iran-Trinidad-and-Tobago-November-15-2018-Friendlies-M
+,2018,IR Iran,2018-11-20 IR Iran-Venezuela,2018-11-20,Friendlies (M),Tue,Home,D,1,1,Venezuela,1,,,,,,0,0,18:30:00,/en/matches/9b838daa/IR-Iran-Venezuela-November-20-2018-Friendlies-M
+,2018,IR Iran,2018-12-24 Palestine-Palestine,2018-12-24,Friendlies (M),Mon,Neutral,D,1,1,Palestine,1,,,,,,0,0,17:00:00,/en/matches/ee624424/IR-Iran-Palestine-December-24-2018-Friendlies-M
+,2018,IR Iran,2018-12-31 Qatar-IR Iran,2018-12-31,Friendlies (M),Mon,Away,W,2,1,Qatar,2,,,,,,0,0,20:00:00,/en/matches/5150ec92/Qatar-IR-Iran-December-31-2018-Friendlies-M
+,2018,Iceland,2016-09-05 Ukraine-Iceland,2016-09-05,First round,Mon,Away,D,1,1,Ukraine,1,,,,,,0,0,21:45:00,/en/matches/6633e8c0/Ukraine-Iceland-September-5-2016-WCQ----UEFA-M
+,2018,Iceland,2016-10-06 Iceland-Finland,2016-10-06,First round,Thu,Home,W,3,2,Finland,3,,,,,,0,1,18:45:00,/en/matches/2e56cc14/Iceland-Finland-October-6-2016-WCQ----UEFA-M
+,2018,Iceland,2016-10-09 Iceland-Türkiye,2016-10-09,First round,Sun,Home,W,2,0,Türkiye,1,,,,,,0,0,18:45:00,/en/matches/2561597b/Iceland-Turkiye-October-9-2016-WCQ----UEFA-M
+,2018,Iceland,2016-11-12 Croatia-Iceland,2016-11-12,First round,Sat,Away,L,0,2,Croatia,0,,,,,,0,0,18:00:00,/en/matches/0e3fbbff/Croatia-Iceland-November-12-2016-WCQ----UEFA-M
+,2018,Iceland,2017-03-24 Kosovo-Iceland,2017-03-24,First round,Fri,Away,W,2,1,Kosovo,2,,,,,,1,1,20:45:00,/en/matches/16d843dd/Kosovo-Iceland-March-24-2017-WCQ----UEFA-M
+,2018,Iceland,2017-06-11 Iceland-Croatia,2017-06-11,First round,Sun,Home,W,1,0,Croatia,1,,,,,,0,0,18:45:00,/en/matches/f6d82230/Iceland-Croatia-June-11-2017-WCQ----UEFA-M
+,2018,Iceland,2017-09-02 Finland-Iceland,2017-09-02,First round,Sat,Away,L,0,1,Finland,0,,,,,,0,0,19:00:00,/en/matches/e597c6b9/Finland-Iceland-September-2-2017-WCQ----UEFA-M
+,2018,Iceland,2017-09-05 Iceland-Ukraine,2017-09-05,First round,Tue,Home,W,2,0,Ukraine,2,,,,,,0,0,18:45:00,/en/matches/a89d2754/Iceland-Ukraine-September-5-2017-WCQ----UEFA-M
+,2018,Iceland,2017-10-06 Türkiye-Iceland,2017-10-06,First round,Fri,Away,W,3,0,Türkiye,3,,,,,,0,0,21:45:00,/en/matches/2efd3fc4/Turkiye-Iceland-October-6-2017-WCQ----UEFA-M
+,2018,Iceland,2017-10-09 Iceland-Kosovo,2017-10-09,First round,Mon,Home,W,2,0,Kosovo,2,,,,,,0,0,18:45:00,/en/matches/774886d0/Iceland-Kosovo-October-9-2017-WCQ----UEFA-M
+,2018,Iceland,2018-03-23 Mexico-Iceland,2018-03-23,Friendlies (M),Fri,Away,L,0,3,Mexico,0,,,,,,0,0,19:00:00,/en/matches/c0d64b3f/Mexico-Iceland-March-23-2018-Friendlies-M
+,2018,Iceland,2018-03-27 Iceland-Peru,2018-03-27,Friendlies (M),Tue,Home,L,1,3,Peru,1,,,,,,0,0,20:00:00,/en/matches/17a8dcf4/Iceland-Peru-March-27-2018-Friendlies-M
+,2018,Iceland,2018-06-02 Iceland-Norway,2018-06-02,Friendlies (M),Sat,Home,L,2,3,Norway,2,,,,,,1,1,20:00:00,/en/matches/3f07a6d8/Iceland-Norway-June-2-2018-Friendlies-M
+,2018,Iceland,2018-06-07 Iceland-Ghana,2018-06-07,Friendlies (M),Thu,Home,D,2,2,Ghana,2,,,,,,0,0,20:00:00,/en/matches/1ce57808/Iceland-Ghana-June-7-2018-Friendlies-M
+,2018,Iceland,2018-06-16 Argentina-Argentina,2018-06-16,Group stage,Sat,Neutral,D,1,1,Argentina,1,8,2,25.0,0.13,0.5,0,0,16:00:00,/en/matches/1b352279/Argentina-Iceland-June-16-2018-World-Cup
+,2018,Iceland,2018-06-22 Nigeria-Nigeria,2018-06-22,Group stage,Fri,Neutral,L,0,2,Nigeria,0,9,3,33.3,0.0,0.0,0,1,18:00:00,/en/matches/66f80ae4/Nigeria-Iceland-June-22-2018-World-Cup
+,2018,Iceland,2018-06-26 Croatia-Croatia,2018-06-26,Group stage,Tue,Neutral,L,1,2,Croatia,1,16,6,37.5,0.0,0.0,1,1,21:00:00,/en/matches/01e30e44/Iceland-Croatia-June-26-2018-World-Cup
+,2018,Iceland,2018-10-11 France-Iceland,2018-10-11,Friendlies (M),Thu,Away,D,2,2,France,2,,,,,,0,0,21:00:00,/en/matches/83a99c8c/France-Iceland-October-11-2018-Friendlies-M
+,2018,Iceland,2018-11-19 Qatar-Iceland,2018-11-19,Friendlies (M),Mon,Away,D,2,2,Qatar,1,,,,,,1,1,19:30:00,/en/matches/f2cd6d24/Qatar-Iceland-November-19-2018-Friendlies-M
+,2018,Japan,2015-06-16 Japan-Singapore,2015-06-16,Second round,Tue,Home,D,0,0,Singapore,0,,,,,,0,0,19:30:00,/en/matches/3383dee5/Japan-Singapore-June-16-2015-WCQ----AFC-M
+,2018,Japan,2015-09-03 Japan-Cambodia,2015-09-03,Second round,Thu,Home,W,3,0,Cambodia,3,,,,,,0,0,19:25:00,/en/matches/ddd39718/Japan-Cambodia-September-3-2015-WCQ----AFC-M
+,2018,Japan,2015-09-08 Afghanistan-Japan,2015-09-08,Second round,Tue,Away,W,6,0,Afghanistan,6,,,,,,0,0,16:55:00,/en/matches/b2f214f4/Afghanistan-Japan-September-8-2015-WCQ----AFC-M
+,2018,Japan,2015-10-08 Syria-Japan,2015-10-08,Second round,Thu,Away,W,3,0,Syria,3,,,,,,1,1,17:00:00,/en/matches/4a310516/Syria-Japan-October-8-2015-WCQ----AFC-M
+,2018,Japan,2015-11-12 Singapore-Japan,2015-11-12,Second round,Thu,Away,W,3,0,Singapore,3,,,,,,0,0,11:15:00,/en/matches/364c620a/Singapore-Japan-November-12-2015-WCQ----AFC-M
+,2018,Japan,2015-11-17 Cambodia-Japan,2015-11-17,Second round,Tue,Away,W,2,0,Cambodia,1,,,,,,0,1,19:14:00,/en/matches/c7c35ced/Cambodia-Japan-November-17-2015-WCQ----AFC-M
+,2018,Japan,2016-03-24 Japan-Afghanistan,2016-03-24,Second round,Thu,Home,W,5,0,Afghanistan,4,,,,,,0,0,19:30:00,/en/matches/d21b1a41/Japan-Afghanistan-March-24-2016-WCQ----AFC-M
+,2018,Japan,2016-03-29 Japan-Syria,2016-03-29,Second round,Tue,Home,W,5,0,Syria,4,,,,,,0,0,19:30:00,/en/matches/591c264f/Japan-Syria-March-29-2016-WCQ----AFC-M
+,2018,Japan,2016-09-01 Japan-UAE,2016-09-01,Third round,Thu,Home,L,1,2,UAE,1,,,,,,0,0,19:35:00,/en/matches/20c306d2/Japan-United-Arab-Emirates-September-1-2016-WCQ----AFC-M
+,2018,Japan,2016-09-06 Thailand-Japan,2016-09-06,Third round,Tue,Away,W,2,0,Thailand,2,,,,,,0,0,19:15:00,/en/matches/a6d661c4/Thailand-Japan-September-6-2016-WCQ----AFC-M
+,2018,Japan,2016-10-06 Japan-Iraq,2016-10-06,Third round,Thu,Home,W,2,1,Iraq,2,,,,,,0,0,19:35:00,/en/matches/cf38ced1/Japan-Iraq-October-6-2016-WCQ----AFC-M
+,2018,Japan,2016-10-11 Australia-Japan,2016-10-11,Third round,Tue,Away,D,1,1,Australia,1,,,,,,0,0,20:00:00,/en/matches/90e39134/Australia-Japan-October-11-2016-WCQ----AFC-M
+,2018,Japan,2016-11-15 Japan-Saudi Arabia,2016-11-15,Third round,Tue,Home,W,2,1,Saudi Arabia,2,,,,,,1,1,19:35:00,/en/matches/d1521504/Japan-Saudi-Arabia-November-15-2016-WCQ----AFC-M
+,2018,Japan,2017-03-23 UAE-Japan,2017-03-23,Third round,Thu,Away,W,2,0,UAE,2,,,,,,0,0,19:30:00,/en/matches/9801194f/United-Arab-Emirates-Japan-March-23-2017-WCQ----AFC-M
+,2018,Japan,2017-03-28 Japan-Thailand,2017-03-28,Third round,Tue,Home,W,4,0,Thailand,4,,,,,,0,0,19:35:00,/en/matches/bda970d8/Japan-Thailand-March-28-2017-WCQ----AFC-M
+,2018,Japan,2017-06-13 Iraq-Japan,2017-06-13,Third round,Tue,Away,D,1,1,Iraq,1,,,,,,0,0,16:55:00,/en/matches/fcfe55d5/Iraq-Japan-June-13-2017-WCQ----AFC-M
+,2018,Japan,2017-08-31 Japan-Australia,2017-08-31,Third round,Thu,Home,W,2,0,Australia,2,,,,,,0,0,19:35:00,/en/matches/10488603/Japan-Australia-August-31-2017-WCQ----AFC-M
+,2018,Japan,2017-09-05 Saudi Arabia-Japan,2017-09-05,Third round,Tue,Away,L,0,1,Saudi Arabia,0,,,,,,0,0,20:30:00,/en/matches/6283eabf/Saudi-Arabia-Japan-September-5-2017-WCQ----AFC-M
+,2018,Japan,2018-03-23 Japan-Mali,2018-03-23,Friendlies (M),Fri,Home,D,1,1,Mali,1,,,,,,0,0,13:20:00,/en/matches/5be2a8d5/Japan-Mali-March-23-2018-Friendlies-M
+,2018,Japan,2018-03-27 Japan-Ukraine,2018-03-27,Friendlies (M),Tue,Home,L,1,2,Ukraine,1,,,,,,0,0,14:20:00,/en/matches/539ed12f/Japan-Ukraine-March-27-2018-Friendlies-M
+,2018,Japan,2018-05-30 Japan-Ghana,2018-05-30,Friendlies (M),Wed,Home,L,0,2,Ghana,0,,,,,,0,0,19:25:00,/en/matches/46a3141d/Japan-Ghana-May-30-2018-Friendlies-M
+,2018,Japan,2018-06-08 Switzerland-Japan,2018-06-08,Friendlies (M),Fri,Away,L,0,2,Switzerland,0,,,,,,0,0,19:00:00,/en/matches/dd44b287/Switzerland-Japan-June-8-2018-Friendlies-M
+,2018,Japan,2018-06-12 Japan-Paraguay,2018-06-12,Friendlies (M),Tue,Home,W,4,2,Paraguay,3,,,,,,0,0,15:05:00,/en/matches/c9ba940d/Japan-Paraguay-June-12-2018-Friendlies-M
+,2018,Japan,2018-06-19 Colombia-Colombia,2018-06-19,Group stage,Tue,Neutral,W,2,1,Colombia,2,14,5,35.7,0.07,0.2,1,1,15:00:00,/en/matches/6b881027/Colombia-Japan-June-19-2018-World-Cup
+,2018,Japan,2018-06-24 Senegal-Senegal,2018-06-24,Group stage,Sun,Neutral,D,2,2,Senegal,2,7,3,42.9,0.29,0.67,0,0,20:00:00,/en/matches/59b7ead6/Japan-Senegal-June-24-2018-World-Cup
+,2018,Japan,2018-06-28 Poland-Poland,2018-06-28,Group stage,Thu,Neutral,L,0,1,Poland,0,10,3,30.0,0.0,0.0,0,0,17:00:00,/en/matches/94f5d825/Japan-Poland-June-28-2018-World-Cup
+,2018,Japan,2018-07-02 Belgium-Belgium,2018-07-02,Round of 16,Mon,Neutral,L,2,3,Belgium,2,11,4,36.4,0.18,0.5,0,0,21:00:00,/en/matches/1fd23151/Belgium-Japan-July-2-2018-World-Cup
+,2018,Japan,2018-09-11 Japan-Costa Rica,2018-09-11,Friendlies (M),Tue,Home,W,3,0,Costa Rica,2,,,,,,0,0,19:20:00,/en/matches/5bfd6851/Japan-Costa-Rica-September-11-2018-Friendlies-M
+,2018,Japan,2018-10-12 Japan-Panama,2018-10-12,Friendlies (M),Fri,Home,W,3,0,Panama,2,,,,,,0,0,19:35:00,/en/matches/208df114/Japan-Panama-October-12-2018-Friendlies-M
+,2018,Japan,2018-10-16 Japan-Uruguay,2018-10-16,Friendlies (M),Tue,Home,W,4,3,Uruguay,4,,,,,,0,0,19:35:00,/en/matches/1cb293d2/Japan-Uruguay-October-16-2018-Friendlies-M
+,2018,Japan,2018-11-16 Japan-Venezuela,2018-11-16,Friendlies (M),Fri,Home,D,1,1,Venezuela,1,,,,,,0,0,19:30:00,/en/matches/2d684e47/Japan-Venezuela-November-16-2018-Friendlies-M
+,2018,Japan,2018-11-20 Japan-Kyrgyz Republic,2018-11-20,Friendlies (M),Tue,Home,W,4,0,Kyrgyz Republic,4,,,,,,0,0,19:20:00,/en/matches/497f64d8/Japan-Kyrgyz-Republic-November-20-2018-Friendlies-M
+,2018,Korea Republic,2015-06-16 Myanmar-Korea Republic,2015-06-16,Second round,Tue,Away,W,2,0,Myanmar,2,,,,,,0,0,19:00:00,/en/matches/669055b1/Myanmar-Korea-Republic-June-16-2015-WCQ----AFC-M
+,2018,Korea Republic,2015-09-03 Korea Republic-Laos,2015-09-03,Second round,Thu,Home,W,8,0,Laos,8,,,,,,0,0,20:00:00,/en/matches/3370495d/Korea-Republic-Laos-September-3-2015-WCQ----AFC-M
+,2018,Korea Republic,2015-09-08 Lebanon-Korea Republic,2015-09-08,Second round,Tue,Away,W,3,0,Lebanon,2,,,,,,1,1,17:00:00,/en/matches/43f57eeb/Lebanon-Korea-Republic-September-8-2015-WCQ----AFC-M
+,2018,Korea Republic,2015-10-08 Kuwait-Korea Republic,2015-10-08,Second round,Thu,Away,W,1,0,Kuwait,1,,,,,,0,0,17:55:00,/en/matches/45174449/Kuwait-Korea-Republic-October-8-2015-WCQ----AFC-M
+,2018,Korea Republic,2015-11-12 Korea Republic-Myanmar,2015-11-12,Second round,Thu,Home,W,4,0,Myanmar,4,,,,,,0,1,20:00:00,/en/matches/3143c946/Korea-Republic-Myanmar-November-12-2015-WCQ----AFC-M
+,2018,Korea Republic,2015-11-17 Laos-Korea Republic,2015-11-17,Second round,Tue,Away,W,5,0,Laos,5,,,,,,1,1,19:00:00,/en/matches/af625b28/Laos-Korea-Republic-November-17-2015-WCQ----AFC-M
+,2018,Korea Republic,2016-03-24 Korea Republic-Lebanon,2016-03-24,Second round,Thu,Home,W,1,0,Lebanon,1,,,,,,0,0,20:00:00,/en/matches/37633aae/Korea-Republic-Lebanon-March-24-2016-WCQ----AFC-M
+,2018,Korea Republic,2016-09-01 Korea Republic-China PR,2016-09-01,Third round,Thu,Home,W,3,2,China PR,2,,,,,,0,0,20:00:00,/en/matches/52d0e502/Korea-Republic-China-PR-September-1-2016-WCQ----AFC-M
+,2018,Korea Republic,2016-09-06 Syria-Korea Republic,2016-09-06,Third round,Tue,Away,D,0,0,Syria,0,,,,,,0,0,20:00:00,/en/matches/92107c90/Syria-Korea-Republic-September-6-2016-WCQ----AFC-M
+,2018,Korea Republic,2016-10-06 Korea Republic-Qatar,2016-10-06,Third round,Thu,Home,W,3,2,Qatar,3,,,,,,0,0,20:00:00,/en/matches/004ffa44/Korea-Republic-Qatar-October-6-2016-WCQ----AFC-M
+,2018,Korea Republic,2016-10-11 IR Iran-Korea Republic,2016-10-11,Third round,Tue,Away,L,0,1,IR Iran,0,,,,,,0,0,18:15:00,/en/matches/30fa9575/IR-Iran-Korea-Republic-October-11-2016-WCQ----AFC-M
+,2018,Korea Republic,2016-11-15 Korea Republic-Uzbekistan,2016-11-15,Third round,Tue,Home,W,2,1,Uzbekistan,2,,,,,,0,0,20:00:00,/en/matches/8a0facc2/Korea-Republic-Uzbekistan-November-15-2016-WCQ----AFC-M
+,2018,Korea Republic,2017-03-23 China PR-Korea Republic,2017-03-23,Third round,Thu,Away,L,0,1,China PR,0,,,,,,0,0,19:35:00,/en/matches/5e8637e5/China-PR-Korea-Republic-March-23-2017-WCQ----AFC-M
+,2018,Korea Republic,2017-03-28 Korea Republic-Syria,2017-03-28,Third round,Tue,Home,W,1,0,Syria,1,,,,,,0,0,20:00:00,/en/matches/81dd4918/Korea-Republic-Syria-March-28-2017-WCQ----AFC-M
+,2018,Korea Republic,2017-06-13 Qatar-Korea Republic,2017-06-13,Third round,Tue,Away,L,2,3,Qatar,2,,,,,,0,0,22:00:00,/en/matches/0f13c806/Qatar-Korea-Republic-June-13-2017-WCQ----AFC-M
+,2018,Korea Republic,2017-08-31 Korea Republic-IR Iran,2017-08-31,Third round,Thu,Home,D,0,0,IR Iran,0,,,,,,0,0,21:00:00,/en/matches/9842f757/Korea-Republic-IR-Iran-August-31-2017-WCQ----AFC-M
+,2018,Korea Republic,2017-09-05 Uzbekistan-Korea Republic,2017-09-05,Third round,Tue,Away,D,0,0,Uzbekistan,0,,,,,,0,0,20:00:00,/en/matches/9c6e8c91/Uzbekistan-Korea-Republic-September-5-2017-WCQ----AFC-M
+,2018,Korea Republic,2018-01-27 Korea Republic-Moldova,2018-01-27,Friendlies (M),Sat,Home,W,1,0,Moldova,1,,,,,,0,0,16:00:00,/en/matches/520963c5/Korea-Republic-Moldova-January-27-2018-Friendlies-M
+,2018,Korea Republic,2018-01-30 Korea Republic-Jamaica,2018-01-30,Friendlies (M),Tue,Home,D,2,2,Jamaica,2,,,,,,0,0,14:00:00,/en/matches/acfc9b7c/Korea-Republic-Jamaica-January-30-2018-Friendlies-M
+,2018,Korea Republic,2018-02-03 Korea Republic-Latvia,2018-02-03,Friendlies (M),Sat,Home,W,1,0,Latvia,1,,,,,,0,0,17:30:00,/en/matches/0d10250a/Korea-Republic-Latvia-February-3-2018-Friendlies-M
+,2018,Korea Republic,2018-03-24 Northern Ireland-Korea Republic,2018-03-24,Friendlies (M),Sat,Away,L,1,2,Northern Ireland,1,,,,,,0,0,14:00:00,/en/matches/9d2f6b3b/Northern-Ireland-Korea-Republic-March-24-2018-Friendlies-M
+,2018,Korea Republic,2018-03-27 Poland-Korea Republic,2018-03-27,Friendlies (M),Tue,Away,L,2,3,Poland,2,,,,,,0,0,20:45:00,/en/matches/aa6890c8/Poland-Korea-Republic-March-27-2018-Friendlies-M
+,2018,Korea Republic,2018-05-28 Korea Republic-Honduras,2018-05-28,Friendlies (M),Mon,Home,W,2,0,Honduras,2,,,,,,0,0,20:00:00,/en/matches/29d51332/Korea-Republic-Honduras-May-28-2018-Friendlies-M
+,2018,Korea Republic,2018-06-01 Korea Republic-Bosnia–Herz,2018-06-01,Friendlies (M),Fri,Home,L,1,3,Bosnia–Herz,1,,,,,,0,0,20:00:00,/en/matches/70aee7b6/Korea-Republic-Bosnia-and-Herzegovina-June-1-2018-Friendlies-M
+,2018,Korea Republic,2018-06-07 Korea Republic-Bolivia,2018-06-07,Friendlies (M),Thu,Home,D,0,0,Bolivia,0,,,,,,0,0,14:10:00,/en/matches/ae57cdd0/Korea-Republic-Bolivia-June-7-2018-Friendlies-M
+,2018,Korea Republic,2018-06-11 Korea Republic-Senegal,2018-06-11,Friendlies (M),Mon,Home,L,0,2,Senegal,0,,,,,,0,0,15:30:00,/en/matches/b99186c1/Korea-Republic-Senegal-June-11-2018-Friendlies-M
+,2018,Korea Republic,2018-06-18 Sweden-Sweden,2018-06-18,Group stage,Mon,Neutral,L,0,1,Sweden,0,5,0,0.0,0.0,,0,0,15:00:00,/en/matches/81558c33/Sweden-Korea-Republic-June-18-2018-World-Cup
+,2018,Korea Republic,2018-06-23 Mexico-Mexico,2018-06-23,Group stage,Sat,Neutral,L,1,2,Mexico,1,17,6,35.3,0.06,0.17,0,0,18:00:00,/en/matches/97e095b0/Korea-Republic-Mexico-June-23-2018-World-Cup
+,2018,Korea Republic,2018-06-27 Germany-Germany,2018-06-27,Group stage,Wed,Neutral,W,2,0,Germany,2,12,5,41.7,0.17,0.4,0,0,17:00:00,/en/matches/4743cce5/Korea-Republic-Germany-June-27-2018-World-Cup
+,2018,Korea Republic,2018-09-07 Korea Republic-Costa Rica,2018-09-07,Friendlies (M),Fri,Home,W,2,0,Costa Rica,2,,,,,,0,1,20:00:00,/en/matches/3624c7a2/Korea-Republic-Costa-Rica-September-7-2018-Friendlies-M
+,2018,Korea Republic,2018-09-11 Korea Republic-Chile,2018-09-11,Friendlies (M),Tue,Home,D,0,0,Chile,0,,,,,,0,0,20:00:00,/en/matches/25d6de2d/Korea-Republic-Chile-September-11-2018-Friendlies-M
+,2018,Korea Republic,2018-10-12 Korea Republic-Uruguay,2018-10-12,Friendlies (M),Fri,Home,W,2,1,Uruguay,2,,,,,,0,1,20:00:00,/en/matches/d4e62113/Korea-Republic-Uruguay-October-12-2018-Friendlies-M
+,2018,Korea Republic,2018-10-16 Korea Republic-Panama,2018-10-16,Friendlies (M),Tue,Home,D,2,2,Panama,2,,,,,,0,0,20:00:00,/en/matches/01cde657/Korea-Republic-Panama-October-16-2018-Friendlies-M
+,2018,Korea Republic,2018-11-17 Australia-Korea Republic,2018-11-17,Friendlies (M),Sat,Away,D,1,1,Australia,1,,,,,,0,0,18:50:00,/en/matches/9d4687ec/Australia-Korea-Republic-November-17-2018-Friendlies-M
+,2018,Korea Republic,2018-11-20 Uzbekistan-Korea Republic,2018-11-20,Friendlies (M),Tue,Away,W,4,0,Uzbekistan,4,,,,,,0,0,20:00:00,/en/matches/17e58996/Uzbekistan-Korea-Republic-November-20-2018-Friendlies-M
+,2018,Korea Republic,2018-12-31 Saudi Arabia-Saudi Arabia,2018-12-31,Friendlies (M),Mon,Neutral,D,0,0,Saudi Arabia,0,,,,,,0,1,20:00:00,/en/matches/10ae7c6d/Saudi-Arabia-Korea-Republic-December-31-2018-Friendlies-M
+,2018,Mexico,2015-11-13 Mexico-El Salvador,2015-11-13,Fourth round,Fri,Home,W,3,0,El Salvador,3,,,,,,0,0,20:00:00,/en/matches/e31ab32f/Mexico-El-Salvador-November-13-2015-WCQ----CONCACAF-M
+,2018,Mexico,2015-11-17 Honduras-Mexico,2015-11-17,Fourth round,Tue,Away,W,2,0,Honduras,2,,,,,,0,0,15:00:00,/en/matches/fb866b57/Honduras-Mexico-November-17-2015-WCQ----CONCACAF-M
+,2018,Mexico,2016-03-25 Canada-Mexico,2016-03-25,Fourth round,Fri,Away,W,3,0,Canada,3,,,,,,0,0,19:08:00,/en/matches/0d4c42b3/Canada-Mexico-March-25-2016-WCQ----CONCACAF-M
+,2018,Mexico,2016-03-29 Mexico-Canada,2016-03-29,Fourth round,Tue,Home,W,2,0,Canada,2,,,,,,1,1,20:30:00,/en/matches/2e5f2251/Mexico-Canada-March-29-2016-WCQ----CONCACAF-M
+,2018,Mexico,2016-09-02 El Salvador-Mexico,2016-09-02,Fourth round,Fri,Away,W,3,1,El Salvador,3,,,,,,1,1,20:06:00,/en/matches/3faa8769/El-Salvador-Mexico-September-2-2016-WCQ----CONCACAF-M
+,2018,Mexico,2016-09-06 Mexico-Honduras,2016-09-06,Fourth round,Tue,Home,D,0,0,Honduras,0,,,,,,0,0,21:00:00,/en/matches/86e688c5/Mexico-Honduras-September-6-2016-WCQ----CONCACAF-M
+,2018,Mexico,2016-11-11 United States-Mexico,2016-11-11,Fifth round,Fri,Away,W,2,1,United States,2,,,,,,0,0,20:01:00,/en/matches/0e902735/United-States-Mexico-November-11-2016-WCQ----CONCACAF-M
+,2018,Mexico,2016-11-15 Panama-Mexico,2016-11-15,Fifth round,Tue,Away,D,0,0,Panama,0,,,,,,0,0,21:05:00,/en/matches/f7da8edc/Panama-Mexico-November-15-2016-WCQ----CONCACAF-M
+,2018,Mexico,2017-03-24 Mexico-Costa Rica,2017-03-24,Fifth round,Fri,Home,W,2,0,Costa Rica,2,,,,,,0,0,19:50:00,/en/matches/e19c793e/Mexico-Costa-Rica-March-24-2017-WCQ----CONCACAF-M
+,2018,Mexico,2017-03-28 Trin & Tobago-Mexico,2017-03-28,Fifth round,Tue,Away,W,1,0,Trin & Tobago,1,,,,,,0,0,19:00:00,/en/matches/659e3de1/Trinidad-and-Tobago-Mexico-March-28-2017-WCQ----CONCACAF-M
+,2018,Mexico,2017-06-08 Mexico-Honduras,2017-06-08,Fifth round,Thu,Home,W,3,0,Honduras,3,,,,,,0,0,21:00:00,/en/matches/4a2cd0bb/Mexico-Honduras-June-8-2017-WCQ----CONCACAF-M
+,2018,Mexico,2017-06-11 Mexico-United States,2017-06-11,Fifth round,Sun,Home,D,1,1,United States,1,,,,,,0,0,19:30:00,/en/matches/3ab3000c/Mexico-United-States-June-11-2017-WCQ----CONCACAF-M
+,2018,Mexico,2017-09-01 Mexico-Panama,2017-09-01,Fifth round,Fri,Home,W,1,0,Panama,1,,,,,,0,0,20:30:00,/en/matches/fc635dbb/Mexico-Panama-September-1-2017-WCQ----CONCACAF-M
+,2018,Mexico,2017-09-05 Costa Rica-Mexico,2017-09-05,Fifth round,Tue,Away,D,1,1,Costa Rica,0,,,,,,0,0,20:05:00,/en/matches/2f599ce4/Costa-Rica-Mexico-September-5-2017-WCQ----CONCACAF-M
+,2018,Mexico,2017-10-06 Mexico-Trin & Tobago,2017-10-06,Fifth round,Fri,Home,W,3,1,Trin & Tobago,3,,,,,,0,0,20:30:00,/en/matches/7a90b7a1/Mexico-Trinidad-and-Tobago-October-6-2017-WCQ----CONCACAF-M
+,2018,Mexico,2017-10-10 Honduras-Mexico,2017-10-10,Fifth round,Tue,Away,L,2,3,Honduras,2,,,,,,0,0,18:00:00,/en/matches/0545cd0b/Honduras-Mexico-October-10-2017-WCQ----CONCACAF-M
+,2018,Mexico,2018-01-31 Mexico-Bosnia–Herz,2018-01-31,Friendlies (M),Wed,Home,W,1,0,Bosnia–Herz,1,,,,,,0,0,20:00:00,/en/matches/e3aeb3ce/Mexico-Bosnia-and-Herzegovina-January-31-2018-Friendlies-M
+,2018,Mexico,2018-03-23 Mexico-Iceland,2018-03-23,Friendlies (M),Fri,Home,W,3,0,Iceland,3,,,,,,0,0,19:00:00,/en/matches/c0d64b3f/Mexico-Iceland-March-23-2018-Friendlies-M
+,2018,Mexico,2018-03-27 Mexico-Croatia,2018-03-27,Friendlies (M),Tue,Home,L,0,1,Croatia,0,,,,,,0,0,21:00:00,/en/matches/200d11ec/Mexico-Croatia-March-27-2018-Friendlies-M
+,2018,Mexico,2018-05-28 Mexico-Wales,2018-05-28,Friendlies (M),Mon,Home,D,0,0,Wales,0,,,,,,0,0,18:00:00,/en/matches/70058f81/Mexico-Wales-May-28-2018-Friendlies-M
+,2018,Mexico,2018-06-02 Mexico-Scotland,2018-06-02,Friendlies (M),Sat,Home,W,1,0,Scotland,1,,,,,,0,0,19:00:00,/en/matches/edab8116/Mexico-Scotland-June-2-2018-Friendlies-M
+,2018,Mexico,2018-06-09 Denmark-Mexico,2018-06-09,Friendlies (M),Sat,Away,L,0,2,Denmark,0,,,,,,0,0,20:00:00,/en/matches/6c3b049a/Denmark-Mexico-June-9-2018-Friendlies-M
+,2018,Mexico,2018-06-17 Germany-Germany,2018-06-17,Group stage,Sun,Neutral,W,1,0,Germany,1,13,4,30.8,0.08,0.25,0,0,18:00:00,/en/matches/4100c1fb/Germany-Mexico-June-17-2018-World-Cup
+,2018,Mexico,2018-06-23 Korea Republic-Korea Republic,2018-06-23,Group stage,Sat,Neutral,W,2,1,Korea Republic,2,13,5,38.5,0.08,0.2,1,1,18:00:00,/en/matches/97e095b0/Korea-Republic-Mexico-June-23-2018-World-Cup
+,2018,Mexico,2018-06-27 Sweden-Sweden,2018-06-27,Group stage,Wed,Neutral,L,0,3,Sweden,0,20,3,15.0,0.0,0.0,0,0,19:00:00,/en/matches/16d76ac5/Mexico-Sweden-June-27-2018-World-Cup
+,2018,Mexico,2018-07-02 Brazil-Brazil,2018-07-02,Round of 16,Mon,Neutral,L,0,2,Brazil,0,14,1,7.1,0.0,0.0,0,0,18:00:00,/en/matches/44c9a149/Brazil-Mexico-July-2-2018-World-Cup
+,2018,Mexico,2018-09-07 Mexico-Uruguay,2018-09-07,Friendlies (M),Fri,Home,L,1,4,Uruguay,1,,,,,,1,2,21:08:00,/en/matches/3eacfde6/Mexico-Uruguay-September-7-2018-Friendlies-M
+,2018,Mexico,2018-09-11 United States-Mexico,2018-09-11,Friendlies (M),Tue,Away,L,0,1,United States,0,,,,,,0,0,19:30:00,/en/matches/3534be55/United-States-Mexico-September-11-2018-Friendlies-M
+,2018,Mexico,2018-10-11 Mexico-Costa Rica,2018-10-11,Friendlies (M),Thu,Home,W,3,2,Costa Rica,3,,,,,,1,1,20:30:00,/en/matches/19bbdaca/Mexico-Costa-Rica-October-11-2018-Friendlies-M
+,2018,Mexico,2018-10-16 Mexico-Chile,2018-10-16,Friendlies (M),Tue,Home,L,0,1,Chile,0,,,,,,0,0,20:45:00,/en/matches/1002be8c/Mexico-Chile-October-16-2018-Friendlies-M
+,2018,Mexico,2018-11-16 Argentina-Mexico,2018-11-16,Friendlies (M),Fri,Away,L,0,2,Argentina,0,,,,,,0,0,21:00:00,/en/matches/9b7cd617/Argentina-Mexico-November-16-2018-Friendlies-M
+,2018,Mexico,2018-11-20 Argentina-Mexico,2018-11-20,Friendlies (M),Tue,Away,L,0,2,Argentina,0,,,,,,0,0,21:00:00,/en/matches/7514ca60/Argentina-Mexico-November-20-2018-Friendlies-M
+,2018,Morocco,2015-11-12 Morocco-Equ. Guinea,2015-11-12,Second round,Thu,Home,W,2,0,Equ. Guinea,2,,,,,,0,0,19:00:00,/en/matches/ca884412/Morocco-Equatorial-Guinea-November-12-2015-WCQ----CAF-M
+,2018,Morocco,2015-11-15 Equ. Guinea-Morocco,2015-11-15,Second round,Sun,Away,L,0,1,Equ. Guinea,0,,,,,,0,0,16:00:00,/en/matches/4f29f05f/Equatorial-Guinea-Morocco-November-15-2015-WCQ----CAF-M
+,2018,Morocco,2016-10-08 Gabon-Morocco,2016-10-08,Third round,Sat,Away,D,0,0,Gabon,0,,,,,,0,0,16:00:00,/en/matches/c2112f5d/Gabon-Morocco-October-8-2016-WCQ----CAF-M
+,2018,Morocco,2016-11-12 Morocco-Côte d'Ivoire,2016-11-12,Third round,Sat,Home,D,0,0,Côte d'Ivoire,0,,,,,,0,0,20:00:00,/en/matches/0e711151/Morocco-Cote-dIvoire-November-12-2016-WCQ----CAF-M
+,2018,Morocco,2017-09-01 Morocco-Mali,2017-09-01,Third round,Fri,Home,W,6,0,Mali,6,,,,,,1,1,21:00:00,/en/matches/7b767ce6/Morocco-Mali-September-1-2017-WCQ----CAF-M
+,2018,Morocco,2017-09-05 Mali-Morocco,2017-09-05,Third round,Tue,Away,D,0,0,Mali,0,,,,,,0,1,19:00:00,/en/matches/cb70aaa4/Mali-Morocco-September-5-2017-WCQ----CAF-M
+,2018,Morocco,2017-10-07 Morocco-Gabon,2017-10-07,Third round,Sat,Home,W,3,0,Gabon,3,,,,,,0,0,20:00:00,/en/matches/6a1a9be4/Morocco-Gabon-October-7-2017-WCQ----CAF-M
+,2018,Morocco,2017-11-11 Côte d'Ivoire-Morocco,2017-11-11,Third round,Sat,Away,W,2,0,Côte d'Ivoire,2,,,,,,0,0,17:30:00,/en/matches/dba5abe4/Cote-dIvoire-Morocco-November-11-2017-WCQ----CAF-M
+,2018,Morocco,2018-03-23 Morocco-Serbia,2018-03-23,Friendlies (M),Fri,Home,W,2,1,Serbia,2,,,,,,1,1,20:30:00,/en/matches/7e903683/Morocco-Serbia-March-23-2018-Friendlies-M
+,2018,Morocco,2018-03-27 Morocco-Uzbekistan,2018-03-27,Friendlies (M),Tue,Home,W,2,0,Uzbekistan,2,,,,,,0,0,20:00:00,/en/matches/07b3ff95/Morocco-Uzbekistan-March-27-2018-Friendlies-M
+,2018,Morocco,2018-05-31 Morocco-Ukraine,2018-05-31,Friendlies (M),Thu,Home,D,0,0,Ukraine,0,,,,,,0,0,20:00:00,/en/matches/52c0e7e9/Morocco-Ukraine-May-31-2018-Friendlies-M
+,2018,Morocco,2018-06-04 Morocco-Slovakia,2018-06-04,Friendlies (M),Mon,Home,W,2,1,Slovakia,2,,,,,,0,0,20:00:00,/en/matches/a8641361/Morocco-Slovakia-June-4-2018-Friendlies-M
+,2018,Morocco,2018-06-09 Estonia-Morocco,2018-06-09,Friendlies (M),Sat,Away,W,3,1,Estonia,3,,,,,,1,1,19:00:00,/en/matches/def8a2a2/Estonia-Morocco-June-9-2018-Friendlies-M
+,2018,Morocco,2018-06-15 IR Iran-IR Iran,2018-06-15,Group stage,Fri,Neutral,L,0,1,IR Iran,0,13,3,23.1,0.0,0.0,0,0,18:00:00,/en/matches/028c7b0f/Morocco-IR-Iran-June-15-2018-World-Cup
+,2018,Morocco,2018-06-20 Portugal-Portugal,2018-06-20,Group stage,Wed,Neutral,L,0,1,Portugal,0,16,4,25.0,0.0,0.0,0,0,15:00:00,/en/matches/0f37c1da/Portugal-Morocco-June-20-2018-World-Cup
+,2018,Morocco,2018-06-25 Spain-Spain,2018-06-25,Group stage,Mon,Neutral,D,2,2,Spain,2,6,3,50.0,0.33,0.67,0,0,20:00:00,/en/matches/39619129/Spain-Morocco-June-25-2018-World-Cup
+,2018,Morocco,2018-11-20 Tunisia-Morocco,2018-11-20,Friendlies (M),Tue,Away,W,1,0,Tunisia,1,,,,,,0,0,18:00:00,/en/matches/6c3d23b4/Tunisia-Morocco-November-20-2018-Friendlies-M
+,2018,Nigeria,2015-11-13 Eswatini-Nigeria,2015-11-13,Second round,Fri,Away,D,0,0,Eswatini,0,,,,,,0,0,19:00:00,/en/matches/3f72257b/Eswatini-Nigeria-November-13-2015-WCQ----CAF-M
+,2018,Nigeria,2015-11-17 Nigeria-Eswatini,2015-11-17,Second round,Tue,Home,W,2,0,Eswatini,2,,,,,,0,0,16:00:00,/en/matches/7fb31241/Nigeria-Eswatini-November-17-2015-WCQ----CAF-M
+,2018,Nigeria,2016-10-09 Zambia-Nigeria,2016-10-09,Third round,Sun,Away,W,2,1,Zambia,2,,,,,,0,0,14:30:00,/en/matches/37a2e775/Zambia-Nigeria-October-9-2016-WCQ----CAF-M
+,2018,Nigeria,2016-11-12 Nigeria-Algeria,2016-11-12,Third round,Sat,Home,W,3,1,Algeria,3,,,,,,0,0,17:00:00,/en/matches/1bba6e9d/Nigeria-Algeria-November-12-2016-WCQ----CAF-M
+,2018,Nigeria,2017-09-01 Nigeria-Cameroon,2017-09-01,Third round,Fri,Home,W,4,0,Cameroon,4,,,,,,0,0,17:00:00,/en/matches/d3a05e30/Nigeria-Cameroon-September-1-2017-WCQ----CAF-M
+,2018,Nigeria,2017-09-04 Cameroon-Nigeria,2017-09-04,Third round,Mon,Away,D,1,1,Cameroon,1,,,,,,0,0,18:00:00,/en/matches/84c26f79/Cameroon-Nigeria-September-4-2017-WCQ----CAF-M
+,2018,Nigeria,2017-10-07 Nigeria-Zambia,2017-10-07,Third round,Sat,Home,W,1,0,Zambia,1,,,,,,0,0,17:00:00,/en/matches/f1a457a9/Nigeria-Zambia-October-7-2017-WCQ----CAF-M
+,2018,Nigeria,2017-11-10 Algeria-Nigeria,2017-11-10,Third round,Fri,Away,L,0,3,Algeria,1,,,,,,0,0,20:30:00,/en/matches/7e02dd22/Algeria-Nigeria-November-10-2017-WCQ----CAF-M
+,2018,Nigeria,2018-03-23 Poland-Nigeria,2018-03-23,Friendlies (M),Fri,Away,W,1,0,Poland,1,,,,,,1,1,20:45:00,/en/matches/27bb4f74/Poland-Nigeria-March-23-2018-Friendlies-M
+,2018,Nigeria,2018-03-27 Nigeria-Serbia,2018-03-27,Friendlies (M),Tue,Home,L,0,2,Serbia,0,,,,,,0,0,20:00:00,/en/matches/b91c053a/Nigeria-Serbia-March-27-2018-Friendlies-M
+,2018,Nigeria,2018-05-28 Nigeria-Congo DR,2018-05-28,Friendlies (M),Mon,Home,D,1,1,Congo DR,1,,,,,,0,0,17:10:00,/en/matches/12cb7ee1/Nigeria-Congo-DR-May-28-2018-Friendlies-M
+,2018,Nigeria,2018-06-02 England-Nigeria,2018-06-02,Friendlies (M),Sat,Away,L,1,2,England,1,,,,,,0,0,17:15:00,/en/matches/89235aed/England-Nigeria-June-2-2018-Friendlies-M
+,2018,Nigeria,2018-06-06 Nigeria-Czechia,2018-06-06,Friendlies (M),Wed,Home,L,0,1,Czechia,0,,,,,,0,0,15:00:00,/en/matches/3597f58f/Nigeria-Czechia-June-6-2018-Friendlies-M
+,2018,Nigeria,2018-06-16 Croatia-Croatia,2018-06-16,Group stage,Sat,Neutral,L,0,2,Croatia,0,14,2,14.3,0.0,0.0,0,0,21:00:00,/en/matches/b85541a6/Croatia-Nigeria-June-16-2018-World-Cup
+,2018,Nigeria,2018-06-22 Iceland-Iceland,2018-06-22,Group stage,Fri,Neutral,W,2,0,Iceland,2,16,4,25.0,0.13,0.5,0,0,18:00:00,/en/matches/66f80ae4/Nigeria-Iceland-June-22-2018-World-Cup
+,2018,Nigeria,2018-06-26 Argentina-Argentina,2018-06-26,Group stage,Tue,Neutral,L,1,2,Argentina,1,9,3,33.3,0.0,0.0,1,1,21:00:00,/en/matches/1185d834/Nigeria-Argentina-June-26-2018-World-Cup
+,2018,Nigeria,2018-09-11 Liberia-Nigeria,2018-09-11,Friendlies (M),Tue,Away,W,2,1,Liberia,2,,,,,,0,0,18:00:00,/en/matches/61bbad1c/Liberia-Nigeria-September-11-2018-Friendlies-M
+,2018,Nigeria,2018-11-20 Nigeria-Uganda,2018-11-20,Friendlies (M),Tue,Home,D,0,0,Uganda,0,,,,,,0,0,16:45:00,/en/matches/021238c6/Nigeria-Uganda-November-20-2018-Friendlies-M
+,2018,Panama,2015-11-13 Jamaica-Panama,2015-11-13,Fourth round,Fri,Away,W,2,0,Jamaica,1,,,,,,0,0,21:00:00,/en/matches/dc3260a4/Jamaica-Panama-November-13-2015-WCQ----CONCACAF-M
+,2018,Panama,2015-11-17 Panama-Costa Rica,2015-11-17,Fourth round,Tue,Home,L,1,2,Costa Rica,1,,,,,,0,0,20:30:00,/en/matches/cc01c48a/Panama-Costa-Rica-November-17-2015-WCQ----CONCACAF-M
+,2018,Panama,2016-03-25 Haiti-Panama,2016-03-25,Fourth round,Fri,Away,D,0,0,Haiti,0,,,,,,0,0,19:00:00,/en/matches/ff9f51c9/Haiti-Panama-March-25-2016-WCQ----CONCACAF-M
+,2018,Panama,2016-03-29 Panama-Haiti,2016-03-29,Fourth round,Tue,Home,W,1,0,Haiti,1,,,,,,0,0,20:30:00,/en/matches/77536e87/Panama-Haiti-March-29-2016-WCQ----CONCACAF-M
+,2018,Panama,2016-09-02 Panama-Jamaica,2016-09-02,Fourth round,Fri,Home,W,2,0,Jamaica,2,,,,,,0,0,20:30:00,/en/matches/4cc7329f/Panama-Jamaica-September-2-2016-WCQ----CONCACAF-M
+,2018,Panama,2016-09-06 Costa Rica-Panama,2016-09-06,Fourth round,Tue,Away,L,1,3,Costa Rica,1,,,,,,1,1,19:30:00,/en/matches/bc6b3280/Costa-Rica-Panama-September-6-2016-WCQ----CONCACAF-M
+,2018,Panama,2016-11-11 Honduras-Panama,2016-11-11,Fifth round,Fri,Away,W,1,0,Honduras,1,,,,,,0,0,14:35:00,/en/matches/c6216535/Honduras-Panama-November-11-2016-WCQ----CONCACAF-M
+,2018,Panama,2016-11-15 Panama-Mexico,2016-11-15,Fifth round,Tue,Home,D,0,0,Mexico,0,,,,,,0,0,21:05:00,/en/matches/f7da8edc/Panama-Mexico-November-15-2016-WCQ----CONCACAF-M
+,2018,Panama,2017-03-24 Trin & Tobago-Panama,2017-03-24,Fifth round,Fri,Away,L,0,1,Trin & Tobago,0,,,,,,0,0,19:00:00,/en/matches/08dd67ea/Trinidad-and-Tobago-Panama-March-24-2017-WCQ----CONCACAF-M
+,2018,Panama,2017-03-28 Panama-United States,2017-03-28,Fifth round,Tue,Home,D,1,1,United States,1,,,,,,0,0,21:05:00,/en/matches/8186d5a3/Panama-United-States-March-28-2017-WCQ----CONCACAF-M
+,2018,Panama,2017-06-08 Costa Rica-Panama,2017-06-08,Fifth round,Thu,Away,D,0,0,Costa Rica,0,,,,,,0,0,20:00:00,/en/matches/57e29a92/Costa-Rica-Panama-June-8-2017-WCQ----CONCACAF-M
+,2018,Panama,2017-06-13 Panama-Honduras,2017-06-13,Fifth round,Tue,Home,D,2,2,Honduras,2,,,,,,0,0,20:35:00,/en/matches/f55ca2e3/Panama-Honduras-June-13-2017-WCQ----CONCACAF-M
+,2018,Panama,2017-09-01 Mexico-Panama,2017-09-01,Fifth round,Fri,Away,L,0,1,Mexico,0,,,,,,0,0,20:30:00,/en/matches/fc635dbb/Mexico-Panama-September-1-2017-WCQ----CONCACAF-M
+,2018,Panama,2017-09-05 Panama-Trin & Tobago,2017-09-05,Fifth round,Tue,Home,W,3,0,Trin & Tobago,2,,,,,,0,0,21:05:00,/en/matches/ab03fbb2/Panama-Trinidad-and-Tobago-September-5-2017-WCQ----CONCACAF-M
+,2018,Panama,2017-10-06 United States-Panama,2017-10-06,Fifth round,Fri,Away,L,0,4,United States,0,,,,,,0,0,19:35:00,/en/matches/04f01fc4/United-States-Panama-October-6-2017-WCQ----CONCACAF-M
+,2018,Panama,2017-10-10 Panama-Costa Rica,2017-10-10,Fifth round,Tue,Home,W,2,1,Costa Rica,2,,,,,,0,0,19:00:00,/en/matches/0f6bce71/Panama-Costa-Rica-October-10-2017-WCQ----CONCACAF-M
+,2018,Panama,2018-03-22 Denmark-Panama,2018-03-22,Friendlies (M),Thu,Away,L,0,1,Denmark,0,,,,,,0,0,20:00:00,/en/matches/edc08ee8/Denmark-Panama-March-22-2018-Friendlies-M
+,2018,Panama,2018-03-27 Switzerland-Panama,2018-03-27,Friendlies (M),Tue,Away,L,0,6,Switzerland,0,,,,,,0,0,19:00:00,/en/matches/66fca288/Switzerland-Panama-March-27-2018-Friendlies-M
+,2018,Panama,2018-04-17 Trin & Tobago-Panama,2018-04-17,Friendlies (M),Tue,Away,W,1,0,Trin & Tobago,1,,,,,,0,0,19:30:00,/en/matches/3001a106/Trinidad-and-Tobago-Panama-April-17-2018-Friendlies-M
+,2018,Panama,2018-05-29 Panama-Northern Ireland,2018-05-29,Friendlies (M),Tue,Home,D,0,0,Northern Ireland,0,,,,,,0,0,20:00:00,/en/matches/829afcb5/Panama-Northern-Ireland-May-29-2018-Friendlies-M
+,2018,Panama,2018-06-06 Norway-Panama,2018-06-06,Friendlies (M),Wed,Away,L,0,1,Norway,0,,,,,,0,0,19:00:00,/en/matches/eaa4f030/Norway-Panama-June-6-2018-Friendlies-M
+,2018,Panama,2018-06-18 Belgium-Belgium,2018-06-18,Group stage,Mon,Neutral,L,0,3,Belgium,0,7,2,28.6,0.0,0.0,0,0,18:00:00,/en/matches/fe0f9213/Belgium-Panama-June-18-2018-World-Cup
+,2018,Panama,2018-06-24 England-England,2018-06-24,Group stage,Sun,Neutral,L,1,6,England,1,8,2,25.0,0.13,0.5,0,0,15:00:00,/en/matches/f68efc38/England-Panama-June-24-2018-World-Cup
+,2018,Panama,2018-06-28 Tunisia-Tunisia,2018-06-28,Group stage,Thu,Neutral,L,1,2,Tunisia,0,9,4,44.4,0.0,0.0,0,0,21:00:00,/en/matches/545940e9/Panama-Tunisia-June-28-2018-World-Cup
+,2018,Panama,2018-09-11 Panama-Venezuela,2018-09-11,Friendlies (M),Tue,Home,L,0,2,Venezuela,0,,,,,,0,0,20:00:00,/en/matches/0317c013/Panama-Venezuela-September-11-2018-Friendlies-M
+,2018,Panama,2018-10-12 Japan-Panama,2018-10-12,Friendlies (M),Fri,Away,L,0,3,Japan,0,,,,,,0,0,19:35:00,/en/matches/208df114/Japan-Panama-October-12-2018-Friendlies-M
+,2018,Panama,2018-10-16 Korea Republic-Panama,2018-10-16,Friendlies (M),Tue,Away,D,2,2,Korea Republic,2,,,,,,0,0,20:00:00,/en/matches/01cde657/Korea-Republic-Panama-October-16-2018-Friendlies-M
+,2018,Panama,2018-11-16 Honduras-Panama,2018-11-16,Friendlies (M),Fri,Away,L,0,1,Honduras,0,,,,,,0,0,20:00:00,/en/matches/5183e764/Honduras-Panama-November-16-2018-Friendlies-M
+,2018,Panama,2018-11-20 Panama-Ecuador,2018-11-20,Friendlies (M),Tue,Home,L,1,2,Ecuador,1,,,,,,0,0,20:00:00,/en/matches/0476803d/Panama-Ecuador-November-20-2018-Friendlies-M
+,2018,Peru,2015-10-08 Colombia-Peru,2015-10-08,WCQ — CONMEBOL (M),Thu,Away,L,0,2,Colombia,0,,,,,,0,0,15:30:00,/en/matches/13ff285c/Colombia-Peru-October-8-2015-WCQ----CONMEBOL-M
+,2018,Peru,2015-10-13 Peru-Chile,2015-10-13,WCQ — CONMEBOL (M),Tue,Home,L,3,4,Chile,3,,,,,,1,1,21:15:00,/en/matches/28edf1fb/Peru-Chile-October-13-2015-WCQ----CONMEBOL-M
+,2018,Peru,2015-11-13 Peru-Paraguay,2015-11-13,WCQ — CONMEBOL (M),Fri,Home,W,1,0,Paraguay,1,,,,,,0,0,21:15:00,/en/matches/14aa5e68/Peru-Paraguay-November-13-2015-WCQ----CONMEBOL-M
+,2018,Peru,2015-11-17 Brazil-Peru,2015-11-17,WCQ — CONMEBOL (M),Tue,Away,L,0,3,Brazil,0,,,,,,0,0,21:00:00,/en/matches/4c50ddb1/Brazil-Peru-November-17-2015-WCQ----CONMEBOL-M
+,2018,Peru,2016-03-24 Peru-Venezuela,2016-03-24,WCQ — CONMEBOL (M),Thu,Home,D,2,2,Venezuela,2,,,,,,0,0,21:15:00,/en/matches/9509155d/Peru-Venezuela-March-24-2016-WCQ----CONMEBOL-M
+,2018,Peru,2016-03-29 Uruguay-Peru,2016-03-29,WCQ — CONMEBOL (M),Tue,Away,L,0,1,Uruguay,0,,,,,,0,0,20:00:00,/en/matches/e14480dc/Uruguay-Peru-March-29-2016-WCQ----CONMEBOL-M
+,2018,Peru,2016-09-01 Bolivia-Peru,2016-09-01,WCQ — CONMEBOL (M),Thu,Away,W,3,0,Bolivia,0,,,,,,0,0,16:00:00,/en/matches/fe146796/Bolivia-Peru-September-1-2016-WCQ----CONMEBOL-M
+,2018,Peru,2016-09-06 Peru-Ecuador,2016-09-06,WCQ — CONMEBOL (M),Tue,Home,W,2,1,Ecuador,2,,,,,,1,1,21:15:00,/en/matches/edd3991f/Peru-Ecuador-September-6-2016-WCQ----CONMEBOL-M
+,2018,Peru,2016-10-06 Peru-Argentina,2016-10-06,WCQ — CONMEBOL (M),Thu,Home,D,2,2,Argentina,2,,,,,,1,1,21:15:00,/en/matches/adabc204/Peru-Argentina-October-6-2016-WCQ----CONMEBOL-M
+,2018,Peru,2016-10-11 Chile-Peru,2016-10-11,WCQ — CONMEBOL (M),Tue,Away,L,1,2,Chile,1,,,,,,0,0,20:30:00,/en/matches/b61d723e/Chile-Peru-October-11-2016-WCQ----CONMEBOL-M
+,2018,Peru,2016-11-10 Paraguay-Peru,2016-11-10,WCQ — CONMEBOL (M),Thu,Away,W,4,1,Paraguay,3,,,,,,0,0,20:30:00,/en/matches/baa74c1a/Paraguay-Peru-November-10-2016-WCQ----CONMEBOL-M
+,2018,Peru,2016-11-15 Peru-Brazil,2016-11-15,WCQ — CONMEBOL (M),Tue,Home,L,0,2,Brazil,0,,,,,,0,0,21:15:00,/en/matches/2ee90b8e/Peru-Brazil-November-15-2016-WCQ----CONMEBOL-M
+,2018,Peru,2017-03-23 Venezuela-Peru,2017-03-23,WCQ — CONMEBOL (M),Thu,Away,D,2,2,Venezuela,2,,,,,,0,0,19:30:00,/en/matches/bca58bf3/Venezuela-Peru-March-23-2017-WCQ----CONMEBOL-M
+,2018,Peru,2017-03-28 Peru-Uruguay,2017-03-28,WCQ — CONMEBOL (M),Tue,Home,W,2,1,Uruguay,2,,,,,,0,0,21:15:00,/en/matches/0d83da33/Peru-Uruguay-March-28-2017-WCQ----CONMEBOL-M
+,2018,Peru,2017-08-31 Peru-Bolivia,2017-08-31,WCQ — CONMEBOL (M),Thu,Home,W,2,1,Bolivia,2,,,,,,0,0,21:15:00,/en/matches/1a4ff980/Peru-Bolivia-August-31-2017-WCQ----CONMEBOL-M
+,2018,Peru,2017-09-05 Ecuador-Peru,2017-09-05,WCQ — CONMEBOL (M),Tue,Away,W,2,1,Ecuador,2,,,,,,0,0,16:00:00,/en/matches/bbde3609/Ecuador-Peru-September-5-2017-WCQ----CONMEBOL-M
+,2018,Peru,2017-10-05 Argentina-Peru,2017-10-05,WCQ — CONMEBOL (M),Thu,Away,D,0,0,Argentina,0,,,,,,0,0,20:30:00,/en/matches/802fa6e6/Argentina-Peru-October-5-2017-WCQ----CONMEBOL-M
+,2018,Peru,2017-10-10 Peru-Colombia,2017-10-10,WCQ — CONMEBOL (M),Tue,Home,D,1,1,Colombia,1,,,,,,0,0,18:30:00,/en/matches/020e73df/Peru-Colombia-October-10-2017-WCQ----CONMEBOL-M
+,2018,Peru,2018-03-23 Peru-Croatia,2018-03-23,Friendlies (M),Fri,Home,W,2,0,Croatia,2,,,,,,0,0,20:30:00,/en/matches/e0559c51/Peru-Croatia-March-23-2018-Friendlies-M
+,2018,Peru,2018-03-27 Iceland-Peru,2018-03-27,Friendlies (M),Tue,Away,W,3,1,Iceland,3,,,,,,0,0,20:00:00,/en/matches/17a8dcf4/Iceland-Peru-March-27-2018-Friendlies-M
+,2018,Peru,2018-05-29 Peru-Scotland,2018-05-29,Friendlies (M),Tue,Home,W,2,0,Scotland,2,,,,,,1,1,20:00:00,/en/matches/18a549f5/Peru-Scotland-May-29-2018-Friendlies-M
+,2018,Peru,2018-06-03 Saudi Arabia-Peru,2018-06-03,Friendlies (M),Sun,Away,W,3,0,Saudi Arabia,3,,,,,,0,0,20:00:00,/en/matches/7180d9c3/Saudi-Arabia-Peru-June-3-2018-Friendlies-M
+,2018,Peru,2018-06-09 Sweden-Peru,2018-06-09,Friendlies (M),Sat,Away,D,0,0,Sweden,0,,,,,,0,0,19:15:00,/en/matches/c5420818/Sweden-Peru-June-9-2018-Friendlies-M
+,2018,Peru,2018-06-16 Denmark-Denmark,2018-06-16,Group stage,Sat,Neutral,L,0,1,Denmark,0,17,6,35.3,0.0,0.0,0,1,19:00:00,/en/matches/25905c9c/Peru-Denmark-June-16-2018-World-Cup
+,2018,Peru,2018-06-21 France-France,2018-06-21,Group stage,Thu,Neutral,L,0,1,France,0,10,2,20.0,0.0,0.0,0,0,20:00:00,/en/matches/a8de3334/France-Peru-June-21-2018-World-Cup
+,2018,Peru,2018-06-26 Australia-Australia,2018-06-26,Group stage,Tue,Neutral,W,2,0,Australia,2,4,3,75.0,0.5,0.67,0,0,17:00:00,/en/matches/a3abd3b3/Australia-Peru-June-26-2018-World-Cup
+,2018,Peru,2018-09-06 Netherlands-Peru,2018-09-06,Friendlies (M),Thu,Away,L,1,2,Netherlands,1,,,,,,0,0,20:45:00,/en/matches/7bd1f721/Netherlands-Peru-September-6-2018-Friendlies-M
+,2018,Peru,2018-09-09 Germany-Peru,2018-09-09,Friendlies (M),Sun,Away,L,1,2,Germany,1,,,,,,0,0,20:45:00,/en/matches/10b4150b/Germany-Peru-September-9-2018-Friendlies-M
+,2018,Peru,2018-10-12 Peru-Chile,2018-10-12,Friendlies (M),Fri,Home,W,3,0,Chile,2,,,,,,0,0,20:30:00,/en/matches/5e50c4b4/Peru-Chile-October-12-2018-Friendlies-M
+,2018,Peru,2018-10-16 United States-Peru,2018-10-16,Friendlies (M),Tue,Away,D,1,1,United States,1,,,,,,0,0,19:30:00,/en/matches/be6fc9b2/United-States-Peru-October-16-2018-Friendlies-M
+,2018,Peru,2018-11-15 Peru-Ecuador,2018-11-15,Friendlies (M),Thu,Home,L,0,2,Ecuador,0,,,,,,0,0,20:30:00,/en/matches/0e820436/Peru-Ecuador-November-15-2018-Friendlies-M
+,2018,Peru,2018-11-20 Peru-Costa Rica,2018-11-20,Friendlies (M),Tue,Home,L,2,3,Costa Rica,2,,,,,,0,0,19:30:00,/en/matches/553af087/Peru-Costa-Rica-November-20-2018-Friendlies-M
+,2018,Poland,2016-09-04 Kazakhstan-Poland,2016-09-04,First round,Sun,Away,D,2,2,Kazakhstan,2,,,,,,1,1,22:00:00,/en/matches/5f56c54c/Kazakhstan-Poland-September-4-2016-WCQ----UEFA-M
+,2018,Poland,2016-10-08 Poland-Denmark,2016-10-08,First round,Sat,Home,W,3,2,Denmark,3,,,,,,1,1,20:45:00,/en/matches/98dd69a6/Poland-Denmark-October-8-2016-WCQ----UEFA-M
+,2018,Poland,2016-10-11 Poland-Armenia,2016-10-11,First round,Tue,Home,W,2,1,Armenia,1,,,,,,0,0,20:45:00,/en/matches/16cd791c/Poland-Armenia-October-11-2016-WCQ----UEFA-M
+,2018,Poland,2016-11-11 Romania-Poland,2016-11-11,First round,Fri,Away,W,3,0,Romania,3,,,,,,1,1,21:45:00,/en/matches/27058d05/Romania-Poland-November-11-2016-WCQ----UEFA-M
+,2018,Poland,2017-03-26 Montenegro-Poland,2017-03-26,First round,Sun,Away,W,2,1,Montenegro,2,,,,,,0,0,20:45:00,/en/matches/776d2733/Montenegro-Poland-March-26-2017-WCQ----UEFA-M
+,2018,Poland,2017-06-10 Poland-Romania,2017-06-10,First round,Sat,Home,W,3,1,Romania,3,,,,,,2,2,20:45:00,/en/matches/f7c9cfb2/Poland-Romania-June-10-2017-WCQ----UEFA-M
+,2018,Poland,2017-09-01 Denmark-Poland,2017-09-01,First round,Fri,Away,L,0,4,Denmark,0,,,,,,0,0,20:45:00,/en/matches/714472d2/Denmark-Poland-September-1-2017-WCQ----UEFA-M
+,2018,Poland,2017-09-04 Poland-Kazakhstan,2017-09-04,First round,Mon,Home,W,3,0,Kazakhstan,3,,,,,,1,1,20:45:00,/en/matches/1d21a501/Poland-Kazakhstan-September-4-2017-WCQ----UEFA-M
+,2018,Poland,2017-10-05 Armenia-Poland,2017-10-05,First round,Thu,Away,W,6,1,Armenia,6,,,,,,0,0,20:00:00,/en/matches/fb4f6260/Armenia-Poland-October-5-2017-WCQ----UEFA-M
+,2018,Poland,2017-10-08 Poland-Montenegro,2017-10-08,First round,Sun,Home,W,4,2,Montenegro,3,,,,,,0,0,18:00:00,/en/matches/fb2ede14/Poland-Montenegro-October-8-2017-WCQ----UEFA-M
+,2018,Poland,2018-03-23 Poland-Nigeria,2018-03-23,Friendlies (M),Fri,Home,L,0,1,Nigeria,0,,,,,,0,0,20:45:00,/en/matches/27bb4f74/Poland-Nigeria-March-23-2018-Friendlies-M
+,2018,Poland,2018-03-27 Poland-Korea Republic,2018-03-27,Friendlies (M),Tue,Home,W,3,2,Korea Republic,3,,,,,,0,0,20:45:00,/en/matches/aa6890c8/Poland-Korea-Republic-March-27-2018-Friendlies-M
+,2018,Poland,2018-06-08 Poland-Chile,2018-06-08,Friendlies (M),Fri,Home,D,2,2,Chile,2,,,,,,0,0,20:45:00,/en/matches/cdcf1c41/Poland-Chile-June-8-2018-Friendlies-M
+,2018,Poland,2018-06-12 Poland-Lithuania,2018-06-12,Friendlies (M),Tue,Home,W,4,0,Lithuania,4,,,,,,1,1,18:00:00,/en/matches/75cb0520/Poland-Lithuania-June-12-2018-Friendlies-M
+,2018,Poland,2018-06-19 Senegal-Senegal,2018-06-19,Group stage,Tue,Neutral,L,1,2,Senegal,1,11,4,36.4,0.09,0.25,0,0,18:00:00,/en/matches/e254550a/Poland-Senegal-June-19-2018-World-Cup
+,2018,Poland,2018-06-24 Colombia-Colombia,2018-06-24,Group stage,Sun,Neutral,L,0,3,Colombia,0,10,2,20.0,0.0,0.0,0,0,21:00:00,/en/matches/49433591/Poland-Colombia-June-24-2018-World-Cup
+,2018,Poland,2018-06-28 Japan-Japan,2018-06-28,Group stage,Thu,Neutral,W,1,0,Japan,1,11,2,18.2,0.09,0.5,0,0,17:00:00,/en/matches/94f5d825/Japan-Poland-June-28-2018-World-Cup
+,2018,Poland,2018-09-11 Poland-Rep. of Ireland,2018-09-11,Friendlies (M),Tue,Home,D,1,1,Rep. of Ireland,1,,,,,,0,0,20:45:00,/en/matches/265f4db5/Poland-Republic-of-Ireland-September-11-2018-Friendlies-M
+,2018,Poland,2018-11-15 Poland-Czechia,2018-11-15,Friendlies (M),Thu,Home,L,0,1,Czechia,0,,,,,,0,0,18:00:00,/en/matches/284d05ae/Poland-Czechia-November-15-2018-Friendlies-M
+,2018,Portugal,2016-09-06 Switzerland-Portugal,2016-09-06,First round,Tue,Away,L,0,2,Switzerland,0,,,,,,0,0,20:45:00,/en/matches/73c8b3b1/Switzerland-Portugal-September-6-2016-WCQ----UEFA-M
+,2018,Portugal,2016-10-07 Portugal-Andorra,2016-10-07,First round,Fri,Home,W,6,0,Andorra,6,,,,,,0,0,19:45:00,/en/matches/85309b30/Portugal-Andorra-October-7-2016-WCQ----UEFA-M
+,2018,Portugal,2016-10-10 Faroe Islands-Portugal,2016-10-10,First round,Mon,Away,W,6,0,Faroe Islands,6,,,,,,0,0,19:45:00,/en/matches/cd26306a/Faroe-Islands-Portugal-October-10-2016-WCQ----UEFA-M
+,2018,Portugal,2016-11-13 Portugal-Latvia,2016-11-13,First round,Sun,Home,W,4,1,Latvia,4,,,,,,1,2,19:45:00,/en/matches/cb118657/Portugal-Latvia-November-13-2016-WCQ----UEFA-M
+,2018,Portugal,2017-03-25 Portugal-Hungary,2017-03-25,First round,Sat,Home,W,3,0,Hungary,3,,,,,,0,0,19:45:00,/en/matches/3643d40e/Portugal-Hungary-March-25-2017-WCQ----UEFA-M
+,2018,Portugal,2017-06-09 Latvia-Portugal,2017-06-09,First round,Fri,Away,W,3,0,Latvia,3,,,,,,0,0,21:45:00,/en/matches/08224ad1/Latvia-Portugal-June-9-2017-WCQ----UEFA-M
+,2018,Portugal,2017-08-31 Portugal-Faroe Islands,2017-08-31,First round,Thu,Home,W,5,1,Faroe Islands,5,,,,,,1,1,19:45:00,/en/matches/d365e75b/Portugal-Faroe-Islands-August-31-2017-WCQ----UEFA-M
+,2018,Portugal,2017-09-03 Hungary-Portugal,2017-09-03,First round,Sun,Away,W,1,0,Hungary,1,,,,,,0,0,20:45:00,/en/matches/16393338/Hungary-Portugal-September-3-2017-WCQ----UEFA-M
+,2018,Portugal,2017-10-07 Andorra-Portugal,2017-10-07,First round,Sat,Away,W,2,0,Andorra,2,,,,,,0,0,20:45:00,/en/matches/7b0f2851/Andorra-Portugal-October-7-2017-WCQ----UEFA-M
+,2018,Portugal,2017-10-10 Portugal-Switzerland,2017-10-10,First round,Tue,Home,W,2,0,Switzerland,1,,,,,,0,0,19:45:00,/en/matches/d93b8628/Portugal-Switzerland-October-10-2017-WCQ----UEFA-M
+,2018,Portugal,2018-03-23 Portugal-Egypt,2018-03-23,Friendlies (M),Fri,Home,W,2,1,Egypt,2,,,,,,0,0,20:45:00,/en/matches/820bdc6a/Portugal-Egypt-March-23-2018-Friendlies-M
+,2018,Portugal,2018-03-26 Portugal-Netherlands,2018-03-26,Friendlies (M),Mon,Home,L,0,3,Netherlands,0,,,,,,0,0,20:30:00,/en/matches/7ee11e51/Portugal-Netherlands-March-26-2018-Friendlies-M
+,2018,Portugal,2018-05-28 Portugal-Tunisia,2018-05-28,Friendlies (M),Mon,Home,D,2,2,Tunisia,2,,,,,,0,0,19:45:00,/en/matches/2e6c929e/Portugal-Tunisia-May-28-2018-Friendlies-M
+,2018,Portugal,2018-06-02 Belgium-Portugal,2018-06-02,Friendlies (M),Sat,Away,D,0,0,Belgium,0,,,,,,0,0,20:45:00,/en/matches/afb90adc/Belgium-Portugal-June-2-2018-Friendlies-M
+,2018,Portugal,2018-06-07 Portugal-Algeria,2018-06-07,Friendlies (M),Thu,Home,W,3,0,Algeria,3,,,,,,0,0,20:15:00,/en/matches/9f359f00/Portugal-Algeria-June-7-2018-Friendlies-M
+,2018,Portugal,2018-06-15 Spain-Spain,2018-06-15,Group stage,Fri,Neutral,D,3,3,Spain,3,9,3,33.3,0.22,0.67,1,1,21:00:00,/en/matches/2fecb1be/Portugal-Spain-June-15-2018-World-Cup
+,2018,Portugal,2018-06-20 Morocco-Morocco,2018-06-20,Group stage,Wed,Neutral,W,1,0,Morocco,1,10,2,20.0,0.1,0.5,0,0,15:00:00,/en/matches/0f37c1da/Portugal-Morocco-June-20-2018-World-Cup
+,2018,Portugal,2018-06-25 IR Iran-IR Iran,2018-06-25,Group stage,Mon,Neutral,D,1,1,IR Iran,1,14,4,28.6,0.07,0.25,0,1,21:00:00,/en/matches/f572accd/IR-Iran-Portugal-June-25-2018-World-Cup
+,2018,Portugal,2018-06-30 Uruguay-Uruguay,2018-06-30,Round of 16,Sat,Neutral,L,1,2,Uruguay,1,20,5,25.0,0.05,0.2,0,0,21:00:00,/en/matches/8c883b46/Uruguay-Portugal-June-30-2018-World-Cup
+,2018,Portugal,2018-09-06 Portugal-Croatia,2018-09-06,Friendlies (M),Thu,Home,D,1,1,Croatia,1,,,,,,0,0,19:45:00,/en/matches/d8970a9b/Portugal-Croatia-September-6-2018-Friendlies-M
+,2018,Portugal,2018-10-14 Scotland-Portugal,2018-10-14,Friendlies (M),Sun,Away,W,3,1,Scotland,3,,,,,,0,0,17:00:00,/en/matches/8099a82f/Scotland-Portugal-October-14-2018-Friendlies-M
+,2018,Russia,2018-03-23 Russia-Brazil,2018-03-23,Friendlies (M),Fri,Home,L,0,3,Brazil,0,,,,,,0,0,19:00:00,/en/matches/c96538e5/Russia-Brazil-March-23-2018-Friendlies-M
+,2018,Russia,2018-03-27 Russia-France,2018-03-27,Friendlies (M),Tue,Home,L,1,3,France,1,,,,,,0,0,18:50:00,/en/matches/e0f36eb3/Russia-France-March-27-2018-Friendlies-M
+,2018,Russia,2018-05-30 Austria-Russia,2018-05-30,Friendlies (M),Wed,Away,L,0,1,Austria,0,,,,,,0,0,20:45:00,/en/matches/177fa87b/Austria-Russia-May-30-2018-Friendlies-M
+,2018,Russia,2018-06-05 Russia-Türkiye,2018-06-05,Friendlies (M),Tue,Home,D,1,1,Türkiye,1,,,,,,0,0,19:00:00,/en/matches/5c1d05c9/Russia-Turkiye-June-5-2018-Friendlies-M
+,2018,Russia,2018-06-14 Saudi Arabia-Saudi Arabia,2018-06-14,Group stage,Thu,Neutral,W,5,0,Saudi Arabia,5,15,8,53.3,0.33,0.63,0,0,18:00:00,/en/matches/c9d7e48c/Russia-Saudi-Arabia-June-14-2018-World-Cup
+,2018,Russia,2018-06-19 Egypt-Egypt,2018-06-19,Group stage,Tue,Neutral,W,3,1,Egypt,2,11,3,27.3,0.18,0.67,0,0,21:00:00,/en/matches/d054010d/Russia-Egypt-June-19-2018-World-Cup
+,2018,Russia,2018-06-25 Uruguay-Uruguay,2018-06-25,Group stage,Mon,Neutral,L,0,3,Uruguay,0,3,1,33.3,0.0,0.0,0,0,18:00:00,/en/matches/f25fa045/Uruguay-Russia-June-25-2018-World-Cup
+,2018,Russia,2018-07-01 Spain-Spain,2018-07-01,Round of 16,Sun,Neutral,D,1 (4),1 (3),Spain,1,7,1,14.3,0.0,0.0,1,1,17:00:00,/en/matches/3750b351/Spain-Russia-July-1-2018-World-Cup
+,2018,Russia,2018-07-07 Croatia-Croatia,2018-07-07,Quarter-finals,Sat,Neutral,D,2 (3),2 (4),Croatia,2,13,5,38.5,0.15,0.4,0,0,21:00:00,/en/matches/bd1fbaf4/Russia-Croatia-July-7-2018-World-Cup
+,2018,Russia,2018-09-10 Russia-Czechia,2018-09-10,Friendlies (M),Mon,Home,W,5,1,Czechia,5,,,,,,1,1,19:00:00,/en/matches/435d353f/Russia-Czechia-September-10-2018-Friendlies-M
+,2018,Russia,2018-11-15 Germany-Russia,2018-11-15,Friendlies (M),Thu,Away,L,0,3,Germany,0,,,,,,0,0,20:45:00,/en/matches/528a2c11/Germany-Russia-November-15-2018-Friendlies-M
+,2018,Saudi Arabia,2015-06-11 Saudi Arabia-Palestine,2015-06-11,Second round,Thu,Home,W,3,2,Palestine,3,,,,,,0,0,21:00:00,/en/matches/60043e9c/Saudi-Arabia-Palestine-June-11-2015-WCQ----AFC-M
+,2018,Saudi Arabia,2015-09-03 Saudi Arabia-Timor-Leste,2015-09-03,Second round,Thu,Home,W,7,0,Timor-Leste,7,,,,,,1,1,20:40:00,/en/matches/e4664be4/Saudi-Arabia-Timor-Leste-September-3-2015-WCQ----AFC-M
+,2018,Saudi Arabia,2015-09-08 Malaysia-Saudi Arabia,2015-09-08,Second round,Tue,Away,W,3,0,Malaysia,2,,,,,,0,0,20:45:00,/en/matches/2a47f4de/Malaysia-Saudi-Arabia-September-8-2015-WCQ----AFC-M
+,2018,Saudi Arabia,2015-10-08 Saudi Arabia-UAE,2015-10-08,Second round,Thu,Home,W,2,1,UAE,2,,,,,,1,1,20:00:00,/en/matches/2cb4e9ed/Saudi-Arabia-United-Arab-Emirates-October-8-2015-WCQ----AFC-M
+,2018,Saudi Arabia,2015-11-09 Palestine-Saudi Arabia,2015-11-09,Second round,Mon,Away,D,0,0,Palestine,0,,,,,,0,0,16:00:00,/en/matches/285b02c9/Palestine-Saudi-Arabia-November-9-2015-WCQ----AFC-M
+,2018,Saudi Arabia,2015-11-17 Timor-Leste-Saudi Arabia,2015-11-17,Second round,Tue,Away,W,10,0,Timor-Leste,10,,,,,,2,2,16:00:00,/en/matches/6e1bcb3c/Timor-Leste-Saudi-Arabia-November-17-2015-WCQ----AFC-M
+,2018,Saudi Arabia,2016-03-24 Saudi Arabia-Malaysia,2016-03-24,Second round,Thu,Home,W,2,0,Malaysia,2,,,,,,0,0,20:30:00,/en/matches/f1b57928/Saudi-Arabia-Malaysia-March-24-2016-WCQ----AFC-M
+,2018,Saudi Arabia,2016-03-29 UAE-Saudi Arabia,2016-03-29,Second round,Tue,Away,D,1,1,UAE,1,,,,,,0,0,19:00:00,/en/matches/88418df2/United-Arab-Emirates-Saudi-Arabia-March-29-2016-WCQ----AFC-M
+,2018,Saudi Arabia,2016-09-01 Saudi Arabia-Thailand,2016-09-01,Third round,Thu,Home,W,1,0,Thailand,1,,,,,,1,1,20:30:00,/en/matches/de298e00/Saudi-Arabia-Thailand-September-1-2016-WCQ----AFC-M
+,2018,Saudi Arabia,2016-09-06 Iraq-Saudi Arabia,2016-09-06,Third round,Tue,Away,W,2,1,Iraq,2,,,,,,2,2,19:00:00,/en/matches/8c0db9d2/Iraq-Saudi-Arabia-September-6-2016-WCQ----AFC-M
+,2018,Saudi Arabia,2016-10-06 Saudi Arabia-Australia,2016-10-06,Third round,Thu,Home,D,2,2,Australia,2,,,,,,0,0,20:45:00,/en/matches/99392684/Saudi-Arabia-Australia-October-6-2016-WCQ----AFC-M
+,2018,Saudi Arabia,2016-10-11 Saudi Arabia-UAE,2016-10-11,Third round,Tue,Home,W,3,0,UAE,3,,,,,,0,0,20:45:00,/en/matches/4a4192ab/Saudi-Arabia-United-Arab-Emirates-October-11-2016-WCQ----AFC-M
+,2018,Saudi Arabia,2016-11-15 Japan-Saudi Arabia,2016-11-15,Third round,Tue,Away,L,1,2,Japan,1,,,,,,0,0,19:35:00,/en/matches/d1521504/Japan-Saudi-Arabia-November-15-2016-WCQ----AFC-M
+,2018,Saudi Arabia,2017-03-23 Thailand-Saudi Arabia,2017-03-23,Third round,Thu,Away,W,3,0,Thailand,2,,,,,,0,0,19:00:00,/en/matches/a25718d7/Thailand-Saudi-Arabia-March-23-2017-WCQ----AFC-M
+,2018,Saudi Arabia,2017-03-28 Saudi Arabia-Iraq,2017-03-28,Third round,Tue,Home,W,1,0,Iraq,1,,,,,,0,0,20:30:00,/en/matches/7f91558a/Saudi-Arabia-Iraq-March-28-2017-WCQ----AFC-M
+,2018,Saudi Arabia,2017-06-08 Australia-Saudi Arabia,2017-06-08,Third round,Thu,Away,L,2,3,Australia,2,,,,,,0,0,19:30:00,/en/matches/8ef789d0/Australia-Saudi-Arabia-June-8-2017-WCQ----AFC-M
+,2018,Saudi Arabia,2017-08-29 UAE-Saudi Arabia,2017-08-29,Third round,Tue,Away,L,1,2,UAE,1,,,,,,1,1,20:30:00,/en/matches/9741d9b1/United-Arab-Emirates-Saudi-Arabia-August-29-2017-WCQ----AFC-M
+,2018,Saudi Arabia,2017-09-05 Saudi Arabia-Japan,2017-09-05,Third round,Tue,Home,W,1,0,Japan,1,,,,,,0,0,20:30:00,/en/matches/6283eabf/Saudi-Arabia-Japan-September-5-2017-WCQ----AFC-M
+,2018,Saudi Arabia,2018-02-26 Saudi Arabia-Moldova,2018-02-26,Friendlies (M),Mon,Home,W,3,0,Moldova,3,,,,,,0,0,20:30:00,/en/matches/ba9608d7/Saudi-Arabia-Moldova-February-26-2018-Friendlies-M
+,2018,Saudi Arabia,2018-02-28 Iraq-Saudi Arabia,2018-02-28,Friendlies (M),Wed,Away,L,1,4,Iraq,1,,,,,,0,0,19:20:00,/en/matches/6bca6ae0/Iraq-Saudi-Arabia-February-28-2018-Friendlies-M
+,2018,Saudi Arabia,2018-03-23 Saudi Arabia-Ukraine,2018-03-23,Friendlies (M),Fri,Home,D,1,1,Ukraine,1,,,,,,0,0,20:00:00,/en/matches/029cf44c/Saudi-Arabia-Ukraine-March-23-2018-Friendlies-M
+,2018,Saudi Arabia,2018-03-27 Belgium-Saudi Arabia,2018-03-27,Friendlies (M),Tue,Away,L,0,4,Belgium,0,,,,,,0,0,20:45:00,/en/matches/7ec486aa/Belgium-Saudi-Arabia-March-27-2018-Friendlies-M
+,2018,Saudi Arabia,2018-05-09 Saudi Arabia-Algeria,2018-05-09,Friendlies (M),Wed,Home,W,2,0,Algeria,2,,,,,,0,0,20:30:00,/en/matches/84824466/Saudi-Arabia-Algeria-May-9-2018-Friendlies-M
+,2018,Saudi Arabia,2018-05-15 Saudi Arabia-Greece,2018-05-15,Friendlies (M),Tue,Home,W,2,0,Greece,2,,,,,,0,0,19:30:00,/en/matches/2b28c863/Saudi-Arabia-Greece-May-15-2018-Friendlies-M
+,2018,Saudi Arabia,2018-05-28 Saudi Arabia-Italy,2018-05-28,Friendlies (M),Mon,Home,L,1,2,Italy,1,,,,,,0,0,20:45:00,/en/matches/e746c900/Saudi-Arabia-Italy-May-28-2018-Friendlies-M
+,2018,Saudi Arabia,2018-06-03 Saudi Arabia-Peru,2018-06-03,Friendlies (M),Sun,Home,L,0,3,Peru,0,,,,,,0,0,20:00:00,/en/matches/7180d9c3/Saudi-Arabia-Peru-June-3-2018-Friendlies-M
+,2018,Saudi Arabia,2018-06-08 Germany-Saudi Arabia,2018-06-08,Friendlies (M),Fri,Away,L,1,2,Germany,1,,,,,,0,1,19:30:00,/en/matches/7b6cf888/Germany-Saudi-Arabia-June-8-2018-Friendlies-M
+,2018,Saudi Arabia,2018-06-14 Russia-Russia,2018-06-14,Group stage,Thu,Neutral,L,0,5,Russia,0,6,0,0.0,0.0,,0,0,18:00:00,/en/matches/c9d7e48c/Russia-Saudi-Arabia-June-14-2018-World-Cup
+,2018,Saudi Arabia,2018-06-20 Uruguay-Uruguay,2018-06-20,Group stage,Wed,Neutral,L,0,1,Uruguay,0,8,2,25.0,0.0,0.0,0,0,18:00:00,/en/matches/958f044b/Uruguay-Saudi-Arabia-June-20-2018-World-Cup
+,2018,Saudi Arabia,2018-06-25 Egypt-Egypt,2018-06-25,Group stage,Mon,Neutral,W,2,1,Egypt,2,23,8,34.8,0.04,0.13,1,2,17:00:00,/en/matches/2fa10320/Saudi-Arabia-Egypt-June-25-2018-World-Cup
+,2018,Saudi Arabia,2018-09-10 Saudi Arabia-Bolivia,2018-09-10,Friendlies (M),Mon,Home,D,2,2,Bolivia,2,,,,,,0,1,20:15:00,/en/matches/9ce5db76/Saudi-Arabia-Bolivia-September-10-2018-Friendlies-M
+,2018,Saudi Arabia,2018-10-12 Saudi Arabia-Brazil,2018-10-12,Friendlies (M),Fri,Home,L,0,2,Brazil,0,,,,,,0,0,21:00:00,/en/matches/6de20f3d/Saudi-Arabia-Brazil-October-12-2018-Friendlies-M
+,2018,Saudi Arabia,2018-10-15 Saudi Arabia-Iraq,2018-10-15,Friendlies (M),Mon,Home,D,1,1,Iraq,1,,,,,,0,0,21:00:00,/en/matches/08677e9b/Saudi-Arabia-Iraq-October-15-2018-Friendlies-M
+,2018,Saudi Arabia,2018-11-16 Saudi Arabia-Yemen,2018-11-16,Friendlies (M),Fri,Home,W,1,0,Yemen,1,,,,,,0,0,19:30:00,/en/matches/033ede86/Saudi-Arabia-Yemen-November-16-2018-Friendlies-M
+,2018,Saudi Arabia,2018-11-20 Jordan-Saudi Arabia,2018-11-20,Friendlies (M),Tue,Away,D,1,1,Jordan,1,,,,,,0,0,19:00:00,/en/matches/d977a000/Jordan-Saudi-Arabia-November-20-2018-Friendlies-M
+,2018,Saudi Arabia,2018-12-31 Korea Republic-Korea Republic,2018-12-31,Friendlies (M),Mon,Neutral,D,0,0,Korea Republic,0,,,,,,0,0,20:00:00,/en/matches/10ae7c6d/Saudi-Arabia-Korea-Republic-December-31-2018-Friendlies-M
+,2018,Senegal,2015-11-13 Madagascar-Senegal,2015-11-13,Second round,Fri,Away,D,2,2,Madagascar,2,,,,,,0,0,14:30:00,/en/matches/46c5c284/Madagascar-Senegal-November-13-2015-WCQ----CAF-M
+,2018,Senegal,2015-11-17 Senegal-Madagascar,2015-11-17,Second round,Tue,Home,W,3,0,Madagascar,3,,,,,,0,0,19:00:00,/en/matches/9960e586/Senegal-Madagascar-November-17-2015-WCQ----CAF-M
+,2018,Senegal,2016-10-08 Senegal-Cabo Verde,2016-10-08,Third round,Sat,Home,W,2,0,Cabo Verde,2,,,,,,0,0,20:00:00,/en/matches/50844cbb/Senegal-Cabo-Verde-October-8-2016-WCQ----CAF-M
+,2018,Senegal,2017-09-02 Senegal-Burkina Faso,2017-09-02,Third round,Sat,Home,D,0,0,Burkina Faso,0,,,,,,0,0,20:00:00,/en/matches/ed691a0d/Senegal-Burkina-Faso-September-2-2017-WCQ----CAF-M
+,2018,Senegal,2017-09-05 Burkina Faso-Senegal,2017-09-05,Third round,Tue,Away,D,2,2,Burkina Faso,2,,,,,,0,0,18:00:00,/en/matches/09f72c61/Burkina-Faso-Senegal-September-5-2017-WCQ----CAF-M
+,2018,Senegal,2017-10-07 Cabo Verde-Senegal,2017-10-07,Third round,Sat,Away,W,2,0,Cabo Verde,2,,,,,,0,0,16:30:00,/en/matches/61b85088/Cabo-Verde-Senegal-October-7-2017-WCQ----CAF-M
+,2018,Senegal,2017-11-10 South Africa-Senegal,2017-11-10,Third round,Fri,Away,W,2,0,South Africa,1,,,,,,0,0,19:00:00,/en/matches/8ed01c31/South-Africa-Senegal-November-10-2017-WCQ----CAF-M
+,2018,Senegal,2017-11-14 Senegal-South Africa,2017-11-14,Third round,Tue,Home,W,2,1,South Africa,2,,,,,,0,0,19:30:00,/en/matches/ea53644e/Senegal-South-Africa-November-14-2017-WCQ----CAF-M
+,2018,Senegal,2018-03-23 Senegal-Uzbekistan,2018-03-23,Friendlies (M),Fri,Home,D,1,1,Uzbekistan,1,,,,,,0,0,16:30:00,/en/matches/4956feb5/Senegal-Uzbekistan-March-23-2018-Friendlies-M
+,2018,Senegal,2018-03-27 Senegal-Bosnia–Herz,2018-03-27,Friendlies (M),Tue,Home,D,0,0,Bosnia–Herz,0,,,,,,0,0,20:00:00,/en/matches/20dcee4c/Senegal-Bosnia-and-Herzegovina-March-27-2018-Friendlies-M
+,2018,Senegal,2018-05-31 Luxembourg-Senegal,2018-05-31,Friendlies (M),Thu,Away,D,0,0,Luxembourg,0,,,,,,0,0,20:00:00,/en/matches/48406997/Luxembourg-Senegal-May-31-2018-Friendlies-M
+,2018,Senegal,2018-06-08 Croatia-Senegal,2018-06-08,Friendlies (M),Fri,Away,L,1,2,Croatia,1,,,,,,0,0,18:00:00,/en/matches/3fd86646/Croatia-Senegal-June-8-2018-Friendlies-M
+,2018,Senegal,2018-06-11 Korea Republic-Senegal,2018-06-11,Friendlies (M),Mon,Away,W,2,0,Korea Republic,1,,,,,,1,1,15:30:00,/en/matches/b99186c1/Korea-Republic-Senegal-June-11-2018-Friendlies-M
+,2018,Senegal,2018-06-19 Poland-Poland,2018-06-19,Group stage,Tue,Neutral,W,2,1,Poland,1,8,3,37.5,0.13,0.33,0,0,18:00:00,/en/matches/e254550a/Poland-Senegal-June-19-2018-World-Cup
+,2018,Senegal,2018-06-24 Japan-Japan,2018-06-24,Group stage,Sun,Neutral,D,2,2,Japan,2,15,7,46.7,0.13,0.29,0,0,20:00:00,/en/matches/59b7ead6/Japan-Senegal-June-24-2018-World-Cup
+,2018,Senegal,2018-06-28 Colombia-Colombia,2018-06-28,Group stage,Thu,Neutral,L,0,1,Colombia,0,7,3,42.9,0.0,0.0,0,0,18:00:00,/en/matches/97a6949a/Senegal-Colombia-June-28-2018-World-Cup
+,2018,Serbia,2016-09-05 Serbia-Rep. of Ireland,2016-09-05,First round,Mon,Home,D,2,2,Rep. of Ireland,2,,,,,,1,1,20:45:00,/en/matches/5451d7e2/Serbia-Republic-of-Ireland-September-5-2016-WCQ----UEFA-M
+,2018,Serbia,2016-10-06 Moldova-Serbia,2016-10-06,First round,Thu,Away,W,3,0,Moldova,3,,,,,,0,0,21:45:00,/en/matches/474218d2/Moldova-Serbia-October-6-2016-WCQ----UEFA-M
+,2018,Serbia,2016-10-09 Serbia-Austria,2016-10-09,First round,Sun,Home,W,3,2,Austria,3,,,,,,0,0,20:45:00,/en/matches/348867f7/Serbia-Austria-October-9-2016-WCQ----UEFA-M
+,2018,Serbia,2016-11-12 Wales-Serbia,2016-11-12,First round,Sat,Away,D,1,1,Wales,1,,,,,,0,0,19:45:00,/en/matches/093e7dd9/Wales-Serbia-November-12-2016-WCQ----UEFA-M
+,2018,Serbia,2017-03-24 Georgia-Serbia,2017-03-24,First round,Fri,Away,W,3,1,Georgia,3,,,,,,1,1,21:00:00,/en/matches/23f87ff3/Georgia-Serbia-March-24-2017-WCQ----UEFA-M
+,2018,Serbia,2017-06-11 Serbia-Wales,2017-06-11,First round,Sun,Home,D,1,1,Wales,1,,,,,,0,0,20:45:00,/en/matches/d80dd99a/Serbia-Wales-June-11-2017-WCQ----UEFA-M
+,2018,Serbia,2017-09-02 Serbia-Moldova,2017-09-02,First round,Sat,Home,W,3,0,Moldova,3,,,,,,0,0,18:00:00,/en/matches/7058f206/Serbia-Moldova-September-2-2017-WCQ----UEFA-M
+,2018,Serbia,2017-09-05 Rep. of Ireland-Serbia,2017-09-05,First round,Tue,Away,W,1,0,Rep. of Ireland,1,,,,,,0,0,19:45:00,/en/matches/1d384b37/Republic-of-Ireland-Serbia-September-5-2017-WCQ----UEFA-M
+,2018,Serbia,2017-10-06 Austria-Serbia,2017-10-06,First round,Fri,Away,L,2,3,Austria,2,,,,,,0,0,20:45:00,/en/matches/c1ba5152/Austria-Serbia-October-6-2017-WCQ----UEFA-M
+,2018,Serbia,2017-10-09 Serbia-Georgia,2017-10-09,First round,Mon,Home,W,1,0,Georgia,1,,,,,,0,0,20:45:00,/en/matches/80b425ed/Serbia-Georgia-October-9-2017-WCQ----UEFA-M
+,2018,Serbia,2018-03-23 Morocco-Serbia,2018-03-23,Friendlies (M),Fri,Away,L,1,2,Morocco,1,,,,,,0,0,20:30:00,/en/matches/7e903683/Morocco-Serbia-March-23-2018-Friendlies-M
+,2018,Serbia,2018-03-27 Nigeria-Serbia,2018-03-27,Friendlies (M),Tue,Away,W,2,0,Nigeria,2,,,,,,0,0,20:00:00,/en/matches/b91c053a/Nigeria-Serbia-March-27-2018-Friendlies-M
+,2018,Serbia,2018-06-04 Serbia-Chile,2018-06-04,Friendlies (M),Mon,Home,L,0,1,Chile,0,,,,,,0,0,20:00:00,/en/matches/cc125363/Serbia-Chile-June-4-2018-Friendlies-M
+,2018,Serbia,2018-06-09 Serbia-Bolivia,2018-06-09,Friendlies (M),Sat,Home,W,5,1,Bolivia,5,,,,,,0,0,18:00:00,/en/matches/716f4c48/Serbia-Bolivia-June-9-2018-Friendlies-M
+,2018,Serbia,2018-06-17 Costa Rica-Costa Rica,2018-06-17,Group stage,Sun,Neutral,W,1,0,Costa Rica,1,10,3,30.0,0.1,0.33,0,0,16:00:00,/en/matches/73b53b07/Costa-Rica-Serbia-June-17-2018-World-Cup
+,2018,Serbia,2018-06-22 Switzerland-Switzerland,2018-06-22,Group stage,Fri,Neutral,L,1,2,Switzerland,1,13,3,23.1,0.08,0.33,0,0,20:00:00,/en/matches/c9743f21/Serbia-Switzerland-June-22-2018-World-Cup
+,2018,Serbia,2018-06-27 Brazil-Brazil,2018-06-27,Group stage,Wed,Neutral,L,0,2,Brazil,0,10,2,20.0,0.0,0.0,0,0,21:00:00,/en/matches/6addd2ab/Serbia-Brazil-June-27-2018-World-Cup
+,2018,Spain,2016-09-05 Spain-Liechtenstein,2016-09-05,First round,Mon,Home,W,8,0,Liechtenstein,8,,,,,,0,0,20:45:00,/en/matches/f19c3648/Spain-Liechtenstein-September-5-2016-WCQ----UEFA-M
+,2018,Spain,2016-10-06 Italy-Spain,2016-10-06,First round,Thu,Away,D,1,1,Italy,1,,,,,,0,0,20:45:00,/en/matches/8dd686e3/Italy-Spain-October-6-2016-WCQ----UEFA-M
+,2018,Spain,2016-10-09 Albania-Spain,2016-10-09,First round,Sun,Away,W,2,0,Albania,2,,,,,,0,0,20:45:00,/en/matches/5ae07f05/Albania-Spain-October-9-2016-WCQ----UEFA-M
+,2018,Spain,2016-11-12 Spain-N. Macedonia,2016-11-12,First round,Sat,Home,W,4,0,N. Macedonia,3,,,,,,0,0,20:45:00,/en/matches/0c4eb28b/Spain-North-Macedonia-November-12-2016-WCQ----UEFA-M
+,2018,Spain,2017-03-24 Spain-Israel,2017-03-24,First round,Fri,Home,W,4,1,Israel,4,,,,,,0,0,20:45:00,/en/matches/b446efd3/Spain-Israel-March-24-2017-WCQ----UEFA-M
+,2018,Spain,2017-06-11 N. Macedonia-Spain,2017-06-11,First round,Sun,Away,W,2,1,N. Macedonia,2,,,,,,0,0,20:45:00,/en/matches/07da9f7d/North-Macedonia-Spain-June-11-2017-WCQ----UEFA-M
+,2018,Spain,2017-09-02 Spain-Italy,2017-09-02,First round,Sat,Home,W,3,0,Italy,3,,,,,,0,0,20:45:00,/en/matches/34f4e1a9/Spain-Italy-September-2-2017-WCQ----UEFA-M
+,2018,Spain,2017-09-05 Liechtenstein-Spain,2017-09-05,First round,Tue,Away,W,8,0,Liechtenstein,7,,,,,,0,0,20:45:00,/en/matches/c4ff841b/Liechtenstein-Spain-September-5-2017-WCQ----UEFA-M
+,2018,Spain,2017-10-06 Spain-Albania,2017-10-06,First round,Fri,Home,W,3,0,Albania,3,,,,,,0,0,20:45:00,/en/matches/3e77ef9a/Spain-Albania-October-6-2017-WCQ----UEFA-M
+,2018,Spain,2017-10-09 Israel-Spain,2017-10-09,First round,Mon,Away,W,1,0,Israel,1,,,,,,0,0,21:45:00,/en/matches/06a2a709/Israel-Spain-October-9-2017-WCQ----UEFA-M
+,2018,Spain,2018-03-23 Germany-Spain,2018-03-23,Friendlies (M),Fri,Away,D,1,1,Germany,1,,,,,,0,0,20:45:00,/en/matches/e8fe0c7b/Germany-Spain-March-23-2018-Friendlies-M
+,2018,Spain,2018-03-27 Spain-Argentina,2018-03-27,Friendlies (M),Tue,Home,W,6,1,Argentina,6,,,,,,0,0,21:30:00,/en/matches/b28cf1a9/Spain-Argentina-March-27-2018-Friendlies-M
+,2018,Spain,2018-06-03 Spain-Switzerland,2018-06-03,Friendlies (M),Sun,Home,D,1,1,Switzerland,1,,,,,,0,0,21:00:00,/en/matches/304c5d37/Spain-Switzerland-June-3-2018-Friendlies-M
+,2018,Spain,2018-06-09 Spain-Tunisia,2018-06-09,Friendlies (M),Sat,Home,W,1,0,Tunisia,1,,,,,,0,0,21:45:00,/en/matches/ba0e4ffe/Spain-Tunisia-June-9-2018-Friendlies-M
+,2018,Spain,2018-06-15 Portugal-Portugal,2018-06-15,Group stage,Fri,Neutral,D,3,3,Portugal,3,13,6,46.2,0.23,0.5,0,0,21:00:00,/en/matches/2fecb1be/Portugal-Spain-June-15-2018-World-Cup
+,2018,Spain,2018-06-20 IR Iran-IR Iran,2018-06-20,Group stage,Wed,Neutral,W,1,0,IR Iran,1,18,5,27.8,0.06,0.2,0,0,21:00:00,/en/matches/cd0c54ed/IR-Iran-Spain-June-20-2018-World-Cup
+,2018,Spain,2018-06-25 Morocco-Morocco,2018-06-25,Group stage,Mon,Neutral,D,2,2,Morocco,2,18,5,27.8,0.11,0.4,0,0,20:00:00,/en/matches/39619129/Spain-Morocco-June-25-2018-World-Cup
+,2018,Spain,2018-07-01 Russia-Russia,2018-07-01,Round of 16,Sun,Neutral,D,1 (3),1 (4),Russia,0,24,9,37.5,0.0,0.0,0,0,17:00:00,/en/matches/3750b351/Spain-Russia-July-1-2018-World-Cup
+,2018,Spain,2018-10-11 Wales-Spain,2018-10-11,Friendlies (M),Thu,Away,W,4,1,Wales,4,,,,,,0,0,19:45:00,/en/matches/886d902b/Wales-Spain-October-11-2018-Friendlies-M
+,2018,Spain,2018-11-18 Spain-Bosnia–Herz,2018-11-18,Friendlies (M),Sun,Home,W,1,0,Bosnia–Herz,1,,,,,,0,0,19:45:00,/en/matches/58c22b76/Spain-Bosnia-and-Herzegovina-November-18-2018-Friendlies-M
+,2018,Sweden,2016-09-06 Sweden-Netherlands,2016-09-06,First round,Tue,Home,D,1,1,Netherlands,1,,,,,,0,0,20:45:00,/en/matches/d5a2112d/Sweden-Netherlands-September-6-2016-WCQ----UEFA-M
+,2018,Sweden,2016-10-07 Luxembourg-Sweden,2016-10-07,First round,Fri,Away,W,1,0,Luxembourg,1,,,,,,0,0,20:45:00,/en/matches/1dc96c76/Luxembourg-Sweden-October-7-2016-WCQ----UEFA-M
+,2018,Sweden,2016-10-10 Sweden-Bulgaria,2016-10-10,First round,Mon,Home,W,3,0,Bulgaria,3,,,,,,0,0,20:45:00,/en/matches/0218ec58/Sweden-Bulgaria-October-10-2016-WCQ----UEFA-M
+,2018,Sweden,2016-11-11 France-Sweden,2016-11-11,First round,Fri,Away,L,1,2,France,1,,,,,,0,0,20:45:00,/en/matches/340c4921/France-Sweden-November-11-2016-WCQ----UEFA-M
+,2018,Sweden,2017-03-25 Sweden-Belarus,2017-03-25,First round,Sat,Home,W,4,0,Belarus,4,,,,,,1,1,18:00:00,/en/matches/29fcd050/Sweden-Belarus-March-25-2017-WCQ----UEFA-M
+,2018,Sweden,2017-06-09 Sweden-France,2017-06-09,First round,Fri,Home,W,2,1,France,2,,,,,,0,0,20:45:00,/en/matches/3d31b030/Sweden-France-June-9-2017-WCQ----UEFA-M
+,2018,Sweden,2017-08-31 Bulgaria-Sweden,2017-08-31,First round,Thu,Away,L,2,3,Bulgaria,2,,,,,,0,1,21:45:00,/en/matches/8e25c5b4/Bulgaria-Sweden-August-31-2017-WCQ----UEFA-M
+,2018,Sweden,2017-09-03 Belarus-Sweden,2017-09-03,First round,Sun,Away,W,4,0,Belarus,4,,,,,,1,1,19:00:00,/en/matches/911c0d6f/Belarus-Sweden-September-3-2017-WCQ----UEFA-M
+,2018,Sweden,2017-10-07 Sweden-Luxembourg,2017-10-07,First round,Sat,Home,W,8,0,Luxembourg,8,,,,,,2,2,18:00:00,/en/matches/189f20f2/Sweden-Luxembourg-October-7-2017-WCQ----UEFA-M
+,2018,Sweden,2017-10-10 Netherlands-Sweden,2017-10-10,First round,Tue,Away,L,0,2,Netherlands,0,,,,,,0,0,20:45:00,/en/matches/e24032ba/Netherlands-Sweden-October-10-2017-WCQ----UEFA-M
+,2018,Sweden,2017-11-10 Sweden-Italy,2017-11-10,Second round,Fri,Home,W,1,0,Italy,1,,,,,,0,0,20:45:00,/en/matches/7786849a/Sweden-Italy-November-10-2017-WCQ----UEFA-M
+,2018,Sweden,2017-11-13 Italy-Sweden,2017-11-13,Second round,Mon,Away,D,0,0,Italy,0,,,,,,0,0,20:45:00,/en/matches/456b9208/Italy-Sweden-November-13-2017-WCQ----UEFA-M
+,2018,Sweden,2018-03-24 Sweden-Chile,2018-03-24,Friendlies (M),Sat,Home,L,1,2,Chile,1,,,,,,0,0,18:00:00,/en/matches/a6d17bff/Sweden-Chile-March-24-2018-Friendlies-M
+,2018,Sweden,2018-03-27 Romania-Sweden,2018-03-27,Friendlies (M),Tue,Away,L,0,1,Romania,0,,,,,,0,0,21:30:00,/en/matches/b4723101/Romania-Sweden-March-27-2018-Friendlies-M
+,2018,Sweden,2018-06-02 Sweden-Denmark,2018-06-02,Friendlies (M),Sat,Home,D,0,0,Denmark,0,,,,,,0,0,19:45:00,/en/matches/033ac0d5/Sweden-Denmark-June-2-2018-Friendlies-M
+,2018,Sweden,2018-06-09 Sweden-Peru,2018-06-09,Friendlies (M),Sat,Home,D,0,0,Peru,0,,,,,,0,0,19:15:00,/en/matches/c5420818/Sweden-Peru-June-9-2018-Friendlies-M
+,2018,Sweden,2018-06-18 Korea Republic-Korea Republic,2018-06-18,Group stage,Mon,Neutral,W,1,0,Korea Republic,1,15,4,26.7,0.0,0.0,1,1,15:00:00,/en/matches/81558c33/Sweden-Korea-Republic-June-18-2018-World-Cup
+,2018,Sweden,2018-06-23 Germany-Germany,2018-06-23,Group stage,Sat,Neutral,L,1,2,Germany,1,7,6,85.7,0.14,0.17,0,0,21:00:00,/en/matches/e9fc9e82/Germany-Sweden-June-23-2018-World-Cup
+,2018,Sweden,2018-06-27 Mexico-Mexico,2018-06-27,Group stage,Wed,Neutral,W,3,0,Mexico,2,15,5,33.3,0.07,0.2,1,1,19:00:00,/en/matches/16d76ac5/Mexico-Sweden-June-27-2018-World-Cup
+,2018,Sweden,2018-07-03 Switzerland-Switzerland,2018-07-03,Round of 16,Tue,Neutral,W,1,0,Switzerland,1,12,3,25.0,0.08,0.33,0,0,17:00:00,/en/matches/3e7c486b/Sweden-Switzerland-July-3-2018-World-Cup
+,2018,Sweden,2018-07-07 England-England,2018-07-07,Quarter-finals,Sat,Neutral,L,0,2,England,0,6,3,50.0,0.0,0.0,0,0,18:00:00,/en/matches/c7b2bf0a/Sweden-England-July-7-2018-World-Cup
+,2018,Sweden,2018-09-06 Austria-Sweden,2018-09-06,Friendlies (M),Thu,Away,L,0,2,Austria,0,,,,,,0,0,20:45:00,/en/matches/521b6620/Austria-Sweden-September-6-2018-Friendlies-M
+,2018,Sweden,2018-10-16 Sweden-Slovakia,2018-10-16,Friendlies (M),Tue,Home,D,1,1,Slovakia,1,,,,,,0,0,20:45:00,/en/matches/8ce16400/Sweden-Slovakia-October-16-2018-Friendlies-M
+,2018,Switzerland,2016-09-06 Switzerland-Portugal,2016-09-06,First round,Tue,Home,W,2,0,Portugal,2,,,,,,0,0,20:45:00,/en/matches/73c8b3b1/Switzerland-Portugal-September-6-2016-WCQ----UEFA-M
+,2018,Switzerland,2016-10-07 Hungary-Switzerland,2016-10-07,First round,Fri,Away,W,3,2,Hungary,3,,,,,,0,0,20:45:00,/en/matches/b2452794/Hungary-Switzerland-October-7-2016-WCQ----UEFA-M
+,2018,Switzerland,2016-10-10 Andorra-Switzerland,2016-10-10,First round,Mon,Away,W,2,1,Andorra,2,,,,,,1,1,20:45:00,/en/matches/a70fcf12/Andorra-Switzerland-October-10-2016-WCQ----UEFA-M
+,2018,Switzerland,2016-11-13 Switzerland-Faroe Islands,2016-11-13,First round,Sun,Home,W,2,0,Faroe Islands,2,,,,,,0,0,18:00:00,/en/matches/298c7996/Switzerland-Faroe-Islands-November-13-2016-WCQ----UEFA-M
+,2018,Switzerland,2017-03-25 Switzerland-Latvia,2017-03-25,First round,Sat,Home,W,1,0,Latvia,1,,,,,,0,0,18:00:00,/en/matches/a6f9827f/Switzerland-Latvia-March-25-2017-WCQ----UEFA-M
+,2018,Switzerland,2017-06-09 Faroe Islands-Switzerland,2017-06-09,First round,Fri,Away,W,2,0,Faroe Islands,2,,,,,,0,0,19:45:00,/en/matches/f8b6665e/Faroe-Islands-Switzerland-June-9-2017-WCQ----UEFA-M
+,2018,Switzerland,2017-08-31 Switzerland-Andorra,2017-08-31,First round,Thu,Home,W,3,0,Andorra,3,,,,,,0,0,20:45:00,/en/matches/d3a43287/Switzerland-Andorra-August-31-2017-WCQ----UEFA-M
+,2018,Switzerland,2017-09-03 Latvia-Switzerland,2017-09-03,First round,Sun,Away,W,3,0,Latvia,2,,,,,,1,2,21:45:00,/en/matches/ba7b89dc/Latvia-Switzerland-September-3-2017-WCQ----UEFA-M
+,2018,Switzerland,2017-10-07 Switzerland-Hungary,2017-10-07,First round,Sat,Home,W,5,2,Hungary,5,,,,,,0,0,20:45:00,/en/matches/16752974/Switzerland-Hungary-October-7-2017-WCQ----UEFA-M
+,2018,Switzerland,2017-10-10 Portugal-Switzerland,2017-10-10,First round,Tue,Away,L,0,2,Portugal,0,,,,,,0,0,19:45:00,/en/matches/d93b8628/Portugal-Switzerland-October-10-2017-WCQ----UEFA-M
+,2018,Switzerland,2017-11-09 Northern Ireland-Switzerland,2017-11-09,Second round,Thu,Away,W,1,0,Northern Ireland,1,,,,,,1,1,19:45:00,/en/matches/05162fc0/Northern-Ireland-Switzerland-November-9-2017-WCQ----UEFA-M
+,2018,Switzerland,2017-11-12 Switzerland-Northern Ireland,2017-11-12,Second round,Sun,Home,D,0,0,Northern Ireland,0,,,,,,0,0,18:00:00,/en/matches/cb998db3/Switzerland-Northern-Ireland-November-12-2017-WCQ----UEFA-M
+,2018,Switzerland,2018-03-23 Greece-Switzerland,2018-03-23,Friendlies (M),Fri,Away,W,1,0,Greece,1,,,,,,0,0,20:00:00,/en/matches/2e72f136/Greece-Switzerland-March-23-2018-Friendlies-M
+,2018,Switzerland,2018-03-27 Switzerland-Panama,2018-03-27,Friendlies (M),Tue,Home,W,6,0,Panama,6,,,,,,1,1,19:00:00,/en/matches/66fca288/Switzerland-Panama-March-27-2018-Friendlies-M
+,2018,Switzerland,2018-06-03 Spain-Switzerland,2018-06-03,Friendlies (M),Sun,Away,D,1,1,Spain,1,,,,,,0,0,21:00:00,/en/matches/304c5d37/Spain-Switzerland-June-3-2018-Friendlies-M
+,2018,Switzerland,2018-06-08 Switzerland-Japan,2018-06-08,Friendlies (M),Fri,Home,W,2,0,Japan,2,,,,,,1,1,19:00:00,/en/matches/dd44b287/Switzerland-Japan-June-8-2018-Friendlies-M
+,2018,Switzerland,2018-06-17 Brazil-Brazil,2018-06-17,Group stage,Sun,Neutral,D,1,1,Brazil,1,6,2,33.3,0.17,0.5,0,0,21:00:00,/en/matches/47906d9c/Brazil-Switzerland-June-17-2018-World-Cup
+,2018,Switzerland,2018-06-22 Serbia-Serbia,2018-06-22,Group stage,Fri,Neutral,W,2,1,Serbia,2,20,5,25.0,0.1,0.4,0,0,20:00:00,/en/matches/c9743f21/Serbia-Switzerland-June-22-2018-World-Cup
+,2018,Switzerland,2018-06-27 Costa Rica-Costa Rica,2018-06-27,Group stage,Wed,Neutral,D,2,2,Costa Rica,2,13,3,23.1,0.15,0.67,0,0,21:00:00,/en/matches/83e51111/Switzerland-Costa-Rica-June-27-2018-World-Cup
+,2018,Switzerland,2018-07-03 Sweden-Sweden,2018-07-03,Round of 16,Tue,Neutral,L,0,1,Sweden,0,18,4,22.2,0.0,0.0,0,0,17:00:00,/en/matches/3e7c486b/Sweden-Switzerland-July-3-2018-World-Cup
+,2018,Switzerland,2018-09-11 England-Switzerland,2018-09-11,Friendlies (M),Tue,Away,L,0,1,England,0,,,,,,0,0,20:00:00,/en/matches/65049ac4/England-Switzerland-September-11-2018-Friendlies-M
+,2018,Switzerland,2018-11-14 Switzerland-Qatar,2018-11-14,Friendlies (M),Wed,Home,L,0,1,Qatar,0,,,,,,0,0,19:00:00,/en/matches/d6233685/Switzerland-Qatar-November-14-2018-Friendlies-M
+,2018,Tunisia,2015-11-13 Mauritania-Tunisia,2015-11-13,Second round,Fri,Away,W,2,1,Mauritania,2,,,,,,0,0,17:00:00,/en/matches/3ac985f8/Mauritania-Tunisia-November-13-2015-WCQ----CAF-M
+,2018,Tunisia,2015-11-17 Tunisia-Mauritania,2015-11-17,Second round,Tue,Home,W,2,1,Mauritania,2,,,,,,0,0,18:00:00,/en/matches/66e1f3a0/Tunisia-Mauritania-November-17-2015-WCQ----CAF-M
+,2018,Tunisia,2016-10-09 Tunisia-Guinea,2016-10-09,Third round,Sun,Home,W,2,0,Guinea,2,,,,,,0,0,18:00:00,/en/matches/a2cd8eb1/Tunisia-Guinea-October-9-2016-WCQ----CAF-M
+,2018,Tunisia,2016-11-11 Libya-Tunisia,2016-11-11,Third round,Fri,Away,W,1,0,Libya,1,,,,,,1,1,20:00:00,/en/matches/769af515/Libya-Tunisia-November-11-2016-WCQ----CAF-M
+,2018,Tunisia,2017-09-01 Tunisia-Congo DR,2017-09-01,Third round,Fri,Home,W,2,1,Congo DR,2,,,,,,1,1,21:00:00,/en/matches/857cd68e/Tunisia-Congo-DR-September-1-2017-WCQ----CAF-M
+,2018,Tunisia,2017-09-05 Congo DR-Tunisia,2017-09-05,Third round,Tue,Away,D,2,2,Congo DR,1,,,,,,0,0,18:30:00,/en/matches/2c47aff4/Congo-DR-Tunisia-September-5-2017-WCQ----CAF-M
+,2018,Tunisia,2017-10-07 Guinea-Tunisia,2017-10-07,Third round,Sat,Away,W,4,1,Guinea,4,,,,,,0,0,17:00:00,/en/matches/2125af03/Guinea-Tunisia-October-7-2017-WCQ----CAF-M
+,2018,Tunisia,2017-11-11 Tunisia-Libya,2017-11-11,Third round,Sat,Home,D,0,0,Libya,0,,,,,,0,0,18:30:00,/en/matches/4251030a/Tunisia-Libya-November-11-2017-WCQ----CAF-M
+,2018,Tunisia,2018-03-23 Tunisia-IR Iran,2018-03-23,Friendlies (M),Fri,Home,W,1,0,IR Iran,0,,,,,,0,0,19:15:00,/en/matches/4ee7e2b1/Tunisia-IR-Iran-March-23-2018-Friendlies-M
+,2018,Tunisia,2018-03-27 Tunisia-Costa Rica,2018-03-27,Friendlies (M),Tue,Home,W,1,0,Costa Rica,1,,,,,,0,0,20:00:00,/en/matches/5995a0a2/Tunisia-Costa-Rica-March-27-2018-Friendlies-M
+,2018,Tunisia,2018-05-28 Portugal-Tunisia,2018-05-28,Friendlies (M),Mon,Away,D,2,2,Portugal,2,,,,,,0,0,19:45:00,/en/matches/2e6c929e/Portugal-Tunisia-May-28-2018-Friendlies-M
+,2018,Tunisia,2018-06-01 Türkiye-Tunisia,2018-06-01,Friendlies (M),Fri,Away,D,2,2,Türkiye,2,,,,,,0,0,20:15:00,/en/matches/ee92f673/Turkiye-Tunisia-June-1-2018-Friendlies-M
+,2018,Tunisia,2018-06-09 Spain-Tunisia,2018-06-09,Friendlies (M),Sat,Away,L,0,1,Spain,0,,,,,,0,0,21:45:00,/en/matches/ba0e4ffe/Spain-Tunisia-June-9-2018-Friendlies-M
+,2018,Tunisia,2018-06-18 England-England,2018-06-18,Group stage,Mon,Neutral,L,1,2,England,1,6,1,16.7,0.0,0.0,1,1,21:00:00,/en/matches/3dbb130b/Tunisia-England-June-18-2018-World-Cup
+,2018,Tunisia,2018-06-23 Belgium-Belgium,2018-06-23,Group stage,Sat,Neutral,L,2,5,Belgium,2,16,5,31.3,0.13,0.4,0,0,15:00:00,/en/matches/f9b97a12/Belgium-Tunisia-June-23-2018-World-Cup
+,2018,Tunisia,2018-06-28 Panama-Panama,2018-06-28,Group stage,Thu,Neutral,W,2,1,Panama,2,14,6,42.9,0.14,0.33,0,0,21:00:00,/en/matches/545940e9/Panama-Tunisia-June-28-2018-World-Cup
+,2018,Tunisia,2018-11-20 Tunisia-Morocco,2018-11-20,Friendlies (M),Tue,Home,L,0,1,Morocco,0,,,,,,0,0,18:00:00,/en/matches/6c3d23b4/Tunisia-Morocco-November-20-2018-Friendlies-M
+,2018,Uruguay,2015-10-08 Bolivia-Uruguay,2015-10-08,WCQ — CONMEBOL (M),Thu,Away,W,2,0,Bolivia,2,,,,,,0,0,16:00:00,/en/matches/f70c62af/Bolivia-Uruguay-October-8-2015-WCQ----CONMEBOL-M
+,2018,Uruguay,2015-10-13 Uruguay-Colombia,2015-10-13,WCQ — CONMEBOL (M),Tue,Home,W,3,0,Colombia,3,,,,,,0,0,20:00:00,/en/matches/278cc098/Uruguay-Colombia-October-13-2015-WCQ----CONMEBOL-M
+,2018,Uruguay,2015-11-12 Ecuador-Uruguay,2015-11-12,WCQ — CONMEBOL (M),Thu,Away,L,1,2,Ecuador,1,,,,,,0,0,16:00:00,/en/matches/ebd97c12/Ecuador-Uruguay-November-12-2015-WCQ----CONMEBOL-M
+,2018,Uruguay,2015-11-17 Uruguay-Chile,2015-11-17,WCQ — CONMEBOL (M),Tue,Home,W,3,0,Chile,3,,,,,,0,0,20:00:00,/en/matches/8c143664/Uruguay-Chile-November-17-2015-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-03-25 Brazil-Uruguay,2016-03-25,WCQ — CONMEBOL (M),Fri,Away,D,2,2,Brazil,2,,,,,,0,0,21:45:00,/en/matches/6d33daf1/Brazil-Uruguay-March-25-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-03-29 Uruguay-Peru,2016-03-29,WCQ — CONMEBOL (M),Tue,Home,W,1,0,Peru,1,,,,,,0,0,20:00:00,/en/matches/e14480dc/Uruguay-Peru-March-29-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-09-01 Argentina-Uruguay,2016-09-01,WCQ — CONMEBOL (M),Thu,Away,L,0,1,Argentina,0,,,,,,0,0,20:30:00,/en/matches/1d09fc05/Argentina-Uruguay-September-1-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-09-06 Uruguay-Paraguay,2016-09-06,WCQ — CONMEBOL (M),Tue,Home,W,4,0,Paraguay,4,,,,,,1,1,20:00:00,/en/matches/b2a3abd1/Uruguay-Paraguay-September-6-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-10-06 Uruguay-Venezuela,2016-10-06,WCQ — CONMEBOL (M),Thu,Home,W,3,0,Venezuela,3,,,,,,0,0,20:00:00,/en/matches/222541ce/Uruguay-Venezuela-October-6-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-10-11 Colombia-Uruguay,2016-10-11,WCQ — CONMEBOL (M),Tue,Away,D,2,2,Colombia,2,,,,,,0,0,15:30:00,/en/matches/a4bb33a1/Colombia-Uruguay-October-11-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-11-10 Uruguay-Ecuador,2016-11-10,WCQ — CONMEBOL (M),Thu,Home,W,2,1,Ecuador,2,,,,,,0,0,20:00:00,/en/matches/0adad0f8/Uruguay-Ecuador-November-10-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2016-11-15 Chile-Uruguay,2016-11-15,WCQ — CONMEBOL (M),Tue,Away,L,1,3,Chile,1,,,,,,0,1,20:30:00,/en/matches/3041ce25/Chile-Uruguay-November-15-2016-WCQ----CONMEBOL-M
+,2018,Uruguay,2017-03-23 Uruguay-Brazil,2017-03-23,WCQ — CONMEBOL (M),Thu,Home,L,1,4,Brazil,1,,,,,,1,1,20:00:00,/en/matches/11abe61a/Uruguay-Brazil-March-23-2017-WCQ----CONMEBOL-M
+,2018,Uruguay,2017-03-28 Peru-Uruguay,2017-03-28,WCQ — CONMEBOL (M),Tue,Away,L,1,2,Peru,1,,,,,,0,0,21:15:00,/en/matches/0d83da33/Peru-Uruguay-March-28-2017-WCQ----CONMEBOL-M
+,2018,Uruguay,2017-08-31 Uruguay-Argentina,2017-08-31,WCQ — CONMEBOL (M),Thu,Home,D,0,0,Argentina,0,,,,,,0,0,20:00:00,/en/matches/0e60f5fa/Uruguay-Argentina-August-31-2017-WCQ----CONMEBOL-M
+,2018,Uruguay,2017-09-05 Paraguay-Uruguay,2017-09-05,WCQ — CONMEBOL (M),Tue,Away,W,2,1,Paraguay,1,,,,,,0,0,20:00:00,/en/matches/b0c3031e/Paraguay-Uruguay-September-5-2017-WCQ----CONMEBOL-M
+,2018,Uruguay,2017-10-05 Venezuela-Uruguay,2017-10-05,WCQ — CONMEBOL (M),Thu,Away,D,0,0,Venezuela,0,,,,,,0,0,17:00:00,/en/matches/d4d4c44b/Venezuela-Uruguay-October-5-2017-WCQ----CONMEBOL-M
+,2018,Uruguay,2017-10-10 Uruguay-Bolivia,2017-10-10,WCQ — CONMEBOL (M),Tue,Home,W,4,2,Bolivia,4,,,,,,0,0,20:30:00,/en/matches/64007683/Uruguay-Bolivia-October-10-2017-WCQ----CONMEBOL-M
+,2018,Uruguay,2018-06-07 Uruguay-Uzbekistan,2018-06-07,Friendlies (M),Thu,Home,W,3,0,Uzbekistan,3,,,,,,1,1,20:10:00,/en/matches/807d8010/Uruguay-Uzbekistan-June-7-2018-Friendlies-M
+,2018,Uruguay,2018-06-15 Egypt-Egypt,2018-06-15,Group stage,Fri,Neutral,W,1,0,Egypt,1,15,4,26.7,0.07,0.25,0,0,17:00:00,/en/matches/cea695e1/Egypt-Uruguay-June-15-2018-World-Cup
+,2018,Uruguay,2018-06-20 Saudi Arabia-Saudi Arabia,2018-06-20,Group stage,Wed,Neutral,W,1,0,Saudi Arabia,1,13,3,23.1,0.08,0.33,0,0,18:00:00,/en/matches/958f044b/Uruguay-Saudi-Arabia-June-20-2018-World-Cup
+,2018,Uruguay,2018-06-25 Russia-Russia,2018-06-25,Group stage,Mon,Neutral,W,3,0,Russia,2,16,7,43.8,0.13,0.29,0,0,18:00:00,/en/matches/f25fa045/Uruguay-Russia-June-25-2018-World-Cup
+,2018,Uruguay,2018-06-30 Portugal-Portugal,2018-06-30,Round of 16,Sat,Neutral,W,2,1,Portugal,2,5,3,60.0,0.4,0.67,0,0,21:00:00,/en/matches/8c883b46/Uruguay-Portugal-June-30-2018-World-Cup
+,2018,Uruguay,2018-07-06 France-France,2018-07-06,Quarter-finals,Fri,Neutral,L,0,2,France,0,11,4,36.4,0.0,0.0,0,0,17:00:00,/en/matches/7d3f9961/Uruguay-France-July-6-2018-World-Cup
+,2018,Uruguay,2018-09-07 Mexico-Uruguay,2018-09-07,Friendlies (M),Fri,Away,W,4,1,Mexico,4,,,,,,1,1,21:08:00,/en/matches/3eacfde6/Mexico-Uruguay-September-7-2018-Friendlies-M
+,2018,Uruguay,2018-10-12 Korea Republic-Uruguay,2018-10-12,Friendlies (M),Fri,Away,L,1,2,Korea Republic,1,,,,,,0,0,20:00:00,/en/matches/d4e62113/Korea-Republic-Uruguay-October-12-2018-Friendlies-M
+,2018,Uruguay,2018-10-16 Japan-Uruguay,2018-10-16,Friendlies (M),Tue,Away,L,3,4,Japan,3,,,,,,0,0,19:35:00,/en/matches/1cb293d2/Japan-Uruguay-October-16-2018-Friendlies-M
+,2018,Uruguay,2018-11-16 Brazil-Uruguay,2018-11-16,Friendlies (M),Fri,Away,L,0,1,Brazil,0,,,,,,0,0,20:00:00,/en/matches/cb1f2aa7/Brazil-Uruguay-November-16-2018-Friendlies-M
+,2018,Uruguay,2018-11-20 France-Uruguay,2018-11-20,Friendlies (M),Tue,Away,L,0,1,France,0,,,,,,0,0,21:00:00,/en/matches/d6f036bc/France-Uruguay-November-20-2018-Friendlies-M
