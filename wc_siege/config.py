@@ -79,10 +79,20 @@ KEEPER_METRICS = {
 #               shooting IS the pressure the keeper's side absorbed -> shots-faced and
 #               xG-faced. xG-faced is the credible "siege" signal that answers the
 #               Spain 0-0 Cape Verde objection (27 shots, 2.1 xG, but only 7 on target).
-STAT_TYPES = ["keeper", "shooting"]
+# "possession" -> a team's OWN possession % and touches in the attacking penalty area.
+#                 Paired across a game, the opponent's numbers are what the besieged side
+#                 CONCEDED: possession-conceded and box-touches-conceded. The latter is the
+#                 most literal measure of "pinned in its own box", which is how the r/dataisbeautiful
+#                 critics (and OP himself) actually described a siege.
+# NB: total passes / passes-in-opposing-half are deliberately NOT pulled -- they are close to
+# collinear with possession %, so they'd add metrics (and multiple-comparison risk) without
+# adding information.
+STAT_TYPES = ["keeper", "shooting", "possession"]
 
-# Total-shots and xG columns in FBref's shooting table are matched fuzzily in clean.py
-# (their exact flattened names, e.g. "Standard_Sh" / "Expected_xG", are confirmed after
-# the first real pull). These regexes identify them regardless of the header grouping.
+# Columns are matched fuzzily in clean.py (exact flattened names, e.g. "Standard_Sh" or
+# "Touches_Att Pen", are confirmed against the real pull). These regexes identify them
+# regardless of how FBref groups the headers.
 SHOOTING_SHOTS_RE = r"(^|_)Sh$"    # total shots (NOT SoT / Sh/90 / etc.)
 SHOOTING_XG_RE = r"(^|_)xG$"       # expected goals (NOT npxG / xGA)
+POSSESSION_POSS_RE = r"(^|_)Poss$"     # possession percentage
+POSSESSION_BOX_RE = r"Att Pen"         # touches in the attacking penalty area

@@ -30,7 +30,8 @@ from . import config
 # from the shooting table (the opponent's attacking output); they are NaN if the
 # shooting pull hasn't been run yet, so downstream code treats them as optional.
 TIDY_COLUMNS = ["season", "teams", "game_id", "stage", "round",
-                "team", "opponent", "saves", "sota", "ga", "shots_faced", "xg_faced"]
+                "team", "opponent", "saves", "sota", "ga",
+                "shots_faced", "xg_faced", "poss_conceded", "box_touches_conceded"]
 
 
 def _canonical_game_id(df: pd.DataFrame) -> pd.Series:
@@ -72,6 +73,28 @@ def _finals_shooting(season: str) -> pd.DataFrame | None:
             "team": df["team"],
             "shots": pd.to_numeric(df[shots_col], errors="coerce") if shots_col else np.nan,
             "xg": pd.to_numeric(df[xg_col], errors="coerce") if xg_col else np.nan,
+        }
+    )
+
+
+def _finals_possession(season: str) -> pd.DataFrame | None:
+    """Per (game_id, team) possession % + touches in the attacking penalty area.
+
+    Returns None if the possession pull hasn't been run yet.
+    """
+    p = config.RAW_DIR / f"{season}_possession.csv"
+    if not p.exists():
+        return None
+    df = pd.read_csv(p)
+    df = df[df["round"].isin(config.FINALS_ROUNDS)].copy()
+    poss_col = _find_regex(df, config.POSSESSION_POSS_RE)
+    box_col = _find_regex(df, config.POSSESSION_BOX_RE)
+    return pd.DataFrame(
+        {
+            "game_id": _canonical_game_id(df),
+            "team": df["team"],
+            "poss": pd.to_numeric(df[poss_col], errors="coerce") if poss_col else np.nan,
+            "box_touches": pd.to_numeric(df[box_col], errors="coerce") if box_col else np.nan,
         }
     )
 
@@ -129,6 +152,18 @@ def _tidy_one_season(season: str) -> pd.DataFrame:
     else:
         tidy["shots_faced"] = np.nan
         tidy["xg_faced"] = np.nan
+
+    # Territorial pressure conceded = the OPPONENT's possession and box touches. This is
+    # the "pinned in its own box" dimension the Reddit critics said saves entirely miss.
+    poss = _finals_possession(season)
+    if poss is not None:
+        opp_p = poss.rename(columns={
+            "team": "opponent", "poss": "poss_conceded", "box_touches": "box_touches_conceded",
+        })
+        tidy = tidy.merge(opp_p, on=["game_id", "opponent"], how="left")
+    else:
+        tidy["poss_conceded"] = np.nan
+        tidy["box_touches_conceded"] = np.nan
 
     return tidy.dropna(subset=["saves"]).reset_index(drop=True)
 

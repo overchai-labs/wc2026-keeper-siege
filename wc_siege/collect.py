@@ -121,7 +121,7 @@ def main() -> None:
         "--stat",
         action="append",
         choices=list(config.STAT_TYPES),
-        help="Limit to one stat table (repeatable). Default: keeper + shooting.",
+        help=f"Limit to one stat table (repeatable). Default: all of {config.STAT_TYPES}.",
     )
     args = parser.parse_args()
     collect(args.season, args.stat)
